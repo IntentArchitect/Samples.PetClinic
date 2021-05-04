@@ -1,0 +1,34 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <form [formGroup]="owner" intent-manage="" intent-id="form">
+    <div class="form-group" intent-id="d11a748a-9d32-4e5c-ab02-5e53109cb7c9">
+      <label for="firstName">First Name</label>
+      <input id="firstName" class="form-control" formControlName="firstName" type="text" />
+    </div>
+    <div class="form-group" intent-id="88055cf8-0931-4dba-a787-4fa902d980f7">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" class="form-control" formControlName="lastName" type="text" />
+    </div>
+    <div class="form-group" intent-id="9af9e9a4-d828-4c22-bf60-80ed02199622">
+      <label for="address">Address</label>
+      <input id="address" class="form-control" formControlName="address" type="text" />
+    </div>
+    <div class="form-group" intent-id="df03c0e5-1fd4-4c95-96a6-5faa278c96ba">
+      <label for="city">City</label>
+      <input id="city" class="form-control" formControlName="city" type="text" />
+    </div>
+    <div class="form-group" intent-id="d5e76112-3d96-469d-b869-93daa0b147c6">
+      <label for="telephone">Telephone</label>
+      <input id="telephone" class="form-control" formControlName="telephone" type="text" />
+    </div>
+  </form>
+  <div class="row" intent-id="Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="b0a4fded-bbac-4a2c-9a88-cacb0c35c175">
+        <button class="btn btn-default" (click)="goBackToDetails()">Back</button>
+      </span>
+      <span intent-manage="" intent-id="04a58240-2a8a-4ac8-b9b2-609892431fea">
+        <button class="btn btn-default" (click)="onSubmit()">Update Owner</button>
+      </span>
+    </div>
+  </div>
+</div>

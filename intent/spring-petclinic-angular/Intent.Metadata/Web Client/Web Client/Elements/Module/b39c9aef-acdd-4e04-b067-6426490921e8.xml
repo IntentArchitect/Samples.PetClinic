@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="b39c9aef-acdd-4e04-b067-6426490921e8" type="Module" typeId="cac14331-198a-4f9a-bbb9-171eb0bd4efe">
+  <name>OwnersModule</name>
+  <display>OwnersModule</display>
+  <isAbstract>false</isAbstract>
+  <order>2</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <diagram />
+  <childElements>
+    <childElement id="2aa01990-779e-4188-8982-2c6168b33a1c" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
+      <name>[routing]</name>
+      <display>[routing]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="6488edde-2a53-4bee-b3c5-3d35cf3e89f0" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>owners</name>
+          <display>owners: OwnerListComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <typeReference id="dac844fc-2ec3-4762-b5c8-69dfe2e473d7">
+            <typeId>209e9711-c342-42f4-bf4b-b55fba159c32</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="86fc031f-3da2-448f-bb48-06249ceeaee4" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>owners/add</name>
+          <display>owners/add: OwnerAddComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="429dd1da-5636-4575-a11d-9797e26832ec">
+            <typeId>ef943808-bc52-42dc-8898-8f77d6c07f93</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="527fff34-1f53-48bf-8041-4f3d7de5c7e5" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>owners/:id</name>
+          <display>owners/:id: OwnerDetailComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="84200d41-a7f6-4946-8dd6-13469ec1834b">
+            <typeId>c3549af2-c500-48a1-ac11-4be486cbc0de</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="cf319a37-1db4-420e-88f4-cc0755de9701" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>owners/:id/edit</name>
+          <display>owners/:id/edit: OwnerEditComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>3</order>
+          <genericTypes />
+          <typeReference id="293b1ae4-ee2a-47e0-b402-e147f3e583bb">
+            <typeId>8a3ab41f-c9b7-44ef-a123-25c246ec6a15</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

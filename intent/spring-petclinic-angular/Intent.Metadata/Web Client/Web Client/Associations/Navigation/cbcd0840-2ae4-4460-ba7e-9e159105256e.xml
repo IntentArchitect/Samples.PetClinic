@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="cbcd0840-2ae4-4460-ba7e-9e159105256e">
+  <sourceEnd id="2b0bef71-99b8-4485-bb51-8747b20ba015">
+    <name>backToList</name>
+    <display>backToList: PettypeListComponent</display>
+    <typeReference id="b27adf60-7431-4251-a8ba-a74a588c7393">
+      <typeId>3aee390d-3fe5-4663-8556-7b3dcaacc7d8</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </sourceEnd>
+  <targetEnd id="cbcd0840-2ae4-4460-ba7e-9e159105256e">
+    <name>goToUpdate</name>
+    <display>goToUpdate: PettypeEditComponent</display>
+    <typeReference id="41f9bba3-abf3-4506-bb25-3d4558f7ecae">
+      <typeId>0ccab9f9-a0f0-4bf4-8777-884df5c0e407</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </targetEnd>
+  <associationType>Navigation</associationType>
+  <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>
+  <stereotypes />
+</association>

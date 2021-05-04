@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="4c6c64f0-2a91-4072-b8cb-2a799d432006" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>configuration</name>
+  <display>configuration</display>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
+  <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
+  <packageName>root</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="744307c4-3d8c-42f7-89d1-ecc3cdd6ed64" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.ModelMapper.ModelMapperBean</name>
+      <display>Intent.Java.ModelMapper.ModelMapperBean</display>
+      <externalReference>Intent.Java.ModelMapper</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>4c6c64f0-2a91-4072-b8cb-2a799d432006</parentFolderId>
+      <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="13079c85-9cb5-455c-bba3-8d48b434041a" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.SpringFox.Swagger.SpringFoxConfig</name>
+      <display>Intent.Java.SpringFox.Swagger.SpringFoxConfig</display>
+      <externalReference>Intent.Java.SpringFox.Swagger</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>4c6c64f0-2a91-4072-b8cb-2a799d432006</parentFolderId>
+      <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="a3e5cc98-3b24-4266-b7c6-ba9ff6aafe03" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.Spring.Cors.CorsConfig</name>
+      <display>Intent.Java.Spring.Cors.CorsConfig</display>
+      <externalReference>Intent.Java.Spring.Cors</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>4c6c64f0-2a91-4072-b8cb-2a799d432006</parentFolderId>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

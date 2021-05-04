@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="95a9c5e3-855e-40fc-8d41-86a178a8763e" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>application</name>
+  <display>application</display>
+  <isAbstract>false</isAbstract>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
+  <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
+  <packageName>root</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="b2d0a273-0b0f-4d25-8e37-2ce615ace2eb" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+      <name>Application</name>
+      <display>Application</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>95a9c5e3-855e-40fc-8d41-86a178a8763e</parentFolderId>
+      <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

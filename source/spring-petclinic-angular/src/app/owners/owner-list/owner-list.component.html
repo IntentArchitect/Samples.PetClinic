@@ -1,0 +1,33 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <div class="row" intent-id="table">
+    <div class="col">
+      <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr intent-manage="" intent-id="table-header">
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Telephone</th>
+            <th>Pets</th>
+          </tr>
+        </thead>
+        <tbody intent-manage="" intent-id="table-tbody">
+          <tr *ngFor="let item of owners" class="clickable" (click)="onSelected(item.id)" intent-manage="" intent-id="table-data">
+            <td>{{item.firstName}}</td>
+            <td>{{item.address}}</td>
+            <td>{{item.city}}</td>
+            <td>{{item.telephone}}</td>
+            <td>{{item.pets}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row" intent-id="Button Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="66cdfe16-85c1-4c68-8ed4-552c73d84836">
+        <button class="btn btn-default" (click)="goToAdd()">Add Owner</button>
+      </span>
+    </div>
+  </div>
+</div>

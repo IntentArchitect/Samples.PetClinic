@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a13bbdb6-b6d0-4ddf-b757-98fa44fd374b" type="Module" typeId="cac14331-198a-4f9a-bbb9-171eb0bd4efe">
+  <name>PetsModule</name>
+  <display>PetsModule</display>
+  <isAbstract>false</isAbstract>
+  <order>4</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <diagram>
+    <targetPackageId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</targetPackageId>
+  </diagram>
+  <childElements>
+    <childElement id="9c1eca20-18b9-4803-989e-02440b9ec6c0" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
+      <name>[routing]</name>
+      <display>[routing]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

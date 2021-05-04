@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="017fc0bc-4cd3-4940-a541-48eefa051f60" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>core</name>
+  <display>core</display>
+  <isAbstract>false</isAbstract>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
+  <stereotypes />
+  <childElements>
+    <childElement id="ac27f96e-6c26-42fa-a300-7850a0d59271" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Core.ApiServiceTemplate</name>
+      <display>Intent.Angular.Core.ApiServiceTemplate</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>017fc0bc-4cd3-4940-a541-48eefa051f60</parentFolderId>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="31bef96e-86e0-4c84-a393-56b9fb0282d1" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Core.CoreModuleTemplate</name>
+      <display>Intent.Angular.Core.CoreModuleTemplate</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>017fc0bc-4cd3-4940-a541-48eefa051f60</parentFolderId>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

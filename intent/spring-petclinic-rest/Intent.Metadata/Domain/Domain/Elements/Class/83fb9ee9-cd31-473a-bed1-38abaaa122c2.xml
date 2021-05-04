@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="83fb9ee9-cd31-473a-bed1-38abaaa122c2" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>Visit</name>
+  <display>Visit</display>
+  <isAbstract>false</isAbstract>
+  <order>6</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
+  <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+  <packageName>Domain</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="89275cd3-d7e0-46a1-85dd-f3c9f849986f" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>visitDate</name>
+      <display>visitDate: date</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="d494ae4c-7213-4681-a49a-6a1fe1c1fb28">
+        <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</parentFolderId>
+      <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+      <packageName>Domain</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="3da4f51e-3ac3-45ae-8ada-c019ec134c79" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>description</name>
+      <display>description: string</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="d7236e34-671f-40d7-ae1c-2d04ed25689c">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</parentFolderId>
+      <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+      <packageName>Domain</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

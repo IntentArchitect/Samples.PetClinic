@@ -1,0 +1,57 @@
+**/.DS_Store
+*.suo
+*.user
+*.sln.docstates
+bin/
+obj/
+Installers/
+*.unc-backup*
+*.user
+_Resharper.*
+TestResults
+*.log
+*.o 
+*.lo 
+*.la 
+*.al 
+.libs 
+*.so 
+.so.[0-9] 
+*.a 
+*.pyc 
+*.pyo 
+*.rej 
+*.js.map
+**/Templates/**/*.txt
+sys$command
+*.svclog
+*.templateOutput
+/Samples/ReactJs-Flux/.vs/config/applicationhost.config
+**/.vs*
+node_modules/
+lib/
+/Intent.IArchitect/Intent.IArchitect.Server/Intent.IArchitect.Distribution.WebApi/Intent.Packages/*.*
+**/Intent.Packages/**
+*.imod
+*.iat
+**/.intent/**
+**/main/**/*.js
+**/wwwroot/js/app.js
+**/wwwroot/js/app.min.js
+**/wwwroot/App/**/*.js
+/Intent.IArchitect/Intent.IArchitect.Electron/Intent.IArchitect.Electron/Solutions
+/Intent.IArchitect/Intent.IArchitect.Electron/Distributable
+/Intent.IArchitect/Intent.IArchitect.Electron/Intent.IArchitect.Electron/dist/win-unpacked
+
+# As per: https://docs.nuget.org/consume/package-restore#git
+
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+/Intent.IntentArchitect/IntentArchitect.ElectronClient/Intent.IArchitect.Electron/Assemblies
+tempkey.jwk

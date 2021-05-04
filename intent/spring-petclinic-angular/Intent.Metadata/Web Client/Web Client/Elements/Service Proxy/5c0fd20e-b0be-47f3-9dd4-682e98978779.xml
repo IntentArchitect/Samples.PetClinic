@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="5c0fd20e-b0be-47f3-9dd4-682e98978779" type="Service Proxy" typeId="07d8d1a9-6b9f-4676-b7d3-8db06299e35c">
+  <name>OwnersService</name>
+  <display>OwnersService</display>
+  <isAbstract>false</isAbstract>
+  <order>6</order>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+    <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappedPath>
+      <target id="6f40b401-47be-4cc2-a9bc-85dedc6b4535" name="OwnerRestController" type="element" specialization="Service" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="af1f4b21-5af4-49d0-ad2e-cff7ab256fab" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getOwners</name>
+      <display>getOwners(): OwnerDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="d107878b-fdbd-4c08-b6e7-5cd5ddae7c96">
+        <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="723e13da-c45f-44e6-a5ef-9ff17e6f3f02" name="getOwners" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>5c0fd20e-b0be-47f3-9dd4-682e98978779</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="fe311037-cfbb-46fd-a255-35c026f3f923" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getOwnersList</name>
+      <display>getOwnersList(lastName: int): OwnerDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="357ad60a-0c51-4afd-9eb2-cb78af2464f9">
+        <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="79e81d16-f885-44cc-bf7f-5b157c98ebdf" name="getOwnersList" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>5c0fd20e-b0be-47f3-9dd4-682e98978779</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="7fe18d04-4773-40a1-ac1e-d95635f9ac5b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>lastName</name>
+          <display>lastName: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="e95f1526-34a7-4e31-94da-1103b2cf622d">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="71bd3cc6-d150-4e86-a7b0-101be4c69eb0" name="lastName" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>fe311037-cfbb-46fd-a255-35c026f3f923</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="58424c7e-5474-47ad-8cd7-e97b6626b381" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getOwner</name>
+      <display>getOwner(ownerId: int): OwnerDTO</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="26b8a0ab-e459-4c47-8f69-7722c0226ed9">
+        <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="00f633fa-6cc1-494e-9be2-5bd10812239a" name="getOwner" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>5c0fd20e-b0be-47f3-9dd4-682e98978779</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="42e77329-df72-4e4b-954b-6fb12c132769" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>ownerId</name>
+          <display>ownerId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="7ce2ed1e-9200-4bd9-b2ec-3af340db47e3">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="9c2069fc-a9d4-4f69-b594-9b70af4984b4" name="ownerId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>58424c7e-5474-47ad-8cd7-e97b6626b381</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="d07ba375-46ac-46b3-a9a0-b05469094767" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>addOwner</name>
+      <display>addOwner(owner: OwnerCreateDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <typeReference id="5d68b276-5a9e-43b9-9749-11c122ae93fa">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="1469c898-d05a-40cb-ac35-2e82fe89b2b0" name="addOwner" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>5c0fd20e-b0be-47f3-9dd4-682e98978779</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="daed7615-63f0-43ff-b245-b1e4cfd7ed7c" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>owner</name>
+          <display>owner: OwnerCreateDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="baca3e49-780e-428e-b8c4-c0380c5fd684">
+            <typeId>4cd165f5-996f-4f86-b65b-26c28000f4fc</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="983293bf-7121-489a-bdc6-495b6c000063" name="dto" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>d07ba375-46ac-46b3-a9a0-b05469094767</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="f1c2d573-7a70-4f8e-b560-66b14743edcc" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>updateOwner</name>
+      <display>updateOwner(ownerId: int, owner: OwnerUpdateDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <typeReference id="3a00d1d2-7925-45b1-907e-ac1c46667375">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="2ddd5525-95be-40db-ac81-8ef07a5c120b" name="updateOwner" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>5c0fd20e-b0be-47f3-9dd4-682e98978779</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="1a219e9d-ffce-46d7-ba6d-0b561361537b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>ownerId</name>
+          <display>ownerId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="19357afc-dbef-403f-8a3d-cf266473ec61">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="9052e0ae-d3f0-41f8-8390-b50c0c0b911a" name="ownerId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>f1c2d573-7a70-4f8e-b560-66b14743edcc</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="10fc146c-0714-469b-8159-cf3d27d0cd04" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>owner</name>
+          <display>owner: OwnerUpdateDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="d6280483-6834-447a-a119-dbc9c910b069">
+            <typeId>b4c64cd0-62c8-46ab-a693-839d6ed7b113</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="e546adee-589f-4d1a-a125-f624a97a6c54" name="dto" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>f1c2d573-7a70-4f8e-b560-66b14743edcc</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="eb9bba50-322d-4543-94d6-594dd5308227" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>deleteOwner</name>
+      <display>deleteOwner(ownerId: int): void</display>
+      <isAbstract>false</isAbstract>
+      <order>5</order>
+      <genericTypes />
+      <typeReference id="80e37818-f24f-4c7e-811f-803725017459">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="a2f547ef-f588-424f-a716-720ae59478e4" name="deleteOwner" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>5c0fd20e-b0be-47f3-9dd4-682e98978779</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="5988456a-489e-43e1-958e-e350ea57d650" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>ownerId</name>
+          <display>ownerId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="37b801b4-a930-4155-9947-210aa44c7318">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="ecfae00a-a750-484e-84de-f507c063e0cc" name="ownerId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>eb9bba50-322d-4543-94d6-594dd5308227</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

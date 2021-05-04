@@ -1,0 +1,36 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <div class="row" intent-id="table">
+    <div class="col">
+      <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr intent-manage="" intent-id="table-header">
+            <th>Name</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of petTypes" class="clickable" intent-manage="" intent-id="table-data">
+            <td intent-ignore="">
+              <span>{{item.name}}</span>
+            </td>
+            <td intent-ignore="">
+              <button class="btn btn-default" (click)="goToUpdate(item.id)">Update</button>
+              <button class="btn btn-default" (click)="deletePetType(item.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <app-pettype-add *ngIf="isAddVisible" (newPetType)="onNewPetType($event)"></app-pettype-add>
+  <div class="row mt-2" intent-id="Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="1230c95c-f0db-4e14-8841-933b4d1cd8f7">
+        <button class="btn btn-default" (click)="goToHome()">Home</button>
+      </span>
+      <span intent-ignore="" intent-id="a0076ae5-15ea-41a9-af60-a8b068c24cfc">
+        <button class="btn btn-default" (click)="toggleShowAdd()"> {{isAddVisible ? 'Cancel' : 'Add'}} </button>
+      </span>
+    </div>
+  </div>
+</div>

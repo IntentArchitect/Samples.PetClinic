@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="ef943808-bc52-42dc-8898-8f77d6c07f93" type="Component" typeId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b">
+  <name>OwnerAddComponent</name>
+  <display>OwnerAddComponent</display>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ded6918f-81c2-4097-bdbe-48ec0fb84b7b" name="Angular Component Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Angular</definitionPackageName>
+      <definitionPackageId>a3deb341-dd4e-4f7f-99f5-2f198c1c251c</definitionPackageId>
+      <properties>
+        <property name="fb7aa637-1748-45fc-852d-084cf0d6d5de" display="Selector" isActive="true" />
+        <property name="861d6123-3795-4065-a58d-526a04e833ba" display="Inject Services" value="[&quot;2b508a0f-2bc9-46c8-a472-94c93f8964c0&quot;]" isActive="true" />
+        <property name="f9710a21-4db0-4fff-a61f-09761a5cc0b8" display="In Own Folder" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <childElements>
+    <childElement id="7d781c9d-d778-4fa6-886d-b13c4c083337" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>owner</name>
+      <display>owner: OwnerForm</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="abcf94d8-d76e-42e5-b71a-1cb37920321c">
+        <typeId>8da25236-fa4f-48dc-b588-21bdf44e02a7</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Web Client</typePackageName>
+        <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>ef943808-bc52-42dc-8898-8f77d6c07f93</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="2b073cfa-613d-4389-a391-9c83e46ddd50" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>errorMessage</name>
+      <display>errorMessage: string</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="6a454ba1-8c3d-48a8-a58f-af7e7d8b1010">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>ef943808-bc52-42dc-8898-8f77d6c07f93</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="86b79645-62af-447a-9d7e-25f1d0867b0c" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
+      <name>onSubmit</name>
+      <display>onSubmit(): void</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="14d292d0-4c01-4f9a-8f92-058dd4cce8c8">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>ef943808-bc52-42dc-8898-8f77d6c07f93</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="8e6f45b8-d96d-4695-acc2-46f4285b5e62" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+      <name>[view]</name>
+      <display>[view]</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>ef943808-bc52-42dc-8898-8f77d6c07f93</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="a6f110ac-9e25-4cd0-9dbd-fa99b8fc9a4a" type="Form" typeId="8aee9b69-d02d-4ca8-b28a-6585508bd033">
+          <name>Form</name>
+          <display>Form</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="7d781c9d-d778-4fa6-886d-b13c4c083337" name="owner" type="element" specialization="Component Model" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>8e6f45b8-d96d-4695-acc2-46f4285b5e62</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="c9e5009e-9edc-44f5-b278-526582041359" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
+              <name>First Name</name>
+              <display>First Name: Text Input</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <typeReference id="da232cf4-8f1f-4387-94da-e6127a0c9126">
+                <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Angular.Layout.Controls</typePackageName>
+                <typePackageId>6c7013d3-ba6b-4135-8af0-421b662ec802</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="aeda0bbd-9fc5-407e-8b07-35afe7bddb09" name="firstName" type="element" specialization="Form Group Control" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a6f110ac-9e25-4cd0-9dbd-fa99b8fc9a4a</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="60b3660d-b7a6-418c-81ee-02fbdf03a159" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
+              <name>Last Name</name>
+              <display>Last Name: Text Input</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <typeReference id="89235aab-aa32-45b4-9faa-0b5f1d528e1d">
+                <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Angular.Layout.Controls</typePackageName>
+                <typePackageId>6c7013d3-ba6b-4135-8af0-421b662ec802</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="18760587-5224-4fd1-9e03-a16ad929f29d" name="lastName" type="element" specialization="Form Group Control" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a6f110ac-9e25-4cd0-9dbd-fa99b8fc9a4a</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="8a5f63ca-bd44-41c7-8b57-995c68a9d63e" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
+              <name>Address</name>
+              <display>Address: Text Input</display>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <typeReference id="3ddec1c7-57fb-4744-841c-f47ac48a974d">
+                <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Angular.Layout.Controls</typePackageName>
+                <typePackageId>6c7013d3-ba6b-4135-8af0-421b662ec802</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="537965ba-3088-4ff1-b04f-2816b2572b16" name="address" type="element" specialization="Form Group Control" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a6f110ac-9e25-4cd0-9dbd-fa99b8fc9a4a</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="4c168c1a-ea84-43da-b3f8-089a18569fb4" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
+              <name>City</name>
+              <display>City: Text Input</display>
+              <isAbstract>false</isAbstract>
+              <order>3</order>
+              <genericTypes />
+              <typeReference id="163b02dd-b03e-4997-98c2-520d2c6ef8df">
+                <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Angular.Layout.Controls</typePackageName>
+                <typePackageId>6c7013d3-ba6b-4135-8af0-421b662ec802</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="5f25b775-97e6-42f0-b266-da75e971f65d" name="city" type="element" specialization="Form Group Control" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a6f110ac-9e25-4cd0-9dbd-fa99b8fc9a4a</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="c56571b3-85c5-4cc1-92ef-a44fd1f982ab" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
+              <name>Telephone</name>
+              <display>Telephone: Text Input</display>
+              <isAbstract>false</isAbstract>
+              <order>4</order>
+              <genericTypes />
+              <typeReference id="e43e3499-91ca-4d38-80c0-563b2972bbea">
+                <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Angular.Layout.Controls</typePackageName>
+                <typePackageId>6c7013d3-ba6b-4135-8af0-421b662ec802</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="c65e687b-b00f-4fa2-a680-588471c8c99b" name="telephone" type="element" specialization="Form Group Control" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a6f110ac-9e25-4cd0-9dbd-fa99b8fc9a4a</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="e409e7d4-03c5-46fa-8cbc-d072d2e65599" type="Section" typeId="45072fbf-b34a-4625-b7ea-d5b1962a5b60">
+          <name>Section</name>
+          <display>Section</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8e6f45b8-d96d-4695-acc2-46f4285b5e62</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="7fb79d30-a9f0-45e7-9eed-eacb3308955f" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Back</name>
+              <display>Back</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="ea83740b-9e43-41dc-8a83-fb4d656d4086" name="goBackToList" type="association" specialization="NavigationSourceEnd" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>e409e7d4-03c5-46fa-8cbc-d072d2e65599</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="46c31f83-a570-4812-894b-af6b7c5d70c1" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Add Owner</name>
+              <display>Add Owner</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="86b79645-62af-447a-9d7e-25f1d0867b0c" name="onSubmit" type="element" specialization="Component Command" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>e409e7d4-03c5-46fa-8cbc-d072d2e65599</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

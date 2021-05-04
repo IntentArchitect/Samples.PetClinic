@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="538008b3-20f3-42ef-a962-8a45120f12b0">
+  <sourceEnd id="87521606-12d0-46c6-8dc7-bc835d3e347e">
+    <name>PettypeListComponent</name>
+    <display>PettypeListComponent: PettypeListComponent</display>
+    <typeReference id="647b70b8-372c-4e88-97b9-a8e0594e8685">
+      <typeId>3aee390d-3fe5-4663-8556-7b3dcaacc7d8</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </sourceEnd>
+  <targetEnd id="538008b3-20f3-42ef-a962-8a45120f12b0">
+    <name>goToHome</name>
+    <display>goToHome: AppComponent</display>
+    <typeReference id="eac66869-1b08-4770-92cb-ed54d023a2fd">
+      <typeId>db6be016-d0ee-437f-9f35-60837514fff1</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </targetEnd>
+  <associationType>Navigation</associationType>
+  <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>
+  <stereotypes />
+</association>

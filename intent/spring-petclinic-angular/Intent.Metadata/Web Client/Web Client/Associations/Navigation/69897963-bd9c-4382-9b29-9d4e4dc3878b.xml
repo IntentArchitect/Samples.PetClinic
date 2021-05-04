@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="69897963-bd9c-4382-9b29-9d4e4dc3878b">
+  <sourceEnd id="93381b51-262a-480d-9a2b-873dad368e17">
+    <name>goBackToDetails</name>
+    <display>goBackToDetails: OwnerDetailComponent</display>
+    <typeReference id="5db407d9-1d04-46c5-9c6e-bfba63feb5d8">
+      <typeId>c3549af2-c500-48a1-ac11-4be486cbc0de</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </sourceEnd>
+  <targetEnd id="69897963-bd9c-4382-9b29-9d4e4dc3878b">
+    <name>goToEdit</name>
+    <display>goToEdit: OwnerEditComponent</display>
+    <typeReference id="27dd531e-2bfb-493b-8c37-f13930b55500">
+      <typeId>8a3ab41f-c9b7-44ef-a123-25c246ec6a15</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </targetEnd>
+  <associationType>Navigation</associationType>
+  <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>
+  <stereotypes />
+</association>

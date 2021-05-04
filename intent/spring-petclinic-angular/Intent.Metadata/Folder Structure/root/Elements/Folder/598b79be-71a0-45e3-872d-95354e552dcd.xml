@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="598b79be-71a0-45e3-872d-95354e552dcd" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>header</name>
+  <display>header</display>
+  <isAbstract>false</isAbstract>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d0ab692f-4815-4c9b-8197-cab5d2ce6158</parentFolderId>
+  <stereotypes />
+  <childElements>
+    <childElement id="cffefb36-0c51-4454-870d-62f479bd0357" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Layout.Shared.Header.HeaderComponentCssTemplate</name>
+      <display>Intent.Angular.Layout.Shared.Header.HeaderComponentCssTemplate</display>
+      <externalReference>Intent.Angular.Layout</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>598b79be-71a0-45e3-872d-95354e552dcd</parentFolderId>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="7f2b9455-df93-466e-b067-f67c8f644fbc" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Layout.Shared.Header.HeaderComponentTsTemplate</name>
+      <display>Intent.Angular.Layout.Shared.Header.HeaderComponentTsTemplate</display>
+      <externalReference>Intent.Angular.Layout</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>598b79be-71a0-45e3-872d-95354e552dcd</parentFolderId>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="32eb8599-fb1b-40af-84ce-231dc7a7a1f8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Layout.Shared.Header.HeaderComponentHtmlTemplate</name>
+      <display>Intent.Angular.Layout.Shared.Header.HeaderComponentHtmlTemplate</display>
+      <externalReference>Intent.Angular.Layout</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>598b79be-71a0-45e3-872d-95354e552dcd</parentFolderId>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

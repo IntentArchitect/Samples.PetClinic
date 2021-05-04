@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="6f40b401-47be-4cc2-a9bc-85dedc6b4535" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>OwnerRestController</name>
+  <display>OwnerRestController</display>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</parentFolderId>
+  <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+  <packageName>Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c29224ec-d473-4b95-ad4a-ec55c676c4fd" name="Http Service Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="1e223bd0-7a72-435a-8741-a612d88e4a12" display="Route" value="api/owners" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <childElements>
+    <childElement id="723e13da-c45f-44e6-a5ef-9ff17e6f3f02" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>getOwners</name>
+      <display>getOwners(): OwnerDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="979a496e-b2bf-46d1-a867-c5bcfc39dd0a">
+        <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6f40b401-47be-4cc2-a9bc-85dedc6b4535</parentFolderId>
+      <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+      <packageName>Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Java.Services</definitionPackageName>
+          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
+          <properties>
+            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements />
+    </childElement>
+    <childElement id="1469c898-d05a-40cb-ac35-2e82fe89b2b0" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>addOwner</name>
+      <display>addOwner(dto: OwnerCreateDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="b2aafc05-74bc-4e8a-9504-9aaa2f6a241e">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6f40b401-47be-4cc2-a9bc-85dedc6b4535</parentFolderId>
+      <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+      <packageName>Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Java.Services</definitionPackageName>
+          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
+          <properties>
+            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements>
+        <childElement id="983293bf-7121-489a-bdc6-495b6c000063" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: OwnerCreateDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="d8bd59fb-dcee-45ee-93a5-413b5bed43a6">
+            <typeId>4cd165f5-996f-4f86-b65b-26c28000f4fc</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>1469c898-d05a-40cb-ac35-2e82fe89b2b0</parentFolderId>
+          <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+          <packageName>Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="00f633fa-6cc1-494e-9be2-5bd10812239a" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>getOwner</name>
+      <display>getOwner(ownerId: int): OwnerDTO</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="d873f0f1-4d07-410a-bc88-18c636e1e70c">
+        <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6f40b401-47be-4cc2-a9bc-85dedc6b4535</parentFolderId>
+      <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+      <packageName>Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Java.Services</definitionPackageName>
+          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
+          <properties>
+            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="{ownerId}" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements>
+        <childElement id="9c2069fc-a9d4-4f69-b594-9b70af4984b4" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>ownerId</name>
+          <display>in : ownerId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="e4b3d1b1-1208-44c6-be76-af9e396a0d51">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>00f633fa-6cc1-494e-9be2-5bd10812239a</parentFolderId>
+          <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+          <packageName>Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="2ddd5525-95be-40db-ac81-8ef07a5c120b" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>updateOwner</name>
+      <display>updateOwner(ownerId: int, dto: OwnerUpdateDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <typeReference id="e210ed53-6641-4d91-9396-7e976a88f9e6">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6f40b401-47be-4cc2-a9bc-85dedc6b4535</parentFolderId>
+      <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+      <packageName>Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Java.Services</definitionPackageName>
+          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
+          <properties>
+            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="PUT" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="{ownerId}" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements>
+        <childElement id="9052e0ae-d3f0-41f8-8390-b50c0c0b911a" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>ownerId</name>
+          <display>in : ownerId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="74951f23-61b9-4dac-b072-bb599a4d82d5">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>2ddd5525-95be-40db-ac81-8ef07a5c120b</parentFolderId>
+          <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+          <packageName>Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
+        </childElement>
+        <childElement id="e546adee-589f-4d1a-a125-f624a97a6c54" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: OwnerUpdateDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="a1df40da-b90a-48fb-be08-eb05402532e0">
+            <typeId>b4c64cd0-62c8-46ab-a693-839d6ed7b113</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>2ddd5525-95be-40db-ac81-8ef07a5c120b</parentFolderId>
+          <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+          <packageName>Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="a2f547ef-f588-424f-a716-720ae59478e4" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>deleteOwner</name>
+      <display>deleteOwner(ownerId: int): void</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <typeReference id="296e98be-ca63-4ced-825e-426225aa9435">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6f40b401-47be-4cc2-a9bc-85dedc6b4535</parentFolderId>
+      <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+      <packageName>Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Java.Services</definitionPackageName>
+          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
+          <properties>
+            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="DELETE" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="{ownerId}" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements>
+        <childElement id="ecfae00a-a750-484e-84de-f507c063e0cc" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>ownerId</name>
+          <display>in : ownerId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="5ab5a207-1c9b-4ff0-82dd-3ec9ad7851d8">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>a2f547ef-f588-424f-a716-720ae59478e4</parentFolderId>
+          <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+          <packageName>Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="79e81d16-f885-44cc-bf7f-5b157c98ebdf" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>getOwnersList</name>
+      <display>getOwnersList(lastName: string): OwnerDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>5</order>
+      <genericTypes />
+      <typeReference id="9853e6f6-a0c6-4f5a-9edf-286ffdf724be">
+        <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6f40b401-47be-4cc2-a9bc-85dedc6b4535</parentFolderId>
+      <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+      <packageName>Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Java.Services</definitionPackageName>
+          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
+          <properties>
+            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="*/lastname/{lastName}" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements>
+        <childElement id="71bd3cc6-d150-4e86-a7b0-101be4c69eb0" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>lastName</name>
+          <display>in : lastName: string</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="016944a4-e293-4543-966b-fef9ba105efc">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>79e81d16-f885-44cc-bf7f-5b157c98ebdf</parentFolderId>
+          <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
+          <packageName>Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

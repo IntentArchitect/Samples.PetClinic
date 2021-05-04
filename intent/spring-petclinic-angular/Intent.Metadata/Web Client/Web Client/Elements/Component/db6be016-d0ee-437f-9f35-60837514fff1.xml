@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="db6be016-d0ee-437f-9f35-60837514fff1" type="Component" typeId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b">
+  <name>AppComponent</name>
+  <display>AppComponent</display>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ded6918f-81c2-4097-bdbe-48ec0fb84b7b" name="Angular Component Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Angular</definitionPackageName>
+      <definitionPackageId>a3deb341-dd4e-4f7f-99f5-2f198c1c251c</definitionPackageId>
+      <properties>
+        <property name="fb7aa637-1748-45fc-852d-084cf0d6d5de" display="Selector" value="app-root" isActive="true" />
+        <property name="861d6123-3795-4065-a58d-526a04e833ba" display="Inject Services" isActive="true" />
+        <property name="f9710a21-4db0-4fff-a61f-09761a5cc0b8" display="In Own Folder" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <childElements>
+    <childElement id="e0055768-bb13-4b67-8ee7-39ec564ab17c" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+      <name>[view]</name>
+      <display>[view]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>db6be016-d0ee-437f-9f35-60837514fff1</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="e75e58a8-0c16-434f-aea3-2d2117ca08e5" type="Navbar" typeId="990cd6f1-8840-419b-be75-4ec63f03f359">
+          <name>navbar</name>
+          <display>navbar</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>e0055768-bb13-4b67-8ee7-39ec564ab17c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="0b3b2367-8ca6-44bb-b9a8-b42f0117ab89" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
+              <name>Home</name>
+              <display>Home</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="83a5537c-2283-450f-99be-640547d0fad0" name="Link Settings">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                  <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                  <properties>
+                    <property name="4cfff4ff-84fe-4b70-82c0-295e1d8a692e" display="Router Link" value="/" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <childElements />
+            </childElement>
+            <childElement id="389a0c6f-f645-4359-8b28-ec93d06441d2" type="Dropdown" typeId="91610e3a-f0e4-4807-a1b3-4dc947fe13ac">
+              <name>Owners</name>
+              <display>Owners</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements>
+                <childElement id="bc2b8de7-6b7b-47f3-8b06-3492a7a51a2f" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
+                  <name>List</name>
+                  <display>List</display>
+                  <isAbstract>false</isAbstract>
+                  <order>0</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>389a0c6f-f645-4359-8b28-ec93d06441d2</parentFolderId>
+                  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+                  <packageName>Web Client</packageName>
+                  <stereotypes>
+                    <stereotype stereotypeDefinitionId="83a5537c-2283-450f-99be-640547d0fad0" name="Link Settings">
+                      <addedByDefault>true</addedByDefault>
+                      <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                      <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                      <properties>
+                        <property name="4cfff4ff-84fe-4b70-82c0-295e1d8a692e" display="Router Link" value="/owners" isActive="true" />
+                      </properties>
+                    </stereotype>
+                  </stereotypes>
+                  <childElements />
+                </childElement>
+                <childElement id="6309cd06-84a8-4166-ab6a-6f1d01a8c647" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
+                  <name>Add</name>
+                  <display>Add</display>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>389a0c6f-f645-4359-8b28-ec93d06441d2</parentFolderId>
+                  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+                  <packageName>Web Client</packageName>
+                  <stereotypes>
+                    <stereotype stereotypeDefinitionId="83a5537c-2283-450f-99be-640547d0fad0" name="Link Settings">
+                      <addedByDefault>true</addedByDefault>
+                      <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                      <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                      <properties>
+                        <property name="4cfff4ff-84fe-4b70-82c0-295e1d8a692e" display="Router Link" value="/owners/add" isActive="true" />
+                      </properties>
+                    </stereotype>
+                  </stereotypes>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="d0069e32-e02d-4f4c-89cd-bba94b5b15ca" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
+              <name>Pet Types</name>
+              <display>Pet Types</display>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="83a5537c-2283-450f-99be-640547d0fad0" name="Link Settings">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                  <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                  <properties>
+                    <property name="4cfff4ff-84fe-4b70-82c0-295e1d8a692e" display="Router Link" value="/pettypes" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="ecffa5b6-53bb-4924-bed0-dc02db28ac36" type="Router Outlet" typeId="26d97593-7c29-402a-9191-d4e3e96217fa">
+          <name>[router-outlet]</name>
+          <display>[router-outlet]</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>e0055768-bb13-4b67-8ee7-39ec564ab17c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

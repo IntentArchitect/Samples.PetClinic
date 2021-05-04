@@ -1,0 +1,40 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <div intent-ignore="">
+    <h4>Owner Information</h4>
+  </div>
+  <div class="row" intent-id="table">
+    <div class="col">
+      <table class="table table-hover">
+        <tr>
+          <th>Name</th>
+          <td><b>{{ owner.firstName }} {{ owner.lastName }}</b></td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td>{{ owner.address }}</td>
+        </tr>
+        <tr>
+          <th>City</th>
+          <td>{{ owner.city }}</td>
+        </tr>
+        <tr>
+          <th>Telephone</th>
+          <td>{{ owner.telephone }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="row" intent-id="Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="5f6ba605-e9da-42fe-919a-aa5b335e0556">
+        <button class="btn btn-default" (click)="goBackToList()">< Back</button>
+      </span>
+      <span intent-manage="" intent-id="04f218f9-62ff-44a3-b4e9-df7c95c66feb">
+        <button class="btn btn-default" (click)="goToEdit()">Edit Owner</button>
+      </span>
+      <span intent-manage="" intent-id="fa4e390d-630e-4a30-ba70-a584b663db2c">
+        <button class="btn btn-default">Add New Pet</button>
+      </span>
+    </div>
+  </div>
+</div>

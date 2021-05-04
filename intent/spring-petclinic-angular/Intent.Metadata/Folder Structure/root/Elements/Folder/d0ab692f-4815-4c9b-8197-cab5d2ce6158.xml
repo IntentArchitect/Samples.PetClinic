@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="d0ab692f-4815-4c9b-8197-cab5d2ce6158" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>shared</name>
+  <display>shared</display>
+  <isAbstract>false</isAbstract>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
+  <stereotypes />
+  <childElements />
+</class>
