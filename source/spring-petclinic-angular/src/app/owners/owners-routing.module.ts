@@ -4,6 +4,7 @@ import { OwnerListComponent } from './owner-list/owner-list.component';
 import { OwnerAddComponent } from './owner-add/owner-add.component';
 import { OwnerDetailComponent } from './owner-detail/owner-detail.component';
 import { OwnerEditComponent } from './owner-edit/owner-edit.component';
+import { PetAddComponent } from './../pets/pet-add/pet-add.component';
 import { IntentIgnore } from './../intent/intent.decorators';
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'owners/:id/edit',
     component: OwnerEditComponent
+  },
+  {
+    path: 'owners/:id/pets/add',
+    component: PetAddComponent
   },
 ];
 

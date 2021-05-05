@@ -189,12 +189,12 @@
     </childElement>
     <childElement id="305dc6b1-de9c-4ad6-b530-25330bc52ab8" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>Pets</name>
-      <display>Pets: OwnerPetDTO[*]</display>
+      <display>Pets: PetDTO[*]</display>
       <isAbstract>false</isAbstract>
       <order>6</order>
       <genericTypes />
       <typeReference id="b6bf0f70-bc9a-4c81-8ff8-5068268bfa1e">
-        <typeId>d95a2914-dc96-4ac1-b639-d2bbe77a2fe8</typeId>
+        <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>true</isCollection>

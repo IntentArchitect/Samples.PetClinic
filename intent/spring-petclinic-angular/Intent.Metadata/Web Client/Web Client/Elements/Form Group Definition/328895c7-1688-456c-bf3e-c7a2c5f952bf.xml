@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="328895c7-1688-456c-bf3e-c7a2c5f952bf" type="Form Group Definition" typeId="71142b08-4d10-405b-a5bd-0620d329a992">
+  <name>PetVisitModel</name>
+  <display>PetVisitModel</display>
+  <isAbstract>false</isAbstract>
+  <order>5</order>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+    <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappedPath>
+      <target id="bb138e4b-409a-4ea9-9bb4-a33dcfa8a682" name="PetVisitDTO" type="element" specialization="DTO" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="34c116ce-32ee-47b0-ba7d-52c8de010279" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>id</name>
+      <display>id: int</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="feee7c41-1f48-42cb-aea8-85e870b10f25">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="2217e740-0889-47b2-9df1-febcd26fae99" name="id" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>328895c7-1688-456c-bf3e-c7a2c5f952bf</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="e88ff387-5da2-4f7b-a362-57c5d6edfe11" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>visitDate</name>
+      <display>visitDate: date</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="b34f19d6-a929-491d-a4ac-acdb1fa831dc">
+        <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="1be0074e-3e2a-4c47-be0d-133b3d0bbb2a" name="visitDate" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>328895c7-1688-456c-bf3e-c7a2c5f952bf</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="c684d37e-c072-455b-9d25-c36d4e426cb8" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>description</name>
+      <display>description: string</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="03ebe9cb-3357-4c91-8284-ea0eb3183f7d">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="6874e598-834f-4300-ac8d-9021612fda35" name="description" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>328895c7-1688-456c-bf3e-c7a2c5f952bf</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

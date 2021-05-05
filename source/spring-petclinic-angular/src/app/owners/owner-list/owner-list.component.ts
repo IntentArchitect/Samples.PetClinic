@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
-import { OwnerDTO } from './../models/owner.dto';
-import { IntentIgnore, IntentManage, IntentIgnoreBody } from './../../intent/intent.decorators';
-import { OwnersService } from '../owners-service.service';
+import { OwnersService } from 'src/app/api-access/owners-service.service';
+import { OwnerDTO } from './../../api-access/models/owner.dto';
+import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
 
 @Component({
   selector: 'app-owner-list',
@@ -10,7 +10,6 @@ import { OwnersService } from '../owners-service.service';
   styleUrls: ['./owner-list.component.css']
 })
 export class OwnerListComponent implements OnInit {
-
   owners: OwnerDTO[];
 
   //@IntentCanAdd()
@@ -33,7 +32,7 @@ export class OwnerListComponent implements OnInit {
   }
 
   @IntentManage()
-  goToDetails(): void {
+  goToDetails(id: any): void {
     this.router.navigate(["owners/:id"]);
   }
 

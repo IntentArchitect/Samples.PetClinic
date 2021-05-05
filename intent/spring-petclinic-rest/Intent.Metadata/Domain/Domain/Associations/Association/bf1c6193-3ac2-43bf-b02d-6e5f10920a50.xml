@@ -5,7 +5,7 @@
     <display>Pet: Pet</display>
     <typeReference id="e935b53e-6c2e-48b8-a75b-971e6dca6c71">
       <typeId>1cada2f2-b08e-4caf-8505-7bc92f69bab6</typeId>
-      <isNavigable>false</isNavigable>
+      <isNavigable>true</isNavigable>
       <isNullable>false</isNullable>
       <isCollection>false</isCollection>
       <isRequired>true</isRequired>

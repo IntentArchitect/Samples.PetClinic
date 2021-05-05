@@ -3,7 +3,7 @@
   <name>PetVisitDTO</name>
   <display>PetVisitDTO</display>
   <isAbstract>false</isAbstract>
-  <order>9</order>
+  <order>8</order>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>

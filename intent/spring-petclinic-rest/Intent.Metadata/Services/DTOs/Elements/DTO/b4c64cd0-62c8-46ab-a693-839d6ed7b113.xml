@@ -3,7 +3,7 @@
   <name>OwnerUpdateDTO</name>
   <display>OwnerUpdateDTO</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <order>3</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>

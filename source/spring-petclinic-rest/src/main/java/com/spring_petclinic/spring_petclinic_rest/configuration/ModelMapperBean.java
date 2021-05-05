@@ -4,7 +4,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.OwnerToOwnerDTOMapping;
-import com.spring_petclinic.spring_petclinic_rest.application.mappings.PetToOwnerPetDTOMapping;
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.PetTypeToPetTypeDTOMapping;
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.PetToPetDTOMapping;
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.VisitToPetVisitDTOMapping;
@@ -22,7 +21,6 @@ public class ModelMapperBean {
 
     private void InitializeMappings(ModelMapper modelMapper) {
         modelMapper.addMappings(new OwnerToOwnerDTOMapping());
-        modelMapper.addMappings(new PetToOwnerPetDTOMapping());
         modelMapper.addMappings(new PetToPetDTOMapping());
         modelMapper.addMappings(new PetTypeToPetTypeDTOMapping());
         modelMapper.addMappings(new VisitToPetVisitDTOMapping());

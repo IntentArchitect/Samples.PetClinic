@@ -22,11 +22,35 @@
     </stereotype>
   </stereotypes>
   <childElements>
+    <childElement id="290545d3-13ee-40f0-9856-1fc1fc88a2d0" type="Component Input" typeId="807bc2cd-cdba-482d-a47e-d2aa546200fc">
+      <name>ownerId</name>
+      <display>in : ownerId: int</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="c5044088-c1d4-4896-97c7-fde43cc637d6">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>c3549af2-c500-48a1-ac11-4be486cbc0de</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
     <childElement id="da84a958-2880-4666-a2b9-167e73ece6c3" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
       <name>owner</name>
       <display>owner: OwnerDTO</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="0de52488-484f-495a-9c86-b5753223369d">
         <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
@@ -50,7 +74,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>2</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>c3549af2-c500-48a1-ac11-4be486cbc0de</parentFolderId>
@@ -138,7 +162,14 @@
               <isAbstract>false</isAbstract>
               <order>2</order>
               <genericTypes />
-              <isMapped>false</isMapped>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="f518c8b7-df6c-4805-99ab-814e7968937e" name="goToAddPet" type="association" specialization="NavigationTargetEnd" />
+                </mappedPath>
+              </mappedClass>
               <parentFolderId>0778dd36-bd6b-4f31-8fc0-ae1c43ef10dc</parentFolderId>
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
@@ -146,6 +177,30 @@
               <childElements />
             </childElement>
           </childElements>
+        </childElement>
+        <childElement id="6e73cc4c-f46c-4acd-8b4c-c77d6442bddc" type="Display Component" typeId="866a90f7-4044-43b9-bb05-7270c7889796">
+          <name>[display]</name>
+          <display>[display]: PetListComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="36233aa3-3a16-4f63-9e6e-09a33ce8029d">
+            <typeId>b3dc4311-6baa-415d-b20f-5a56ef718803</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>339bd9df-fdec-47ac-aea9-9fabaf3b1073</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
         </childElement>
       </childElements>
     </childElement>

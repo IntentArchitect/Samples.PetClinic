@@ -3,7 +3,7 @@
   <name>PetUpdateDTO</name>
   <display>PetUpdateDTO</display>
   <isAbstract>false</isAbstract>
-  <order>8</order>
+  <order>7</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>

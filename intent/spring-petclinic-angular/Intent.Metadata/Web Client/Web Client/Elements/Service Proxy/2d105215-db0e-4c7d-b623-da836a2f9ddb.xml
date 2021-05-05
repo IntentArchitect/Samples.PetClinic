@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <class id="2d105215-db0e-4c7d-b623-da836a2f9ddb" type="Service Proxy" typeId="07d8d1a9-6b9f-4676-b7d3-8db06299e35c">
-  <name>PetTypesService</name>
-  <display>PetTypesService</display>
+  <name>PetsService</name>
+  <display>PetsService</display>
   <isAbstract>false</isAbstract>
-  <order>5</order>
+  <order>2</order>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -13,22 +13,25 @@
       <target id="138a9bbf-cd1d-4a12-a867-0101e1bbee8f" name="PetRestController" type="element" specialization="Service" />
     </mappedPath>
   </mappedClass>
-  <parentFolderId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</parentFolderId>
+  <parentFolderId>957351a1-f1e9-4f57-af1b-81c1cbdb98ed</parentFolderId>
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
   <childElements>
-    <childElement id="6160f47f-d2d6-4028-bb25-8af54ac81f4b" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+    <childElement id="a36a06a5-2e50-424c-bfca-822944ef87cc" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getPet</name>
-      <display>getPet(petId: int): void</display>
+      <display>getPet(petId: int): PetDTO</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
-      <typeReference id="a9bcf335-0acd-45ad-bc43-29e650996ca1">
+      <typeReference id="dd28c38b-58c7-4ac7-bf00-ca277aa4081c">
+        <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
@@ -43,13 +46,13 @@
       <packageName>Web Client</packageName>
       <stereotypes />
       <childElements>
-        <childElement id="79e98fb3-8313-455e-bf8a-f2169b41679c" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+        <childElement id="4a2f3350-d72b-468e-8c10-8a55de66c202" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petId</name>
           <display>petId: int</display>
           <isAbstract>false</isAbstract>
           <order>1</order>
           <genericTypes />
-          <typeReference id="87db0db5-de7d-4b6d-b7ce-0a8037cb2569">
+          <typeReference id="ea52df5f-9283-416b-adfd-6f70a91b219c">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -66,7 +69,7 @@
               <target id="c33627c7-7f4d-47af-87e2-5ae634c26a5c" name="petId" type="element" specialization="Parameter" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>6160f47f-d2d6-4028-bb25-8af54ac81f4b</parentFolderId>
+          <parentFolderId>a36a06a5-2e50-424c-bfca-822944ef87cc</parentFolderId>
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />

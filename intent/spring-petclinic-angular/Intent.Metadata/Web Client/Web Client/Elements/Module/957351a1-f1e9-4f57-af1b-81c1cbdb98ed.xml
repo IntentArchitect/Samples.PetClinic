@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="957351a1-f1e9-4f57-af1b-81c1cbdb98ed" type="Module" typeId="cac14331-198a-4f9a-bbb9-171eb0bd4efe">
+  <name>ApiAccessModule</name>
+  <display>ApiAccessModule</display>
+  <isAbstract>false</isAbstract>
+  <order>2</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <diagram />
+  <childElements>
+    <childElement id="3e5841f0-44fe-4f60-8e70-0c260920b33f" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
+      <name>[routing]</name>
+      <display>[routing]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>957351a1-f1e9-4f57-af1b-81c1cbdb98ed</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

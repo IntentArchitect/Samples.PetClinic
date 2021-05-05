@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PetTypeModel } from './../models/pet-type.model';
 import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
-import { PetTypesService } from '../pet-types-service.service';
+import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 
 @Component({
   selector: 'app-pettype-edit',
@@ -10,7 +10,6 @@ import { PetTypesService } from '../pet-types-service.service';
   styleUrls: ['./pettype-edit.component.css']
 })
 export class PettypeEditComponent implements OnInit {
-
   model: PetTypeModel;
 
   //@IntentCanAdd()

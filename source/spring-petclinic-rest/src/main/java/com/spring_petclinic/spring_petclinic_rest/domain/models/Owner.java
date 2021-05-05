@@ -28,7 +28,7 @@ public class Owner extends AbstractEntity {
     @Column(name = "telephone", length = 20, nullable = false)
     private String telephone;
 
-    @OneToMany(orphanRemoval = true)
+    @OneToMany(mappedBy="owner", orphanRemoval = true)
     private List<Pet> pets;
 
     public String getFirstName() {

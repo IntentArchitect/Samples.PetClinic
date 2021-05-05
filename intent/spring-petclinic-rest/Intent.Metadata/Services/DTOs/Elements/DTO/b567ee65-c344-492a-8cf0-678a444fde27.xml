@@ -3,7 +3,7 @@
   <name>PetTypeDTO</name>
   <display>PetTypeDTO</display>
   <isAbstract>false</isAbstract>
-  <order>7</order>
+  <order>6</order>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>

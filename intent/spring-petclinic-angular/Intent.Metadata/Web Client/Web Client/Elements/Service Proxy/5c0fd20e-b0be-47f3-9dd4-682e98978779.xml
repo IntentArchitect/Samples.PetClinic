@@ -3,7 +3,7 @@
   <name>OwnersService</name>
   <display>OwnersService</display>
   <isAbstract>false</isAbstract>
-  <order>6</order>
+  <order>1</order>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -13,7 +13,7 @@
       <target id="6f40b401-47be-4cc2-a9bc-85dedc6b4535" name="OwnerRestController" type="element" specialization="Service" />
     </mappedPath>
   </mappedClass>
-  <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
+  <parentFolderId>957351a1-f1e9-4f57-af1b-81c1cbdb98ed</parentFolderId>
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />

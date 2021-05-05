@@ -19,7 +19,7 @@ public class OwnerDTO {
     private String address;
     private String city;
     private String telephone;
-    private List<OwnerPetDTO> Pets;
+    private List<PetDTO> Pets;
 
     public static OwnerDTO mapFromOwner(Owner owner, ModelMapper mapper) {
         return mapper.map(owner, OwnerDTO.class);

@@ -22,15 +22,18 @@
   <childElements>
     <childElement id="bb13398f-4e89-41d2-9404-d8b0152a8ac3" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>getPet</name>
-      <display>getPet(petId: int): void</display>
+      <display>getPet(petId: int): PetDTO</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
       <typeReference id="86236432-22e4-45e6-bd47-b008226bfcd8">
+        <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>

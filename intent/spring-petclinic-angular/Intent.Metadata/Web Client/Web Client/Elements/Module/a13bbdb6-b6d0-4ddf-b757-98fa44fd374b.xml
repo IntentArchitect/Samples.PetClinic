@@ -3,7 +3,7 @@
   <name>PetsModule</name>
   <display>PetsModule</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <order>5</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -25,7 +25,104 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
-      <childElements />
+      <childElements>
+        <childElement id="353f5573-2766-403b-b514-ebd8d488385a" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>pets</name>
+          <display>pets: PetListComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <typeReference id="77a7e271-7806-4561-9e47-2a452edccfc0">
+            <typeId>b3dc4311-6baa-415d-b20f-5a56ef718803</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>9c1eca20-18b9-4803-989e-02440b9ec6c0</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="dd8d4eed-1a16-40ba-be56-d0b5158bb118" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>pets/add</name>
+          <display>pets/add: PetAddComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="a850d1ac-572d-4c55-b6d0-0e1f3ee9b4d5">
+            <typeId>e2861cdd-025b-4769-b568-d6ec52c44855</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>9c1eca20-18b9-4803-989e-02440b9ec6c0</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="da22e624-9415-4315-8e8c-0e3e25570831" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>pets/:id/edit</name>
+          <display>pets/:id/edit: PetEditComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="64dca845-b8e8-4cf9-9ace-350cd7effefc">
+            <typeId>b21c472a-1e6a-497c-8f67-4275f3e43594</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>9c1eca20-18b9-4803-989e-02440b9ec6c0</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="52e3875e-e97a-4473-916c-8d6409a56e5f" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>pets/:id/visits/add</name>
+          <display>pets/:id/visits/add: VisitAddComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>3</order>
+          <genericTypes />
+          <typeReference id="6bfdfd92-df44-415f-9769-39d7e97d2dbf">
+            <typeId>6fc8db73-771a-4c7b-b656-06393f984173</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>9c1eca20-18b9-4803-989e-02440b9ec6c0</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
     </childElement>
   </childElements>
 </class>

@@ -12,6 +12,9 @@ import { OwnersModule } from './owners/owners.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PetTypesModule } from './pet-types/pet-types.module';
+import { ApiAccessModule } from './api-access/api-access.module';
+import { VisitsModule } from './visits/visits.module';
+import { PetsModule } from './pets/pets.module';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
   
 
@@ -28,6 +31,9 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     CollapseModule.forRoot(),
     CoreModule,
     PetTypesModule,
+    ApiAccessModule,
+    VisitsModule,
+    PetsModule,
     OwnersModule,
     PartsModule,
     BsDropdownModule.forRoot(),

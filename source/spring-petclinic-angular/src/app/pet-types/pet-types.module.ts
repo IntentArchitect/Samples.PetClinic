@@ -3,10 +3,10 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { PettypeAddComponent } from './pettype-add/pettype-add.component';
 import { PettypeEditComponent } from './pettype-edit/pettype-edit.component';
 import { PettypeListComponent } from './pettype-list/pettype-list.component';
-import { PetTypesService } from './pet-types-service.service';
 import { IntentIgnore, IntentMerge } from './../intent/intent.decorators';
 import { PetTypesRoutingModule } from './pet-types-routing.module';
 import { CommonModule } from '@angular/common';
+import { ApiAccessModule } from '../api-access/api-access.module';
   
 
 @IntentMerge()
@@ -17,10 +17,10 @@ import { CommonModule } from '@angular/common';
     PettypeListComponent
   ],
   providers: [
-    PetTypesService
   ],
   imports: [
     CommonModule,
+    ApiAccessModule,
     ReactiveFormsModule,
     FormsModule,
     PetTypesRoutingModule

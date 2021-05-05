@@ -19,11 +19,6 @@
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/PetToOwnerPetDTOMapping.java</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>PetToOwnerPetDTOMapping.java</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/PetToPetDTOMapping.java</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>PetToPetDTOMapping.java</ProjectRelativeFilePath>
     </FileLog>
@@ -46,11 +41,6 @@
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/OwnerDTO.java</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>OwnerDTO.java</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/OwnerPetDTO.java</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>OwnerPetDTO.java</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
@@ -83,6 +73,16 @@
       <ProjectRelativeFilePath>PetVisitDTO.java</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
+      <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VisitCreateDTO.java</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>VisitCreateDTO.java</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VisitUpdateDTO.java</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>VisitUpdateDTO.java</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/OwnerRestController.java</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRestController.java</ProjectRelativeFilePath>
@@ -96,6 +96,11 @@
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/PetTypeRestController.java</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRestController.java</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/VisitRestController.java</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>VisitRestController.java</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
@@ -113,6 +118,11 @@
       <ProjectRelativeFilePath>PetTypeRestServiceImpl.java</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
+      <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/VisitRestServiceImpl.java</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>VisitRestServiceImpl.java</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/OwnerRestService.java</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRestService.java</ProjectRelativeFilePath>
@@ -126,6 +136,11 @@
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/PetTypeRestService.java</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRestService.java</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/VisitRestService.java</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>VisitRestService.java</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>

@@ -1,0 +1,37 @@
+<div intent-manage="add remove" intent-id="container">
+  <div intent-ignore="">
+    <h4>Pets & Visits</h4>
+  </div>
+
+  <div class="row" intent-id="table">
+    <div class="col">
+      <table>
+        <tr>
+          <td valign="top">
+            <dl class="dl-horizontal">
+              <dt>Name</dt>
+              <dd>{{ pet.name }}</dd>
+              <dt>Birth Date</dt>
+              <dd>{{ pet.birthDate }}</dd>
+              <dt>Type</dt>
+              <dd *ngIf="!deleteSuccess">{{ pet.petTypeName }}</dd>
+              <span intent-manage="" intent-id="022e3f5d-a56d-4007-ad64-0feed594e74a">
+                <button class="btn btn-default" (click)="goToEdit(pet.id)">Edit Pet</button>
+              </span>
+              <span intent-manage="" intent-id="bc8c27d5-2c9c-4a94-900b-d72f688b8b78">
+                <button class="btn btn-default" (click)="deletePet()">Delete Pet</button>
+              </span>
+              <span intent-manage="" intent-id="774a0463-ab20-46e4-b2b1-424051b2aad9">
+                <button class="btn btn-default" (click)="goToAddVisit(pet.id)">Add Visits</button>
+              </span>
+            </dl>
+          </td>
+          <td valign="top">
+             <app-visit-list [visits]="pet.visits"></app-visit-list> 
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</div>

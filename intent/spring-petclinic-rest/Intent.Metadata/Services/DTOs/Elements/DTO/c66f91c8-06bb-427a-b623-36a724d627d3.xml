@@ -3,7 +3,7 @@
   <name>PetDTO</name>
   <display>PetDTO</display>
   <isAbstract>false</isAbstract>
-  <order>6</order>
+  <order>5</order>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -100,11 +100,41 @@
       <stereotypes />
       <childElements />
     </childElement>
-    <childElement id="2b842d44-8fc0-4076-962c-c72d1102a585" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
-      <name>petType</name>
-      <display>petType: string</display>
+    <childElement id="bf6b95f8-c8a1-434c-a0ec-30061aca5e8c" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>petTypeId</name>
+      <display>petTypeId: int</display>
       <isAbstract>false</isAbstract>
       <order>3</order>
+      <genericTypes />
+      <typeReference id="ff7a9830-8b96-4457-8a0b-08e2946d2079">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="00e8fac6-eb44-4422-9289-b11e63a995c6" name="PetType" type="association" specialization="Association" />
+          <target name="id" type="n/a" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="2b842d44-8fc0-4076-962c-c72d1102a585" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>petTypeName</name>
+      <display>petTypeName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
       <genericTypes />
       <typeReference id="7a7397a3-d1fc-450b-8535-795cc7e74c26">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -130,11 +160,101 @@
       <stereotypes />
       <childElements />
     </childElement>
+    <childElement id="88d117ad-9804-4177-afa8-ca8c7cf27426" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>ownerId</name>
+      <display>ownerId: int</display>
+      <isAbstract>false</isAbstract>
+      <order>5</order>
+      <genericTypes />
+      <typeReference id="2d6a1315-9892-4e09-a563-43a81242b3e0">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target name="id" type="n/a" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="1266727f-4656-4c5f-96a7-2eab4c119448" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>ownerFirstName</name>
+      <display>ownerFirstName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>6</order>
+      <genericTypes />
+      <typeReference id="790c6bfb-cbad-4948-b426-3a8fee7af9dc">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target id="d2b20e32-5d42-497b-9062-d91742783e22" name="firstName" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="b1ed1421-a860-4644-9044-60b2b2173ce7" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>ownerLastName</name>
+      <display>ownerLastName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>7</order>
+      <genericTypes />
+      <typeReference id="911d9507-57e2-4f08-a28e-2c2a0f01a0a8">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target id="a5f68250-2a8d-4826-a591-27ad720a561b" name="lastName" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
     <childElement id="cbc4b7af-ea63-4efb-bb6c-592c95b2ceea" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>Visits</name>
       <display>Visits: PetVisitDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <order>8</order>
       <genericTypes />
       <typeReference id="3493d085-4e41-40fd-a199-b4beb23ac697">
         <typeId>bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</typeId>

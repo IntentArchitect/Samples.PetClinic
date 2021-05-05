@@ -23,8 +23,12 @@ public class Pet extends AbstractEntity {
     @JoinColumn(name="pet_type_id", nullable = false)
     private PetType petType;
 
-    @OneToMany(orphanRemoval = true)
+    @OneToMany(mappedBy="pet", orphanRemoval = true)
     private List<Visit> visits;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name="owner_id", nullable = false)
+    private Owner owner;
 
     public String getName() {
         return this.name;
@@ -56,5 +60,13 @@ public class Pet extends AbstractEntity {
 
     public void setVisits(List<Visit> visits) {
         this.visits = visits;
+    }
+
+    public Owner getOwner() {
+        return this.owner;
+    }
+
+    public void setOwner(Owner owner) {
+        this.owner = owner;
     }
 }

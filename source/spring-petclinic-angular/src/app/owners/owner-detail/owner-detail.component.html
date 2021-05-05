@@ -30,11 +30,12 @@
         <button class="btn btn-default" (click)="goBackToList()">< Back</button>
       </span>
       <span intent-manage="" intent-id="04f218f9-62ff-44a3-b4e9-df7c95c66feb">
-        <button class="btn btn-default" (click)="goToEdit()">Edit Owner</button>
+        <button class="btn btn-default" (click)="goToEdit(ownerId)">Edit Owner</button>
       </span>
       <span intent-manage="" intent-id="fa4e390d-630e-4a30-ba70-a584b663db2c">
-        <button class="btn btn-default">Add New Pet</button>
+        <button class="btn btn-default" (click)="goToAddPet(ownerId)">Add New Pet</button>
       </span>
     </div>
   </div>
+  <app-pet-list *ngFor="let pet of owner.pets" [pet]="pet"></app-pet-list>
 </div>

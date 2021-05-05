@@ -3,14 +3,16 @@
   <name>OwnersModule</name>
   <display>OwnersModule</display>
   <isAbstract>false</isAbstract>
-  <order>2</order>
+  <order>3</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
-  <diagram />
+  <diagram>
+    <targetPackageId>b39c9aef-acdd-4e04-b067-6426490921e8</targetPackageId>
+  </diagram>
   <childElements>
     <childElement id="2aa01990-779e-4188-8982-2c6168b33a1c" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
       <name>[routing]</name>
@@ -113,12 +115,80 @@
             <stereotypes />
             <genericTypeParameters />
           </typeReference>
-          <isMapped>false</isMapped>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="b21c472a-1e6a-497c-8f67-4275f3e43594" name="PetEditComponent" type="element" specialization="Component" />
+            </mappedPath>
+          </mappedClass>
           <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
           <childElements />
+        </childElement>
+        <childElement id="c67616fa-1288-4e75-b949-bd6992247f6a" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>owners/:id/pets/add</name>
+          <display>owners/:id/pets/add: PetAddComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>4</order>
+          <genericTypes />
+          <typeReference id="d9a4251f-1799-412f-8e27-dbba7e862b0e">
+            <typeId>e2861cdd-025b-4769-b568-d6ec52c44855</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="e2861cdd-025b-4769-b568-d6ec52c44855" name="PetAddComponent" type="element" specialization="Component" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="93a2073c-ce2f-4f7f-a47e-b23eb294725f" type="Route Parameter" typeId="2e770bf6-0f58-4806-8fdc-1477360b74e9">
+              <name>id</name>
+              <display>id: int</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <typeReference id="8fb5f4db-d7ef-4684-a681-ce48729222a8">
+                <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Intent.Common.Types</typePackageName>
+                <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="2e648d0e-6bfe-456c-9637-dd8502410b5d" name="ownerId" type="element" specialization="Component Input" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>c67616fa-1288-4e75-b949-bd6992247f6a</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
         </childElement>
       </childElements>
     </childElement>

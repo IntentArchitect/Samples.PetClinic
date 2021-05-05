@@ -5,7 +5,7 @@
     <display>Owner: Owner</display>
     <typeReference id="db49ef2f-b73f-49e4-9bf6-8ea9bd7039a7">
       <typeId>c5d02993-df1d-4c79-a5e1-d7c0b474aec1</typeId>
-      <isNavigable>false</isNavigable>
+      <isNavigable>true</isNavigable>
       <isNullable>false</isNullable>
       <isCollection>false</isCollection>
       <isRequired>true</isRequired>

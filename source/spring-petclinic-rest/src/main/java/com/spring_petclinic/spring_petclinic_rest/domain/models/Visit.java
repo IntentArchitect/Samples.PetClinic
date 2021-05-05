@@ -18,6 +18,10 @@ public class Visit extends AbstractEntity {
     @Column(name = "description", nullable = false)
     private String description;
 
+    @ManyToOne(optional = false)
+    @JoinColumn(name="pet_id", nullable = false)
+    private Pet pet;
+
     public java.time.LocalDate getVisitDate() {
         return this.visitDate;
     }
@@ -32,5 +36,13 @@ public class Visit extends AbstractEntity {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Pet getPet() {
+        return this.pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
     }
 }

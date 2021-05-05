@@ -1,0 +1,26 @@
+<div class="container-fluid" intent-manage="add remove" intent-id="container">
+  <form [formGroup]="model" intent-manage="" intent-id="form">
+    <div class="form-group" intent-id="b51b0dea-1646-4c2d-ab39-a68ece8d222a">
+      <label for="name">Name</label>
+      <input id="name" class="form-control" formControlName="name" type="text" />
+    </div>
+    <div class="form-group" intent-id="2d8f6686-1752-45e6-8ae2-81db460b6702">
+      <label for="birthDate">Date of Birth</label>
+      <input id="birthDate" class="form-control" formControlName="birthDate" type="text" bsDatepicker="" />
+    </div>
+    <div class="form-group" intent-id="2abd7a74-69f1-43ab-b6e6-b2a606fd17d5">
+      <label for="petTypeId">petTypeId</label>
+      <ngx-select id="petTypeId" [items]="petTypes" formControlName="petTypeId" optionValueField="id" optionTextField="name"></ngx-select>
+    </div>
+  </form>
+  <div class="row" intent-id="Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="ed7f4229-f4df-4cff-9bd8-e718c19245ed">
+        <button class="btn btn-default" (click)="goToOwnerDetails(ownerId)">Back</button>
+      </span>
+      <span intent-manage="" intent-id="14e582d7-aee7-4692-a083-cf38b198fa0c">
+        <button class="btn btn-default" (click)="save()">Save</button>
+      </span>
+    </div>
+  </div>
+</div>

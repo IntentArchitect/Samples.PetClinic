@@ -22,11 +22,35 @@
     </stereotype>
   </stereotypes>
   <childElements>
+    <childElement id="16ae599f-65b5-4fa7-adb6-bd5728f98e59" type="Component Input" typeId="807bc2cd-cdba-482d-a47e-d2aa546200fc">
+      <name>ownerId</name>
+      <display>in : ownerId: int</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="567f3e50-5724-47c0-b239-9a6947cb8c9c">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>8a3ab41f-c9b7-44ef-a123-25c246ec6a15</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
     <childElement id="b7a29c71-98c3-49f7-9b4a-4d034facc86e" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
       <name>owner</name>
       <display>owner: OwnerForm</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="69bbaed8-15de-42ca-a4f5-e6336d61c23c">
         <typeId>8da25236-fa4f-48dc-b588-21bdf44e02a7</typeId>
@@ -50,7 +74,7 @@
       <name>errorMessage</name>
       <display>errorMessage: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="044bbdb6-b522-4c33-ab36-a6434479cc34">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -74,7 +98,7 @@
       <name>onSubmit</name>
       <display>onSubmit(): void</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>3</order>
       <genericTypes />
       <typeReference id="4a48ddfb-2d92-425f-95af-00f60ccbfd63">
         <isNavigable>true</isNavigable>
@@ -95,7 +119,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>4</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>8a3ab41f-c9b7-44ef-a123-25c246ec6a15</parentFolderId>

@@ -9,6 +9,7 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.PetUpdateDT
 import com.spring_petclinic.spring_petclinic_rest.application.services.PetRestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import com.spring_petclinic.spring_petclinic_rest.application.models.PetDTO;
 
 @RestController
 @RequestMapping("/api/pets")
@@ -19,10 +20,10 @@ public class PetRestController {
 
     @GetMapping("/{petId}")
     @ApiOperation(value = "getPet")
-    public ResponseEntity<Void> getPet(@PathVariable(value = "petId") int petId) {
-        petRestService.getPet(petId);
+    public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") int petId) {
+        final PetDTO result = petRestService.getPet(petId);
 
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
     @PostMapping

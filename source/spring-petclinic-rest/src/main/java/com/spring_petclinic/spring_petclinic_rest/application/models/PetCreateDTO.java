@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class PetCreateDTO {
+    private int ownerId;
     private String name;
     private java.time.LocalDate birthDate;
     private int petTypeId;

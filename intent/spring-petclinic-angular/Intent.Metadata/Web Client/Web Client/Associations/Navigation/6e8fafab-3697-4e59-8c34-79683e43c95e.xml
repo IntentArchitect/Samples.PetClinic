@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<association id="538008b3-20f3-42ef-a962-8a45120f12b0">
-  <sourceEnd id="87521606-12d0-46c6-8dc7-bc835d3e347e">
-    <name>PettypeListComponent</name>
-    <display>PettypeListComponent: PettypeListComponent</display>
-    <typeReference id="647b70b8-372c-4e88-97b9-a8e0594e8685">
-      <typeId>3aee390d-3fe5-4663-8556-7b3dcaacc7d8</typeId>
+<association id="6e8fafab-3697-4e59-8c34-79683e43c95e">
+  <sourceEnd id="2b53a4c6-2a96-4e36-bc07-524ee1a1edf9">
+    <name>VisitAddComponent</name>
+    <display>VisitAddComponent: VisitAddComponent</display>
+    <typeReference id="5b134b8b-34f0-4898-a702-ac23903723ca">
+      <typeId>6fc8db73-771a-4c7b-b656-06393f984173</typeId>
       <isNavigable>false</isNavigable>
       <isNullable>false</isNullable>
       <isCollection>false</isCollection>
@@ -16,11 +16,11 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="538008b3-20f3-42ef-a962-8a45120f12b0">
-    <name>goToHome</name>
-    <display>goToHome: AppComponent</display>
-    <typeReference id="eac66869-1b08-4770-92cb-ed54d023a2fd">
-      <typeId>db6be016-d0ee-437f-9f35-60837514fff1</typeId>
+  <targetEnd id="6e8fafab-3697-4e59-8c34-79683e43c95e">
+    <name>goToOwnerDetails</name>
+    <display>goToOwnerDetails: OwnerDetailComponent</display>
+    <typeReference id="47d2d5e1-6475-401f-9f25-f29a0a305221">
+      <typeId>c3549af2-c500-48a1-ac11-4be486cbc0de</typeId>
       <isNavigable>true</isNavigable>
       <isNullable>false</isNullable>
       <isCollection>false</isCollection>

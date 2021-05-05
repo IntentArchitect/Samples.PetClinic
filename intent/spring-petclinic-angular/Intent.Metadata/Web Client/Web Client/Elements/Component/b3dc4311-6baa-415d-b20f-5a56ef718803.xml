@@ -22,17 +22,17 @@
     </stereotype>
   </stereotypes>
   <childElements>
-    <childElement id="0897bc8f-f828-4ca5-b32f-0a43144a4699" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
-      <name>pets</name>
-      <display>pets: PetDTO[*]</display>
+    <childElement id="277851b7-4d59-45b7-a907-73d13a95a5b7" type="Component Input" typeId="807bc2cd-cdba-482d-a47e-d2aa546200fc">
+      <name>pet</name>
+      <display>in : pet: PetDTO</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
-      <typeReference id="45409c24-de58-4d77-a692-30dcbd9ec9ba">
+      <typeReference id="216103f3-7bbc-46ca-956f-c0541597c62f">
         <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
-        <isCollection>true</isCollection>
+        <isCollection>false</isCollection>
         <isRequired>true</isRequired>
         <typePackageName>DTOs</typePackageName>
         <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
@@ -71,8 +71,8 @@
       <childElements />
     </childElement>
     <childElement id="3fea1ed9-db7f-4989-bbfa-fc5d418adbe8" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
-      <name>deletePetType</name>
-      <display>deletePetType(petTypeId: int): void</display>
+      <name>deletePet</name>
+      <display>deletePet(): void</display>
       <isAbstract>false</isAbstract>
       <order>2</order>
       <genericTypes />
@@ -89,32 +89,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
-      <childElements>
-        <childElement id="6600bfea-e233-4b07-8b28-09e7e2b02dd5" type="Command Parameter" typeId="4a1ce2a9-e79f-4e93-96af-24b44728ecbc">
-          <name>petTypeId</name>
-          <display>petTypeId: int</display>
-          <isAbstract>false</isAbstract>
-          <order>1</order>
-          <genericTypes />
-          <typeReference id="fdac3363-2256-4b46-8b4b-2f663aaaea23">
-            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
-          <parentFolderId>3fea1ed9-db7f-4989-bbfa-fc5d418adbe8</parentFolderId>
-          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
-          <packageName>Web Client</packageName>
-          <stereotypes />
-          <childElements />
-        </childElement>
-      </childElements>
+      <childElements />
     </childElement>
     <childElement id="fa4d8b63-3b66-4095-abf1-6c5a81e6e53f" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
       <name>[view]</name>
@@ -128,9 +103,9 @@
       <packageName>Web Client</packageName>
       <stereotypes />
       <childElements>
-        <childElement id="3400938f-2259-42ce-a97a-0ce9afa9e37f" type="Section" typeId="45072fbf-b34a-4625-b7ea-d5b1962a5b60">
-          <name>Section</name>
-          <display>Section</display>
+        <childElement id="d04b10d7-34f9-4184-87c4-41807021297c" type="Table Control" typeId="e302d9ca-268e-4a98-ad8d-4434aefb9903">
+          <name>Table</name>
+          <display>Table</display>
           <isAbstract>false</isAbstract>
           <order>0</order>
           <genericTypes />
@@ -138,68 +113,72 @@
           <parentFolderId>fa4d8b63-3b66-4095-abf1-6c5a81e6e53f</parentFolderId>
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
-          <stereotypes />
-          <childElements>
-            <childElement id="877a63a6-a604-4151-89ca-981379c3ba97" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
-              <name>Home</name>
-              <display>Home</display>
-              <isAbstract>false</isAbstract>
-              <order>0</order>
-              <genericTypes />
-              <isMapped>true</isMapped>
-              <mappedClass>
-                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
-                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
-                <mappedPath>
-                  <target id="538008b3-20f3-42ef-a962-8a45120f12b0" name="goToHome" type="association" specialization="NavigationTargetEnd" />
-                </mappedPath>
-              </mappedClass>
-              <parentFolderId>3400938f-2259-42ce-a97a-0ce9afa9e37f</parentFolderId>
-              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
-              <packageName>Web Client</packageName>
-              <stereotypes />
-              <childElements />
-            </childElement>
-            <childElement id="f9971131-feac-493e-937f-969c8300ef8c" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
-              <name>Add</name>
-              <display>Add</display>
-              <isAbstract>false</isAbstract>
-              <order>1</order>
-              <genericTypes />
-              <isMapped>true</isMapped>
-              <mappedClass>
-                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
-                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
-                <mappedPath>
-                  <target id="33b8bee0-29ef-48df-a137-9f17803747e3" name="toggleShowAdd" type="element" specialization="Component Command" />
-                </mappedPath>
-              </mappedClass>
-              <parentFolderId>3400938f-2259-42ce-a97a-0ce9afa9e37f</parentFolderId>
-              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
-              <packageName>Web Client</packageName>
-              <stereotypes />
-              <childElements />
-            </childElement>
-          </childElements>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="df59cc7e-978d-42e3-921f-3f43d120834e" name="Table Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+              <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+              <properties>
+                <property name="b5ae6643-a53d-4aac-bd8a-4e212638cb0d" display="On Select Row" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements />
         </childElement>
-        <childElement id="fa41833e-f2f4-443d-820e-25a9c70df457" type="Display Component" typeId="866a90f7-4044-43b9-bb05-7270c7889796">
-          <name>[display]</name>
-          <display>[display]: PettypeAddComponent</display>
+        <childElement id="022e3f5d-a56d-4007-ad64-0feed594e74a" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+          <name>Edit Pet</name>
+          <display>Edit Pet</display>
           <isAbstract>false</isAbstract>
           <order>1</order>
           <genericTypes />
-          <typeReference id="026d9216-2de8-40f5-96b9-22b9f4c92408">
-            <typeId>47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Web Client</typePackageName>
-            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>false</isMapped>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="8f538cf2-bca9-4e00-bc00-51237a96d528" name="goToEdit" type="association" specialization="NavigationTargetEnd" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>fa4d8b63-3b66-4095-abf1-6c5a81e6e53f</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="bc8c27d5-2c9c-4a94-900b-d72f688b8b78" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+          <name>Delete Pet</name>
+          <display>Delete Pet</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="3fea1ed9-db7f-4989-bbfa-fc5d418adbe8" name="deletePet" type="element" specialization="Component Command" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>fa4d8b63-3b66-4095-abf1-6c5a81e6e53f</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="774a0463-ab20-46e4-b2b1-424051b2aad9" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+          <name>Add Visits</name>
+          <display>Add Visits</display>
+          <isAbstract>false</isAbstract>
+          <order>3</order>
+          <genericTypes />
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="222daa8c-ef01-452d-867e-8ad1729499b2" name="goToAddVisit" type="association" specialization="NavigationTargetEnd" />
+            </mappedPath>
+          </mappedClass>
           <parentFolderId>fa4d8b63-3b66-4095-abf1-6c5a81e6e53f</parentFolderId>
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>

@@ -1,0 +1,30 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <div class="form-group">
+    <label for="name">Owner</label>
+    <input [ngModel]="ownerName" class="form-control" disabled="" />
+  </div>
+  <form [formGroup]="pet" intent-manage="" intent-id="form">
+    <div class="form-group" intent-id="28822fbe-99b6-4682-98dd-3e15deb32e36">
+      <label for="name">Name</label>
+      <input id="name" class="form-control" formControlName="name" type="text" />
+    </div>
+    <div class="form-group" intent-id="f332b0d2-979d-4d1b-b071-61880a26750c">
+      <label for="birthDate">Date of Birth</label>
+      <input id="birthDate" class="form-control" formControlName="birthDate" type="text" bsDatepicker="" />
+    </div>
+    <div class="form-group" intent-id="ab98ff92-ea5b-45a8-8dc2-9e006c09c988">
+      <label for="petTypeId">Pet Type</label>
+      <ngx-select id="petTypeId" [items]="petTypes" formControlName="petTypeId" optionValueField="id" optionTextField="name"></ngx-select>
+    </div>
+    <div class="row" intent-id="Section">
+      <div class="col" intent-manage="">
+        <span intent-ignore="" intent-id="85a9b122-8b33-4808-afd1-9bd217f3afc5">
+          <button type="submit" class="btn btn-default" (click)="onUpdate()" (submit)="onUpdate()">Update</button>
+        </span>
+        <span intent-manage="" intent-id="d1aa04c1-5209-476e-b3b9-84c807783b57">
+          <button class="btn btn-default" (click)="goToOwnerDetails(ownerId)">Cancel</button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div>

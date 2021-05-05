@@ -4,6 +4,86 @@
   <FileLogs>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/api-access.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/api-access.module.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/api-access-routing.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/api-access-routing.module.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/owner.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/owner.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/owner-create.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/owner-create.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/owner-update.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/owner-update.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/pet.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/pet.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/pet-create.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/pet-create.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/pet-type.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/pet-type.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/pet-update.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/pet-update.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/pet-visit.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/pet-visit.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/visit-create.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/visit-create.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/models/visit-update.dto.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/visit-update.dto.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/owners-service.service.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/owners-service.service.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/pets-service.service.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/pets-service.service.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/pet-types-service.service.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/pet-types-service.service.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/api-access/visits-service.service.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/visits-service.service.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/app.component.css</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>app/app.component.css</ProjectRelativeFilePath>
     </FileLog>
@@ -44,28 +124,8 @@
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/owners/models/owner.dto.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/owners/models/owner.dto.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/owners/models/owner-create.dto.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/owners/models/owner-create.dto.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/owners/models/owner-form.model.ts</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/models/owner-form.model.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/owners/models/owner-pet.dto.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/owners/models/owner-pet.dto.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/owners/models/owner-update.dto.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/owners/models/owner-update.dto.ts</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
@@ -139,11 +199,6 @@
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/owners/owners-service.service.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/owners/owners-service.service.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/parts/page-not-found/page-not-found.component.css</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/page-not-found/page-not-found.component.css</ProjectRelativeFilePath>
     </FileLog>
@@ -179,8 +234,68 @@
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pet-types/models/pet-type.dto.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/models/pet-type.dto.ts</ProjectRelativeFilePath>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/models/pet.model.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/models/pet.model.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/models/pet-visit.model.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/models/pet-visit.model.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-add/pet-add.component.css</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.css</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-add/pet-add.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-add/pet-add.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-edit/pet-edit.component.css</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.css</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-edit/pet-edit.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-edit/pet-edit.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-list/pet-list.component.css</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.css</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-list/pet-list.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pet-list/pet-list.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pets.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pets.module.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pets/pets-routing.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pets-routing.module.ts</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
@@ -243,11 +358,6 @@
       <ProjectRelativeFilePath>app/pet-types/pet-types-routing.module.ts</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/pet-types/pet-types-service.service.ts</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pet-types-service.service.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
       <ProjectId>30532ba5-94d9-43e2-b9c4-a760877f24fc</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/shared/footer/footer.component.css</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>footer.component.css</ProjectRelativeFilePath>
@@ -276,6 +386,66 @@
       <ProjectId>598b79be-71a0-45e3-872d-95354e552dcd</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/shared/header/header.component.ts</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>header.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/models/visit-form.model.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/models/visit-form.model.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-add/visit-add.component.css</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-add/visit-add.component.css</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-add/visit-add.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-add/visit-add.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-add/visit-add.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-add/visit-add.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-edit/visit-edit.component.css</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-edit/visit-edit.component.css</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-edit/visit-edit.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-edit/visit-edit.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-edit/visit-edit.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-edit/visit-edit.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-list/visit-list.component.css</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-list/visit-list.component.css</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-list/visit-list.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-list/visit-list.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visit-list/visit-list.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visit-list/visit-list.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visits.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visits.module.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/visits-routing.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visits-routing.module.ts</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>894065d4-989d-497f-b21f-4f1b2599ba1a</ProjectId>

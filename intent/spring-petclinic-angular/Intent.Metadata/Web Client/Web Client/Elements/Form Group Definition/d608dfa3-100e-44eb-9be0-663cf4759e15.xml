@@ -105,11 +105,40 @@
       <stereotypes />
       <childElements />
     </childElement>
-    <childElement id="a28bdfa2-8834-469d-9758-414ae30b1e53" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
-      <name>petType</name>
-      <display>petType: string</display>
+    <childElement id="b338c6e6-f2e9-4067-b958-1a73f749ea97" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>petTypeId</name>
+      <display>petTypeId: int</display>
       <isAbstract>false</isAbstract>
       <order>3</order>
+      <genericTypes />
+      <typeReference id="9c310dfb-91aa-4b8e-8824-f7b276cd6fd2">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="bf6b95f8-c8a1-434c-a0ec-30061aca5e8c" name="petTypeId" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>d608dfa3-100e-44eb-9be0-663cf4759e15</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="a28bdfa2-8834-469d-9758-414ae30b1e53" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>petTypeName</name>
+      <display>petTypeName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
       <genericTypes />
       <typeReference id="006f30eb-3ffc-4418-973d-ba91ebc23610">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -125,34 +154,7 @@
       <isMapped>true</isMapped>
       <mappedClass>
         <mappedPath>
-          <target id="2b842d44-8fc0-4076-962c-c72d1102a585" name="petType" type="element" specialization="DTO-Field" />
-        </mappedPath>
-      </mappedClass>
-      <parentFolderId>d608dfa3-100e-44eb-9be0-663cf4759e15</parentFolderId>
-      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
-      <packageName>Web Client</packageName>
-      <stereotypes />
-      <childElements />
-    </childElement>
-    <childElement id="9fc25f7d-b5cb-451c-95be-fc21ac0b25ff" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
-      <name>Visits</name>
-      <display>Visits: &lt;not found&gt;[*]</display>
-      <isAbstract>false</isAbstract>
-      <order>4</order>
-      <genericTypes />
-      <typeReference id="478380dc-d466-45b5-a794-faca20d32b3f">
-        <typeId>bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</typeId>
-        <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
-        <isCollection>true</isCollection>
-        <isRequired>true</isRequired>
-        <stereotypes />
-        <genericTypeParameters />
-      </typeReference>
-      <isMapped>true</isMapped>
-      <mappedClass>
-        <mappedPath>
-          <target id="cbc4b7af-ea63-4efb-bb6c-592c95b2ceea" name="Visits" type="element" specialization="DTO-Field" />
+          <target id="2b842d44-8fc0-4076-962c-c72d1102a585" name="petTypeName" type="element" specialization="DTO-Field" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>d608dfa3-100e-44eb-9be0-663cf4759e15</parentFolderId>

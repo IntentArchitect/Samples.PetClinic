@@ -1,7 +1,7 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { PetTypeModel } from './../models/pet-type.model';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
-import { PetTypesService } from '../pet-types-service.service';
+import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 
 @Component({
   selector: 'app-pettype-add',
@@ -9,7 +9,6 @@ import { PetTypesService } from '../pet-types-service.service';
   styleUrls: ['./pettype-add.component.css']
 })
 export class PettypeAddComponent implements OnInit {
-
   model: PetTypeModel;
 
   @IntentIgnore()

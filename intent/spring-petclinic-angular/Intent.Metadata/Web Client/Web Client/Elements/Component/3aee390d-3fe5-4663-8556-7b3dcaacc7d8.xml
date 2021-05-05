@@ -257,7 +257,7 @@
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
                 <mappedPath>
-                  <target id="538008b3-20f3-42ef-a962-8a45120f12b0" name="goToHome" type="association" specialization="NavigationTargetEnd" />
+                  <target id="d509e9cb-37b2-433a-a4ca-fb7e795d7d4f" name="goToHome" type="association" specialization="NavigationTargetEnd" />
                 </mappedPath>
               </mappedClass>
               <parentFolderId>04f3e8e7-3d25-42b1-9c6f-fed5f4c83101</parentFolderId>

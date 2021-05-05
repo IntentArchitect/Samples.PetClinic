@@ -1,4 +1,4 @@
-import { OwnerPetDTO } from './owner-pet.dto';
+import { PetDTO } from './pet.dto';
 export interface OwnerDTO {
     id: number;
     firstName: string;
@@ -6,5 +6,5 @@ export interface OwnerDTO {
     address: string;
     city: string;
     telephone: string;
-    pets: OwnerPetDTO[];
+    pets: PetDTO[];
 }
