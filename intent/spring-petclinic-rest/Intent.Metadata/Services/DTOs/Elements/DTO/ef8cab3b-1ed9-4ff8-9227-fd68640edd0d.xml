@@ -3,7 +3,7 @@
   <name>VisitUpdateDTO</name>
   <display>VisitUpdateDTO</display>
   <isAbstract>false</isAbstract>
-  <order>10</order>
+  <order>14</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8db19758-866d-42e1-aaf7-ee070b6b34ef" type="Service Proxy" typeId="07d8d1a9-6b9f-4676-b7d3-8db06299e35c">
+  <name>VetsService</name>
+  <display>VetsService</display>
+  <isAbstract>false</isAbstract>
+  <order>5</order>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+    <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappedPath>
+      <target id="7ec57d50-0b2a-49a5-b43a-aef9131a99bb" name="VetRestController" type="element" specialization="Service" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>957351a1-f1e9-4f57-af1b-81c1cbdb98ed</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="659d7303-4514-445b-8c40-6f55091f9351" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getAllVets</name>
+      <display>getAllVets(): VetDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="5d225d65-2355-4283-8239-3e981d12e027">
+        <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="bdce24a7-0942-4a9c-8626-bfab1ba3e1f3" name="getAllVets" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>8db19758-866d-42e1-aaf7-ee070b6b34ef</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="a29273d0-96af-46fe-95f5-223fb155670a" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getVet</name>
+      <display>getVet(vetId: int): VetDTO</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="e5580777-f06d-424a-91fb-73968c59475f">
+        <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="6887b087-6e4c-4543-84f8-574b1444113f" name="getVet" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>8db19758-866d-42e1-aaf7-ee070b6b34ef</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="e038d4c3-2a9b-4ffa-8fe9-58bd9bd87cca" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>vetId</name>
+          <display>vetId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="3cf7c4d5-40f9-4a60-a677-e1463cffb831">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="d3672996-b740-471c-8e10-696b48e8f34e" name="vetId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>a29273d0-96af-46fe-95f5-223fb155670a</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="04a21066-cc9f-4e42-abca-2233a9afe285" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>addVet</name>
+      <display>addVet(dto: VetCreateDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="92e952db-cec4-42ce-b515-6b58ebedf0f0">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="b56e90bb-b594-40ab-93c5-2e6147c3ac8b" name="addVet" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>8db19758-866d-42e1-aaf7-ee070b6b34ef</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="30c97283-d005-4ae8-9019-0dcc403b41ef" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>dto</name>
+          <display>dto: VetCreateDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="093a6437-454c-44c0-b120-efde69919730">
+            <typeId>8414e6b8-558e-4eaa-bd29-550989db6176</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="fbad8d46-6f72-48c6-8420-7bb27f34d640" name="dto" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>04a21066-cc9f-4e42-abca-2233a9afe285</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="4c3d0623-8fe9-4d85-b638-02439d7ea827" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>updateVet</name>
+      <display>updateVet(vetId: int, dto: VetUpdateDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <typeReference id="38900c13-9918-408c-8f07-0de5681ac01f">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="c064ad73-0581-4c68-962e-4f22e9801723" name="updateVet" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>8db19758-866d-42e1-aaf7-ee070b6b34ef</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="13389486-fffa-406f-aecd-ce5357d378b5" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>vetId</name>
+          <display>vetId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="27a30320-0769-47f2-a5d5-744ff73125e5">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="287564df-9edd-439f-bbbb-b8e24cb79075" name="vetId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>4c3d0623-8fe9-4d85-b638-02439d7ea827</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="65e1bbfa-d2d8-4563-965c-43232739d647" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>dto</name>
+          <display>dto: VetUpdateDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="2fc77363-f88b-4880-b9ce-69edfde447c6">
+            <typeId>4fbd75ee-114e-4da7-a35c-bf5590888c68</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="67afae7d-ea06-4bae-a758-cb8b15d9a933" name="dto" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>4c3d0623-8fe9-4d85-b638-02439d7ea827</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="030594aa-0017-470a-b42a-1d6b5ce9b28c" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>deleteVet</name>
+      <display>deleteVet(vetId: int): void</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <typeReference id="bede3db5-912c-4bba-81bd-a18a32973640">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="9f3e05cb-7a86-427f-904a-dadbfda10194" name="deleteVet" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>8db19758-866d-42e1-aaf7-ee070b6b34ef</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="e6dd0944-ec26-4581-8b9c-b5af1440dddd" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>vetId</name>
+          <display>vetId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="a1b10e87-9f75-4210-b480-4c65447c827b">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="c2af542c-d33e-4dae-b571-8715696998dc" name="vetId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>030594aa-0017-470a-b42a-1d6b5ce9b28c</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

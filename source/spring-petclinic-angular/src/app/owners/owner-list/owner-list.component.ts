@@ -7,7 +7,7 @@ import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/int
 @Component({
   selector: 'app-owner-list',
   templateUrl: './owner-list.component.html',
-  styleUrls: ['./owner-list.component.css']
+  styleUrls: ['./owner-list.component.scss']
 })
 export class OwnerListComponent implements OnInit {
   owners: OwnerDTO[];

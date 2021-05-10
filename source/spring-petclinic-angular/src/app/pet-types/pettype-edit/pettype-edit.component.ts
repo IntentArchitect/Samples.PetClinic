@@ -7,7 +7,7 @@ import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 @Component({
   selector: 'app-pettype-edit',
   templateUrl: './pettype-edit.component.html',
-  styleUrls: ['./pettype-edit.component.css']
+  styleUrls: ['./pettype-edit.component.scss']
 })
 export class PettypeEditComponent implements OnInit {
   model: PetTypeModel;

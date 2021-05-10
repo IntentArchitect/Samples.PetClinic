@@ -22,7 +22,9 @@ public class PetRestController {
     @ApiOperation(value = "getPet")
     public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") int petId) {
         final PetDTO result = petRestService.getPet(petId);
-
+        if (result == null) {
+            return new ResponseEntity<PetDTO>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 

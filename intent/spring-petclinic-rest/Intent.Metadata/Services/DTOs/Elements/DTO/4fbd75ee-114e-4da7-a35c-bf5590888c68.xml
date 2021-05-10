@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="4fbd75ee-114e-4da7-a35c-bf5590888c68" type="DTO" typeId="fee0edca-4aa0-4f77-a524-6bbd84e78734">
+  <name>VetUpdateDTO</name>
+  <display>VetUpdateDTO</display>
+  <isAbstract>false</isAbstract>
+  <order>12</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>
+  <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+  <packageName>DTOs</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="52f84009-0eb3-450b-a45e-6082e51ff606" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>firstName</name>
+      <display>firstName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="a1f8ec7b-dd23-43aa-bb07-1600aa1640ef">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4fbd75ee-114e-4da7-a35c-bf5590888c68</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="8f1527ae-f3ed-47f6-8571-fd4f6b0e51f1" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>lastName</name>
+      <display>lastName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="c12a5379-8696-4963-87ed-5663d15e8351">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4fbd75ee-114e-4da7-a35c-bf5590888c68</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="da5a3948-8137-4fc2-a033-08f2b151c311" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>specialties</name>
+      <display>specialties: int[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="c985e515-8cf2-4f5d-8d4c-5e5cbcc2e12f">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>4fbd75ee-114e-4da7-a35c-bf5590888c68</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

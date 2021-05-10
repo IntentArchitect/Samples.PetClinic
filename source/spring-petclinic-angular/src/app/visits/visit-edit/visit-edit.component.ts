@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-visit-edit',
   templateUrl: './visit-edit.component.html',
-  styleUrls: ['./visit-edit.component.css']
+  styleUrls: ['./visit-edit.component.scss']
 })
 export class VisitEditComponent implements OnInit {
   visitId: number;

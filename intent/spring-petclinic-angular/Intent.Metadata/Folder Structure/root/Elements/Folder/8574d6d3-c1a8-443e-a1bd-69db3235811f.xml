@@ -8,18 +8,5 @@
   <isMapped>false</isMapped>
   <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
   <stereotypes />
-  <childElements>
-    <childElement id="c1283606-2a34-45d1-a6f1-e6d55c7efec8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Layout.AppComponentHtmlTemplate</name>
-      <display>Intent.Angular.Layout.AppComponentHtmlTemplate</display>
-      <externalReference>Intent.Angular.Layout</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
-      <stereotypes />
-      <childElements />
-    </childElement>
-  </childElements>
+  <childElements />
 </class>

@@ -23,7 +23,9 @@ public class OwnerRestController {
     @ApiOperation(value = "getOwners")
     public ResponseEntity<List<OwnerDTO>> getOwners() {
         final List<OwnerDTO> result = ownerRestService.getOwners();
-
+        if (result.isEmpty()) {
+            return new ResponseEntity<List<OwnerDTO>>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -39,7 +41,9 @@ public class OwnerRestController {
     @ApiOperation(value = "getOwner")
     public ResponseEntity<OwnerDTO> getOwner(@PathVariable(value = "ownerId") int ownerId) {
         final OwnerDTO result = ownerRestService.getOwner(ownerId);
-
+        if (result == null) {
+            return new ResponseEntity<OwnerDTO>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -63,7 +67,9 @@ public class OwnerRestController {
     @ApiOperation(value = "getOwnersList")
     public ResponseEntity<List<OwnerDTO>> getOwnersList(@PathVariable(value = "lastName") String lastName) {
         final List<OwnerDTO> result = ownerRestService.getOwnersList(lastName);
-
+        if (result.isEmpty()) {
+            return new ResponseEntity<List<OwnerDTO>>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 }

@@ -7,7 +7,7 @@ import { OwnersService } from 'src/app/api-access/owners-service.service';
 @Component({
   selector: 'app-owner-detail',
   templateUrl: './owner-detail.component.html',
-  styleUrls: ['./owner-detail.component.css']
+  styleUrls: ['./owner-detail.component.scss']
 })
 export class OwnerDetailComponent implements OnInit {
   ownerId: number;

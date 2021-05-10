@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="f107d3c9-1bb2-4f73-8924-1c093812010b" type="Module" typeId="cac14331-198a-4f9a-bbb9-171eb0bd4efe">
+  <name>SpecialtiesModule</name>
+  <display>SpecialtiesModule</display>
+  <isAbstract>false</isAbstract>
+  <order>7</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <diagram>
+    <targetPackageId>f107d3c9-1bb2-4f73-8924-1c093812010b</targetPackageId>
+  </diagram>
+  <childElements>
+    <childElement id="34c6ac47-5b72-4134-92fd-7a77735c82a5" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
+      <name>[routing]</name>
+      <display>[routing]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>f107d3c9-1bb2-4f73-8924-1c093812010b</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="33770efd-d1a2-4640-ac14-a233d17bc54e" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>specialties</name>
+          <display>specialties: SpecialtyListComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <typeReference id="6639bcb1-dae4-4380-be19-c30e0e862531">
+            <typeId>6ae05437-0a1c-4a83-9957-ab08647dada5</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>34c6ac47-5b72-4134-92fd-7a77735c82a5</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="db297eba-f438-4da3-a0c9-ccd397fe5c7c" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>specialties/:id/edit</name>
+          <display>specialties/:id/edit: SpecialtyEditComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="9df2abc9-fe40-4fe3-844d-0daac3388cd9">
+            <typeId>07fde79c-a58d-4a3f-a18b-3f646e553e11</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>34c6ac47-5b72-4134-92fd-7a77735c82a5</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

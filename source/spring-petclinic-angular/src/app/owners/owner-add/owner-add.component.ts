@@ -7,7 +7,7 @@ import { OwnersService } from 'src/app/api-access/owners-service.service';
 @Component({
   selector: 'app-owner-add',
   templateUrl: './owner-add.component.html',
-  styleUrls: ['./owner-add.component.css']
+  styleUrls: ['./owner-add.component.scss']
 })
 export class OwnerAddComponent implements OnInit {
   owner: OwnerForm;

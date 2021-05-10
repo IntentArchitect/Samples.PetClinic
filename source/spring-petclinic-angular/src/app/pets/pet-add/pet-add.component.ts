@@ -9,7 +9,7 @@ import { PetsService } from 'src/app/api-access/pets-service.service';
 @Component({
   selector: 'app-pet-add',
   templateUrl: './pet-add.component.html',
-  styleUrls: ['./pet-add.component.css']
+  styleUrls: ['./pet-add.component.scss']
 })
 export class PetAddComponent implements OnInit {
   model: PetModel;

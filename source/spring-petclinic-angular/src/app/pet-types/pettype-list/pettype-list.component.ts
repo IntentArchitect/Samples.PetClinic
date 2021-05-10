@@ -8,7 +8,7 @@ import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 @Component({
   selector: 'app-pettype-list',
   templateUrl: './pettype-list.component.html',
-  styleUrls: ['./pettype-list.component.css']
+  styleUrls: ['./pettype-list.component.scss']
 })
 export class PettypeListComponent implements OnInit {
   petTypes: PetTypeDTO[];

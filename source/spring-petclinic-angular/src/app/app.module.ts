@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
-import { FooterComponent } from './shared/footer/footer.component';
-import { HeaderComponent } from './shared/header/header.component';
 import { IntentIgnore, IntentMerge } from './intent/intent.decorators';
 import { CoreModule } from './core/core.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,14 +14,13 @@ import { ApiAccessModule } from './api-access/api-access.module';
 import { VisitsModule } from './visits/visits.module';
 import { PetsModule } from './pets/pets.module';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { SpecialtiesModule } from './specialties/specialties.module';
   
 
 @IntentMerge()
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    HeaderComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -37,6 +34,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     OwnersModule,
     PartsModule,
     BsDropdownModule.forRoot(),
+    SpecialtiesModule,
     AppRoutingModule,
   ],
   bootstrap: [AppComponent]

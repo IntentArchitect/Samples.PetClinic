@@ -21,7 +21,9 @@ public class PetTypeRestController {
     @ApiOperation(value = "getAllPetTypes")
     public ResponseEntity<List<PetTypeDTO>> getAllPetTypes() {
         final List<PetTypeDTO> result = petTypeRestService.getAllPetTypes();
-
+        if (result.isEmpty()) {
+            return new ResponseEntity<List<PetTypeDTO>>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -29,7 +31,9 @@ public class PetTypeRestController {
     @ApiOperation(value = "getPetType")
     public ResponseEntity<PetTypeDTO> getPetType(@PathVariable(value = "petTypeId") int petTypeId) {
         final PetTypeDTO result = petTypeRestService.getPetType(petTypeId);
-
+        if (result == null) {
+            return new ResponseEntity<PetTypeDTO>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -37,7 +41,6 @@ public class PetTypeRestController {
     @ApiOperation(value = "addPetType")
     public ResponseEntity<Integer> addPetType(@RequestBody PetTypeDTO dto) {
         final int result = petTypeRestService.addPetType(dto);
-
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 

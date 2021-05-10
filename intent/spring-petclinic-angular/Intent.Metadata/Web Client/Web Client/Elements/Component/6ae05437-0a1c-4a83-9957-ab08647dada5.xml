@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="6ae05437-0a1c-4a83-9957-ab08647dada5" type="Component" typeId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b">
+  <name>SpecialtyListComponent</name>
+  <display>SpecialtyListComponent</display>
+  <isAbstract>false</isAbstract>
+  <order>3</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f107d3c9-1bb2-4f73-8924-1c093812010b</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ded6918f-81c2-4097-bdbe-48ec0fb84b7b" name="Angular Component Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Angular</definitionPackageName>
+      <definitionPackageId>a3deb341-dd4e-4f7f-99f5-2f198c1c251c</definitionPackageId>
+      <properties>
+        <property name="fb7aa637-1748-45fc-852d-084cf0d6d5de" display="Selector" isActive="true" />
+        <property name="861d6123-3795-4065-a58d-526a04e833ba" display="Inject Services" isActive="true" />
+        <property name="f9710a21-4db0-4fff-a61f-09761a5cc0b8" display="In Own Folder" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <childElements>
+    <childElement id="127c276e-94ce-41e5-be1e-8a99e7161c63" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>specialties</name>
+      <display>specialties: SpecialtyDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="a9ea64a4-a1ce-4885-a0b8-cffc1e9280c2">
+        <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="fc6fe780-ab3a-4f80-a2b8-3e3c08f76d16" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>isAddVisible</name>
+      <display>isAddVisible: bool</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="0c9c64f3-779b-491a-aab0-13e94966ae91">
+        <typeId>e6f92b09-b2c5-4536-8270-a4d9e5bbd930</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="6ec42480-0f7c-4b99-a7f5-06ceb5e7ef72" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>errorMessage</name>
+      <display>errorMessage: string</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="49920d35-fc6b-4ae0-a2c1-570c5902ab1a">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="3d63e09c-6189-4e7d-9b7d-371df7c01615" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
+      <name>toggleShowAdd</name>
+      <display>toggleShowAdd(): void</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <typeReference id="67cb11df-90e3-4eec-bbf3-14479a2b6510">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="a23fe391-81c2-41c2-b219-fef7ad71bbb3" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
+      <name>deleteSpecialty</name>
+      <display>deleteSpecialty(specialtyId: int): void</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <typeReference id="01a64355-b33a-4264-afbf-3b34ee89529f">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="1b7d9ca9-7713-41de-89ec-f93888119b47" type="Command Parameter" typeId="4a1ce2a9-e79f-4e93-96af-24b44728ecbc">
+          <name>specialtyId</name>
+          <display>specialtyId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="c711e353-f9fb-4aff-825a-75bb43769be9">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>a23fe391-81c2-41c2-b219-fef7ad71bbb3</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="23c6cd24-2816-4ff6-af31-a201bed19c98" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+      <name>[view]</name>
+      <display>[view]</display>
+      <isAbstract>false</isAbstract>
+      <order>5</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="282e4c18-1c02-4c92-ac9a-499839e2d462" type="Table Control" typeId="e302d9ca-268e-4a98-ad8d-4434aefb9903">
+          <name>Table</name>
+          <display>Table</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="127c276e-94ce-41e5-be1e-8a99e7161c63" name="specialties" type="element" specialization="Component Model" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>23c6cd24-2816-4ff6-af31-a201bed19c98</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="df59cc7e-978d-42e3-921f-3f43d120834e" name="Table Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+              <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+              <properties>
+                <property name="b5ae6643-a53d-4aac-bd8a-4e212638cb0d" display="On Select Row" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements>
+            <childElement id="38671010-14e7-4aad-a71f-ca5d009ab5dc" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
+              <name>Name</name>
+              <display>Name</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="346cfb7a-a12d-47fb-bec1-6de22a7ceafd" name="name" type="element" specialization="DTO-Field" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>282e4c18-1c02-4c92-ac9a-499839e2d462</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="f2a4a263-75c2-48ac-ba2e-33747094cd16" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
+              <name />
+              <display />
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>282e4c18-1c02-4c92-ac9a-499839e2d462</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="0cd3f141-2e4a-4511-b328-a864d4d12c41" type="Display Component" typeId="866a90f7-4044-43b9-bb05-7270c7889796">
+          <name>[display]</name>
+          <display>[display]: SpecialtyAddComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="821bf6d2-2de7-4f59-aef7-f68e1834fe40">
+            <typeId>64ef14ff-4709-4744-b491-6f1e5d2521f5</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>23c6cd24-2816-4ff6-af31-a201bed19c98</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="2de373ee-130e-4f88-97cf-3d072b0e99dd" type="Section" typeId="45072fbf-b34a-4625-b7ea-d5b1962a5b60">
+          <name>Section</name>
+          <display>Section</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>23c6cd24-2816-4ff6-af31-a201bed19c98</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="c1b0c70a-f365-4493-a6f7-0870603f0dbf" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Home</name>
+              <display>Home</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="9b00f3ec-7561-489c-a725-5ef91d5179c9" name="goToHome" type="association" specialization="NavigationTargetEnd" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>2de373ee-130e-4f88-97cf-3d072b0e99dd</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="4137b6b9-1064-4810-82bc-a05fd4deec1d" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Add</name>
+              <display>Add</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="3d63e09c-6189-4e7d-9b7d-371df7c01615" name="toggleShowAdd" type="element" specialization="Component Command" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>2de373ee-130e-4f88-97cf-3d072b0e99dd</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

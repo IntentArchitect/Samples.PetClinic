@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="9b00f3ec-7561-489c-a725-5ef91d5179c9">
+  <sourceEnd id="1727491e-bd2e-4e63-ae02-b4183d2ad36d">
+    <name>SpecialtyListComponent</name>
+    <display>SpecialtyListComponent: SpecialtyListComponent</display>
+    <typeReference id="fa207458-9a6d-4c44-8cb6-4ef94087259e">
+      <typeId>6ae05437-0a1c-4a83-9957-ab08647dada5</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </sourceEnd>
+  <targetEnd id="9b00f3ec-7561-489c-a725-5ef91d5179c9">
+    <name>goToHome</name>
+    <display>goToHome: WelcomeComponent</display>
+    <typeReference id="27972ee5-1fcd-49bf-b25f-86de6e841261">
+      <typeId>dadaa986-e710-474a-be77-4a8687c56824</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </targetEnd>
+  <associationType>Navigation</associationType>
+  <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>
+  <stereotypes />
+</association>

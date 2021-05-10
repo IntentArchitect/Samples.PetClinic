@@ -6,7 +6,7 @@ import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 @Component({
   selector: 'app-pettype-add',
   templateUrl: './pettype-add.component.html',
-  styleUrls: ['./pettype-add.component.css']
+  styleUrls: ['./pettype-add.component.scss']
 })
 export class PettypeAddComponent implements OnInit {
   model: PetTypeModel;

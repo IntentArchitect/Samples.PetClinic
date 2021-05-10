@@ -141,9 +141,9 @@
           <packageName>Web Client</packageName>
           <stereotypes />
           <childElements>
-            <childElement id="47d2e3d7-0aaa-4972-a1cd-ba1ab2e80901" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
-              <name>Update</name>
-              <display>Update</display>
+            <childElement id="9ca1bb83-56a6-47e9-9d31-ae64653805e5" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Cancel</name>
+              <display>Cancel</display>
               <isAbstract>false</isAbstract>
               <order>0</order>
               <genericTypes />
@@ -152,7 +152,7 @@
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
                 <mappedPath>
-                  <target id="18005114-41e7-46cf-bb72-a896fe99ba3b" name="onUpdate" type="element" specialization="Component Command" />
+                  <target id="2b0bef71-99b8-4485-bb51-8747b20ba015" name="backToList" type="association" specialization="NavigationSourceEnd" />
                 </mappedPath>
               </mappedClass>
               <parentFolderId>437104ac-56cb-4c30-91b1-2ef4bead2698</parentFolderId>
@@ -161,9 +161,9 @@
               <stereotypes />
               <childElements />
             </childElement>
-            <childElement id="9ca1bb83-56a6-47e9-9d31-ae64653805e5" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
-              <name>Cancel</name>
-              <display>Cancel</display>
+            <childElement id="47d2e3d7-0aaa-4972-a1cd-ba1ab2e80901" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Update</name>
+              <display>Update</display>
               <isAbstract>false</isAbstract>
               <order>1</order>
               <genericTypes />
@@ -172,7 +172,7 @@
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
                 <mappedPath>
-                  <target id="2b0bef71-99b8-4485-bb51-8747b20ba015" name="backToList" type="association" specialization="NavigationSourceEnd" />
+                  <target id="18005114-41e7-46cf-bb72-a896fe99ba3b" name="onUpdate" type="element" specialization="Component Command" />
                 </mappedPath>
               </mappedClass>
               <parentFolderId>437104ac-56cb-4c30-91b1-2ef4bead2698</parentFolderId>

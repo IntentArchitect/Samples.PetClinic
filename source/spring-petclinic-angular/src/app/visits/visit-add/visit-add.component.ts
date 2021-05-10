@@ -9,7 +9,7 @@ import { VisitsService } from 'src/app/api-access/visits-service.service';
 @Component({
   selector: 'app-visit-add',
   templateUrl: './visit-add.component.html',
-  styleUrls: ['./visit-add.component.css']
+  styleUrls: ['./visit-add.component.scss']
 })
 export class VisitAddComponent implements OnInit {
   petId: number;

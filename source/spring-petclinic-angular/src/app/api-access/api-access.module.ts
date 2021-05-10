@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { SpecialtiesService } from './specialties-service.service';
+import { VetsService } from './vets-service.service';
 import { VisitsService } from './visits-service.service';
 import { OwnersService } from './owners-service.service';
 import { PetsService } from './pets-service.service';
@@ -11,6 +13,8 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [],
   providers: [
+    SpecialtiesService,
+    VetsService,
     VisitsService,
     OwnersService,
     PetsService,

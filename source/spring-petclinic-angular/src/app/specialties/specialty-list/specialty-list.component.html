@@ -1,0 +1,34 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <div class="row" intent-id="table">
+    <div class="col">
+      <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr intent-manage="" intent-id="table-header">
+            <th>Name</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of specialties" class="clickable" intent-manage="" intent-id="table-data">
+            <td>{{item.name}}</td>
+            <td intent-ignore="">
+              <button class="btn btn-default" (click)="goToEdit(item.id)">Update</button>
+              <button class="btn btn-default" (click)="deleteSpecialty(item.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <app-specialty-add *ngIf="isAddVisible" (newSpecialty)="onNewSpecialty($event)"></app-specialty-add>
+  <div class="row" intent-id="Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="c1b0c70a-f365-4493-a6f7-0870603f0dbf">
+        <button class="btn btn-default" (click)="goToHome()">Home</button>
+      </span>
+      <span intent-ignore="" intent-id="4137b6b9-1064-4810-82bc-a05fd4deec1d">
+        <button class="btn btn-default" (click)="toggleShowAdd()">{{isAddVisible ? 'Cancel' : 'Add'}}</button>
+      </span>
+    </div>
+  </div>
+</div>

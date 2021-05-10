@@ -10,7 +10,9 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
-  <diagram />
+  <diagram>
+    <targetPackageId>957351a1-f1e9-4f57-af1b-81c1cbdb98ed</targetPackageId>
+  </diagram>
   <childElements>
     <childElement id="3e5841f0-44fe-4f60-8e70-0c260920b33f" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
       <name>[routing]</name>

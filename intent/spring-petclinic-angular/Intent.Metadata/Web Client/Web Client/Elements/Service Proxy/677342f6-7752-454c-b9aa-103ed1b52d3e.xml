@@ -3,7 +3,7 @@
   <name>VisitsService</name>
   <display>VisitsService</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <order>6</order>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>

@@ -1,4 +1,4 @@
-<div class="container-fluid" intent-manage="add remove" intent-id="container">
+<div class="container" intent-manage="add remove" intent-id="container">
   <form [formGroup]="model" intent-manage="" intent-id="form">
     <div class="form-group" intent-id="b51b0dea-1646-4c2d-ab39-a68ece8d222a">
       <label for="name">Name</label>
@@ -9,7 +9,7 @@
       <input id="birthDate" class="form-control" formControlName="birthDate" type="text" bsDatepicker="" />
     </div>
     <div class="form-group" intent-id="2abd7a74-69f1-43ab-b6e6-b2a606fd17d5">
-      <label for="petTypeId">petTypeId</label>
+      <label for="petTypeId">Pet Type</label>
       <ngx-select id="petTypeId" [items]="petTypes" formControlName="petTypeId" optionValueField="id" optionTextField="name"></ngx-select>
     </div>
   </form>

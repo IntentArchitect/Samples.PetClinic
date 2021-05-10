@@ -22,7 +22,9 @@ public class VisitRestController {
     @ApiOperation(value = "getVisit")
     public ResponseEntity<PetVisitDTO> getVisit(@PathVariable(value = "visitId") int visitId) {
         final PetVisitDTO result = visitRestService.getVisit(visitId);
-
+        if (result == null) {
+            return new ResponseEntity<PetVisitDTO>(HttpStatus.NOT_FOUND);
+        }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 

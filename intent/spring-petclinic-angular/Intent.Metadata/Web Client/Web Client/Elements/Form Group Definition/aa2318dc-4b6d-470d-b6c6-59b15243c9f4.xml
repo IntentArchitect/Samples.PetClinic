@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="aa2318dc-4b6d-470d-b6c6-59b15243c9f4" type="Form Group Definition" typeId="71142b08-4d10-405b-a5bd-0620d329a992">
+  <name>SpecialtyFormModel</name>
+  <display>SpecialtyFormModel</display>
+  <isAbstract>false</isAbstract>
+  <order>4</order>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+    <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappedPath>
+      <target id="569f8450-0cbb-4f32-a376-018fdd1d7f5c" name="SpecialtyDTO" type="element" specialization="DTO" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>f107d3c9-1bb2-4f73-8924-1c093812010b</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="3f901944-50ef-4e02-872b-e322c7b84b9b" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>id</name>
+      <display>id: int</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="5cae1665-9b28-4818-bd26-552aceb8e0dc">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="53a8fa8d-7957-49a7-b647-621f56fc4288" name="id" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>aa2318dc-4b6d-470d-b6c6-59b15243c9f4</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="b84257df-94e1-4164-bc3c-9e7b669de01e" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>name</name>
+      <display>name: string</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="e809dba4-f8be-4065-849b-4f8eb4e0ec13">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="346cfb7a-a12d-47fb-bec1-6de22a7ceafd" name="name" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>aa2318dc-4b6d-470d-b6c6-59b15243c9f4</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

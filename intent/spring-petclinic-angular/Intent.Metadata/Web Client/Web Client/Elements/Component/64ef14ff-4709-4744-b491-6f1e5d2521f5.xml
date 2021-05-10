@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="64ef14ff-4709-4744-b491-6f1e5d2521f5" type="Component" typeId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b">
+  <name>SpecialtyAddComponent</name>
+  <display>SpecialtyAddComponent</display>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f107d3c9-1bb2-4f73-8924-1c093812010b</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ded6918f-81c2-4097-bdbe-48ec0fb84b7b" name="Angular Component Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Angular</definitionPackageName>
+      <definitionPackageId>a3deb341-dd4e-4f7f-99f5-2f198c1c251c</definitionPackageId>
+      <properties>
+        <property name="fb7aa637-1748-45fc-852d-084cf0d6d5de" display="Selector" isActive="true" />
+        <property name="861d6123-3795-4065-a58d-526a04e833ba" display="Inject Services" isActive="true" />
+        <property name="f9710a21-4db0-4fff-a61f-09761a5cc0b8" display="In Own Folder" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <childElements>
+    <childElement id="03a0d2d2-9711-4eb4-a703-29af049cdd04" type="Component Output" typeId="56a7ef0e-737e-4a62-8237-7541c0d56882">
+      <name>newSpecialty</name>
+      <display>out : newSpecialty: SpecialtyDTO</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="cf265815-6f00-4cc3-9178-2ad3d049b4da">
+        <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>64ef14ff-4709-4744-b491-6f1e5d2521f5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="52ad1e8f-b450-4947-8280-e15c6be40de2" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>specialty</name>
+      <display>specialty: SpecialtyFormModel</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="54fa59cf-8cd3-4b6f-90f5-8f7d6f67dbf8">
+        <typeId>aa2318dc-4b6d-470d-b6c6-59b15243c9f4</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Web Client</typePackageName>
+        <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>64ef14ff-4709-4744-b491-6f1e5d2521f5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="db4eb212-e49c-449a-be84-a8b88ea82a2d" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
+      <name>save</name>
+      <display>save(): void</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="c5b007ee-5652-408a-b64e-2a797b926864">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>64ef14ff-4709-4744-b491-6f1e5d2521f5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="0cbcf378-3595-47fd-a80e-12b1926e2f85" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+      <name>[view]</name>
+      <display>[view]</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>64ef14ff-4709-4744-b491-6f1e5d2521f5</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="e1e5d931-f1d9-43ac-9f7b-28bd5906a182" type="Form" typeId="8aee9b69-d02d-4ca8-b28a-6585508bd033">
+          <name>Form</name>
+          <display>Form</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="52ad1e8f-b450-4947-8280-e15c6be40de2" name="specialty" type="element" specialization="Component Model" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>0cbcf378-3595-47fd-a80e-12b1926e2f85</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="cb5569de-821d-4b54-9990-a9210761a202" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
+              <name>Name</name>
+              <display>Name: Text Input</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <typeReference id="d355c582-3734-4b2a-80a4-d2ce5ec8375d">
+                <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Angular.Layout.Controls</typePackageName>
+                <typePackageId>6c7013d3-ba6b-4135-8af0-421b662ec802</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="b84257df-94e1-4164-bc3c-9e7b669de01e" name="name" type="element" specialization="Form Group Control" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>e1e5d931-f1d9-43ac-9f7b-28bd5906a182</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="f042c29d-f54e-4a37-a9c1-d55942f54e8d" type="Section" typeId="45072fbf-b34a-4625-b7ea-d5b1962a5b60">
+          <name>Section</name>
+          <display>Section</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>0cbcf378-3595-47fd-a80e-12b1926e2f85</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="aa4cd9b2-bce1-455b-bbb5-46caa0a33a58" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Save</name>
+              <display>Save</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="db4eb212-e49c-449a-be84-a8b88ea82a2d" name="save" type="element" specialization="Component Command" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>f042c29d-f54e-4a37-a9c1-d55942f54e8d</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

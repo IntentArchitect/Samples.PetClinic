@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="f072fe24-e916-459a-93e2-d3bd4a665f84" type="Service Proxy" typeId="07d8d1a9-6b9f-4676-b7d3-8db06299e35c">
+  <name>SpecialtiesService</name>
+  <display>SpecialtiesService</display>
+  <isAbstract>false</isAbstract>
+  <order>4</order>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+    <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappedPath>
+      <target id="573c68a9-585f-42af-864f-decd6ffeccc9" name="SpecialtyRestController" type="element" specialization="Service" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>957351a1-f1e9-4f57-af1b-81c1cbdb98ed</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="2f3b8d2f-841d-4eb3-8807-bfd1216d77f8" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getAllSpecialties</name>
+      <display>getAllSpecialties(): SpecialtyDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="60365a73-6bb8-47ae-9864-670edfb791ba">
+        <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="ec706d94-3115-41b9-9b5e-ffb68f8b9a6c" name="getAllSpecialties" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>f072fe24-e916-459a-93e2-d3bd4a665f84</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="1f64b61f-d34f-41ec-8942-c8db304d7733" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>getSpecialty</name>
+      <display>getSpecialty(specialtyId: int): SpecialtyDTO</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="5fc31a63-b318-43c4-86e1-eaa2e55bc0b1">
+        <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="9108e087-40a1-4c3e-bcd4-c109f2c67c53" name="getSpecialty" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>f072fe24-e916-459a-93e2-d3bd4a665f84</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="2cfed45c-dbf5-47ef-b3ac-b05f9e993b5a" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>specialtyId</name>
+          <display>specialtyId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="b046dc10-3d09-431f-9ba5-c808acb8e57b">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="42061aa0-c256-485e-81dc-446ca0ad155f" name="specialtyId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>1f64b61f-d34f-41ec-8942-c8db304d7733</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="179d972a-382c-484f-ad49-ad307b48aca8" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>addSpecialty</name>
+      <display>addSpecialty(dto: SpecialtyDTO): int</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="7a392177-edc5-459a-b792-c6e78b66c5d7">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="873f2791-60f2-401c-97f9-d75faf9476b3" name="addSpecialty" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>f072fe24-e916-459a-93e2-d3bd4a665f84</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="70893769-f0c7-48e7-bbf0-03465ff40b69" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>dto</name>
+          <display>dto: SpecialtyDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="c15f013e-7568-4d87-ab06-a9cd827b941b">
+            <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="7ed3bb85-7ff9-4962-aa0c-0dd35b253574" name="dto" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>179d972a-382c-484f-ad49-ad307b48aca8</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="3365a1dd-327a-4fc4-95fc-160e78fce2a5" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>updateSpecialty</name>
+      <display>updateSpecialty(specialtyId: int, dto: SpecialtyDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <typeReference id="2cf9eeb2-6e50-42c6-acde-fe74ff7ee781">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="6f638d99-7f58-4e80-84c5-66837506f5eb" name="updateSpecialty" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>f072fe24-e916-459a-93e2-d3bd4a665f84</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="2f3fc72b-f5f8-4c9d-86ac-d85bee843995" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>specialtyId</name>
+          <display>specialtyId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="d5c2760c-3061-4c19-aafc-af603508eac8">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="7486eb92-e935-4588-aae1-258f0d28b538" name="specialtyId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>3365a1dd-327a-4fc4-95fc-160e78fce2a5</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="601ae61b-fa87-4077-8a24-3dfcb33ca63e" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>dto</name>
+          <display>dto: SpecialtyDTO</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="52c138ca-74cd-4068-8f2c-74b6221253cc">
+            <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DTOs</typePackageName>
+            <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="e90e75c6-0741-4aed-9841-73ecff46d28c" name="dto" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>3365a1dd-327a-4fc4-95fc-160e78fce2a5</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="ce0a5bac-376c-4595-8644-56ed8c8a1fb8" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
+      <name>deleteSpecialty</name>
+      <display>deleteSpecialty(specialtyId: int): void</display>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <typeReference id="8975bcf6-2c12-42be-83b6-a02ed7e6023d">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="0ddb2b43-1696-4148-9e3a-6bf647451b7a" name="deleteSpecialty" type="element" specialization="Operation" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>f072fe24-e916-459a-93e2-d3bd4a665f84</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="0af68423-bd2d-4190-b341-08241d18ea5b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
+          <name>specialtyId</name>
+          <display>specialtyId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="be8f09d4-1fd0-48fd-bbc7-ed910fb007b8">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappedPath>
+              <target id="fdcbe7f9-d6bf-4969-a07f-ecfee6923b10" name="specialtyId" type="element" specialization="Parameter" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>ce0a5bac-376c-4595-8644-56ed8c8a1fb8</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

@@ -205,8 +205,8 @@
               <childElements />
             </childElement>
             <childElement id="2abd7a74-69f1-43ab-b6e6-b2a606fd17d5" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
-              <name>petTypeId</name>
-              <display>petTypeId: Select</display>
+              <name>Pet Type</name>
+              <display>Pet Type: Select</display>
               <isAbstract>false</isAbstract>
               <order>2</order>
               <genericTypes />
