@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="37dbea2a-db52-4853-9aa8-928c124b4204" type="Resolver" typeId="8112a50c-9394-4e05-996b-0e57b40b3f46">
+  <name>VetResolver</name>
+  <display>VetResolver: VetDTO</display>
+  <isAbstract>false</isAbstract>
+  <order>5</order>
+  <genericTypes />
+  <typeReference id="5906e943-91ee-41c3-b1ff-9d965c5e9c9b">
+    <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>DTOs</typePackageName>
+    <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements />
+</class>

@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "pet")
+@Table(name = "pets")
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Pet extends AbstractEntity {
     private static final long serialVersionUID = 1L;

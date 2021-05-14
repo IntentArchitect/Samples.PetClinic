@@ -3,10 +3,12 @@
   <name>environments</name>
   <display>environments</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <order>1</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+  <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+  <packageName>root</packageName>
   <stereotypes />
   <childElements>
     <childElement id="22d0cdd6-6e56-4157-b2a8-c63da4874a4d" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -18,6 +20,8 @@
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>894065d4-989d-497f-b21f-4f1b2599ba1a</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>

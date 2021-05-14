@@ -7,6 +7,8 @@
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
+  <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+  <packageName>root</packageName>
   <stereotypes />
   <childElements>
     <childElement id="ac27f96e-6c26-42fa-a300-7850a0d59271" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -18,6 +20,8 @@
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>017fc0bc-4cd3-4940-a541-48eefa051f60</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>
@@ -26,10 +30,12 @@
       <display>Intent.Angular.Core.CoreModuleTemplate</display>
       <externalReference>Intent.Angular</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>017fc0bc-4cd3-4940-a541-48eefa051f60</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="89e70f19-0a52-4c1d-9b1b-918141392c17" type="Form Group Definition" typeId="71142b08-4d10-405b-a5bd-0620d329a992">
+  <name>VetFormModel</name>
+  <display>VetFormModel</display>
+  <isAbstract>false</isAbstract>
+  <order>4</order>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+    <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappedPath>
+      <target id="d60384f8-059a-47f2-9b37-da4d913c8b49" name="VetDTO" type="element" specialization="DTO" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="4b0f204e-7c87-4464-915f-d98bc060b950" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>id</name>
+      <display>id: int</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="7391a581-0f5d-4d5c-8a2e-68030d7452eb">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="33a03b1a-7182-4119-859a-cad7b4404c08" name="id" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>89e70f19-0a52-4c1d-9b1b-918141392c17</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="b052b93b-86a2-494e-8719-385c993bcaa1" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>firstName</name>
+      <display>firstName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="2ca1fdbd-6523-4e28-8cbf-8d2a237a7b87">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="3d462bc7-f27a-4754-a23e-c70224108791" name="firstName" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>89e70f19-0a52-4c1d-9b1b-918141392c17</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="5600d0fe-3588-4918-9362-1d11a24824fa" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>lastName</name>
+      <display>lastName: string</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <typeReference id="e52165cc-2b22-466f-b827-98661e8e7c2a">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="f4993649-4077-452f-a9e1-eb28e348c658" name="lastName" type="element" specialization="DTO-Field" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>89e70f19-0a52-4c1d-9b1b-918141392c17</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="82a1dc74-191e-4f82-a3b5-2dfca6ff0132" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
+      <name>specialties</name>
+      <display>specialties: int[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <typeReference id="7875d9a6-e029-428b-b1cb-445182f7ec1c">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="60b44ddd-8090-4a65-88d3-a4ba6ab27661" name="specialties" type="element" specialization="DTO-Field" />
+          <target name="map(x =&gt; x" type="n/a" />
+          <target name="id)" type="n/a" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>89e70f19-0a52-4c1d-9b1b-918141392c17</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

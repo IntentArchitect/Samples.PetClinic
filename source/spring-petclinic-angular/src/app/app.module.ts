@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PetTypesModule } from './pet-types/pet-types.module';
 import { ApiAccessModule } from './api-access/api-access.module';
 import { VisitsModule } from './visits/visits.module';
+import { VetsModule } from './vets/vets.module';
 import { PetsModule } from './pets/pets.module';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { SpecialtiesModule } from './specialties/specialties.module';
@@ -30,6 +31,7 @@ import { SpecialtiesModule } from './specialties/specialties.module';
     PetTypesModule,
     ApiAccessModule,
     VisitsModule,
+    VetsModule,
     PetsModule,
     OwnersModule,
     PartsModule,

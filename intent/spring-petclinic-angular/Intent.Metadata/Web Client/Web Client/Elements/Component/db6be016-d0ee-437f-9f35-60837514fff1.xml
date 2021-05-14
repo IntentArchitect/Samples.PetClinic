@@ -126,11 +126,69 @@
                 </childElement>
               </childElements>
             </childElement>
+            <childElement id="4f82e70d-8b60-4ab4-8624-25a5506e5942" type="Dropdown" typeId="91610e3a-f0e4-4807-a1b3-4dc947fe13ac">
+              <name>Vets</name>
+              <display>Vets</display>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements>
+                <childElement id="3887f1c7-9c77-4aed-b30a-6aeccc9d1e4c" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
+                  <name>List</name>
+                  <display>List</display>
+                  <isAbstract>false</isAbstract>
+                  <order>0</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4f82e70d-8b60-4ab4-8624-25a5506e5942</parentFolderId>
+                  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+                  <packageName>Web Client</packageName>
+                  <stereotypes>
+                    <stereotype stereotypeDefinitionId="83a5537c-2283-450f-99be-640547d0fad0" name="Link Settings">
+                      <addedByDefault>true</addedByDefault>
+                      <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                      <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                      <properties>
+                        <property name="4cfff4ff-84fe-4b70-82c0-295e1d8a692e" display="Router Link" value="vets" isActive="true" />
+                      </properties>
+                    </stereotype>
+                  </stereotypes>
+                  <childElements />
+                </childElement>
+                <childElement id="cbd57a1e-71d0-4b55-9391-d0773a712486" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
+                  <name>Add</name>
+                  <display>Add</display>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4f82e70d-8b60-4ab4-8624-25a5506e5942</parentFolderId>
+                  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+                  <packageName>Web Client</packageName>
+                  <stereotypes>
+                    <stereotype stereotypeDefinitionId="83a5537c-2283-450f-99be-640547d0fad0" name="Link Settings">
+                      <addedByDefault>true</addedByDefault>
+                      <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                      <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                      <properties>
+                        <property name="4cfff4ff-84fe-4b70-82c0-295e1d8a692e" display="Router Link" value="vets/add" isActive="true" />
+                      </properties>
+                    </stereotype>
+                  </stereotypes>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
             <childElement id="d0069e32-e02d-4f4c-89cd-bba94b5b15ca" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
               <name>Pet Types</name>
               <display>Pet Types</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
+              <order>3</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
@@ -152,7 +210,7 @@
               <name>Specialties</name>
               <display>Specialties</display>
               <isAbstract>false</isAbstract>
-              <order>3</order>
+              <order>4</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>

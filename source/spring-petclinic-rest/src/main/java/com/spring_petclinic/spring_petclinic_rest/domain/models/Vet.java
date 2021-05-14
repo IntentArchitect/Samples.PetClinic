@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "vet")
+@Table(name = "vets")
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Vet extends AbstractEntity {
     private static final long serialVersionUID = 1L;
@@ -21,7 +21,7 @@ public class Vet extends AbstractEntity {
 
     @ManyToMany
     @JoinTable(
-            name = "vet_specialty",
+            name = "vet_specialties",
             joinColumns = { @JoinColumn(name = "vet_id") },
             inverseJoinColumns = { @JoinColumn(name = "specialty_id") }
     )

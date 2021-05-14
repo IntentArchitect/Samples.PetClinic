@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="dc378556-fb47-4fc8-b2b0-e0c7bb0ef5a3">
+  <sourceEnd id="766793be-68a9-4848-a600-55c7b0e70f4b">
+    <name>goBackToList</name>
+    <display>goBackToList: VetListComponent</display>
+    <typeReference id="bb5ddc1c-f5ed-4aa0-80ec-825a763ace1a">
+      <typeId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </sourceEnd>
+  <targetEnd id="dc378556-fb47-4fc8-b2b0-e0c7bb0ef5a3">
+    <name>goToEdit</name>
+    <display>goToEdit: VetEditComponent</display>
+    <typeReference id="ba7e2fdb-bed0-4c83-af08-a3816e14f0b5">
+      <typeId>3abaa704-907b-4360-8287-f039d48e7d60</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Web Client</typePackageName>
+      <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+  </targetEnd>
+  <associationType>Navigation</associationType>
+  <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>
+  <stereotypes />
+</association>

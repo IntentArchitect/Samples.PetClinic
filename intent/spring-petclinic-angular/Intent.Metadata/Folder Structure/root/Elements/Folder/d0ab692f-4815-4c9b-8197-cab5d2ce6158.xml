@@ -3,10 +3,12 @@
   <name>shared</name>
   <display>shared</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <order>2</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
+  <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+  <packageName>root</packageName>
   <stereotypes />
   <childElements />
 </class>

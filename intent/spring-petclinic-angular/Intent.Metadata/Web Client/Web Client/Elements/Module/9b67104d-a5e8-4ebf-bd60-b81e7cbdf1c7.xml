@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7" type="Module" typeId="cac14331-198a-4f9a-bbb9-171eb0bd4efe">
+  <name>VetsModule</name>
+  <display>VetsModule</display>
+  <isAbstract>false</isAbstract>
+  <order>8</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes />
+  <diagram>
+    <targetPackageId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</targetPackageId>
+  </diagram>
+  <childElements>
+    <childElement id="05be3af0-1574-40a6-b3fc-44a92c632368" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
+      <name>[routing]</name>
+      <display>[routing]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="01ebfaae-4987-4768-95ae-a90bb59de700" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>vets</name>
+          <display>vets: VetListComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <typeReference id="32e413ab-eac4-4933-a7ce-47325a3b7d48">
+            <typeId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>05be3af0-1574-40a6-b3fc-44a92c632368</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="ac415590-3223-47c1-b134-cfe014460da7" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>vets/add</name>
+          <display>vets/add: VetAddComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="df805990-68ae-49dd-bd2a-e3434d43aa1f">
+            <typeId>7f53379c-5071-47b2-884c-d210fe5cc049</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>05be3af0-1574-40a6-b3fc-44a92c632368</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+        <childElement id="3636e3a3-026a-4127-b900-38d67e67dd6f" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
+          <name>vets/:id/edit</name>
+          <display>vets/:id/edit: VetEditComponent</display>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <typeReference id="2e8198cd-fb3b-419e-a42b-e2a352ee2b74">
+            <typeId>3abaa704-907b-4360-8287-f039d48e7d60</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Web Client</typePackageName>
+            <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>05be3af0-1574-40a6-b3fc-44a92c632368</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="835dc519-f526-48f2-8951-3daf64f5758d" type="Route Parameter" typeId="2e770bf6-0f58-4806-8fdc-1477360b74e9">
+              <name>id</name>
+              <display>id: string</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <typeReference id="62bacb30-1fae-45b1-bb1d-12de64accde6">
+                <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Intent.Common.Types</typePackageName>
+                <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>false</isMapped>
+              <parentFolderId>3636e3a3-026a-4127-b900-38d67e67dd6f</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

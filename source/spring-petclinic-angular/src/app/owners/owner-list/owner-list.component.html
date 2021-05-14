@@ -17,7 +17,11 @@
             <td>{{item.address}}</td>
             <td>{{item.city}}</td>
             <td>{{item.telephone}}</td>
-            <td>{{item.pets}}</td>
+            <td intent-ignore="">
+              <div *ngFor="let pet of item.pets">
+                {{ pet.name }}
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -26,7 +30,7 @@
   <div class="row" intent-id="Button Section">
     <div class="col" intent-manage="">
       <span intent-manage="" intent-id="66cdfe16-85c1-4c68-8ed4-552c73d84836">
-        <button class="btn btn-default" (click)="goToAdd()">Add Owner</button>
+        <button class="btn btn-default" type="button" (click)="goToAdd()">Add Owner</button>
       </span>
     </div>
   </div>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="e0b16791-89cb-4c34-a6d7-0b4ebdda2210" type="Component" typeId="b1c481e1-e91e-4c29-9817-00ab9cad4b6b">
+  <name>VetListComponent</name>
+  <display>VetListComponent</display>
+  <isAbstract>false</isAbstract>
+  <order>3</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
+  <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+  <packageName>Web Client</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="ded6918f-81c2-4097-bdbe-48ec0fb84b7b" name="Angular Component Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.Angular</definitionPackageName>
+      <definitionPackageId>a3deb341-dd4e-4f7f-99f5-2f198c1c251c</definitionPackageId>
+      <properties>
+        <property name="fb7aa637-1748-45fc-852d-084cf0d6d5de" display="Selector" isActive="true" />
+        <property name="861d6123-3795-4065-a58d-526a04e833ba" display="Inject Services" isActive="true" />
+        <property name="f9710a21-4db0-4fff-a61f-09761a5cc0b8" display="In Own Folder" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <childElements>
+    <childElement id="945e1507-ec69-4554-9eb1-819096165237" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>vets</name>
+      <display>vets: VetDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="454b25b7-8a3e-49b0-b600-b00a6a3d38d9">
+        <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="21db10ef-5b59-4566-9a81-6dcfd291f9c0" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
+      <name>deleteVet</name>
+      <display>deleteVet(vetId: int): void</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <typeReference id="b2919769-5e9f-4d84-940c-d47e577f29a8">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="5376c2d8-31ab-47f9-a8d4-d39fcbec72f2" type="Command Parameter" typeId="4a1ce2a9-e79f-4e93-96af-24b44728ecbc">
+          <name>vetId</name>
+          <display>vetId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="b003c027-7bd7-41d0-a227-c932fc14be3c">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>21db10ef-5b59-4566-9a81-6dcfd291f9c0</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="b1cd8bb7-222a-4f20-9437-da432fc80aa5" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
+      <name>[view]</name>
+      <display>[view]</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</parentFolderId>
+      <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+      <packageName>Web Client</packageName>
+      <stereotypes />
+      <childElements>
+        <childElement id="a122b177-de08-43f1-b6c1-98e87430e53d" type="Table Control" typeId="e302d9ca-268e-4a98-ad8d-4434aefb9903">
+          <name>Table</name>
+          <display>Table</display>
+          <isAbstract>false</isAbstract>
+          <order>0</order>
+          <genericTypes />
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappedPath>
+              <target id="945e1507-ec69-4554-9eb1-819096165237" name="vets" type="element" specialization="Component Model" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b1cd8bb7-222a-4f20-9437-da432fc80aa5</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="df59cc7e-978d-42e3-921f-3f43d120834e" name="Table Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+              <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+              <properties>
+                <property name="b5ae6643-a53d-4aac-bd8a-4e212638cb0d" display="On Select Row" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <childElements>
+            <childElement id="49d56382-b7db-4077-8cb4-f42cba8a122a" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
+              <name>Name</name>
+              <display>Name</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="3d462bc7-f27a-4754-a23e-c70224108791" name="firstName" type="element" specialization="DTO-Field" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a122b177-de08-43f1-b6c1-98e87430e53d</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="1cbf514c-4d38-49a0-b2e3-87c3b5ab9024" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
+              <name>Specialties</name>
+              <display>Specialties</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <mappedPath>
+                  <target id="60b44ddd-8090-4a65-88d3-a4ba6ab27661" name="specialties" type="element" specialization="DTO-Field" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>a122b177-de08-43f1-b6c1-98e87430e53d</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+            <childElement id="dd9998d4-514a-4eb9-88ef-3fa6458cbc4c" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
+              <name />
+              <display />
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>a122b177-de08-43f1-b6c1-98e87430e53d</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="5f9c5505-5cea-440f-9439-1bafd3d4cd3e" type="Section" typeId="45072fbf-b34a-4625-b7ea-d5b1962a5b60">
+          <name>Section</name>
+          <display>Section</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>b1cd8bb7-222a-4f20-9437-da432fc80aa5</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements>
+            <childElement id="46e5b9cb-3a2e-48dc-834d-55c73fea2324" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Home</name>
+              <display>Home</display>
+              <isAbstract>false</isAbstract>
+              <order>0</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="bf0e87f1-b496-43ea-9250-9b26086b0598" name="goToHome" type="association" specialization="NavigationTargetEnd" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>5f9c5505-5cea-440f-9439-1bafd3d4cd3e</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="abb75515-21f5-4675-9914-d0973f2aeb57" name="Button Settings">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                  <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                  <properties>
+                    <property name="0512b9ca-15bb-4367-99cd-b281a45b15f5" display="Type" value="Button" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <childElements />
+            </childElement>
+            <childElement id="4c47c9ad-7d41-44a0-aabd-194e5c58560c" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
+              <name>Add Vet</name>
+              <display>Add Vet</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>true</isMapped>
+              <mappedClass>
+                <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
+                <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappedPath>
+                  <target id="9f3e9b8d-4a68-40c2-83b4-7caef821db20" name="goToAdd" type="association" specialization="NavigationTargetEnd" />
+                </mappedPath>
+              </mappedClass>
+              <parentFolderId>5f9c5505-5cea-440f-9439-1bafd3d4cd3e</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="abb75515-21f5-4675-9914-d0973f2aeb57" name="Button Settings">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.Angular.Layout</definitionPackageName>
+                  <definitionPackageId>411a47ef-bf13-45dd-b800-7abf7eb9ac92</definitionPackageId>
+                  <properties>
+                    <property name="0512b9ca-15bb-4367-99cd-b281a45b15f5" display="Type" value="Button" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

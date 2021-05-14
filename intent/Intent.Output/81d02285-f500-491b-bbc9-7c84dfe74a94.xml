@@ -449,6 +449,71 @@
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/models/vet-form.model.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/models/vet-form.model.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-add/vet-add.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-add/vet-add.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-add/vet-add.component.scss</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-add/vet-add.component.scss</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-add/vet-add.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-add/vet-add.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-edit/vet-edit.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-edit/vet-edit.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-edit/vet-edit.component.scss</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-edit/vet-edit.component.scss</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-edit/vet-edit.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-edit/vet-edit.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-list/vet-list.component.html</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-list/vet-list.component.html</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-list/vet-list.component.scss</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-list/vet-list.component.scss</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-list/vet-list.component.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-list/vet-list.component.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vet-resolver.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vet-resolver.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vets.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vets.module.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/vets/vets-routing.module.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vets-routing.module.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
       <SolutionRelativeFilePath>../../source/spring-petclinic-angular/src/app/visits/models/visit-form.model.ts</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/models/visit-form.model.ts</ProjectRelativeFilePath>
     </FileLog>

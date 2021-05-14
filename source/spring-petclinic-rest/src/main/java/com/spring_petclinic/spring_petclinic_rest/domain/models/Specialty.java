@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "specialty")
+@Table(name = "specialties")
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Specialty extends AbstractEntity {
     private static final long serialVersionUID = 1L;

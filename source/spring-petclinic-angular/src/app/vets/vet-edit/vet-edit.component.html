@@ -1,0 +1,30 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <form [formGroup]="vet" intent-manage="" intent-id="form">
+    <div class="form-group" intent-id="17d77bc2-4566-47dc-9fd6-438ebec86f83">
+      <label for="firstName">First Name</label>
+      <input id="firstName" class="form-control" formControlName="firstName" type="text" />
+    </div>
+    <div class="form-group" intent-id="fb58cafb-594a-4f6e-9a0f-c2ef4ec51d8c">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" class="form-control" formControlName="lastName" type="text" />
+    </div>
+    <div class="form-group" intent-id="c6df6234-4ef6-4bf3-ac89-42c135a515ca" intent-ignore="">
+      <label for="specialties">Specialties</label>
+      <mat-select id="specialties" class="form-control" formControlName="specialties" type="text" multiple="">
+        <mat-option *ngFor="let specialty of specialties" [value]="specialty.id">
+          {{ specialty.name }}
+        </mat-option>
+      </mat-select>
+    </div>
+    <div class="row" intent-id="Buttons Section">
+      <div class="col" intent-manage="">
+        <span intent-manage="" intent-id="e7433c0d-780a-4075-a07e-73772b26b4c2">
+          <button class="btn btn-default" type="button" (click)="goBackToList()">< Back</button>
+        </span>
+        <span intent-manage="" intent-id="9c99fc03-be03-496d-b2c9-01f015ad0edf">
+          <button class="btn btn-default" type="submit" (click)="saveVet()">Save Vet</button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div>

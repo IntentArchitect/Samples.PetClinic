@@ -127,7 +127,32 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
-          <childElements />
+          <childElements>
+            <childElement id="113b7862-aac7-4f39-9132-20710161b07c" type="Route Parameter" typeId="2e770bf6-0f58-4806-8fdc-1477360b74e9">
+              <name>id</name>
+              <display>id: int</display>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <typeReference id="5c87a42b-9826-4fb0-accc-c377c8f03147">
+                <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+                <isNavigable>true</isNavigable>
+                <isNullable>false</isNullable>
+                <isCollection>false</isCollection>
+                <isRequired>true</isRequired>
+                <typePackageName>Intent.Common.Types</typePackageName>
+                <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+                <stereotypes />
+                <genericTypeParameters />
+              </typeReference>
+              <isMapped>false</isMapped>
+              <parentFolderId>cf319a37-1db4-420e-88f4-cc0755de9701</parentFolderId>
+              <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+              <packageName>Web Client</packageName>
+              <stereotypes />
+              <childElements />
+            </childElement>
+          </childElements>
         </childElement>
         <childElement id="c67616fa-1288-4e75-b949-bd6992247f6a" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
           <name>owners/:id/pets/add</name>

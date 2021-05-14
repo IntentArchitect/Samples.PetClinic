@@ -3,10 +3,12 @@
   <name>header</name>
   <display>header</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <order>1</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>d0ab692f-4815-4c9b-8197-cab5d2ce6158</parentFolderId>
+  <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+  <packageName>root</packageName>
   <stereotypes />
   <childElements />
 </class>

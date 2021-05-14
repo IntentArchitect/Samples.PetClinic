@@ -10,16 +10,20 @@
     </div>
     <div class="form-group" intent-id="2abd7a74-69f1-43ab-b6e6-b2a606fd17d5">
       <label for="petTypeId">Pet Type</label>
-      <ngx-select id="petTypeId" [items]="petTypes" formControlName="petTypeId" optionValueField="id" optionTextField="name"></ngx-select>
+      <mat-select id="petTypeId" class="form-control" formControlName="petTypeId" type="text">
+        <mat-option *ngFor="let option of petTypes" [value]="option.id">
+          {{ option.name }}
+        </mat-option>
+      </mat-select>
     </div>
   </form>
   <div class="row" intent-id="Section">
     <div class="col" intent-manage="">
       <span intent-manage="" intent-id="ed7f4229-f4df-4cff-9bd8-e718c19245ed">
-        <button class="btn btn-default" (click)="goToOwnerDetails(ownerId)">Back</button>
+        <button class="btn btn-default" type="button" (click)="goToOwnerDetails(ownerId)">Back</button>
       </span>
       <span intent-manage="" intent-id="14e582d7-aee7-4692-a083-cf38b198fa0c">
-        <button class="btn btn-default" (click)="save()">Save</button>
+        <button class="btn btn-default" type="button" (click)="save()">Save</button>
       </span>
     </div>
   </div>

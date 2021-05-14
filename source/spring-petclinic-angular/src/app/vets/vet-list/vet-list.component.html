@@ -1,0 +1,39 @@
+<div class="container" intent-manage="add remove" intent-id="container">
+  <div class="row" intent-id="table">
+    <div class="col">
+      <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr intent-manage="" intent-id="table-header">
+            <th>Name</th>
+            <th>Specialties</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of vets" class="clickable" intent-manage="" intent-id="table-data">
+            <td>{{item.firstName}}</td>
+            <td intent-ignore="">
+              <div *ngFor="let spec of item.specialties">
+                {{ spec.name }}
+              </div>
+            </td>
+            <td intent-ignore="">
+              <button class="btn btn-default" (click)="goToEdit(item.id)">Edit Vet</button>
+              <button class="btn btn-default" (click)="deleteVet(item.id)">Delete Vet</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row" intent-id="Section">
+    <div class="col" intent-manage="">
+      <span intent-manage="" intent-id="46e5b9cb-3a2e-48dc-834d-55c73fea2324">
+        <button class="btn btn-default" type="button" (click)="goToHome()">Home</button>
+      </span>
+      <span intent-manage="" intent-id="4c47c9ad-7d41-44a0-aabd-194e5c58560c">
+        <button class="btn btn-default" type="button" (click)="goToAdd()">Add Vet</button>
+      </span>
+    </div>
+  </div>
+</div>

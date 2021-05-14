@@ -14,7 +14,11 @@
     </div>
     <div class="form-group" intent-id="ab98ff92-ea5b-45a8-8dc2-9e006c09c988">
       <label for="petTypeId">Pet Type</label>
-      <ngx-select id="petTypeId" [items]="petTypes" formControlName="petTypeId" optionValueField="id" optionTextField="name"></ngx-select>
+      <mat-select id="petTypeId" class="form-control" formControlName="petTypeId" type="text">
+        <mat-option *ngFor="let option of petTypes" [value]="option.id">
+          {{ option.name }}
+        </mat-option>
+      </mat-select>
     </div>
     <div class="row" intent-id="Section">
       <div class="col" intent-manage="">
@@ -22,7 +26,7 @@
           <button type="submit" class="btn btn-default" (click)="onUpdate()" (submit)="onUpdate()">Update</button>
         </span>
         <span intent-manage="" intent-id="d1aa04c1-5209-476e-b3b9-84c807783b57">
-          <button class="btn btn-default" (click)="goToOwnerDetails(ownerId)">Cancel</button>
+          <button class="btn btn-default" type="button" (click)="goToOwnerDetails(ownerId)">Cancel</button>
         </span>
       </div>
     </div>

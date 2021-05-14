@@ -3,10 +3,12 @@
   <name>src</name>
   <display>src</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <order>1</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</parentFolderId>
+  <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+  <packageName>root</packageName>
   <stereotypes />
   <childElements>
     <childElement id="4f0893e2-38c7-4f82-98aa-5a4f4e686f6d" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -14,58 +16,12 @@
       <display>Intent.Angular.Component.AngularComponentCssTemplate</display>
       <externalReference>Intent.Angular</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>2</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
-      <stereotypes />
-      <childElements />
-    </childElement>
-    <childElement id="7c874c0d-530a-479c-be4b-10acf4b12d4a" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Component.AngularComponentTsTemplate</name>
-      <display>Intent.Angular.Component.AngularComponentTsTemplate</display>
-      <externalReference>Intent.Angular</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
-      <stereotypes />
-      <childElements />
-    </childElement>
-    <childElement id="aa5e03f5-5af8-4bf2-89e9-be765b9b54e8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Module.AngularModuleTemplate</name>
-      <display>Intent.Angular.Module.AngularModuleTemplate</display>
-      <externalReference>Intent.Angular</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
-      <stereotypes />
-      <childElements />
-    </childElement>
-    <childElement id="28f9508f-d198-4c90-884f-f34f3c4c1dd7" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Module.AngularRoutingModuleTemplate</name>
-      <display>Intent.Angular.Module.AngularRoutingModuleTemplate</display>
-      <externalReference>Intent.Angular</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
-      <stereotypes />
-      <childElements />
-    </childElement>
-    <childElement id="e370a7b5-1626-46b6-959e-2fa8ee5407a0" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Model.ModelTemplate</name>
-      <display>Intent.Angular.Model.ModelTemplate</display>
-      <externalReference>Intent.Angular</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>
@@ -74,10 +30,26 @@
       <display>Intent.Angular.Component.AngularComponentHtmlTemplate</display>
       <externalReference>Intent.Angular</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>3</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="7c874c0d-530a-479c-be4b-10acf4b12d4a" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Component.AngularComponentTsTemplate</name>
+      <display>Intent.Angular.Component.AngularComponentTsTemplate</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>
@@ -86,10 +58,68 @@
       <display>Intent.Angular.Model.FormGroupTemplate</display>
       <externalReference>Intent.Angular</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>5</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="e370a7b5-1626-46b6-959e-2fa8ee5407a0" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Model.ModelTemplate</name>
+      <display>Intent.Angular.Model.ModelTemplate</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>6</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="aa5e03f5-5af8-4bf2-89e9-be765b9b54e8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Module.AngularModuleTemplate</name>
+      <display>Intent.Angular.Module.AngularModuleTemplate</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>7</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="c03371c2-bf4d-4e4b-9a55-71f31a261e80" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Module.AngularResolver</name>
+      <display>Intent.Angular.Module.AngularResolver</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>8</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="28f9508f-d198-4c90-884f-f34f3c4c1dd7" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Module.AngularRoutingModuleTemplate</name>
+      <display>Intent.Angular.Module.AngularRoutingModuleTemplate</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>9</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>
@@ -98,10 +128,12 @@
       <display>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate</display>
       <externalReference>Intent.Angular.ServiceProxies</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>10</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>
@@ -110,10 +142,12 @@
       <display>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate</display>
       <externalReference>Intent.Angular.ServiceProxies</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>11</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
       <stereotypes />
       <childElements />
     </childElement>
