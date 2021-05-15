@@ -18,13 +18,13 @@
   <packageName>DTOs</packageName>
   <stereotypes />
   <childElements>
-    <childElement id="33a03b1a-7182-4119-859a-cad7b4404c08" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+    <childElement id="9379bfcd-205a-46bd-8a53-b075cfdb1bcb" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
-      <typeReference id="0e802407-de32-42a1-8596-c4c6532ddf55">
+      <typeReference id="8806f322-f946-4719-916a-6c986a995280">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
@@ -35,7 +35,12 @@
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
-      <isMapped>false</isMapped>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="a5d62bf3-a295-4aed-ab10-4b9f0ac92d88" name="id" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
       <parentFolderId>d60384f8-059a-47f2-9b37-da4d913c8b49</parentFolderId>
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>

@@ -11,11 +11,44 @@
   <packageName>Domain</packageName>
   <stereotypes />
   <childElements>
+    <childElement id="578c6b3d-9853-4a0e-8666-6384cecc3c83" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>id</name>
+      <display>id: int</display>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <typeReference id="268103b4-a370-4f44-9eec-11e66883fa1c">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>2b74779f-48ab-4cd1-8002-097d26dcf584</parentFolderId>
+      <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+      <packageName>Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b99aac21-9ca4-467f-a3a6-046255a9eed6" name="Primary Key">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="4c1e3f7e-61d4-460d-bd20-c2edbc0c0e2e" display="Identity" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <childElements />
+    </childElement>
     <childElement id="e67443e3-ca3e-4732-b98a-bfb9b60cb9fb" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="1a7f7a19-f1b0-497e-9277-7ea6aff0196a">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

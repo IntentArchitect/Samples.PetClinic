@@ -121,7 +121,7 @@
       <mappedClass>
         <mappedPath>
           <target id="00e8fac6-eb44-4422-9289-b11e63a995c6" name="PetType" type="association" specialization="Association" />
-          <target name="id" type="n/a" />
+          <target id="071d6c63-839b-4a7e-8e5b-7161350a729d" name="id" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>
@@ -181,7 +181,7 @@
       <mappedClass>
         <mappedPath>
           <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
-          <target name="id" type="n/a" />
+          <target id="050f6826-01cb-4bc4-872e-77f7c19685f9" name="id" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>

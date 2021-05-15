@@ -42,14 +42,6 @@
       <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
       <packageName>Services</packageName>
       <stereotypes>
-        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Java.Services</definitionPackageName>
-          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
-          <properties>
-            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
-          </properties>
-        </stereotype>
         <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
           <addedByDefault>true</addedByDefault>
           <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
@@ -84,14 +76,6 @@
       <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
       <packageName>Services</packageName>
       <stereotypes>
-        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Java.Services</definitionPackageName>
-          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
-          <properties>
-            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
-          </properties>
-        </stereotype>
         <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
           <addedByDefault>true</addedByDefault>
           <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
@@ -157,14 +141,6 @@
       <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
       <packageName>Services</packageName>
       <stereotypes>
-        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Java.Services</definitionPackageName>
-          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
-          <properties>
-            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
-          </properties>
-        </stereotype>
         <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
           <addedByDefault>true</addedByDefault>
           <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
@@ -230,14 +206,6 @@
       <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
       <packageName>Services</packageName>
       <stereotypes>
-        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Java.Services</definitionPackageName>
-          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
-          <properties>
-            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
-          </properties>
-        </stereotype>
         <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
           <addedByDefault>true</addedByDefault>
           <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
@@ -336,14 +304,6 @@
       <packageId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</packageId>
       <packageName>Services</packageName>
       <stereotypes>
-        <stereotype stereotypeDefinitionId="b72430de-3a53-44de-af0a-75023119d64f" name="Transaction Options">
-          <addedByDefault>true</addedByDefault>
-          <definitionPackageName>Intent.Java.Services</definitionPackageName>
-          <definitionPackageId>e3481ac6-e429-4423-8eba-b5b1bc890f1b</definitionPackageId>
-          <properties>
-            <property name="5b96293d-d351-4705-bb83-7ca3fdd4d8b3" display="Is Read Only" value="false" isActive="true" />
-          </properties>
-        </stereotype>
         <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
           <addedByDefault>true</addedByDefault>
           <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>

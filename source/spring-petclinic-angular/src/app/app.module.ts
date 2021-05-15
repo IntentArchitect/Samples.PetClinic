@@ -16,7 +16,7 @@ import { VetsModule } from './vets/vets.module';
 import { PetsModule } from './pets/pets.module';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { SpecialtiesModule } from './specialties/specialties.module';
-  
+import { RouterModule } from '@angular/router';
 
 @IntentMerge()
 @NgModule({
@@ -38,6 +38,7 @@ import { SpecialtiesModule } from './specialties/specialties.module';
     BsDropdownModule.forRoot(),
     SpecialtiesModule,
     AppRoutingModule,
+    RouterModule
   ],
   bootstrap: [AppComponent]
 })

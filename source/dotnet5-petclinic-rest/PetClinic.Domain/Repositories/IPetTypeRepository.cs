@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Intent.RoslynWeaver.Attributes;
+using PetClinic.Domain.Entities;
+
+[assembly: DefaultIntentManaged(Mode.Fully)]
+[assembly: IntentTemplate("Intent.Entities.Repositories.Api.EntityInterface", Version = "1.0")]
+
+namespace PetClinic.Domain.Repositories
+{
+    public interface IPetTypeRepository : IRepository<IPetType, PetType>
+    {
+        Task<IPetType> FindByIdAsync(int id);
+        Task<List<IPetType>> FindByIdsAsync(params int[] ids);
+    }
+}

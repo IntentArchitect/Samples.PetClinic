@@ -18,16 +18,16 @@
   <packageName>DTOs</packageName>
   <stereotypes />
   <childElements>
-    <childElement id="53a8fa8d-7957-49a7-b647-621f56fc4288" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+    <childElement id="05d3faf8-2187-4aa2-b44c-69966f6c8601" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>id</name>
-      <display>id: int</display>
+      <display>id: int?</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
-      <typeReference id="c8294583-1460-4e43-ae79-510052d33a28">
+      <typeReference id="bc0e8fc7-6dac-4a84-894f-06d3c95d40f2">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
         <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
+        <isNullable>true</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
         <typePackageName>Intent.Common.Types</typePackageName>
@@ -35,7 +35,12 @@
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
-      <isMapped>false</isMapped>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappedPath>
+          <target id="578c6b3d-9853-4a0e-8666-6384cecc3c83" name="id" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
       <parentFolderId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</parentFolderId>
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>

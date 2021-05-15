@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Entities\OwnerState.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Owner.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\PetState.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Pet.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\PetTypeState.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PetType.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\SpecialtyState.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Specialty.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\VetState.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Vet.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\VisitState.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Visit.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\IOwner.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Owner.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\IPet.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Pet.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\IPetType.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PetType.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\ISpecialty.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Specialty.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\IVet.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Vet.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Entities\IVisit.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Visit.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Intent.RoslynWeaver.Attributes" Version="1.0.0" />
+    <PackageReference Include="RT.Comb" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>
