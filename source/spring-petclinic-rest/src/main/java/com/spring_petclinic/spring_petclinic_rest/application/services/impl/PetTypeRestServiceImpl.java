@@ -22,7 +22,7 @@ public class PetTypeRestServiceImpl implements PetTypeRestService {
     private ModelMapper mapper;
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public List<PetTypeDTO> getAllPetTypes() {
         var petTypes = petTypeRepository.findAll();
@@ -30,7 +30,7 @@ public class PetTypeRestServiceImpl implements PetTypeRestService {
     }
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public PetTypeDTO getPetType(int petTypeId) {
         var petType = petTypeRepository.findById(petTypeId);

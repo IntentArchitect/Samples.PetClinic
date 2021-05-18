@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using PetClinic.Domain.Entities;
 using PetClinic.Domain.Repositories;
 using PetClinic.Infrastructure.Persistence;
+using System.Threading;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.EntityFrameworkCore.Repositories.Implementation", Version = "1.0")]
@@ -20,14 +21,14 @@ namespace PetClinic.Infrastructure.Repositories
         {
         }
 
-        public async Task<ISpecialty> FindByIdAsync(int id)
+        public async Task<ISpecialty> FindByIdAsync(int id, CancellationToken cancellationToken = default)
         {
-            return await FindAsync(x => x.Id == id);
+            return await FindAsync(x => x.Id == id, cancellationToken);
         }
 
-        public async Task<List<ISpecialty>> FindByIdsAsync(params int[] ids)
+        public async Task<List<ISpecialty>> FindByIdsAsync(int[] ids, CancellationToken cancellationToken = default)
         {
-            return await FindAllAsync(x => ids.Contains(x.Id));
+            return await FindAllAsync(x => ids.Contains(x.Id), cancellationToken);
         }
     }
 }

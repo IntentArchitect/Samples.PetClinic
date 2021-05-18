@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { VisitDTO } from './models/visit.dto';
 import { PetVisitDTO } from './models/pet-visit.dto';
 import { VisitCreateDTO } from './models/visit-create.dto';
 import { VisitUpdateDTO } from './models/visit-update.dto';
@@ -14,7 +15,7 @@ export class VisitsService {
   ) {
   }
 
-  public getVisit(visitId: number): Observable<PetVisitDTO> {
+  public getVisit(visitId: number): Observable<VisitDTO> {
     let url = `/api/visits/${visitId}`;
     return this.apiService.get(url)
       .pipe(map((response: any) => {

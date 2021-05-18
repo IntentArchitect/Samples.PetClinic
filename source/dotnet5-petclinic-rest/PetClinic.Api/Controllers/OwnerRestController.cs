@@ -8,6 +8,7 @@ using PetClinic.Application;
 using PetClinic.Application.Interfaces;
 using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
+using System.Threading;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -29,64 +30,61 @@ namespace PetClinic.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<OwnerDTO>>> getOwners()
+        public async Task<ActionResult<List<OwnerDTO>>> getOwners(CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
 
             result = await _appService.GetOwners();
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpPost]
-        public async Task<ActionResult> addOwner(OwnerCreateDTO dto)
+        public async Task<ActionResult> addOwner(OwnerCreateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.AddOwner(dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpGet("{ownerId}")]
-        public async Task<ActionResult<OwnerDTO>> getOwner(int ownerId)
+        public async Task<ActionResult<OwnerDTO>> getOwner(int ownerId, CancellationToken cancellationToken)
         {
             var result = default(OwnerDTO);
 
             result = await _appService.GetOwner(ownerId);
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpPut("{ownerId}")]
-        public async Task<ActionResult> updateOwner(int ownerId, OwnerUpdateDTO dto)
+        public async Task<ActionResult> updateOwner(int ownerId, OwnerUpdateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdateOwner(ownerId, dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpDelete("{ownerId}")]
-        public async Task<ActionResult> deleteOwner(int ownerId)
+        public async Task<ActionResult> deleteOwner(int ownerId, CancellationToken cancellationToken)
         {
 
             await _appService.DeleteOwner(ownerId);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpGet("*/lastname/{lastName}")]
-        public async Task<ActionResult<List<OwnerDTO>>> getOwnersList(string lastName)
+        public async Task<ActionResult<List<OwnerDTO>>> getOwnersList(string lastName, CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
 
             result = await _appService.GetOwnersList(lastName);
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }

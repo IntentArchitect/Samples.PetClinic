@@ -14,7 +14,7 @@ namespace PetClinic.Application.Interfaces
     public interface IVisitService : IDisposable
     {
 
-        Task<PetVisitDTO> GetVisit(int visitId);
+        Task<VisitDTO> GetVisit(int visitId);
 
         Task AddVisit(VisitCreateDTO dto);
 

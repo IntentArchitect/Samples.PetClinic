@@ -1,4 +1,5 @@
 import { FormGroup, FormControl, FormArray } from '@angular/forms';
+import { VisitDTO } from './../../api-access/models/visit.dto';
 import { PetVisitDTO } from './../../api-access/models/pet-visit.dto';
 
 export class VisitForm extends FormGroup {
@@ -10,7 +11,7 @@ export class VisitForm extends FormGroup {
     });
   }
 
-  public static create(dto: PetVisitDTO): VisitForm {
+  public static create(dto: VisitDTO): VisitForm {
     return new VisitForm({
       id: dto.id,
       visitDate: new Date(dto.visitDate),

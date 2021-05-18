@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 @Data
 public class SpecialtyDTO {
-    private int id;
+    private Integer id;
     private String name;
 
     public static SpecialtyDTO mapFromSpecialty(Specialty specialty, ModelMapper mapper) {

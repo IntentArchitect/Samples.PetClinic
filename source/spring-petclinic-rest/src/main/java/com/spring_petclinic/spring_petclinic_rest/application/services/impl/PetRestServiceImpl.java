@@ -27,7 +27,7 @@ public class PetRestServiceImpl implements PetRestService {
     private ModelMapper mapper;
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public PetDTO getPet(int petId) {
         var pet = this.petRepository.findById(petId);

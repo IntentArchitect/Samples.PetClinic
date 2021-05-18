@@ -16,7 +16,7 @@ import { ApiAccessModule } from '../api-access/api-access.module';
     OwnerAddComponent,
     OwnerDetailComponent,
     OwnerEditComponent,
-    OwnerListComponent
+    OwnerListComponent,
   ],
   imports: [
     CommonModule,

@@ -115,14 +115,7 @@
             <stereotypes />
             <genericTypeParameters />
           </typeReference>
-          <isMapped>true</isMapped>
-          <mappedClass>
-            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
-            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
-            <mappedPath>
-              <target id="b21c472a-1e6a-497c-8f67-4275f3e43594" name="PetEditComponent" type="element" specialization="Component" />
-            </mappedPath>
-          </mappedClass>
+          <isMapped>false</isMapped>
           <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
@@ -171,14 +164,7 @@
             <stereotypes />
             <genericTypeParameters />
           </typeReference>
-          <isMapped>true</isMapped>
-          <mappedClass>
-            <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
-            <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
-            <mappedPath>
-              <target id="e2861cdd-025b-4769-b568-d6ec52c44855" name="PetAddComponent" type="element" specialization="Component" />
-            </mappedPath>
-          </mappedClass>
+          <isMapped>false</isMapped>
           <parentFolderId>2aa01990-779e-4188-8982-2c6168b33a1c</parentFolderId>
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
@@ -201,12 +187,7 @@
                 <stereotypes />
                 <genericTypeParameters />
               </typeReference>
-              <isMapped>true</isMapped>
-              <mappedClass>
-                <mappedPath>
-                  <target id="2e648d0e-6bfe-456c-9637-dd8502410b5d" name="ownerId" type="element" specialization="Component Input" />
-                </mappedPath>
-              </mappedClass>
+              <isMapped>false</isMapped>
               <parentFolderId>c67616fa-1288-4e75-b949-bd6992247f6a</parentFolderId>
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>

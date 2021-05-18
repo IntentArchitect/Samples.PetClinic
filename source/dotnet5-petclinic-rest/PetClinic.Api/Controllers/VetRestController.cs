@@ -8,6 +8,7 @@ using PetClinic.Application;
 using PetClinic.Application.Interfaces;
 using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
+using System.Threading;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -29,53 +30,51 @@ namespace PetClinic.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<VetDTO>>> getAllVets()
+        public async Task<ActionResult<List<VetDTO>>> getAllVets(CancellationToken cancellationToken)
         {
             var result = default(List<VetDTO>);
 
             result = await _appService.GetAllVets();
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpGet("{vetId}")]
-        public async Task<ActionResult<VetDTO>> getVet(int vetId)
+        public async Task<ActionResult<VetDTO>> getVet(int vetId, CancellationToken cancellationToken)
         {
             var result = default(VetDTO);
 
             result = await _appService.GetVet(vetId);
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpPost]
-        public async Task<ActionResult> addVet(VetCreateDTO dto)
+        public async Task<ActionResult> addVet(VetCreateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.AddVet(dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpPut("{vetId}")]
-        public async Task<ActionResult> updateVet(int vetId, VetUpdateDTO dto)
+        public async Task<ActionResult> updateVet(int vetId, VetUpdateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdateVet(vetId, dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpDelete("{vetId}")]
-        public async Task<ActionResult> deleteVet(int vetId)
+        public async Task<ActionResult> deleteVet(int vetId, CancellationToken cancellationToken)
         {
 
             await _appService.DeleteVet(vetId);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }

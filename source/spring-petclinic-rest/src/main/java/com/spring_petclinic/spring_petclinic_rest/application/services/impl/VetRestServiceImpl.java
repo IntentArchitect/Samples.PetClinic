@@ -25,7 +25,7 @@ public class VetRestServiceImpl implements VetRestService {
     private ModelMapper mapper;
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public List<VetDTO> getAllVets() {
         var vets = this.vetRepository.findAll();
@@ -33,7 +33,7 @@ public class VetRestServiceImpl implements VetRestService {
     }
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public VetDTO getVet(int vetId) {
         var vet = this.vetRepository.findById(vetId);

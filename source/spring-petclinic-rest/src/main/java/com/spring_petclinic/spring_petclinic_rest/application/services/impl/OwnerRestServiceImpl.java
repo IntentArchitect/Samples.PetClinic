@@ -24,7 +24,7 @@ public class OwnerRestServiceImpl implements OwnerRestService {
     private ModelMapper mapper;
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public List<OwnerDTO> getOwners() {
         var owners = ownerRepository.findAll();
@@ -45,7 +45,7 @@ public class OwnerRestServiceImpl implements OwnerRestService {
     }
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public OwnerDTO getOwner(int ownerId) {
         var owner = ownerRepository.findById(ownerId);
@@ -80,7 +80,7 @@ public class OwnerRestServiceImpl implements OwnerRestService {
     }
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public List<OwnerDTO> getOwnersList(String lastName) {
         var owners = ownerRepository.findByLastName(lastName);

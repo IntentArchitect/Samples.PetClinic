@@ -46,20 +46,20 @@
       <stereotypes />
       <childElements />
     </childElement>
-    <childElement id="b69e95b9-1c9c-4eb6-8e48-5ae0e21d337a" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
-      <name>model</name>
-      <display>model: PetModel</display>
+    <childElement id="dd2544ee-c15c-4aa7-b96e-0ead84eee5ec" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>petTypes</name>
+      <display>petTypes: PetTypeDTO[*]</display>
       <isAbstract>false</isAbstract>
       <order>1</order>
       <genericTypes />
-      <typeReference id="25d1c376-84b4-4cf2-8c87-68300f8408f9">
-        <typeId>d608dfa3-100e-44eb-9be0-663cf4759e15</typeId>
+      <typeReference id="469dfa18-326c-402f-aa46-a28c05c4dc4c">
+        <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
-        <isCollection>false</isCollection>
+        <isCollection>true</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>Web Client</typePackageName>
-        <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
@@ -70,20 +70,20 @@
       <stereotypes />
       <childElements />
     </childElement>
-    <childElement id="dd2544ee-c15c-4aa7-b96e-0ead84eee5ec" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
-      <name>petTypes</name>
-      <display>petTypes: PetTypeDTO[*]</display>
+    <childElement id="b69e95b9-1c9c-4eb6-8e48-5ae0e21d337a" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
+      <name>model</name>
+      <display>model: PetModel</display>
       <isAbstract>false</isAbstract>
       <order>2</order>
       <genericTypes />
-      <typeReference id="469dfa18-326c-402f-aa46-a28c05c4dc4c">
-        <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
+      <typeReference id="25d1c376-84b4-4cf2-8c87-68300f8408f9">
+        <typeId>d608dfa3-100e-44eb-9be0-663cf4759e15</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
-        <isCollection>true</isCollection>
+        <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>DTOs</typePackageName>
-        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <typePackageName>Web Client</typePackageName>
+        <typePackageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>

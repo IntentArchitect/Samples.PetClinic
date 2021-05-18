@@ -1,22 +1,22 @@
 <div class="container-fluid" intent-manage="add remove" intent-id="container">
   <form [formGroup]="visit" intent-manage="" intent-id="form">
     <div class="form-group" intent-id="61f2e8ec-198c-4ade-9794-33728bd9395a">
-      <label for="visitDate">visitDate</label>
+      <label for="visitDate">Date of Visit</label>
       <input id="visitDate" class="form-control" formControlName="visitDate" type="text" bsDatepicker="" />
     </div>
     <div class="form-group" intent-id="66e4bdf7-acf5-4020-a884-f1b58c2064bc">
-      <label for="description">description</label>
+      <label for="description">Description</label>
       <input id="description" class="form-control" formControlName="description" type="text" />
     </div>
-  </form>
-  <div class="row" intent-id="Section">
-    <div class="col" intent-manage="">
-      <span intent-manage="" intent-id="feef8838-43d5-47e2-a890-207410f817c2">
-        <button class="btn btn-default" type="button" (click)="goToOwnerDetails(ownerId)">< Back</button>
-      </span>
-      <span intent-manage="" intent-id="71a7c5ad-8092-4f7e-824d-5d3cc34f6e09">
-        <button class="btn btn-default" type="button" (click)="addVisit()">Add Visit</button>
-      </span>
+    <div class="row" intent-id="Section">
+      <div class="col" intent-manage="">
+        <span intent-manage="" intent-id="feef8838-43d5-47e2-a890-207410f817c2">
+          <button class="btn btn-default" type="button" (click)="goToOwnerDetails(ownerId)">< Back</button>
+        </span>
+        <span intent-manage="" intent-id="71a7c5ad-8092-4f7e-824d-5d3cc34f6e09">
+          <button class="btn btn-default" type="button" (click)="addVisit()">Add Visit</button>
+        </span>
+      </div>
     </div>
-  </div>
+  </form>
 </div>

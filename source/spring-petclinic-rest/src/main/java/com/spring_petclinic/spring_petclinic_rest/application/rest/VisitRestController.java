@@ -10,6 +10,7 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.VisitUpdate
 import com.spring_petclinic.spring_petclinic_rest.application.services.VisitRestService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import com.spring_petclinic.spring_petclinic_rest.application.models.VisitDTO;
 
 @RestController
 @RequestMapping("/api/visits")
@@ -20,10 +21,10 @@ public class VisitRestController {
 
     @GetMapping("/{visitId}")
     @ApiOperation(value = "getVisit")
-    public ResponseEntity<PetVisitDTO> getVisit(@PathVariable(value = "visitId") int visitId) {
-        final PetVisitDTO result = visitRestService.getVisit(visitId);
+    public ResponseEntity<VisitDTO> getVisit(@PathVariable(value = "visitId") int visitId) {
+        final VisitDTO result = visitRestService.getVisit(visitId);
         if (result == null) {
-            return new ResponseEntity<PetVisitDTO>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<VisitDTO>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }

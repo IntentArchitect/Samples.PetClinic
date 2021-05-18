@@ -38,7 +38,7 @@
       <isMapped>true</isMapped>
       <mappedClass>
         <mappedPath>
-          <target id="4703a107-263b-4d28-a4eb-081aa0854ee3" name="id" type="element" specialization="DTO-Field" />
+          <target id="e2e387a9-8622-4c3f-a5a1-173d1687dde7" name="id" type="element" specialization="DTO-Field" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>ba02675a-9b41-40cd-a32b-6332410384b3</parentFolderId>

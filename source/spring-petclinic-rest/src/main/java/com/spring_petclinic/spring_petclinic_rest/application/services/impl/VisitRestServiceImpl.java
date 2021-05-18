@@ -14,6 +14,7 @@ import com.spring_petclinic.spring_petclinic_rest.data.PetRepository;
 import com.spring_petclinic.spring_petclinic_rest.data.VisitRepository;
 import com.spring_petclinic.spring_petclinic_rest.domain.models.Visit;
 import com.spring_petclinic.spring_petclinic_rest.intent.IntentIgnoreBody;
+import com.spring_petclinic.spring_petclinic_rest.application.models.VisitDTO;
 
 @Service
 @AllArgsConstructor
@@ -25,11 +26,11 @@ public class VisitRestServiceImpl implements VisitRestService {
     private ModelMapper mapper;
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public PetVisitDTO getVisit(int visitId) {
+    public VisitDTO getVisit(int visitId) {
         var visit = this.visitRepository.findById(visitId);
-        return visit.isPresent() ? PetVisitDTO.mapFromVisit(visit.get(), mapper) : null;
+        return visit.isPresent() ? VisitDTO.mapFromVisit(visit.get(), mapper) : null;
     }
 
     @Override

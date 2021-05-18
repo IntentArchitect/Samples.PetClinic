@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.EntityFrameworkCore;
 using PetClinic.Domain.Repositories;
+using System.Threading;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.EntityFrameworkCore.Repositories.PagedList", Version = "1.0")]
@@ -40,14 +41,14 @@ namespace PetClinic.Infrastructure.Repositories
             AddRange(results);
         }
 
-        public static async Task<IPagedResult<T>> CreateAsync(IQueryable<T> source, int pageNo, int pageSize)
+        public static async Task<IPagedResult<T>> CreateAsync(IQueryable<T> source, int pageNo, int pageSize, CancellationToken cancellationToken = default)
         {
-            var count = await source.CountAsync();
+            var count = await source.CountAsync(cancellationToken);
             var skip = ((pageNo - 1) * pageSize);
             var results = await source
                 .Skip(skip)
                 .Take(pageSize)
-                .ToListAsync();
+                .ToListAsync(cancellationToken);
             return new PagedList<T>(count, pageNo, pageSize, results);
         }
 

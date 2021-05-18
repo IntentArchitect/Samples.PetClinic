@@ -1,4 +1,4 @@
 export interface PetTypeDTO {
-    id: number;
+    id?: number;
     name: string;
 }

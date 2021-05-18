@@ -22,12 +22,12 @@
   <childElements>
     <childElement id="6d54d432-4bc4-4e10-afad-8986504d9797" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>getVisit</name>
-      <display>getVisit(visitId: int): PetVisitDTO</display>
+      <display>getVisit(visitId: int): VisitDTO</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
       <typeReference id="5969efa0-fa03-4ecd-8634-c5c412dcdeae">
-        <typeId>bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</typeId>
+        <typeId>49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>

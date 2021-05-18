@@ -9,6 +9,7 @@ import com.spring_petclinic.spring_petclinic_rest.application.mappings.PetToPetD
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.VisitToPetVisitDTOMapping;
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.SpecialtyToSpecialtyDTOMapping;
 import com.spring_petclinic.spring_petclinic_rest.application.mappings.VetToVetDTOMapping;
+import com.spring_petclinic.spring_petclinic_rest.application.mappings.VisitToVisitDTOMapping;
 
 @Configuration
 public class ModelMapperBean {
@@ -28,5 +29,6 @@ public class ModelMapperBean {
         modelMapper.addMappings(new VisitToPetVisitDTOMapping());
         modelMapper.addMappings(new SpecialtyToSpecialtyDTOMapping());
         modelMapper.addMappings(new VetToVetDTOMapping());
+        modelMapper.addMappings(new VisitToVisitDTOMapping());
     }
 }

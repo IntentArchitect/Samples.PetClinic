@@ -6,9 +6,9 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.PetDTO;
 
 public class PetToPetDTOMapping extends PropertyMap<Pet, PetDTO> {
     protected void configure() {
-        map().setPetTypeId((int)source.getPetType().getId());
+        map().setPetTypeId(source.getPetType().getId());
         map().setPetTypeName(source.getPetType().getName());
-        map().setOwnerId((int)source.getOwner().getId());
+        map().setOwnerId(source.getOwner().getId());
         map().setOwnerFirstName(source.getOwner().getFirstName());
         map().setOwnerLastName(source.getOwner().getLastName());
     }

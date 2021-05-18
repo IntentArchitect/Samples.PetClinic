@@ -26,10 +26,10 @@ namespace PetClinic.Application.Implementation
         }
 
         [IntentManaged(Mode.Merge, Body = Mode.Ignore, Signature = Mode.Fully)]
-        public async Task<PetVisitDTO> GetVisit(int visitId)
+        public async Task<VisitDTO> GetVisit(int visitId)
         {
             var element = await _visitRepository.FindByIdAsync(visitId);
-            return element.MapToPetVisitDTO(_mapper);
+            return element.MapToVisitDTO(_mapper);
         }
 
         [IntentManaged(Mode.Merge, Body = Mode.Ignore, Signature = Mode.Fully)]

@@ -22,7 +22,7 @@ public class SpecialtyRestServiceImpl implements SpecialtyRestService {
     private ModelMapper mapper;
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public List<SpecialtyDTO> getAllSpecialties() {
         var specialties = this.specialtyRepository.findAll();
@@ -30,7 +30,7 @@ public class SpecialtyRestServiceImpl implements SpecialtyRestService {
     }
 
     @Override
-    @Transactional(readOnly = false)
+    @Transactional(readOnly = true)
     @IntentIgnoreBody
     public SpecialtyDTO getSpecialty(int specialtyId) {
         var specialty = this.specialtyRepository.findById(specialtyId);

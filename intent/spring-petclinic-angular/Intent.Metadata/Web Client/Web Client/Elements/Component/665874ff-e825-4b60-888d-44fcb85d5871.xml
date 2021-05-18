@@ -48,7 +48,7 @@
     </childElement>
     <childElement id="5ddf8c90-abe0-4f27-b2b2-cfb6dc62e6b1" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
       <name>deleteVisit</name>
-      <display>deleteVisit(): void</display>
+      <display>deleteVisit(visitId: int): void</display>
       <isAbstract>false</isAbstract>
       <order>1</order>
       <genericTypes />
@@ -65,7 +65,32 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
-      <childElements />
+      <childElements>
+        <childElement id="f61d17aa-d9d9-4dc7-9157-fafae3d0ce01" type="Command Parameter" typeId="4a1ce2a9-e79f-4e93-96af-24b44728ecbc">
+          <name>visitId</name>
+          <display>visitId: int</display>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <typeReference id="138cf218-f5a8-43e4-ae16-085938fc0857">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>5ddf8c90-abe0-4f27-b2b2-cfb6dc62e6b1</parentFolderId>
+          <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
+          <packageName>Web Client</packageName>
+          <stereotypes />
+          <childElements />
+        </childElement>
+      </childElements>
     </childElement>
     <childElement id="fb11ca4c-edea-4952-b737-528b2563365b" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
       <name>[view]</name>

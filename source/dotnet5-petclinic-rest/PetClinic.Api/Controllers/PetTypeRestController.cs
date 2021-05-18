@@ -8,6 +8,7 @@ using PetClinic.Application;
 using PetClinic.Application.Interfaces;
 using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
+using System.Threading;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -29,54 +30,52 @@ namespace PetClinic.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<PetTypeDTO>>> getAllPetTypes()
+        public async Task<ActionResult<List<PetTypeDTO>>> getAllPetTypes(CancellationToken cancellationToken)
         {
             var result = default(List<PetTypeDTO>);
 
             result = await _appService.GetAllPetTypes();
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpGet("{petTypeId}")]
-        public async Task<ActionResult<PetTypeDTO>> getPetType(int petTypeId)
+        public async Task<ActionResult<PetTypeDTO>> getPetType(int petTypeId, CancellationToken cancellationToken)
         {
             var result = default(PetTypeDTO);
 
             result = await _appService.GetPetType(petTypeId);
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> addPetType(PetTypeDTO dto)
+        public async Task<ActionResult<int>> addPetType(PetTypeDTO dto, CancellationToken cancellationToken)
         {
             var result = default(int);
 
             result = await _appService.AddPetType(dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return Ok(result);
         }
 
         [HttpPut("{petTypeId}")]
-        public async Task<ActionResult> updatePetType(int petTypeId, PetTypeDTO dto)
+        public async Task<ActionResult> updatePetType(int petTypeId, PetTypeDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdatePetType(petTypeId, dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpDelete("{petTypeId}")]
-        public async Task<ActionResult> deletePetType(int petTypeId)
+        public async Task<ActionResult> deletePetType(int petTypeId, CancellationToken cancellationToken)
         {
 
             await _appService.DeletePetType(petTypeId);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }

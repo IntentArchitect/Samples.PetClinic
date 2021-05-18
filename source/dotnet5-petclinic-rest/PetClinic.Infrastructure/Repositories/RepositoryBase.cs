@@ -45,28 +45,28 @@ namespace PetClinic.Infrastructure.Repositories
             return _dbContext.SaveChangesAsync(cancellationToken);
         }
 
-        public virtual async Task<TDomain> FindAsync(Expression<Func<TPersistence, bool>> filterExpression)
+        public virtual async Task<TDomain> FindAsync(Expression<Func<TPersistence, bool>> filterExpression, CancellationToken cancellationToken = default)
         {
-            return await QueryInternal(filterExpression).SingleOrDefaultAsync<TDomain>();
+            return await QueryInternal(filterExpression).SingleOrDefaultAsync<TDomain>(cancellationToken);
         }
 
-        public virtual async Task<List<TDomain>> FindAllAsync()
+        public virtual async Task<List<TDomain>> FindAllAsync(CancellationToken cancellationToken = default)
         {
-            return await QueryInternal(x => true).ToListAsync<TDomain>();
+            return await QueryInternal(x => true).ToListAsync<TDomain>(cancellationToken);
         }
 
-        public virtual async Task<List<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression)
+        public virtual async Task<List<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, CancellationToken cancellationToken = default)
         {
-            return await QueryInternal(filterExpression).ToListAsync<TDomain>();
+            return await QueryInternal(filterExpression).ToListAsync<TDomain>(cancellationToken);
         }
 
 
-        public virtual async Task<List<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, Func<IQueryable<TPersistence>, IQueryable<TPersistence>> linq)
+        public virtual async Task<List<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, Func<IQueryable<TPersistence>, IQueryable<TPersistence>> linq, CancellationToken cancellationToken = default)
         {
-            return await QueryInternal(filterExpression, linq).ToListAsync<TDomain>();
+            return await QueryInternal(filterExpression, linq).ToListAsync<TDomain>(cancellationToken);
         }
 
-        public virtual async Task<IPagedResult<TDomain>> FindAllAsync(int pageNo, int pageSize)
+        public virtual async Task<IPagedResult<TDomain>> FindAllAsync(int pageNo, int pageSize, CancellationToken cancellationToken = default)
         {
             var query = QueryInternal(x => true);
             return await PagedList<TDomain>.CreateAsync(
@@ -75,27 +75,29 @@ namespace PetClinic.Infrastructure.Repositories
                 pageSize);
         }
 
-        public virtual async Task<IPagedResult<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, int pageNo, int pageSize)
+        public virtual async Task<IPagedResult<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, int pageNo, int pageSize, CancellationToken cancellationToken = default)
         {
             var query = QueryInternal(filterExpression);
             return await PagedList<TDomain>.CreateAsync(
                 query,
                 pageNo,
-                pageSize);
+                pageSize,
+                cancellationToken);
         }
 
-        public virtual async Task<IPagedResult<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, int pageNo, int pageSize, Func<IQueryable<TPersistence>, IQueryable<TPersistence>> linq)
+        public virtual async Task<IPagedResult<TDomain>> FindAllAsync(Expression<Func<TPersistence, bool>> filterExpression, int pageNo, int pageSize, Func<IQueryable<TPersistence>, IQueryable<TPersistence>> linq, CancellationToken cancellationToken = default)
         {
             var query = QueryInternal(filterExpression, linq);
             return await PagedList<TDomain>.CreateAsync(
                 query,
                 pageNo,
-                pageSize);
+                pageSize,
+                cancellationToken);
         }
 
-        public virtual async Task<int> CountAsync(Expression<Func<TPersistence, bool>> filterExpression)
+        public virtual async Task<int> CountAsync(Expression<Func<TPersistence, bool>> filterExpression, CancellationToken cancellationToken = default)
         {
-            return await QueryInternal(filterExpression).CountAsync();
+            return await QueryInternal(filterExpression).CountAsync(cancellationToken);
         }
 
         public bool Any(Expression<Func<TPersistence, bool>> filterExpression)
@@ -103,9 +105,9 @@ namespace PetClinic.Infrastructure.Repositories
             return QueryInternal(filterExpression).Any();
         }
 
-        public virtual async Task<bool> AnyAsync(Expression<Func<TPersistence, bool>> filterExpression)
+        public virtual async Task<bool> AnyAsync(Expression<Func<TPersistence, bool>> filterExpression, CancellationToken cancellationToken = default)
         {
-            return await QueryInternal(filterExpression).AnyAsync();
+            return await QueryInternal(filterExpression).AnyAsync(cancellationToken);
         }
 
         protected virtual IQueryable<TPersistence> QueryInternal(Expression<Func<TPersistence, bool>> filterExpression)

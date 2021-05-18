@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 @Data
 public class PetTypeDTO {
-    private int id;
+    private Integer id;
     private String name;
 
     public static PetTypeDTO mapFromPetType(PetType petType, ModelMapper mapper) {

@@ -8,6 +8,7 @@ using PetClinic.Application;
 using PetClinic.Application.Interfaces;
 using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
+using System.Threading;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -29,42 +30,41 @@ namespace PetClinic.Api.Controllers
         }
 
         [HttpGet("{petId}")]
-        public async Task<ActionResult<PetDTO>> getPet(int petId)
+        public async Task<ActionResult<PetDTO>> getPet(int petId, CancellationToken cancellationToken)
         {
             var result = default(PetDTO);
 
             result = await _appService.GetPet(petId);
-            await _dbContext.SaveChangesAsync();
 
             return Ok(result);
         }
 
         [HttpPost]
-        public async Task<ActionResult> addPet(PetCreateDTO dto)
+        public async Task<ActionResult> addPet(PetCreateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.AddPet(dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpPut("{petId}")]
-        public async Task<ActionResult> updatePet(int petId, PetUpdateDTO dto)
+        public async Task<ActionResult> updatePet(int petId, PetUpdateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdatePet(petId, dto);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }
 
         [HttpDelete("{petId}")]
-        public async Task<ActionResult> deletePet(int petId)
+        public async Task<ActionResult> deletePet(int petId, CancellationToken cancellationToken)
         {
 
             await _appService.DeletePet(petId);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             return NoContent();
         }

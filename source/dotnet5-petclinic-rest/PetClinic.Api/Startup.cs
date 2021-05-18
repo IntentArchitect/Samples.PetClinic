@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using PetClinic.Infrastructure;
 using PetClinic.Application;
+using PetClinic.Api.Configuration;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Startup", Version = "1.0")]
@@ -31,16 +32,8 @@ namespace PetClinic.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(options =>
-            {
-                options.AddDefaultPolicy(builder =>
-                    {
-                        builder.AllowAnyOrigin()
-                            .AllowAnyMethod()
-                            .AllowAnyHeader();
-                    });
-            });
             services.AddControllers();
+            services.ConfigureCors();
             services.AddApplication();
             services.AddInfrastructure(Configuration);
             ConfigureSwagger(services);
@@ -57,10 +50,8 @@ namespace PetClinic.Api
 
             app.UseHttpsRedirection();
             app.UseRouting();
-
-            app.UseCors();
-
             app.UseAuthorization();
+            app.UseCors();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
