@@ -39,11 +39,11 @@ export class PetDTO
     dto.id = pet.id;
     dto.name = pet.name;
     dto.birthDate = pet.birthDate;
-    dto.petTypeId = pet.petType.id;
-    dto.petTypeName = pet.petType.name;
-    dto.ownerId = pet.owner.id;
-    dto.ownerFirstName = pet.owner.firstName;
-    dto.ownerLastName = pet.owner.lastName;
+    dto.petTypeId = pet.petType?.id;
+    dto.petTypeName = pet.petType?.name;
+    dto.ownerId = pet.owner?.id;
+    dto.ownerFirstName = pet.owner?.firstName;
+    dto.ownerLastName = pet.owner?.lastName;
     dto.visits = pet.visits?.map(x => PetVisitDTO.fromVisit(x));
     return dto;
   }

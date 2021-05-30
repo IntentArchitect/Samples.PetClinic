@@ -28,7 +28,7 @@ export class VisitDTO
     dto.visitDate = visit.visitDate;
     dto.description = visit.description;
     dto.pet = PetDTO.fromPet(visit.pet);
-    dto.ownerId = visit.pet.owner.id;
+    dto.ownerId = visit.pet?.owner?.id;
     return dto;
   }
 

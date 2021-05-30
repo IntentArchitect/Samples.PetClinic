@@ -12,34 +12,28 @@ import { PetTypeRestService } from './services/pet-type-rest.service';
 import { SpecialtyRestService } from './services/specialty-rest.service';
 import { VetRestService } from './services/vet-rest.service';
 import { VisitRestService } from './services/visit-rest.service';
-import { IntentIgnore, IntentMerge } from './intent/intent.decorators';
 import { ormconfig } from './orm.config';
 import { OwnerRepository } from './repository/owner.repository';
-import { PetTypeRepository } from './repository/pet-type.repository';
 import { PetRepository } from './repository/pet.repository';
+import { PetTypeRepository } from './repository/pet-type.repository';
 import { SpecialtyRepository } from './repository/specialty.repository';
 import { VetRepository } from './repository/vet.repository';
 import { VisitRepository } from './repository/visit.repository';
-import { AutomapperModule } from '@automapper/nestjs';
-import { classes } from '@automapper/classes';
+import { IntentIgnore, IntentMerge } from './intent/intent.decorators';
 
 @IntentMerge()
 @Module({
   imports: [
     TypeOrmModule.forRoot(ormconfig),
-    TypeOrmModule.forFeature([OwnerRepository, PetTypeRepository, PetRepository, SpecialtyRepository, VetRepository, VisitRepository]),
-    AutomapperModule.forRoot({
-      options: [{ name: '', pluginInitializer: classes }],
-      singular: true,
-    })],
+    TypeOrmModule.forFeature([OwnerRepository, PetRepository, PetTypeRepository, SpecialtyRepository, VetRepository, VisitRepository])
+  ],
   controllers: [
     OwnerRestController,
     PetRestController,
     PetTypeRestController,
     SpecialtyRestController,
     VetRestController,
-    VisitRestController,
-
+    VisitRestController
   ],
   providers: [
     OwnerRestService,
@@ -47,7 +41,7 @@ import { classes } from '@automapper/classes';
     PetTypeRestService,
     SpecialtyRestService,
     VetRestService,
-    VisitRestService,
+    VisitRestService
   ]
 })
 export class AppModule {}

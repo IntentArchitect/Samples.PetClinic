@@ -14,6 +14,7 @@ const pet_dto_1 = require("./pet.dto");
 const swagger_1 = require("@nestjs/swagger");
 class VisitDTO {
     static fromVisit(visit) {
+        var _a, _b;
         if (visit == null) {
             return null;
         }
@@ -22,7 +23,7 @@ class VisitDTO {
         dto.visitDate = visit.visitDate;
         dto.description = visit.description;
         dto.pet = pet_dto_1.PetDTO.fromPet(visit.pet);
-        dto.ownerId = visit.pet.owner.id;
+        dto.ownerId = (_b = (_a = visit.pet) === null || _a === void 0 ? void 0 : _a.owner) === null || _b === void 0 ? void 0 : _b.id;
         return dto;
     }
 }

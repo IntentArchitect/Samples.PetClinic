@@ -5,9 +5,9 @@
 //@IntentCanAdd()
 export const environment = {
   production: false, 
-  //api_base_url: "http://localhost:8080"
-  //api_base_url: "https://localhost:44350"
-  api_base_url: "http://localhost:3000"
+  //api_base_url: "http://localhost:8080" // Java Spring Backend
+  //api_base_url: "https://localhost:44350" // .NET 5 Backend
+  api_base_url: "http://localhost:3000" // NestJS Backend
 };
 
 /*

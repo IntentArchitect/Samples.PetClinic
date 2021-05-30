@@ -1,8 +1,8 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "nestjs-petclinic-rest",
   "private": true,
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "NestJS Pet Clinic rest services",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -20,9 +20,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@automapper/classes": "^4.0.0",
-    "@automapper/core": "^4.0.0",
-    "@automapper/nestjs": "^4.0.0",
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
@@ -36,7 +33,6 @@
     "typeorm": "^0.2.32"
   },
   "devDependencies": {
-    "@automapper/types": "^4.0.0",
     "@nestjs/cli": "^7.6.0",
     "@nestjs/schematics": "^7.3.1",
     "@nestjs/testing": "^7.6.15",

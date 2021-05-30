@@ -21,16 +21,14 @@ const pet_type_rest_service_1 = require("./services/pet-type-rest.service");
 const specialty_rest_service_1 = require("./services/specialty-rest.service");
 const vet_rest_service_1 = require("./services/vet-rest.service");
 const visit_rest_service_1 = require("./services/visit-rest.service");
-const intent_decorators_1 = require("./intent/intent.decorators");
 const orm_config_1 = require("./orm.config");
 const owner_repository_1 = require("./repository/owner.repository");
-const pet_type_repository_1 = require("./repository/pet-type.repository");
 const pet_repository_1 = require("./repository/pet.repository");
+const pet_type_repository_1 = require("./repository/pet-type.repository");
 const specialty_repository_1 = require("./repository/specialty.repository");
 const vet_repository_1 = require("./repository/vet.repository");
 const visit_repository_1 = require("./repository/visit.repository");
-const nestjs_1 = require("@automapper/nestjs");
-const classes_1 = require("@automapper/classes");
+const intent_decorators_1 = require("./intent/intent.decorators");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -38,11 +36,7 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             typeorm_1.TypeOrmModule.forRoot(orm_config_1.ormconfig),
-            typeorm_1.TypeOrmModule.forFeature([owner_repository_1.OwnerRepository, pet_type_repository_1.PetTypeRepository, pet_repository_1.PetRepository, specialty_repository_1.SpecialtyRepository, vet_repository_1.VetRepository, visit_repository_1.VisitRepository]),
-            nestjs_1.AutomapperModule.forRoot({
-                options: [{ name: '', pluginInitializer: classes_1.classes }],
-                singular: true,
-            })
+            typeorm_1.TypeOrmModule.forFeature([owner_repository_1.OwnerRepository, pet_repository_1.PetRepository, pet_type_repository_1.PetTypeRepository, specialty_repository_1.SpecialtyRepository, vet_repository_1.VetRepository, visit_repository_1.VisitRepository])
         ],
         controllers: [
             owner_rest_controller_1.OwnerRestController,
@@ -50,7 +44,7 @@ AppModule = __decorate([
             pet_type_rest_controller_1.PetTypeRestController,
             specialty_rest_controller_1.SpecialtyRestController,
             vet_rest_controller_1.VetRestController,
-            visit_rest_controller_1.VisitRestController,
+            visit_rest_controller_1.VisitRestController
         ],
         providers: [
             owner_rest_service_1.OwnerRestService,
@@ -58,7 +52,7 @@ AppModule = __decorate([
             pet_type_rest_service_1.PetTypeRestService,
             specialty_rest_service_1.SpecialtyRestService,
             vet_rest_service_1.VetRestService,
-            visit_rest_service_1.VisitRestService,
+            visit_rest_service_1.VisitRestService
         ]
     })
 ], AppModule);

@@ -14,7 +14,7 @@ const pet_visit_dto_1 = require("./pet-visit.dto");
 const swagger_1 = require("@nestjs/swagger");
 class PetDTO {
     static fromPet(pet) {
-        var _a;
+        var _a, _b, _c, _d, _e, _f;
         if (pet == null) {
             return null;
         }
@@ -22,12 +22,12 @@ class PetDTO {
         dto.id = pet.id;
         dto.name = pet.name;
         dto.birthDate = pet.birthDate;
-        dto.petTypeId = pet.petType.id;
-        dto.petTypeName = pet.petType.name;
-        dto.ownerId = pet.owner.id;
-        dto.ownerFirstName = pet.owner.firstName;
-        dto.ownerLastName = pet.owner.lastName;
-        dto.visits = (_a = pet.visits) === null || _a === void 0 ? void 0 : _a.map(x => pet_visit_dto_1.PetVisitDTO.fromVisit(x));
+        dto.petTypeId = (_a = pet.petType) === null || _a === void 0 ? void 0 : _a.id;
+        dto.petTypeName = (_b = pet.petType) === null || _b === void 0 ? void 0 : _b.name;
+        dto.ownerId = (_c = pet.owner) === null || _c === void 0 ? void 0 : _c.id;
+        dto.ownerFirstName = (_d = pet.owner) === null || _d === void 0 ? void 0 : _d.firstName;
+        dto.ownerLastName = (_e = pet.owner) === null || _e === void 0 ? void 0 : _e.lastName;
+        dto.visits = (_f = pet.visits) === null || _f === void 0 ? void 0 : _f.map(x => pet_visit_dto_1.PetVisitDTO.fromVisit(x));
         return dto;
     }
 }

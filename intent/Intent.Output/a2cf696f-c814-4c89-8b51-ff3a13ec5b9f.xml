@@ -3,6 +3,42 @@
   <ApplicationId>a2cf696f-c814-4c89-8b51-ff3a13ec5b9f</ApplicationId>
   <FileLogs>
     <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/.eslintrc.js</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>.eslintrc.js</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/.gitignore</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>.gitignore</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/.prettierrc</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>.prettierrc</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/nest-cli.json</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>nest-cli.json</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.Npm.PackageJsonFile</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/package.json</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>package.json</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/README.md</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>README.md</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
       <ProjectId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</ProjectId>
       <CorrelationId>Intent.NodeJS.NestJS.Core.AppModule</CorrelationId>
       <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/src/app.module.ts</SolutionRelativeFilePath>
@@ -55,6 +91,12 @@
       <CorrelationId>Intent.NodeJS.NestJS.Core.Main</CorrelationId>
       <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/src/main.ts</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>main.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</ProjectId>
+      <CorrelationId>Intent.NodeJS.TypeORM.OrmConfig</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/src/orm.config.ts</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>orm.config.ts</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>85c052bb-1455-4208-b32d-eae6ab1f514b</ProjectId>
@@ -259,6 +301,18 @@
       <CorrelationId>Intent.NodeJS.NestJS.Controllers.ControllerTemplate8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
       <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/src/web/rest/visit-rest.controller.ts</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>visit-rest.controller.ts</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/tsconfig.build.json</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>tsconfig.build.json</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.ZipFileContent</CorrelationId>
+      <SolutionRelativeFilePath>../../source/nestjs-petclinic-rest/tsconfig.json</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>tsconfig.json</ProjectRelativeFilePath>
     </FileLog>
   </FileLogs>
 </outputLog>

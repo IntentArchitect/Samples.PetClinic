@@ -3082,7 +3082,7 @@
         "affectsGlobalScope": false
       },
       "../src/services/dto/pet.dto.ts": {
-        "version": "36c8e80ff93ace7d59e4073c7b14cb852a281556c325d4308743c75a1b223192",
+        "version": "68cede80a68706df254adc1e1e55b44e10af03b528b1e38f16993269b95a6490",
         "signature": "36984fc37eacaccd10c5884956adf77af42e95ff95a409386db4522edb9d7c17",
         "affectsGlobalScope": false
       },
@@ -3227,7 +3227,7 @@
         "affectsGlobalScope": false
       },
       "../src/services/dto/visit.dto.ts": {
-        "version": "1f2c68e229cf785f84f158640c274b84da607a266a6658f9f317f368cb1f4bdd",
+        "version": "1b8022171453434a2fa402544b15afcb52a77fafaa06f0ae76440e667151afcd",
         "signature": "6dc8628f81686756d6dda25ca62e1d7760b12b584b460a5f2eb8c0215b493fcb",
         "affectsGlobalScope": false
       },
@@ -3261,168 +3261,8 @@
         "signature": "8757740fb7e925b2af4a2698bf28418011ca7655736d9876179d4a810cdd4b0d",
         "affectsGlobalScope": false
       },
-      "../node_modules/@automapper/types/src/utils.d.ts": {
-        "version": "7b73dbf10e1f2c2839b1b8d93915bb049d362f550397d9944a1ef125985b5dac",
-        "signature": "7b73dbf10e1f2c2839b1b8d93915bb049d362f550397d9944a1ef125985b5dac",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/types/src/enums.d.ts": {
-        "version": "53600e5923ac3f39542ecf7b44824aa0ad4984795ee45c50abce61b7f6eb56d6",
-        "signature": "53600e5923ac3f39542ecf7b44824aa0ad4984795ee45c50abce61b7f6eb56d6",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/types/src/plugin.d.ts": {
-        "version": "a8b92002252eb2c95e92816bb06fae40ff70d65207113be6697d2d7b85d74e87",
-        "signature": "a8b92002252eb2c95e92816bb06fae40ff70d65207113be6697d2d7b85d74e87",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/types/src/options.d.ts": {
-        "version": "27e7a06433ca607aa3d9c291e6a1dbd85c1d3259039f98e9a72850a68b5487fb",
-        "signature": "27e7a06433ca607aa3d9c291e6a1dbd85c1d3259039f98e9a72850a68b5487fb",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/types/src/core.d.ts": {
-        "version": "ce3d13642fed696ded4159bf3e015ef945170567a403b0add067e1dedb2f2776",
-        "signature": "ce3d13642fed696ded4159bf3e015ef945170567a403b0add067e1dedb2f2776",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/types/src/index.d.ts": {
-        "version": "11971269384c90dc00bb4ddc63ac9be10ff8008aa75637503d056066c904eaa4",
-        "signature": "11971269384c90dc00bb4ddc63ac9be10ff8008aa75637503d056066c904eaa4",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/automapper-module-options.interface.d.ts": {
-        "version": "115aadb2b39ffe0bc134a56af9651668dc66ee615876cd51dcbcd01e534f11e7",
-        "signature": "115aadb2b39ffe0bc134a56af9651668dc66ee615876cd51dcbcd01e534f11e7",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts": {
-        "version": "c09c62d73cb9b9919467c2064c17dd64158d040147d7a11e78a0e2d8a408a9af",
-        "signature": "c09c62d73cb9b9919467c2064c17dd64158d040147d7a11e78a0e2d8a408a9af",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/automapper.module.d.ts": {
-        "version": "93f8c81199ad98007f453c8d4783c5ac91bf877650c18e7591ba4c40579c4fc1",
-        "signature": "93f8c81199ad98007f453c8d4783c5ac91bf877650c18e7591ba4c40579c4fc1",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/di/get-mapper-token.d.ts": {
-        "version": "6c2432d52cb066a0b655a729ec59bbf36711ff390f5f650562741dcfecb120a1",
-        "signature": "6c2432d52cb066a0b655a729ec59bbf36711ff390f5f650562741dcfecb120a1",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/di/inject-mapper.d.ts": {
-        "version": "48fa6454beaf648142ff0580bb445114f535528b7fe65f2e363c81f8582e3712",
-        "signature": "48fa6454beaf648142ff0580bb445114f535528b7fe65f2e363c81f8582e3712",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/di/index.d.ts": {
-        "version": "aa5bd8958552afd7b203632d1b93a3370877c79f4350990777b40d8f6a8f9c4d",
-        "signature": "aa5bd8958552afd7b203632d1b93a3370877c79f4350990777b40d8f6a8f9c4d",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/automapper-profile.abstract.d.ts": {
-        "version": "e5cbc4e8ce5f8ce71d5b9f98e653aa5809d9e988e849ff4d6ec4593c2adabf7a",
-        "signature": "e5cbc4e8ce5f8ce71d5b9f98e653aa5809d9e988e849ff4d6ec4593c2adabf7a",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/index.d.ts": {
-        "version": "401022f4d6cab271135802b29da8cc99bf6d144842720263cf7eb8379d8ea705",
-        "signature": "401022f4d6cab271135802b29da8cc99bf6d144842720263cf7eb8379d8ea705",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/map.interceptor.d.ts": {
-        "version": "cf3222ce5ca09f7bb816110d44e77015a7572eab43fc6c27af65426f376bc826",
-        "signature": "cf3222ce5ca09f7bb816110d44e77015a7572eab43fc6c27af65426f376bc826",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/index.d.ts": {
-        "version": "aa05c22230cc8390c6ec57651298f27cfc38fa996d19c29b595fc9efde2cf7cf",
-        "signature": "aa05c22230cc8390c6ec57651298f27cfc38fa996d19c29b595fc9efde2cf7cf",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/pipes/map.pipe.d.ts": {
-        "version": "e8c9dae17e133381b2adf1c0be187edff986fd6d3cc71d39594021695f967eb1",
-        "signature": "e8c9dae17e133381b2adf1c0be187edff986fd6d3cc71d39594021695f967eb1",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/lib/pipes/index.d.ts": {
-        "version": "66373f196c83a3eaf2d0e204448855f8f1a9b435303e7789c4f5fe68de286ff9",
-        "signature": "66373f196c83a3eaf2d0e204448855f8f1a9b435303e7789c4f5fe68de286ff9",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/nestjs/src/index.d.ts": {
-        "version": "057e6ab323e0cb91fae8c74d7b7eebb00e8a12c515a92b430497ba863f4dbc13",
-        "signature": "057e6ab323e0cb91fae8c74d7b7eebb00e8a12c515a92b430497ba863f4dbc13",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/types.d.ts": {
-        "version": "daed489e238ed7b2e598d2a690175b8de758cc36e144e0eee8b8f70e2c39c3fd",
-        "signature": "daed489e238ed7b2e598d2a690175b8de758cc36e144e0eee8b8f70e2c39c3fd",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/classes.d.ts": {
-        "version": "52f21a5325f5662d04e37d9957f3480946afd13c95aa46f6c828f4de7a05867d",
-        "signature": "52f21a5325f5662d04e37d9957f3480946afd13c95aa46f6c828f4de7a05867d",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/decorators/automap.decorator.d.ts": {
-        "version": "657240a01378b70f1834fba9cffbaccf48b1183a35bb965ee87647cc005b69d9",
-        "signature": "657240a01378b70f1834fba9cffbaccf48b1183a35bb965ee87647cc005b69d9",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/decorators/index.d.ts": {
-        "version": "cc63e733df7712d660cb44d3f5741fcb0fbcf4df8513f8357fabdc49a73252b7",
-        "signature": "cc63e733df7712d660cb44d3f5741fcb0fbcf4df8513f8357fabdc49a73252b7",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/constants/automap-properties-metadata-key.d.ts": {
-        "version": "a32e114058b9d19f45765a7af1fd5286610083981bf37906db9f0d7bbfcbd5b0",
-        "signature": "a32e114058b9d19f45765a7af1fd5286610083981bf37906db9f0d7bbfcbd5b0",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/constants/automapper-metadata-factory-key.d.ts": {
-        "version": "537d87afbf20afb5ea6e64bd55e7cb4e8a675eb693741e09504949c06604e622",
-        "signature": "537d87afbf20afb5ea6e64bd55e7cb4e8a675eb693741e09504949c06604e622",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/constants/index.d.ts": {
-        "version": "5c342bfde3bbcae0442503f77ba1b951d4a33961d52f6032fe9844eedd7eb012",
-        "signature": "5c342bfde3bbcae0442503f77ba1b951d4a33961d52f6032fe9844eedd7eb012",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/storages/class-metadata.storage.d.ts": {
-        "version": "03eeee5d457a803ce39ee4f3ee54c11c38ac86a7c81e06d8caf5e65666b5d540",
-        "signature": "03eeee5d457a803ce39ee4f3ee54c11c38ac86a7c81e06d8caf5e65666b5d540",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/storages/class-mapping.storage.d.ts": {
-        "version": "5aa3bf893b33110716e50cd8701b8c9dd59cadc14f0f6ec7e2ae94609b65f445",
-        "signature": "5aa3bf893b33110716e50cd8701b8c9dd59cadc14f0f6ec7e2ae94609b65f445",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/storages/class-instance.storage.d.ts": {
-        "version": "bb727fd2de6f8df0543c1ebf8a6c4ff7e4e1842de2c1cbdefbe8b55bef261e6a",
-        "signature": "bb727fd2de6f8df0543c1ebf8a6c4ff7e4e1842de2c1cbdefbe8b55bef261e6a",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/storages/index.d.ts": {
-        "version": "51e42306cfb02a997e9290d0276ef592c66a47197e0c2ee9d327ce0f830d32dd",
-        "signature": "51e42306cfb02a997e9290d0276ef592c66a47197e0c2ee9d327ce0f830d32dd",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/lib/utils/explore-metadata.util.d.ts": {
-        "version": "e13834b95c0874d2ba92c68eaef6b116c6451865dbe6f31c756696cea033a652",
-        "signature": "e13834b95c0874d2ba92c68eaef6b116c6451865dbe6f31c756696cea033a652",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@automapper/classes/src/index.d.ts": {
-        "version": "9a5316257199b0135b6da46cc1a16b09706be7f143a53c810880dbc10965aea8",
-        "signature": "9a5316257199b0135b6da46cc1a16b09706be7f143a53c810880dbc10965aea8",
-        "affectsGlobalScope": false
-      },
       "../src/app.module.ts": {
-        "version": "accf277f82c0350460cdc4be28584e4f08f14fbf5932e0ecd535b80ee64b5c8f",
+        "version": "04d368f72e738fa4a4ebaca1f2a78999adb4e54b4758689324ad445b800bccd4",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4072,116 +3912,6 @@
       "configFilePath": "../tsconfig.build.json"
     },
     "referencedMap": {
-      "../node_modules/@automapper/classes/src/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/classes.d.ts",
-        "../node_modules/@automapper/classes/src/lib/constants/index.d.ts",
-        "../node_modules/@automapper/classes/src/lib/decorators/index.d.ts",
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/classes/src/lib/utils/explore-metadata.util.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/classes.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/types/src/index.d.ts",
-        "../node_modules/reflect-metadata/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/constants/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/constants/automap-properties-metadata-key.d.ts",
-        "../node_modules/@automapper/classes/src/lib/constants/automapper-metadata-factory-key.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/decorators/automap.decorator.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/reflect-metadata/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/decorators/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/decorators/automap.decorator.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/class-instance.storage.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/class-mapping.storage.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/class-metadata.storage.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/storages/class-instance.storage.d.ts",
-        "../node_modules/@automapper/classes/src/lib/storages/class-mapping.storage.d.ts",
-        "../node_modules/@automapper/classes/src/lib/storages/class-metadata.storage.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/types.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/utils/explore-metadata.util.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/storages/index.d.ts",
-        "../node_modules/@automapper/classes/src/lib/types.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/abstracts/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/automapper.module.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/di/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/interceptors/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/pipes/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/automapper-profile.abstract.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/abstracts/automapper-profile.abstract.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/automapper.module.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/di/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/di/get-mapper-token.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/di/inject-mapper.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/interceptors/map.interceptor.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/map.interceptor.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/automapper-module-options.interface.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/interfaces/automapper-module-options.interface.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/pipes/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/pipes/map.pipe.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/pipes/map.pipe.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/core.d.ts": [
-        "../node_modules/@automapper/types/src/enums.d.ts",
-        "../node_modules/@automapper/types/src/options.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/index.d.ts": [
-        "../node_modules/@automapper/types/src/core.d.ts",
-        "../node_modules/@automapper/types/src/enums.d.ts",
-        "../node_modules/@automapper/types/src/options.d.ts",
-        "../node_modules/@automapper/types/src/plugin.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/options.d.ts": [
-        "../node_modules/@automapper/types/src/core.d.ts",
-        "../node_modules/@automapper/types/src/plugin.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/plugin.d.ts": [
-        "../node_modules/@automapper/types/src/core.d.ts",
-        "../node_modules/@automapper/types/src/options.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],
@@ -6808,8 +6538,6 @@
         "../node_modules/typeorm/query-runner/queryrunner.d.ts"
       ],
       "../src/app.module.ts": [
-        "../node_modules/@automapper/classes/src/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/index.d.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/intent/intent.decorators.ts",
@@ -7040,116 +6768,6 @@
       ]
     },
     "exportedModulesMap": {
-      "../node_modules/@automapper/classes/src/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/classes.d.ts",
-        "../node_modules/@automapper/classes/src/lib/constants/index.d.ts",
-        "../node_modules/@automapper/classes/src/lib/decorators/index.d.ts",
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/classes/src/lib/utils/explore-metadata.util.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/classes.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/types/src/index.d.ts",
-        "../node_modules/reflect-metadata/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/constants/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/constants/automap-properties-metadata-key.d.ts",
-        "../node_modules/@automapper/classes/src/lib/constants/automapper-metadata-factory-key.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/decorators/automap.decorator.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/reflect-metadata/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/decorators/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/decorators/automap.decorator.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/class-instance.storage.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/class-mapping.storage.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/class-metadata.storage.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/types.d.ts",
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/storages/index.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/storages/class-instance.storage.d.ts",
-        "../node_modules/@automapper/classes/src/lib/storages/class-mapping.storage.d.ts",
-        "../node_modules/@automapper/classes/src/lib/storages/class-metadata.storage.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/types.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/classes/src/lib/utils/explore-metadata.util.d.ts": [
-        "../node_modules/@automapper/classes/src/lib/storages/index.d.ts",
-        "../node_modules/@automapper/classes/src/lib/types.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/abstracts/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/automapper.module.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/di/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/interceptors/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/pipes/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/automapper-profile.abstract.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/abstracts/automapper-profile.abstract.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/automapper.module.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/di/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/di/get-mapper-token.d.ts",
-        "../node_modules/@automapper/nestjs/src/lib/di/inject-mapper.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/interceptors/map.interceptor.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/map.interceptor.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/automapper-module-options.interface.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/interfaces/automapper-module-options.interface.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/pipes/index.d.ts": [
-        "../node_modules/@automapper/nestjs/src/lib/pipes/map.pipe.d.ts"
-      ],
-      "../node_modules/@automapper/nestjs/src/lib/pipes/map.pipe.d.ts": [
-        "../node_modules/@automapper/types/src/index.d.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/core.d.ts": [
-        "../node_modules/@automapper/types/src/enums.d.ts",
-        "../node_modules/@automapper/types/src/options.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/index.d.ts": [
-        "../node_modules/@automapper/types/src/core.d.ts",
-        "../node_modules/@automapper/types/src/enums.d.ts",
-        "../node_modules/@automapper/types/src/options.d.ts",
-        "../node_modules/@automapper/types/src/plugin.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/options.d.ts": [
-        "../node_modules/@automapper/types/src/core.d.ts",
-        "../node_modules/@automapper/types/src/plugin.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
-      "../node_modules/@automapper/types/src/plugin.d.ts": [
-        "../node_modules/@automapper/types/src/core.d.ts",
-        "../node_modules/@automapper/types/src/options.d.ts",
-        "../node_modules/@automapper/types/src/utils.d.ts"
-      ],
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
         "../node_modules/@babel/types/lib/index.d.ts"
       ],
@@ -9917,38 +9535,6 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../node_modules/@automapper/classes/src/index.d.ts",
-      "../node_modules/@automapper/classes/src/lib/classes.d.ts",
-      "../node_modules/@automapper/classes/src/lib/constants/automap-properties-metadata-key.d.ts",
-      "../node_modules/@automapper/classes/src/lib/constants/automapper-metadata-factory-key.d.ts",
-      "../node_modules/@automapper/classes/src/lib/constants/index.d.ts",
-      "../node_modules/@automapper/classes/src/lib/decorators/automap.decorator.d.ts",
-      "../node_modules/@automapper/classes/src/lib/decorators/index.d.ts",
-      "../node_modules/@automapper/classes/src/lib/storages/class-instance.storage.d.ts",
-      "../node_modules/@automapper/classes/src/lib/storages/class-mapping.storage.d.ts",
-      "../node_modules/@automapper/classes/src/lib/storages/class-metadata.storage.d.ts",
-      "../node_modules/@automapper/classes/src/lib/storages/index.d.ts",
-      "../node_modules/@automapper/classes/src/lib/types.d.ts",
-      "../node_modules/@automapper/classes/src/lib/utils/explore-metadata.util.d.ts",
-      "../node_modules/@automapper/nestjs/src/index.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/automapper-profile.abstract.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/abstracts/index.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/automapper.module.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/di/get-mapper-token.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/di/index.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/di/inject-mapper.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/index.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/interceptors/map.interceptor.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/automapper-module-options.interface.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/interfaces/index.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/pipes/index.d.ts",
-      "../node_modules/@automapper/nestjs/src/lib/pipes/map.pipe.d.ts",
-      "../node_modules/@automapper/types/src/core.d.ts",
-      "../node_modules/@automapper/types/src/enums.d.ts",
-      "../node_modules/@automapper/types/src/index.d.ts",
-      "../node_modules/@automapper/types/src/options.d.ts",
-      "../node_modules/@automapper/types/src/plugin.d.ts",
-      "../node_modules/@automapper/types/src/utils.d.ts",
       "../node_modules/@babel/parser/typings/babel-parser.d.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@nestjs/common/cache/cache.constants.d.ts",

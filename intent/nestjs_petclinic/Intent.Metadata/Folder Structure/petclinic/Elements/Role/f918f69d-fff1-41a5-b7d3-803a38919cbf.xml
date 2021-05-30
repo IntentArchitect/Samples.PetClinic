@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="f918f69d-fff1-41a5-b7d3-803a38919cbf" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+  <name>Root</name>
+  <display>Root</display>
+  <isAbstract>false</isAbstract>
+  <order>4</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d7819f90-fec9-4ace-a874-0b9429f0075b</parentFolderId>
+  <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+  <packageName>petclinic</packageName>
+  <stereotypes />
+  <childElements />
+</class>
