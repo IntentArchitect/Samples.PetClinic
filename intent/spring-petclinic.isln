@@ -10,5 +10,6 @@
     <application id="c0565004-77fc-40e6-9a3f-7a484ce53709" name="spring-petclinic-rest" relativePath="spring-petclinic-rest/spring-petclinic-rest.application.config" />
     <application id="3b9a6d6e-1cf0-4aea-b0bc-adac6ace7c4b" name="dotnet5-petclinic-rest" relativePath="dotnet5-petclinic-rest/dotnet5-petclinic-rest.application.config" />
     <application id="81d02285-f500-491b-bbc9-7c84dfe74a94" name="Pet Clinic" relativePath="angular-petclinic-web/spring-petclinic-angular.application.config" />
+    <application id="a2cf696f-c814-4c89-8b51-ff3a13ec5b9f" name="nestjs_petclinic" relativePath="nestjs_petclinic/nestjs_petclinic.application.config" />
   </applications>
 </solution>

@@ -113,6 +113,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="52ad1e8f-b450-4947-8280-e15c6be40de2" name="specialty" type="element" specialization="Component Model" />
             </mappedPath>
@@ -141,6 +142,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="b84257df-94e1-4164-bc3c-9e7b669de01e" name="name" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -175,6 +177,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="db4eb212-e49c-449a-be84-a8b88ea82a2d" name="save" type="element" specialization="Component Command" />
                 </mappedPath>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="c1d04f21-cf0e-44be-9fca-eab62dcdb5cf" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>services</name>
+  <display>services</display>
+  <isAbstract>false</isAbstract>
+  <order>3</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+  <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+  <packageName>petclinic</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="b92adff6-4194-4e7e-bb04-07fd0486dea2" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.NestJS.Controllers.ServiceTemplate</name>
+      <display>Intent.NodeJS.NestJS.Controllers.ServiceTemplate</display>
+      <externalReference>Intent.NodeJS.NestJS.Controllers</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>c1d04f21-cf0e-44be-9fca-eab62dcdb5cf</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="33385f82-715f-4ac3-9f8f-46bcb15434a4" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+      <name>Services</name>
+      <display>Services</display>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>c1d04f21-cf0e-44be-9fca-eab62dcdb5cf</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

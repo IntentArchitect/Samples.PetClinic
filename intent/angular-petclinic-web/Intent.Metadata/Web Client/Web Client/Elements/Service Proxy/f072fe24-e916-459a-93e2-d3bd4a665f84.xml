@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="573c68a9-585f-42af-864f-decd6ffeccc9" name="SpecialtyRestController" type="element" specialization="Service" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="ec706d94-3115-41b9-9b5e-ffb68f8b9a6c" name="getAllSpecialties" type="element" specialization="Operation" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="9108e087-40a1-4c3e-bcd4-c109f2c67c53" name="getSpecialty" type="element" specialization="Operation" />
         </mappedPath>
@@ -94,6 +97,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="42061aa0-c256-485e-81dc-446ca0ad155f" name="specialtyId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -125,6 +129,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="873f2791-60f2-401c-97f9-d75faf9476b3" name="addSpecialty" type="element" specialization="Operation" />
         </mappedPath>
@@ -153,6 +158,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="7ed3bb85-7ff9-4962-aa0c-0dd35b253574" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -181,6 +187,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="6f638d99-7f58-4e80-84c5-66837506f5eb" name="updateSpecialty" type="element" specialization="Operation" />
         </mappedPath>
@@ -209,6 +216,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="7486eb92-e935-4588-aae1-258f0d28b538" name="specialtyId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -238,6 +246,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="e90e75c6-0741-4aed-9841-73ecff46d28c" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -266,6 +275,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="0ddb2b43-1696-4148-9e3a-6bf647451b7a" name="deleteSpecialty" type="element" specialization="Operation" />
         </mappedPath>
@@ -294,6 +304,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="fdcbe7f9-d6bf-4969-a07f-ecfee6923b10" name="specialtyId" type="element" specialization="Parameter" />
             </mappedPath>

@@ -183,6 +183,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="127c276e-94ce-41e5-be1e-8a99e7161c63" name="specialties" type="element" specialization="Component Model" />
             </mappedPath>
@@ -209,6 +210,7 @@
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="346cfb7a-a12d-47fb-bec1-6de22a7ceafd" name="name" type="element" specialization="DTO-Field" />
                 </mappedPath>
@@ -280,6 +282,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="9b00f3ec-7561-489c-a725-5ef91d5179c9" name="goToHome" type="association" specialization="NavigationTargetEnd" />
                 </mappedPath>
@@ -309,6 +312,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="3d63e09c-6189-4e7d-9b7d-371df7c01615" name="toggleShowAdd" type="element" specialization="Component Command" />
                 </mappedPath>

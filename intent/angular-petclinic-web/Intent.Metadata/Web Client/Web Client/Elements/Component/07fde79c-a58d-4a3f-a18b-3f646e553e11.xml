@@ -113,6 +113,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="842576e5-7da0-48c1-b285-10c102513552" name="specialty" type="element" specialization="Component Model" />
             </mappedPath>
@@ -141,6 +142,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="b84257df-94e1-4164-bc3c-9e7b669de01e" name="name" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -175,6 +177,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="2ffbd111-90f0-4fbc-8cc9-ffc0688afb8d" name="backToList" type="association" specialization="NavigationSourceEnd" />
                 </mappedPath>
@@ -204,6 +207,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="48cf38bf-ee4d-435d-8104-15519cadedf8" name="onUpdate" type="element" specialization="Component Command" />
                 </mappedPath>

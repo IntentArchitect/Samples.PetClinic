@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>src</name>
+  <display>src</display>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d7819f90-fec9-4ace-a874-0b9429f0075b</parentFolderId>
+  <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+  <packageName>petclinic</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="ed9d4a15-6a57-483c-b7b7-5d29a07fbe25" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.NestJS.Core.AppModule</name>
+      <display>Intent.NodeJS.NestJS.Core.AppModule</display>
+      <externalReference>Intent.NodeJS.NestJS.Core</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>5</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="194ed73c-50eb-47b3-8322-9efefdc2bff4" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.NestJS.Core.Main</name>
+      <display>Intent.NodeJS.NestJS.Core.Main</display>
+      <externalReference>Intent.NodeJS.NestJS.Core</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>6</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="94fb9075-334d-4d74-9a32-9809a37637fa" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+      <name>Startup</name>
+      <display>Startup</display>
+      <isAbstract>false</isAbstract>
+      <order>7</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

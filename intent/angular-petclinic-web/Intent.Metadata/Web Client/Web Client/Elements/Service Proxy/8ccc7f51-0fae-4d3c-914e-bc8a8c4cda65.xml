@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="d6aa110a-6887-4262-9036-1a64e620da70" name="PetTypeRestController" type="element" specialization="Service" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="fbc7347e-72d2-41a2-852c-eeeb24b30b49" name="getAllPetTypes" type="element" specialization="Operation" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="0b246482-b19d-4f9f-86b1-cf11996720cd" name="getPetType" type="element" specialization="Operation" />
         </mappedPath>
@@ -94,6 +97,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="f6c8de9b-7b9b-4931-baf6-d507509d34f9" name="petTypeId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -122,6 +126,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="6fbd5ea6-2087-4def-8623-3cb99a7a3e49" name="updatePetType" type="element" specialization="Operation" />
         </mappedPath>
@@ -150,6 +155,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="6b1f0dda-e418-4a04-a795-6e213f54b8d0" name="petTypeId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -179,6 +185,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="65b5fb34-de76-42cf-9813-ec0f22fe39aa" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -207,6 +214,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="f35f083e-6d82-4cf0-890d-8260b156bc69" name="deletePetType" type="element" specialization="Operation" />
         </mappedPath>
@@ -235,6 +243,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="48834f22-4adc-422e-931c-6f3da8b590f3" name="petTypeId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -266,6 +275,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="aec33e37-1ec8-4889-9b4c-c46e16fd29e6" name="addPetType" type="element" specialization="Operation" />
         </mappedPath>
@@ -294,6 +304,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="ad2ecc63-813f-4ff6-b3ff-3824a95b3605" name="dto" type="element" specialization="Parameter" />
             </mappedPath>

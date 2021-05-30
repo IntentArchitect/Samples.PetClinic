@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="0f5ea2e5-56e4-49c6-8652-6532dc79334c" name="OwnerDTO" type="element" specialization="DTO" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="2143ef26-b53f-4d5c-a9c7-fe7b37e9acd8" name="id" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="aac6f4bb-9fe5-497b-928b-dd9f7885c76b" name="firstName" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -95,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="3aa01591-30c2-4513-b1ad-a8b6f12b5344" name="lastName" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -124,6 +128,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="0bedb74e-4602-4a12-a566-0cd249b699ee" name="address" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -153,6 +158,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="e807f019-699a-4dac-a18b-4a05f24b9f91" name="city" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -182,6 +188,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="fb907c3b-9e5a-4929-821a-bd32c73e3b36" name="telephone" type="element" specialization="DTO-Field" />
         </mappedPath>

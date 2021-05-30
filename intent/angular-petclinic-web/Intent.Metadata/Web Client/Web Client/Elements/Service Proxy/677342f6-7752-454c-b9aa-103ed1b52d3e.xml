@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="8a3ec4bb-5b22-4293-8785-0336c74661c4" name="VisitRestController" type="element" specialization="Service" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="6d54d432-4bc4-4e10-afad-8986504d9797" name="getVisit" type="element" specialization="Operation" />
         </mappedPath>
@@ -65,6 +67,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="5af0b7fe-2a6d-49e7-bc65-e28d97560cdc" name="visitId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -93,6 +96,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="3b620431-6c24-4a5a-bde3-e96853b403c4" name="addVisit" type="element" specialization="Operation" />
         </mappedPath>
@@ -121,6 +125,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="e0db7d09-157c-40e2-82e5-f28e1a1770eb" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -149,6 +154,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="cf64ceaa-3b90-499a-91ee-25f7fd9cc4d8" name="updateVisit" type="element" specialization="Operation" />
         </mappedPath>
@@ -177,6 +183,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="afb3de07-6cc0-4e4c-a65f-c158f0d7a4da" name="visitId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -206,6 +213,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="0e40120e-298a-485e-a97c-f565e1fffa16" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -234,6 +242,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="7b51727c-1807-4bf4-8526-b8f6642f562d" name="deleteVisit" type="element" specialization="Operation" />
         </mappedPath>
@@ -262,6 +271,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="b1455ad5-bbbc-4ac5-a632-57a539aa1325" name="visitId" type="element" specialization="Parameter" />
             </mappedPath>

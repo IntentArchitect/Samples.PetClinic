@@ -16,7 +16,7 @@ public class VisitDTO {
     private int id;
     private java.time.LocalDate visitDate;
     private String description;
-    private int petId;
+    private PetDTO pet;
     private int ownerId;
 
     public static VisitDTO mapFromVisit(Visit visit, ModelMapper mapper) {

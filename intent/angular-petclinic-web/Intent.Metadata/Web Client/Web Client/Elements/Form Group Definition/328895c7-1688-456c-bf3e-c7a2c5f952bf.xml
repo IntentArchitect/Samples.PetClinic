@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="bb138e4b-409a-4ea9-9bb4-a33dcfa8a682" name="PetVisitDTO" type="element" specialization="DTO" />
     </mappedPath>
@@ -37,8 +38,9 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="2217e740-0889-47b2-9df1-febcd26fae99" name="id" type="element" specialization="DTO-Field" />
+          <target id="72959545-9c0d-4645-ba74-05e6def60dbf" name="id" type="element" specialization="DTO-Field" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>328895c7-1688-456c-bf3e-c7a2c5f952bf</parentFolderId>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="1be0074e-3e2a-4c47-be0d-133b3d0bbb2a" name="visitDate" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -95,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="6874e598-834f-4300-ac8d-9021612fda35" name="description" type="element" specialization="DTO-Field" />
         </mappedPath>

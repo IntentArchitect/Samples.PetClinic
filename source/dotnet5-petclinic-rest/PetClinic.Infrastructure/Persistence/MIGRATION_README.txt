@@ -3,34 +3,34 @@ Create a new migration:
 Add-Migration -Name {ChangeName} -StartupProject "PetClinic.Api" -Project Persistence
 
 
-Override an existing migration:
+Overwrite an existing migration:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Add-Migration -Name {ExistingNameWithoutDateComponent} -StartupProject "PetClinic.Api" -Project Persistence
+Add-Migration -Name {ChangeName} -StartupProject "PetClinic.Api" -Project Persistence
 
 
-Update to latest version:
+Update schema to the latest version:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Update-Database -StartupProject "PetClinic.Api" -Project Persistence
 
 
-Upgrade/downgrade to specific version
+Upgrade/downgrade schema to specific version:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Update-Database -StartupProject "PetClinic.Api" -Project Persistence -Migration {Target}
+Update-Database -Migration {Target} -StartupProject "PetClinic.Api" -Project Persistence
 
 
-Generate script which detects current database version and updates it to the latest:
+Generate a script which detects the current database schema version and updates it to the latest:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Script-Migration -StartupProject "PetClinic.Api" -Project Persistence -Script -SourceMigration:$InitialDatabase
+Script-Migration -SourceMigration:$InitialDatabase -Script -StartupProject "PetClinic.Api" -Project Persistence
 
 
-Generate a script two upgrade from and to a specific version:
+Generate a script which upgrades from and to a specific schema version:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Script-Migration -StartupProject "PetClinic.Api" -Project Persistence -Script -SourceMigration:{Source} -TargetMigration:{Target}
+Script-Migration -SourceMigration:{Source} -TargetMigration:{Target} -Script -StartupProject "PetClinic.Api" -Project Persistence
 
 
 Drop all tables in schema:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-DECLARE @SCHEMA AS varchar(max) = 'dotnet5-petclinic-rest'
+DECLARE @SCHEMA AS varchar(max) = 'Pet Clinic Rest (.NET 5)'
 DECLARE @EXECUTE_STATEMENT AS varchar(max) = (SELECT STUFF((SELECT CHAR(13) + CHAR(10) + [Statement] FROM (
     SELECT 'ALTER TABLE ['+@SCHEMA+'].['+[t].[name]+'] DROP CONSTRAINT ['+[fk].[name]+']' AS [Statement] FROM [sys].[foreign_keys] AS [fk] INNER JOIN [sys].[tables] AS [t] ON [t].[object_id] = [fk].[parent_object_id] INNER JOIN [sys].[schemas] AS [s] ON [s].[schema_id] = [t].[schema_id] WHERE [s].[name] = @SCHEMA
     UNION ALL

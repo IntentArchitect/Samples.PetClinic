@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
     <metadataId>6ab29b31-27af-4f56-a67c-986d82097d63</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="83fb9ee9-cd31-473a-bed1-38abaaa122c2" name="Visit" type="element" specialization="Class" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="0953b8aa-c06d-4e1e-9d9a-dd1a5552138e" name="id" type="element" specialization="Attribute" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="89275cd3-d7e0-46a1-85dd-f3c9f849986f" name="visitDate" type="element" specialization="Attribute" />
         </mappedPath>
@@ -95,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="3da4f51e-3ac3-45ae-8ada-c019ec134c79" name="description" type="element" specialization="Attribute" />
         </mappedPath>
@@ -124,6 +128,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
           <target id="fa3b1c76-3449-4faa-b989-314968546e4d" name="Pet" type="association" specialization="Association" />
         </mappedPath>
@@ -153,6 +158,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="fa3b1c76-3449-4faa-b989-314968546e4d" name="Pet" type="association" specialization="Association" />
           <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />

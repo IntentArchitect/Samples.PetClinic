@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="d60384f8-059a-47f2-9b37-da4d913c8b49" name="VetDTO" type="element" specialization="DTO" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="9379bfcd-205a-46bd-8a53-b075cfdb1bcb" name="id" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="3d462bc7-f27a-4754-a23e-c70224108791" name="firstName" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -95,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="f4993649-4077-452f-a9e1-eb28e348c658" name="lastName" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -124,6 +128,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="60b44ddd-8090-4a65-88d3-a4ba6ab27661" name="specialties" type="element" specialization="DTO-Field" />
           <target name="map(x =&gt; x" type="n/a" />

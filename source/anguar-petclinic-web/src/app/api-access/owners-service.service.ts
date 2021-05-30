@@ -22,7 +22,7 @@ export class OwnersService {
       }));
   }
 
-  public getOwnersList(lastName: number): Observable<OwnerDTO[]> {
+  public getOwnersList(lastName: string): Observable<OwnerDTO[]> {
     let url = `/api/owners/*/lastname/${lastName}`;
     return this.apiService.get(url)
       .pipe(map((response: any) => {

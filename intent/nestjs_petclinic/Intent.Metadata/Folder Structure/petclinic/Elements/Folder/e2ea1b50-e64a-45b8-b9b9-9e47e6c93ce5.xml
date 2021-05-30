@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="e2ea1b50-e64a-45b8-b9b9-9e47e6c93ce5" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>entities</name>
+  <display>entities</display>
+  <isAbstract>false</isAbstract>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>b7e9ce1b-ac9d-4f8a-98cb-e3cfb148c0f3</parentFolderId>
+  <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+  <packageName>petclinic</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="a4cc4c14-c078-4026-8038-21af243e7a30" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.Domain.Entity</name>
+      <display>Intent.NodeJS.Domain.Entity</display>
+      <externalReference>Intent.NodeJS.Domain</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>e2ea1b50-e64a-45b8-b9b9-9e47e6c93ce5</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

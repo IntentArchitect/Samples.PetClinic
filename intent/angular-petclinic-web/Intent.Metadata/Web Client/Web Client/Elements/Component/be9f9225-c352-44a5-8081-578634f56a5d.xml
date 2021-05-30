@@ -161,6 +161,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="40e75558-e416-43fd-872f-583c10f5539e" name="visit" type="element" specialization="Component Model" />
             </mappedPath>
@@ -189,6 +190,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="8e94ffe0-160c-44b0-b5c4-caa5d28c14a5" name="visitDate" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -218,6 +220,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="71e4ac71-e78f-4fae-80df-9fb5292380af" name="description" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -250,6 +253,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="0151ef1a-1f9f-48b9-b130-757ac62426a9" name="goToOwnerDetails" type="association" specialization="NavigationTargetEnd" />
                     </mappedPath>
@@ -279,6 +283,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="01e96d9c-b3e9-4348-891c-5e2cfe0bf87a" name="updateVisit" type="element" specialization="Component Command" />
                     </mappedPath>

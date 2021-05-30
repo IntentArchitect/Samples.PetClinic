@@ -21,7 +21,7 @@ namespace PetClinic.Infrastructure
             {
                 services.AddDbContext<ApplicationDbContext>(options =>
                 {
-                    options.UseInMemoryDatabase("dotnet5-petclinic-rest");
+                    options.UseInMemoryDatabase("Pet Clinic Rest (.NET 5)");
                     options.UseLazyLoadingProxies();
                 });
             }

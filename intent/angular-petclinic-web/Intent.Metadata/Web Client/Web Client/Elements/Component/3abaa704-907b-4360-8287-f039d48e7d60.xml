@@ -113,6 +113,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="f73310d0-f40d-4ceb-b2f7-bb3e1a5b0f90" name="vet" type="element" specialization="Component Model" />
             </mappedPath>
@@ -141,6 +142,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="b052b93b-86a2-494e-8719-385c993bcaa1" name="firstName" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -170,6 +172,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="5600d0fe-3588-4918-9362-1d11a24824fa" name="lastName" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -199,6 +202,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="82a1dc74-191e-4f82-a3b5-2dfca6ff0132" name="specialties" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -231,6 +235,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="766793be-68a9-4848-a600-55c7b0e70f4b" name="goBackToList" type="association" specialization="NavigationSourceEnd" />
                     </mappedPath>
@@ -260,6 +265,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="73cf5cb7-f82f-4ae7-be02-30ddee7a4fa1" name="saveVet" type="element" specialization="Component Command" />
                     </mappedPath>

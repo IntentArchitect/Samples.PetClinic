@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="b7e9ce1b-ac9d-4f8a-98cb-e3cfb148c0f3" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>domain</name>
+  <display>domain</display>
+  <isAbstract>false</isAbstract>
+  <order>0</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+  <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+  <packageName>petclinic</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="95d7744d-579f-4707-a66c-9d6c08e03f49" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+      <name>Domain</name>
+      <display>Domain</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>b7e9ce1b-ac9d-4f8a-98cb-e3cfb148c0f3</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

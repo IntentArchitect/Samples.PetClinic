@@ -137,6 +137,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="b7a29c71-98c3-49f7-9b4a-4d034facc86e" name="owner" type="element" specialization="Component Model" />
             </mappedPath>
@@ -165,6 +166,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="aeda0bbd-9fc5-407e-8b07-35afe7bddb09" name="firstName" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -194,6 +196,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="18760587-5224-4fd1-9e03-a16ad929f29d" name="lastName" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -223,6 +226,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="537965ba-3088-4ff1-b04f-2816b2572b16" name="address" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -252,6 +256,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="5f25b775-97e6-42f0-b266-da75e971f65d" name="city" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -281,6 +286,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="c65e687b-b00f-4fa2-a680-588471c8c99b" name="telephone" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -315,6 +321,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="93381b51-262a-480d-9a2b-873dad368e17" name="goBackToDetails" type="association" specialization="NavigationSourceEnd" />
                 </mappedPath>
@@ -344,6 +351,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="86b79645-62af-447a-9d7e-25f1d0867b0c" name="onSubmit" type="element" specialization="Component Command" />
                 </mappedPath>

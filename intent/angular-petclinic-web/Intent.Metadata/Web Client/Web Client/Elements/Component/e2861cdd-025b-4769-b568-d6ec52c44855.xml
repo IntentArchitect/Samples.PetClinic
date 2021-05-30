@@ -137,6 +137,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="b69e95b9-1c9c-4eb6-8e48-5ae0e21d337a" name="model" type="element" specialization="Component Model" />
             </mappedPath>
@@ -165,6 +166,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="4b2a3d0d-3055-4f92-9dea-960e1f3fe630" name="name" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -194,6 +196,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="4295ca0b-0d70-42ea-85fb-29105316ea23" name="birthDate" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -223,6 +226,7 @@
               </typeReference>
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="b338c6e6-f2e9-4067-b958-1a73f749ea97" name="petTypeId" type="element" specialization="Form Group Control" />
                 </mappedPath>
@@ -268,6 +272,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="6a959a4d-3955-43bd-b793-9e49855a74de" name="goToOwnerDetails" type="association" specialization="NavigationSourceEnd" />
                 </mappedPath>
@@ -297,6 +302,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="a2b5ab06-0812-4ee5-ae53-8e8b6a9f026f" name="save" type="element" specialization="Component Command" />
                 </mappedPath>

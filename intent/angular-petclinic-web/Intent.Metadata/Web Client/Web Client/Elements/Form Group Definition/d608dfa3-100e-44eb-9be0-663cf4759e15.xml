@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="c66f91c8-06bb-427a-b623-36a724d627d3" name="PetDTO" type="element" specialization="DTO" />
     </mappedPath>
@@ -37,8 +38,9 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="dcead831-2238-4a77-bc94-18ac28d2a060" name="id" type="element" specialization="DTO-Field" />
+          <target id="8946e997-50c3-4f07-9af4-594c7fbbed93" name="id" type="element" specialization="DTO-Field" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>d608dfa3-100e-44eb-9be0-663cf4759e15</parentFolderId>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="a869311c-5318-4252-8ee4-b8e9931612c9" name="name" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -95,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="cb28f9a0-c93d-4b88-b36b-b67b75b08046" name="birthDate" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -124,6 +128,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="bf6b95f8-c8a1-434c-a0ec-30061aca5e8c" name="petTypeId" type="element" specialization="DTO-Field" />
         </mappedPath>
@@ -153,6 +158,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="2b842d44-8fc0-4076-962c-c72d1102a585" name="petTypeName" type="element" specialization="DTO-Field" />
         </mappedPath>

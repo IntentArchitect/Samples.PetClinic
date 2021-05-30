@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="7ec57d50-0b2a-49a5-b43a-aef9131a99bb" name="VetRestController" type="element" specialization="Service" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="bdce24a7-0942-4a9c-8626-bfab1ba3e1f3" name="getAllVets" type="element" specialization="Operation" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="6887b087-6e4c-4543-84f8-574b1444113f" name="getVet" type="element" specialization="Operation" />
         </mappedPath>
@@ -94,6 +97,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="d3672996-b740-471c-8e10-696b48e8f34e" name="vetId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -122,6 +126,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="b56e90bb-b594-40ab-93c5-2e6147c3ac8b" name="addVet" type="element" specialization="Operation" />
         </mappedPath>
@@ -150,6 +155,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="fbad8d46-6f72-48c6-8420-7bb27f34d640" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -178,6 +184,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="c064ad73-0581-4c68-962e-4f22e9801723" name="updateVet" type="element" specialization="Operation" />
         </mappedPath>
@@ -206,6 +213,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="287564df-9edd-439f-bbbb-b8e24cb79075" name="vetId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -235,6 +243,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="67afae7d-ea06-4bae-a758-cb8b15d9a933" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -263,6 +272,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="9f3e05cb-7a86-427f-904a-dadbfda10194" name="deleteVet" type="element" specialization="Operation" />
         </mappedPath>
@@ -291,6 +301,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="c2af542c-d33e-4dae-b571-8715696998dc" name="vetId" type="element" specialization="Parameter" />
             </mappedPath>

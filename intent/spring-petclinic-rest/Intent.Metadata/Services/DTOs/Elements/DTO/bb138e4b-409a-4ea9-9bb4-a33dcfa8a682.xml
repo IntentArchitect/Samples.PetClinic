@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
     <metadataId>6ab29b31-27af-4f56-a67c-986d82097d63</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="83fb9ee9-cd31-473a-bed1-38abaaa122c2" name="Visit" type="element" specialization="Class" />
     </mappedPath>
@@ -18,13 +19,13 @@
   <packageName>DTOs</packageName>
   <stereotypes />
   <childElements>
-    <childElement id="2217e740-0889-47b2-9df1-febcd26fae99" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+    <childElement id="72959545-9c0d-4645-ba74-05e6def60dbf" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
       <order>0</order>
       <genericTypes />
-      <typeReference id="96544f6a-2467-4f2e-9156-a1a15bf26d23">
+      <typeReference id="fab1cce7-6470-4633-b3eb-b62c67d4a7d5">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
@@ -35,7 +36,13 @@
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
-      <isMapped>false</isMapped>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="0953b8aa-c06d-4e1e-9d9a-dd1a5552138e" name="id" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
       <parentFolderId>bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</parentFolderId>
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
@@ -61,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="89275cd3-d7e0-46a1-85dd-f3c9f849986f" name="visitDate" type="element" specialization="Attribute" />
         </mappedPath>
@@ -90,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="3da4f51e-3ac3-45ae-8ada-c019ec134c79" name="description" type="element" specialization="Attribute" />
         </mappedPath>

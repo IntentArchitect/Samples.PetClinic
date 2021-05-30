@@ -63,7 +63,7 @@ namespace PetClinic.Api
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet5-petclinic-rest API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pet Clinic Rest (.NET 5) API", Version = "v1" });
             });
         }
 
@@ -72,7 +72,7 @@ namespace PetClinic.Api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnet5-petclinic-rest API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pet Clinic Rest (.NET 5) API V1");
             });
         }
     }

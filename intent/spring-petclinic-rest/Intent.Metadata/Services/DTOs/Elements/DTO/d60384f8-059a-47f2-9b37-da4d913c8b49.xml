@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
     <metadataId>6ab29b31-27af-4f56-a67c-986d82097d63</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="62166c3b-8dce-465c-b978-1237cc69b64e" name="Vet" type="element" specialization="Class" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="a5d62bf3-a295-4aed-ab10-4b9f0ac92d88" name="id" type="element" specialization="Attribute" />
         </mappedPath>
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="7b36ac2c-b4d0-46c6-8c61-9145b0669404" name="firstName" type="element" specialization="Attribute" />
         </mappedPath>
@@ -95,6 +98,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="77ef1cac-47ed-4ad6-b231-283c15a56e17" name="lastName" type="element" specialization="Attribute" />
         </mappedPath>
@@ -124,6 +128,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="dc2f1650-53d0-4065-87aa-d1a830eb1a39" name="Specialties" type="association" specialization="Association" />
         </mappedPath>

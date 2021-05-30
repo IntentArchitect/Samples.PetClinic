@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="85c052bb-1455-4208-b32d-eae6ab1f514b" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>repository</name>
+  <display>repository</display>
+  <isAbstract>false</isAbstract>
+  <order>2</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+  <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+  <packageName>petclinic</packageName>
+  <stereotypes />
+  <childElements>
+    <childElement id="c7ff6e47-3b09-4705-9698-a3afefc5658c" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.TypeORM.RepositoryTemplate</name>
+      <display>Intent.NodeJS.TypeORM.RepositoryTemplate</display>
+      <externalReference>Intent.NodeJS.TypeORM</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>0</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>85c052bb-1455-4208-b32d-eae6ab1f514b</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+    <childElement id="02028ed1-fa3c-456b-9946-7681405a1831" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+      <name>Repositories</name>
+      <display>Repositories</display>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>85c052bb-1455-4208-b32d-eae6ab1f514b</parentFolderId>
+      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
+      <packageName>petclinic</packageName>
+      <stereotypes />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

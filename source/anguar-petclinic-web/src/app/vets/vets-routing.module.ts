@@ -17,7 +17,8 @@ const routes: Routes = [
   },
   {
     path: 'vets/:id/edit',
-    component: VetEditComponent
+    component: VetEditComponent,
+    resolve: {vet: VetResolver}
   },
 ];
 

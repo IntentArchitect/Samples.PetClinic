@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="6f40b401-47be-4cc2-a9bc-85dedc6b4535" name="OwnerRestController" type="element" specialization="Service" />
     </mappedPath>
@@ -37,6 +38,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="723e13da-c45f-44e6-a5ef-9ff17e6f3f02" name="getOwners" type="element" specialization="Operation" />
         </mappedPath>
@@ -49,7 +51,7 @@
     </childElement>
     <childElement id="fe311037-cfbb-46fd-a255-35c026f3f923" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getOwnersList</name>
-      <display>getOwnersList(lastName: int): OwnerDTO[*]</display>
+      <display>getOwnersList(lastName: string): OwnerDTO[*]</display>
       <isAbstract>false</isAbstract>
       <order>1</order>
       <genericTypes />
@@ -66,6 +68,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="79e81d16-f885-44cc-bf7f-5b157c98ebdf" name="getOwnersList" type="element" specialization="Operation" />
         </mappedPath>
@@ -77,12 +80,12 @@
       <childElements>
         <childElement id="7fe18d04-4773-40a1-ac1e-d95635f9ac5b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>lastName</name>
-          <display>lastName: int</display>
+          <display>lastName: string</display>
           <isAbstract>false</isAbstract>
           <order>1</order>
           <genericTypes />
           <typeReference id="e95f1526-34a7-4e31-94da-1103b2cf622d">
-            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
             <isCollection>false</isCollection>
@@ -94,6 +97,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="71bd3cc6-d150-4e86-a7b0-101be4c69eb0" name="lastName" type="element" specialization="Parameter" />
             </mappedPath>
@@ -125,6 +129,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="00f633fa-6cc1-494e-9be2-5bd10812239a" name="getOwner" type="element" specialization="Operation" />
         </mappedPath>
@@ -153,6 +158,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="9c2069fc-a9d4-4f69-b594-9b70af4984b4" name="ownerId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -181,6 +187,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="1469c898-d05a-40cb-ac35-2e82fe89b2b0" name="addOwner" type="element" specialization="Operation" />
         </mappedPath>
@@ -209,6 +216,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="983293bf-7121-489a-bdc6-495b6c000063" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -237,6 +245,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="2ddd5525-95be-40db-ac81-8ef07a5c120b" name="updateOwner" type="element" specialization="Operation" />
         </mappedPath>
@@ -265,6 +274,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="9052e0ae-d3f0-41f8-8390-b50c0c0b911a" name="ownerId" type="element" specialization="Parameter" />
             </mappedPath>
@@ -294,6 +304,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="e546adee-589f-4d1a-a125-f624a97a6c54" name="dto" type="element" specialization="Parameter" />
             </mappedPath>
@@ -322,6 +333,7 @@
       </typeReference>
       <isMapped>true</isMapped>
       <mappedClass>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
           <target id="a2f547ef-f588-424f-a716-720ae59478e4" name="deleteOwner" type="element" specialization="Operation" />
         </mappedPath>
@@ -350,6 +362,7 @@
           </typeReference>
           <isMapped>true</isMapped>
           <mappedClass>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="ecfae00a-a750-484e-84de-f507c063e0cc" name="ownerId" type="element" specialization="Parameter" />
             </mappedPath>

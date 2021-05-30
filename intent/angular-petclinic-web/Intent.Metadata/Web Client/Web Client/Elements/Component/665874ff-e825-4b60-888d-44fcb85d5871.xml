@@ -114,6 +114,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="323a8b25-4f32-4551-8bbc-6a0d86aaea90" name="visits" type="element" specialization="Component Model" />
             </mappedPath>
@@ -140,6 +141,7 @@
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="1be0074e-3e2a-4c47-be0d-133b3d0bbb2a" name="visitDate" type="element" specialization="DTO-Field" />
                 </mappedPath>
@@ -158,6 +160,7 @@
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="6874e598-834f-4300-ac8d-9021612fda35" name="description" type="element" specialization="DTO-Field" />
                 </mappedPath>
@@ -192,6 +195,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="de1fb26c-b1a3-47e3-99ff-c66f86424753" name="goToEdit" type="association" specialization="NavigationTargetEnd" />
                 </mappedPath>
@@ -221,6 +225,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="5ddf8c90-abe0-4f27-b2b2-cfb6dc62e6b1" name="deleteVisit" type="element" specialization="Component Command" />
                 </mappedPath>
