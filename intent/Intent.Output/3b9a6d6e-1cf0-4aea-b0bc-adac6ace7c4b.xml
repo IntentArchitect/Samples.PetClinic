@@ -51,6 +51,12 @@
       <ProjectRelativeFilePath>VisitRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
+      <ProjectId>4c6804de-2e91-44ca-a1c9-6538577f79d2</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Swashbuckle.AuthorizeCheckOperationFilter</CorrelationId>
+      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Filters/AuthorizeCheckOperationFilter.cs</SolutionRelativeFilePath>
+      <ProjectRelativeFilePath>AuthorizeCheckOperationFilter.cs</ProjectRelativeFilePath>
+    </FileLog>
+    <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.CSProjectaad0939b-56a1-4294-aa6b-930d17d22a3d</CorrelationId>
       <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/PetClinic.Api.csproj</SolutionRelativeFilePath>
@@ -67,12 +73,6 @@
       <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.LaunchSettings</CorrelationId>
       <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Properties/launchsettings.json</SolutionRelativeFilePath>
       <ProjectRelativeFilePath>Properties/launchsettings.json</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
-      <CorrelationId>Intent.AspNetCore.Startup</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Startup.cs</SolutionRelativeFilePath>
-      <ProjectRelativeFilePath>Startup.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b65ba9cb-6313-42e2-be86-029a29fc3e8f</ProjectId>
