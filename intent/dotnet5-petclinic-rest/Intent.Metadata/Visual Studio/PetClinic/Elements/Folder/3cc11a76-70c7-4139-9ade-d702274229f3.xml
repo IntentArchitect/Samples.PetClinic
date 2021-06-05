@@ -20,20 +20,6 @@
     </stereotype>
   </stereotypes>
   <childElements>
-    <childElement id="fd84fec2-489e-433b-a51c-f9860b18e130" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
-      <name>Intent.EntityFrameworkCore.Configurations</name>
-      <display>Intent.EntityFrameworkCore.Configurations</display>
-      <externalReference>Intent.EntityFrameworkCore</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>3cc11a76-70c7-4139-9ade-d702274229f3</parentFolderId>
-      <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
-      <packageName>PetClinic</packageName>
-      <stereotypes />
-      <childElements />
-    </childElement>
     <childElement id="584c8ac3-bb91-451c-93b2-0ebeb6715302" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
       <name>Intent.EntityFrameworkCore.EntityTypeConfiguration</name>
       <display>Intent.EntityFrameworkCore.EntityTypeConfiguration</display>
