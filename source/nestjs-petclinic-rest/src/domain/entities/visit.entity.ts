@@ -1,6 +1,7 @@
 import { Pet } from './pet.entity';
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 
+
 @Entity('visit')
 export class Visit {
   

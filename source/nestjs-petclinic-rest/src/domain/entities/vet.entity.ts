@@ -1,6 +1,7 @@
 import { Specialty } from './specialty.entity';
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable, JoinColumn } from 'typeorm';
 
+
 @Entity('vet')
 export class Vet {
   

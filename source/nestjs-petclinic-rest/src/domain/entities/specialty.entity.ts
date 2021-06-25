@@ -1,5 +1,6 @@
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column } from 'typeorm';
 
+
 @Entity('specialty')
 export class Specialty {
   
