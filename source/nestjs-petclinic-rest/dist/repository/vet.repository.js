@@ -15,6 +15,4 @@ VetRepository = __decorate([
     typeorm_1.EntityRepository(vet_entity_1.Vet)
 ], VetRepository);
 exports.VetRepository = VetRepository;
-{
-}
 //# sourceMappingURL=vet.repository.js.map

@@ -15,6 +15,4 @@ VisitRepository = __decorate([
     typeorm_1.EntityRepository(visit_entity_1.Visit)
 ], VisitRepository);
 exports.VisitRepository = VisitRepository;
-{
-}
 //# sourceMappingURL=visit.repository.js.map

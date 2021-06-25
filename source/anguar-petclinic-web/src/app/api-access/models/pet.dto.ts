@@ -1,4 +1,5 @@
 import { PetVisitDTO } from './pet-visit.dto';
+
 export interface PetDTO {
     id: number;
     name: string;

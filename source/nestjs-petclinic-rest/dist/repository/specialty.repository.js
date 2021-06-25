@@ -15,6 +15,4 @@ SpecialtyRepository = __decorate([
     typeorm_1.EntityRepository(specialty_entity_1.Specialty)
 ], SpecialtyRepository);
 exports.SpecialtyRepository = SpecialtyRepository;
-{
-}
 //# sourceMappingURL=specialty.repository.js.map

@@ -1,4 +1,5 @@
 import { PetDTO } from './pet.dto';
+
 export interface OwnerDTO {
     id: number;
     firstName: string;

@@ -15,6 +15,4 @@ OwnerRepository = __decorate([
     typeorm_1.EntityRepository(owner_entity_1.Owner)
 ], OwnerRepository);
 exports.OwnerRepository = OwnerRepository;
-{
-}
 //# sourceMappingURL=owner.repository.js.map

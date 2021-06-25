@@ -36,7 +36,7 @@ namespace PetClinic.Api
             services.ConfigureCors();
             services.AddApplication();
             services.AddInfrastructure(Configuration);
-            ConfigureSwagger(services);
+            services.ConfigureSwagger(Configuration);
 
         }
 
@@ -56,24 +56,9 @@ namespace PetClinic.Api
             {
                 endpoints.MapControllers();
             });
-            InitializeSwagger(app);
-
-        }
-        private void ConfigureSwagger(IServiceCollection services)
-        {
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pet Clinic Rest (.NET 5) API", Version = "v1" });
-            });
-        }
-
-        private void InitializeSwagger(IApplicationBuilder app)
-        {
             app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pet Clinic Rest (.NET 5) API V1");
-            });
+            app.UseSwaggerUI();
+
         }
     }
 }
