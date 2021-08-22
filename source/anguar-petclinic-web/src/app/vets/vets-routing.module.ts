@@ -6,6 +6,7 @@ import { VetEditComponent } from './vet-edit/vet-edit.component';
 import { IntentIgnore } from './../intent/intent.decorators';
 import { VetResolver } from './vet-resolver';
 
+//@IntentIgnore()
 const routes: Routes = [
   {
     path: 'vets',
