@@ -9,12 +9,12 @@ import java.util.List;
 public interface VetRestService {
     List<VetDTO> getAllVets();
 
-    VetDTO getVet(int vetId);
+    VetDTO getVet(Integer vetId);
 
     void addVet(VetCreateDTO dto);
 
-    void updateVet(int vetId, VetUpdateDTO dto);
+    void updateVet(Integer vetId, VetUpdateDTO dto);
 
-    void deleteVet(int vetId);
+    void deleteVet(Integer vetId);
 
 }

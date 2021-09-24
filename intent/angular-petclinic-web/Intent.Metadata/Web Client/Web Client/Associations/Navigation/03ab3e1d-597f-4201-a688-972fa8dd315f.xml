@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="03ab3e1d-597f-4201-a688-972fa8dd315f">
-  <sourceEnd id="ea83740b-9e43-41dc-8a83-fb4d656d4086">
+  <sourceEnd id="ea83740b-9e43-41dc-8a83-fb4d656d4086" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>goBackToList</name>
     <display>goBackToList: OwnerListComponent</display>
     <typeReference id="af4bf5b9-817d-4380-b826-9c6116069b59">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="03ab3e1d-597f-4201-a688-972fa8dd315f">
+  <targetEnd id="03ab3e1d-597f-4201-a688-972fa8dd315f" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToAdd</name>
     <display>goToAdd: OwnerAddComponent</display>
     <typeReference id="4a1e3c45-4a51-4482-9d7e-1e39e3549e25">

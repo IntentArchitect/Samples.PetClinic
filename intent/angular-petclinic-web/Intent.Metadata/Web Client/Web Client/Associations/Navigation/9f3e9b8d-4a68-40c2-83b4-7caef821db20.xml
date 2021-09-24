@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="9f3e9b8d-4a68-40c2-83b4-7caef821db20">
-  <sourceEnd id="c6a163da-c8ac-4ddd-b078-d4b72eb88845">
+  <sourceEnd id="c6a163da-c8ac-4ddd-b078-d4b72eb88845" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>goBackToList</name>
     <display>goBackToList: VetListComponent</display>
     <typeReference id="53620809-0d72-476f-bc2a-a10ef4d1db8f">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="9f3e9b8d-4a68-40c2-83b4-7caef821db20">
+  <targetEnd id="9f3e9b8d-4a68-40c2-83b4-7caef821db20" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToAdd</name>
     <display>goToAdd: VetAddComponent</display>
     <typeReference id="ceef1a7b-b03a-4d2f-bc6c-7dc3f7b1403c">

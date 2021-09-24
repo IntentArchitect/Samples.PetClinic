@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="9b00f3ec-7561-489c-a725-5ef91d5179c9">
-  <sourceEnd id="1727491e-bd2e-4e63-ae02-b4183d2ad36d">
+  <sourceEnd id="1727491e-bd2e-4e63-ae02-b4183d2ad36d" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>SpecialtyListComponent</name>
     <display>SpecialtyListComponent: SpecialtyListComponent</display>
     <typeReference id="fa207458-9a6d-4c44-8cb6-4ef94087259e">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="9b00f3ec-7561-489c-a725-5ef91d5179c9">
+  <targetEnd id="9b00f3ec-7561-489c-a725-5ef91d5179c9" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToHome</name>
     <display>goToHome: WelcomeComponent</display>
     <typeReference id="27972ee5-1fcd-49bf-b25f-86de6e841261">

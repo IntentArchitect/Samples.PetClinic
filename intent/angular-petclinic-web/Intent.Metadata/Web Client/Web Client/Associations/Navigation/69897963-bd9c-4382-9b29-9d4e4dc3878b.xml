@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="69897963-bd9c-4382-9b29-9d4e4dc3878b">
-  <sourceEnd id="93381b51-262a-480d-9a2b-873dad368e17">
+  <sourceEnd id="93381b51-262a-480d-9a2b-873dad368e17" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>goBackToDetails</name>
     <display>goBackToDetails: OwnerDetailComponent</display>
     <typeReference id="5db407d9-1d04-46c5-9c6e-bfba63feb5d8">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="69897963-bd9c-4382-9b29-9d4e4dc3878b">
+  <targetEnd id="69897963-bd9c-4382-9b29-9d4e4dc3878b" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToEdit</name>
     <display>goToEdit: OwnerEditComponent</display>
     <typeReference id="27dd531e-2bfb-493b-8c37-f13930b55500">

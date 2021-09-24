@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="cbcd0840-2ae4-4460-ba7e-9e159105256e">
-  <sourceEnd id="2b0bef71-99b8-4485-bb51-8747b20ba015">
+  <sourceEnd id="2b0bef71-99b8-4485-bb51-8747b20ba015" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>backToList</name>
     <display>backToList: PettypeListComponent</display>
     <typeReference id="b27adf60-7431-4251-a8ba-a74a588c7393">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="cbcd0840-2ae4-4460-ba7e-9e159105256e">
+  <targetEnd id="cbcd0840-2ae4-4460-ba7e-9e159105256e" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToUpdate</name>
     <display>goToUpdate: PettypeEditComponent</display>
     <typeReference id="41f9bba3-abf3-4506-bb25-3d4558f7ecae">

@@ -3,6 +3,7 @@ package com.spring_petclinic.spring_petclinic_rest.domain.models;
 import com.spring_petclinic.spring_petclinic_rest.intent.IntentManageClass;
 import com.spring_petclinic.spring_petclinic_rest.intent.Mode;
 import javax.persistence.*;
+import java.time.LocalDate;
 
 
 
@@ -13,7 +14,7 @@ public class Visit extends AbstractEntity {
     private static final long serialVersionUID = 1L;
 
     @Column(name = "visit_date", nullable = false)
-    private java.time.LocalDate visitDate;
+    private LocalDate visitDate;
 
     @Column(name = "description", nullable = false)
     private String description;
@@ -22,11 +23,11 @@ public class Visit extends AbstractEntity {
     @JoinColumn(name="pet_id", nullable = false)
     private Pet pet;
 
-    public java.time.LocalDate getVisitDate() {
+    public LocalDate getVisitDate() {
         return this.visitDate;
     }
 
-    public void setVisitDate(java.time.LocalDate visitDate) {
+    public void setVisitDate(LocalDate visitDate) {
         this.visitDate = visitDate;
     }
 

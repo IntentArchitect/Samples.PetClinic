@@ -31,7 +31,7 @@ public class VetRestController {
 
     @GetMapping("/{vetId}")
     @ApiOperation(value = "getVet")
-    public ResponseEntity<VetDTO> getVet(@PathVariable(value = "vetId") int vetId) {
+    public ResponseEntity<VetDTO> getVet(@PathVariable(value = "vetId") Integer vetId) {
         final VetDTO result = vetRestService.getVet(vetId);
         if (result == null) {
             return new ResponseEntity<VetDTO>(HttpStatus.NOT_FOUND);
@@ -49,7 +49,7 @@ public class VetRestController {
 
     @PutMapping("/{vetId}")
     @ApiOperation(value = "updateVet")
-    public ResponseEntity<Void> updateVet(@PathVariable(value = "vetId") int vetId, @RequestBody VetUpdateDTO dto) {
+    public ResponseEntity<Void> updateVet(@PathVariable(value = "vetId") Integer vetId, @RequestBody VetUpdateDTO dto) {
         vetRestService.updateVet(vetId, dto);
 
         return new ResponseEntity<>(HttpStatus.OK);
@@ -57,7 +57,7 @@ public class VetRestController {
 
     @DeleteMapping("/{vetId}")
     @ApiOperation(value = "deleteVet")
-    public ResponseEntity<Void> deleteVet(@PathVariable(value = "vetId") int vetId) {
+    public ResponseEntity<Void> deleteVet(@PathVariable(value = "vetId") Integer vetId) {
         vetRestService.deleteVet(vetId);
 
         return new ResponseEntity<>(HttpStatus.OK);

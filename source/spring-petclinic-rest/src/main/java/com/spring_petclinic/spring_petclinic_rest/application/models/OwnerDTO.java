@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 @Data
 public class OwnerDTO {
-    private int id;
+    private Integer id;
     private String firstName;
     private String lastName;
     private String address;

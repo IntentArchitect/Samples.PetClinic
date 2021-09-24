@@ -28,7 +28,7 @@ public class VisitRestServiceImpl implements VisitRestService {
     @Override
     @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public VisitDTO getVisit(int visitId) {
+    public VisitDTO getVisit(Integer visitId) {
         var visit = this.visitRepository.findById(visitId);
         return visit.isPresent() ? VisitDTO.mapFromVisit(visit.get(), mapper) : null;
     }
@@ -48,7 +48,7 @@ public class VisitRestServiceImpl implements VisitRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void updateVisit(int visitId, VisitUpdateDTO dto) {
+    public void updateVisit(Integer visitId, VisitUpdateDTO dto) {
         var visit = this.visitRepository.findById(visitId).get();
         visit.setVisitDate(dto.getVisitDate());
         visit.setDescription(dto.getDescription());
@@ -58,7 +58,7 @@ public class VisitRestServiceImpl implements VisitRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void deleteVisit(int visitId) {
+    public void deleteVisit(Integer visitId) {
         var visit = this.visitRepository.findById(visitId).get();
         this.visitRepository.delete(visit);
     }

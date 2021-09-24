@@ -29,7 +29,7 @@ public class PetTypeRestController {
 
     @GetMapping("/{petTypeId}")
     @ApiOperation(value = "getPetType")
-    public ResponseEntity<PetTypeDTO> getPetType(@PathVariable(value = "petTypeId") int petTypeId) {
+    public ResponseEntity<PetTypeDTO> getPetType(@PathVariable(value = "petTypeId") Integer petTypeId) {
         final PetTypeDTO result = petTypeRestService.getPetType(petTypeId);
         if (result == null) {
             return new ResponseEntity<PetTypeDTO>(HttpStatus.NOT_FOUND);
@@ -40,13 +40,13 @@ public class PetTypeRestController {
     @PostMapping
     @ApiOperation(value = "addPetType")
     public ResponseEntity<Integer> addPetType(@RequestBody PetTypeDTO dto) {
-        final int result = petTypeRestService.addPetType(dto);
+        final Integer result = petTypeRestService.addPetType(dto);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
     @PutMapping("/{petTypeId}")
     @ApiOperation(value = "updatePetType")
-    public ResponseEntity<Void> updatePetType(@PathVariable(value = "petTypeId") int petTypeId, @RequestBody PetTypeDTO dto) {
+    public ResponseEntity<Void> updatePetType(@PathVariable(value = "petTypeId") Integer petTypeId, @RequestBody PetTypeDTO dto) {
         petTypeRestService.updatePetType(petTypeId, dto);
 
         return new ResponseEntity<>(HttpStatus.OK);
@@ -54,7 +54,7 @@ public class PetTypeRestController {
 
     @DeleteMapping("/{petTypeId}")
     @ApiOperation(value = "deletePetType")
-    public ResponseEntity<Void> deletePetType(@PathVariable(value = "petTypeId") int petTypeId) {
+    public ResponseEntity<Void> deletePetType(@PathVariable(value = "petTypeId") Integer petTypeId) {
         petTypeRestService.deletePetType(petTypeId);
 
         return new ResponseEntity<>(HttpStatus.OK);

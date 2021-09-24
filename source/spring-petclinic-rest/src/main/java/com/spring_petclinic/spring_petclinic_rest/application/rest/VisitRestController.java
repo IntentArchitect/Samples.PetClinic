@@ -21,7 +21,7 @@ public class VisitRestController {
 
     @GetMapping("/{visitId}")
     @ApiOperation(value = "getVisit")
-    public ResponseEntity<VisitDTO> getVisit(@PathVariable(value = "visitId") int visitId) {
+    public ResponseEntity<VisitDTO> getVisit(@PathVariable(value = "visitId") Integer visitId) {
         final VisitDTO result = visitRestService.getVisit(visitId);
         if (result == null) {
             return new ResponseEntity<VisitDTO>(HttpStatus.NOT_FOUND);
@@ -39,7 +39,7 @@ public class VisitRestController {
 
     @PutMapping("/{visitId}")
     @ApiOperation(value = "updateVisit")
-    public ResponseEntity<Void> updateVisit(@PathVariable(value = "visitId") int visitId, @RequestBody VisitUpdateDTO dto) {
+    public ResponseEntity<Void> updateVisit(@PathVariable(value = "visitId") Integer visitId, @RequestBody VisitUpdateDTO dto) {
         visitRestService.updateVisit(visitId, dto);
 
         return new ResponseEntity<>(HttpStatus.OK);
@@ -47,7 +47,7 @@ public class VisitRestController {
 
     @DeleteMapping("/{visitId}")
     @ApiOperation(value = "deleteVisit")
-    public ResponseEntity<Void> deleteVisit(@PathVariable(value = "visitId") int visitId) {
+    public ResponseEntity<Void> deleteVisit(@PathVariable(value = "visitId") Integer visitId) {
         visitRestService.deleteVisit(visitId);
 
         return new ResponseEntity<>(HttpStatus.OK);

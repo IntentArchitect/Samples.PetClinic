@@ -8,16 +8,17 @@ import org.modelmapper.ModelMapper;
 import java.util.List;
 import java.util.Collection;
 import java.util.stream.Collectors;
+import java.time.LocalDate;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class VisitDTO {
-    private int id;
-    private java.time.LocalDate visitDate;
+    private Integer id;
+    private LocalDate visitDate;
     private String description;
     private PetDTO pet;
-    private int ownerId;
+    private Integer ownerId;
 
     public static VisitDTO mapFromVisit(Visit visit, ModelMapper mapper) {
         return mapper.map(visit, VisitDTO.class);

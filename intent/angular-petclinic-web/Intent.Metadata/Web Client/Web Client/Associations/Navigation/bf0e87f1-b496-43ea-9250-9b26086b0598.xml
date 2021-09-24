@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="bf0e87f1-b496-43ea-9250-9b26086b0598">
-  <sourceEnd id="59164833-3952-4e77-a467-a16d9260d344">
+  <sourceEnd id="59164833-3952-4e77-a467-a16d9260d344" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>VetListComponent</name>
     <display>VetListComponent: VetListComponent</display>
     <typeReference id="b3bbe0fa-41e1-4371-8341-094307e186c3">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="bf0e87f1-b496-43ea-9250-9b26086b0598">
+  <targetEnd id="bf0e87f1-b496-43ea-9250-9b26086b0598" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToHome</name>
     <display>goToHome: WelcomeComponent</display>
     <typeReference id="fedf44d3-7a22-4938-89b8-7ed56149e369">

@@ -39,7 +39,7 @@ public class OwnerRestController {
 
     @GetMapping("/{ownerId}")
     @ApiOperation(value = "getOwner")
-    public ResponseEntity<OwnerDTO> getOwner(@PathVariable(value = "ownerId") int ownerId) {
+    public ResponseEntity<OwnerDTO> getOwner(@PathVariable(value = "ownerId") Integer ownerId) {
         final OwnerDTO result = ownerRestService.getOwner(ownerId);
         if (result == null) {
             return new ResponseEntity<OwnerDTO>(HttpStatus.NOT_FOUND);
@@ -49,7 +49,7 @@ public class OwnerRestController {
 
     @PutMapping("/{ownerId}")
     @ApiOperation(value = "updateOwner")
-    public ResponseEntity<Void> updateOwner(@PathVariable(value = "ownerId") int ownerId, @RequestBody OwnerUpdateDTO dto) {
+    public ResponseEntity<Void> updateOwner(@PathVariable(value = "ownerId") Integer ownerId, @RequestBody OwnerUpdateDTO dto) {
         ownerRestService.updateOwner(ownerId, dto);
 
         return new ResponseEntity<>(HttpStatus.OK);
@@ -57,7 +57,7 @@ public class OwnerRestController {
 
     @DeleteMapping("/{ownerId}")
     @ApiOperation(value = "deleteOwner")
-    public ResponseEntity<Void> deleteOwner(@PathVariable(value = "ownerId") int ownerId) {
+    public ResponseEntity<Void> deleteOwner(@PathVariable(value = "ownerId") Integer ownerId) {
         ownerRestService.deleteOwner(ownerId);
 
         return new ResponseEntity<>(HttpStatus.OK);

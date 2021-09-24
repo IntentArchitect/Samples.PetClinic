@@ -32,7 +32,7 @@ public class PetTypeRestServiceImpl implements PetTypeRestService {
     @Override
     @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public PetTypeDTO getPetType(int petTypeId) {
+    public PetTypeDTO getPetType(Integer petTypeId) {
         var petType = petTypeRepository.findById(petTypeId);
         return petType.isPresent() ? PetTypeDTO.mapFromPetType(petType.get(), mapper) : null;
     }
@@ -40,7 +40,7 @@ public class PetTypeRestServiceImpl implements PetTypeRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public int addPetType(PetTypeDTO dto) {
+    public Integer addPetType(PetTypeDTO dto) {
         var petType = new PetType();
         petType.setName(dto.getName());
         petType = petTypeRepository.save(petType);
@@ -50,7 +50,7 @@ public class PetTypeRestServiceImpl implements PetTypeRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void updatePetType(int petTypeId, PetTypeDTO dto) {
+    public void updatePetType(Integer petTypeId, PetTypeDTO dto) {
         var petType = petTypeRepository.findById(petTypeId);
         if (petType.isEmpty()) {
             throw new RuntimeException("Pet Type could not be found for id: " + ((Integer)petTypeId).toString());
@@ -62,7 +62,7 @@ public class PetTypeRestServiceImpl implements PetTypeRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void deletePetType(int petTypeId) {
+    public void deletePetType(Integer petTypeId) {
         var petType = petTypeRepository.findById(petTypeId);
         if (petType.isEmpty()) {
             throw new RuntimeException("Pet Type could not be found for id: " + ((Integer)petTypeId).toString());

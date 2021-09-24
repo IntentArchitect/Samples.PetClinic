@@ -29,7 +29,7 @@ public class PetRestServiceImpl implements PetRestService {
     @Override
     @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public PetDTO getPet(int petId) {
+    public PetDTO getPet(Integer petId) {
         var pet = this.petRepository.findById(petId);
         return pet.isPresent() ? PetDTO.mapFromPet(pet.get(), mapper) : null;
     }
@@ -52,7 +52,7 @@ public class PetRestServiceImpl implements PetRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void updatePet(int petId, PetUpdateDTO dto) {
+    public void updatePet(Integer petId, PetUpdateDTO dto) {
         var petType = this.petTypeRepository.findById(dto.getPetTypeId()).get();
         var pet = this.petRepository.findById(petId).get();
         pet.setName(dto.getName());
@@ -64,7 +64,7 @@ public class PetRestServiceImpl implements PetRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void deletePet(int petId) {
+    public void deletePet(Integer petId) {
         var pet = this.petRepository.findById(petId).get();
         this.petRepository.delete(pet);
     }

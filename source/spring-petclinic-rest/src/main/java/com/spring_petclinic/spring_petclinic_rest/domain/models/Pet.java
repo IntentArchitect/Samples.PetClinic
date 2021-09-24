@@ -4,6 +4,7 @@ import com.spring_petclinic.spring_petclinic_rest.intent.IntentManageClass;
 import com.spring_petclinic.spring_petclinic_rest.intent.Mode;
 import java.util.List;
 import javax.persistence.*;
+import java.time.LocalDate;
 
 
 
@@ -17,7 +18,7 @@ public class Pet extends AbstractEntity {
     private String name;
 
     @Column(name = "birth_date", nullable = false)
-    private java.time.LocalDate birthDate;
+    private LocalDate birthDate;
 
     @ManyToOne(optional = false)
     @JoinColumn(name="pet_type_id", nullable = false)
@@ -38,11 +39,11 @@ public class Pet extends AbstractEntity {
         this.name = name;
     }
 
-    public java.time.LocalDate getBirthDate() {
+    public LocalDate getBirthDate() {
         return this.birthDate;
     }
 
-    public void setBirthDate(java.time.LocalDate birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 

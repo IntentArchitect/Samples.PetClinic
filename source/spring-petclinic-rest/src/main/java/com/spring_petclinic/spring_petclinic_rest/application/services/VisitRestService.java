@@ -8,12 +8,12 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.VisitDTO;
 
 
 public interface VisitRestService {
-    VisitDTO getVisit(int visitId);
+    VisitDTO getVisit(Integer visitId);
 
     void addVisit(VisitCreateDTO dto);
 
-    void updateVisit(int visitId, VisitUpdateDTO dto);
+    void updateVisit(Integer visitId, VisitUpdateDTO dto);
 
-    void deleteVisit(int visitId);
+    void deleteVisit(Integer visitId);
 
 }

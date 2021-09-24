@@ -1,702 +1,814 @@
 <?xml version="1.0" encoding="utf-8"?>
-<outputLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<outputLog>
   <ApplicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</ApplicationId>
   <FileLogs>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate957351a1-f1e9-4f57-af1b-81c1cbdb98ed</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/api-access.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/api-access.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate3e5841f0-44fe-4f60-8e70-0c260920b33f</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#3e5841f0-44fe-4f60-8e70-0c260920b33f</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/api-access-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/api-access-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/owner.dto.ts</ProjectRelativeFilePath>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#957351a1-f1e9-4f57-af1b-81c1cbdb98ed</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/api-access.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/api-access.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner-create.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/owner-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplateb4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#b4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner-update.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/owner-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplatec66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/pet.dto.ts</ProjectRelativeFilePath>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/owner.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplateaa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#aa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-create.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/pet-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplateb567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#b567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-type.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/pet-type.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplatec92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#c92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-update.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/pet-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplatebb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-visit.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/pet-visit.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#c66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/pet.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/specialty.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/specialty.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplated60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/vet.dto.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet-create.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/vet-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet-update.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/vet-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/visit.dto.ts</ProjectRelativeFilePath>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#d60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/vet.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplated7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#d7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit-create.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/visit-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplateef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#ef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit-update.dto.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/models/visit-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate5c0fd20e-b0be-47f3-9dd4-682e98978779</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTOTemplate#49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/models/visit.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate#5c0fd20e-b0be-47f3-9dd4-682e98978779</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/owners-service.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/owners-service.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate2d105215-db0e-4c7d-b623-da836a2f9ddb</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/pets-service.service.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/pets-service.service.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate8ccc7f51-0fae-4d3c-914e-bc8a8c4cda65</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate#8ccc7f51-0fae-4d3c-914e-bc8a8c4cda65</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/pet-types-service.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/pet-types-service.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplatef072fe24-e916-459a-93e2-d3bd4a665f84</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate#2d105215-db0e-4c7d-b623-da836a2f9ddb</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/pets-service.service.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/api-access/pets-service.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate#f072fe24-e916-459a-93e2-d3bd4a665f84</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/specialties-service.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/specialties-service.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate8db19758-866d-42e1-aaf7-ee070b6b34ef</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate#8db19758-866d-42e1-aaf7-ee070b6b34ef</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/vets-service.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/vets-service.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate677342f6-7752-454c-b9aa-103ed1b52d3e</CorrelationId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularServiceProxyTemplate#677342f6-7752-454c-b9aa-103ed1b52d3e</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/visits-service.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/visits-service.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplatedb6be016-d0ee-437f-9f35-60837514fff1</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/app.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplatedb6be016-d0ee-437f-9f35-60837514fff1</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/app.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplatedb6be016-d0ee-437f-9f35-60837514fff1</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/app.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate97357317-3e6a-417d-805f-34c67ad6e6b8</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/app.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate63394dd7-8677-4d8f-b05e-1de6aa3e9a3b</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#63394dd7-8677-4d8f-b05e-1de6aa3e9a3b</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/app-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#db6be016-d0ee-437f-9f35-60837514fff1</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/app.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#db6be016-d0ee-437f-9f35-60837514fff1</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/app.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#db6be016-d0ee-437f-9f35-60837514fff1</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/app.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#97357317-3e6a-417d-805f-34c67ad6e6b8</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/app.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>017fc0bc-4cd3-4940-a541-48eefa051f60</ProjectId>
-      <CorrelationId>Intent.Angular.Core.ApiServiceTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/core/api.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>api.service.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>017fc0bc-4cd3-4940-a541-48eefa051f60</ProjectId>
-      <CorrelationId>Intent.Angular.Core.CoreModuleTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/core/core.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>core.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b2379c02-f1ba-47f7-8484-b0b62e737bc2</ProjectId>
-      <CorrelationId>Intent.Angular.Shared.IntentDecoratorsTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/intent/intent.decorators.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>intent.decorators.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplate8da25236-fa4f-48dc-b588-21bdf44e02a7</CorrelationId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#8da25236-fa4f-48dc-b588-21bdf44e02a7</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/models/owner-form.model.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/models/owner-form.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplateef943808-bc52-42dc-8898-8f77d6c07f93</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#ef943808-bc52-42dc-8898-8f77d6c07f93</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-add/owner-add.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-add/owner-add.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplateef943808-bc52-42dc-8898-8f77d6c07f93</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#ef943808-bc52-42dc-8898-8f77d6c07f93</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-add/owner-add.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-add/owner-add.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplateef943808-bc52-42dc-8898-8f77d6c07f93</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#ef943808-bc52-42dc-8898-8f77d6c07f93</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-add/owner-add.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-add/owner-add.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplatec3549af2-c500-48a1-ac11-4be486cbc0de</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#c3549af2-c500-48a1-ac11-4be486cbc0de</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-detail/owner-detail.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-detail/owner-detail.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplatec3549af2-c500-48a1-ac11-4be486cbc0de</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#c3549af2-c500-48a1-ac11-4be486cbc0de</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-detail/owner-detail.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-detail/owner-detail.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplatec3549af2-c500-48a1-ac11-4be486cbc0de</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#c3549af2-c500-48a1-ac11-4be486cbc0de</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-detail/owner-detail.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-detail/owner-detail.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate8a3ab41f-c9b7-44ef-a123-25c246ec6a15</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#8a3ab41f-c9b7-44ef-a123-25c246ec6a15</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-edit/owner-edit.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-edit/owner-edit.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate8a3ab41f-c9b7-44ef-a123-25c246ec6a15</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#8a3ab41f-c9b7-44ef-a123-25c246ec6a15</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-edit/owner-edit.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-edit/owner-edit.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate8a3ab41f-c9b7-44ef-a123-25c246ec6a15</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#8a3ab41f-c9b7-44ef-a123-25c246ec6a15</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-edit/owner-edit.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-edit/owner-edit.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate209e9711-c342-42f4-bf4b-b55fba159c32</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#209e9711-c342-42f4-bf4b-b55fba159c32</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-list/owner-list.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-list/owner-list.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate209e9711-c342-42f4-bf4b-b55fba159c32</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#209e9711-c342-42f4-bf4b-b55fba159c32</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-list/owner-list.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-list/owner-list.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate209e9711-c342-42f4-bf4b-b55fba159c32</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#209e9711-c342-42f4-bf4b-b55fba159c32</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owner-list/owner-list.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owner-list/owner-list.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplateb39c9aef-acdd-4e04-b067-6426490921e8</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owners.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/owners/owners.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate2aa01990-779e-4188-8982-2c6168b33a1c</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#2aa01990-779e-4188-8982-2c6168b33a1c</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owners-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/owners/owners-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate91e7788e-cab2-4583-aa2e-ed65deeca29e</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#b39c9aef-acdd-4e04-b067-6426490921e8</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/owners/owners.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/owners/owners.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#91e7788e-cab2-4583-aa2e-ed65deeca29e</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/page-not-found/page-not-found.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/page-not-found/page-not-found.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate91e7788e-cab2-4583-aa2e-ed65deeca29e</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#91e7788e-cab2-4583-aa2e-ed65deeca29e</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/page-not-found/page-not-found.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/page-not-found/page-not-found.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate91e7788e-cab2-4583-aa2e-ed65deeca29e</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#91e7788e-cab2-4583-aa2e-ed65deeca29e</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/page-not-found/page-not-found.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/page-not-found/page-not-found.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplatea973d437-3be9-441f-b25b-a982a60192f8</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#a973d437-3be9-441f-b25b-a982a60192f8</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/parts.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/parts.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplatedadaa986-e710-474a-be77-4a8687c56824</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#dadaa986-e710-474a-be77-4a8687c56824</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/welcome/welcome.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/welcome/welcome.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplatedadaa986-e710-474a-be77-4a8687c56824</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#dadaa986-e710-474a-be77-4a8687c56824</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/welcome/welcome.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/welcome/welcome.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplatedadaa986-e710-474a-be77-4a8687c56824</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#dadaa986-e710-474a-be77-4a8687c56824</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/parts/welcome/welcome.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/parts/welcome/welcome.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplated608dfa3-100e-44eb-9be0-663cf4759e15</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/models/pet.model.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/models/pet.model.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplate328895c7-1688-456c-bf3e-c7a2c5f952bf</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/models/pet-visit.model.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/models/pet-visit.model.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplatee2861cdd-025b-4769-b568-d6ec52c44855</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-add/pet-add.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplatee2861cdd-025b-4769-b568-d6ec52c44855</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-add/pet-add.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplatee2861cdd-025b-4769-b568-d6ec52c44855</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-add/pet-add.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplateb21c472a-1e6a-497c-8f67-4275f3e43594</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-edit/pet-edit.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplateb21c472a-1e6a-497c-8f67-4275f3e43594</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-edit/pet-edit.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplateb21c472a-1e6a-497c-8f67-4275f3e43594</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-edit/pet-edit.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplateb3dc4311-6baa-415d-b20f-5a56ef718803</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-list/pet-list.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplateb3dc4311-6baa-415d-b20f-5a56ef718803</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-list/pet-list.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplateb3dc4311-6baa-415d-b20f-5a56ef718803</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-list/pet-list.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplatea13bbdb6-b6d0-4ddf-b757-98fa44fd374b</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pets.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pets.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate9c1eca20-18b9-4803-989e-02440b9ec6c0</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pets-routing.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pets/pets-routing.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplateba02675a-9b41-40cd-a32b-6332410384b3</CorrelationId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#ba02675a-9b41-40cd-a32b-6332410384b3</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/models/pet-type.model.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/pet-types/models/pet-type.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-add/pettype-add.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-add/pettype-add.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-add/pettype-add.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-add/pettype-add.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-add/pettype-add.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-add/pettype-add.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate0ccab9f9-a0f0-4bf4-8777-884df5c0e407</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-edit/pettype-edit.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-edit/pettype-edit.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate0ccab9f9-a0f0-4bf4-8777-884df5c0e407</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-edit/pettype-edit.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-edit/pettype-edit.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate0ccab9f9-a0f0-4bf4-8777-884df5c0e407</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-edit/pettype-edit.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-edit/pettype-edit.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate3aee390d-3fe5-4663-8556-7b3dcaacc7d8</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-list/pettype-list.component.html</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-list/pettype-list.component.html</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate3aee390d-3fe5-4663-8556-7b3dcaacc7d8</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-list/pettype-list.component.scss</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-list/pettype-list.component.scss</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate3aee390d-3fe5-4663-8556-7b3dcaacc7d8</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-list/pettype-list.component.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pettype-list/pettype-list.component.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate313bc728-fff5-4e58-b7ad-4a276474b94d</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pet-types.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/pet-types/pet-types.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate981fa26f-214b-48a7-8389-1e9359e704df</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#981fa26f-214b-48a7-8389-1e9359e704df</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pet-types-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/pet-types/pet-types-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplateaa2318dc-4b6d-470d-b6c6-59b15243c9f4</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#313bc728-fff5-4e58-b7ad-4a276474b94d</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pet-types.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pet-types.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-add/pettype-add.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-add/pettype-add.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-add/pettype-add.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-add/pettype-add.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-add/pettype-add.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-add/pettype-add.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#0ccab9f9-a0f0-4bf4-8777-884df5c0e407</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-edit/pettype-edit.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-edit/pettype-edit.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#0ccab9f9-a0f0-4bf4-8777-884df5c0e407</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-edit/pettype-edit.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-edit/pettype-edit.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#0ccab9f9-a0f0-4bf4-8777-884df5c0e407</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-edit/pettype-edit.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-edit/pettype-edit.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#3aee390d-3fe5-4663-8556-7b3dcaacc7d8</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-list/pettype-list.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-list/pettype-list.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#3aee390d-3fe5-4663-8556-7b3dcaacc7d8</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-list/pettype-list.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-list/pettype-list.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#3aee390d-3fe5-4663-8556-7b3dcaacc7d8</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pet-types/pettype-list/pettype-list.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pet-types/pettype-list/pettype-list.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#328895c7-1688-456c-bf3e-c7a2c5f952bf</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/models/pet-visit.model.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/models/pet-visit.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#d608dfa3-100e-44eb-9be0-663cf4759e15</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/models/pet.model.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/models/pet.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#e2861cdd-025b-4769-b568-d6ec52c44855</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-add/pet-add.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#e2861cdd-025b-4769-b568-d6ec52c44855</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-add/pet-add.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#e2861cdd-025b-4769-b568-d6ec52c44855</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-add/pet-add.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-add/pet-add.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#b21c472a-1e6a-497c-8f67-4275f3e43594</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-edit/pet-edit.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#b21c472a-1e6a-497c-8f67-4275f3e43594</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-edit/pet-edit.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#b21c472a-1e6a-497c-8f67-4275f3e43594</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-edit/pet-edit.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-edit/pet-edit.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#b3dc4311-6baa-415d-b20f-5a56ef718803</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-list/pet-list.component.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#b3dc4311-6baa-415d-b20f-5a56ef718803</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-list/pet-list.component.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#b3dc4311-6baa-415d-b20f-5a56ef718803</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pet-list/pet-list.component.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pet-list/pet-list.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#9c1eca20-18b9-4803-989e-02440b9ec6c0</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pets-routing.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pets-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/pets/pets.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/pets/pets.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#aa2318dc-4b6d-470d-b6c6-59b15243c9f4</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/models/specialty-form.model.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/models/specialty-form.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplatef107d3c9-1bb2-4f73-8924-1c093812010b</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialties.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/specialties/specialties.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate34c6ac47-5b72-4134-92fd-7a77735c82a5</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#34c6ac47-5b72-4134-92fd-7a77735c82a5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialties-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialties-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate64ef14ff-4709-4744-b491-6f1e5d2521f5</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#f107d3c9-1bb2-4f73-8924-1c093812010b</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialties.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/specialties/specialties.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#64ef14ff-4709-4744-b491-6f1e5d2521f5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-add/specialty-add.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-add/specialty-add.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate64ef14ff-4709-4744-b491-6f1e5d2521f5</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#64ef14ff-4709-4744-b491-6f1e5d2521f5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-add/specialty-add.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-add/specialty-add.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate64ef14ff-4709-4744-b491-6f1e5d2521f5</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#64ef14ff-4709-4744-b491-6f1e5d2521f5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-add/specialty-add.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-add/specialty-add.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate07fde79c-a58d-4a3f-a18b-3f646e553e11</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#07fde79c-a58d-4a3f-a18b-3f646e553e11</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-edit/specialty-edit.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-edit/specialty-edit.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate07fde79c-a58d-4a3f-a18b-3f646e553e11</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#07fde79c-a58d-4a3f-a18b-3f646e553e11</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-edit/specialty-edit.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-edit/specialty-edit.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate07fde79c-a58d-4a3f-a18b-3f646e553e11</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#07fde79c-a58d-4a3f-a18b-3f646e553e11</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-edit/specialty-edit.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-edit/specialty-edit.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate6ae05437-0a1c-4a83-9957-ab08647dada5</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#6ae05437-0a1c-4a83-9957-ab08647dada5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-list/specialty-list.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-list/specialty-list.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate6ae05437-0a1c-4a83-9957-ab08647dada5</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#6ae05437-0a1c-4a83-9957-ab08647dada5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-list/specialty-list.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-list/specialty-list.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate6ae05437-0a1c-4a83-9957-ab08647dada5</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#6ae05437-0a1c-4a83-9957-ab08647dada5</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/specialties/specialty-list/specialty-list.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/specialties/specialty-list/specialty-list.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplate89e70f19-0a52-4c1d-9b1b-918141392c17</CorrelationId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#89e70f19-0a52-4c1d-9b1b-918141392c17</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/models/vet-form.model.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/models/vet-form.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate7f53379c-5071-47b2-884c-d210fe5cc049</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#7f53379c-5071-47b2-884c-d210fe5cc049</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-add/vet-add.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-add/vet-add.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate7f53379c-5071-47b2-884c-d210fe5cc049</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#7f53379c-5071-47b2-884c-d210fe5cc049</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-add/vet-add.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-add/vet-add.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate7f53379c-5071-47b2-884c-d210fe5cc049</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#7f53379c-5071-47b2-884c-d210fe5cc049</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-add/vet-add.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-add/vet-add.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate3abaa704-907b-4360-8287-f039d48e7d60</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#3abaa704-907b-4360-8287-f039d48e7d60</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-edit/vet-edit.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-edit/vet-edit.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate3abaa704-907b-4360-8287-f039d48e7d60</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#3abaa704-907b-4360-8287-f039d48e7d60</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-edit/vet-edit.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-edit/vet-edit.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate3abaa704-907b-4360-8287-f039d48e7d60</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#3abaa704-907b-4360-8287-f039d48e7d60</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-edit/vet-edit.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-edit/vet-edit.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplatee0b16791-89cb-4c34-a6d7-0b4ebdda2210</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#e0b16791-89cb-4c34-a6d7-0b4ebdda2210</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-list/vet-list.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-list/vet-list.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplatee0b16791-89cb-4c34-a6d7-0b4ebdda2210</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#e0b16791-89cb-4c34-a6d7-0b4ebdda2210</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-list/vet-list.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-list/vet-list.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplatee0b16791-89cb-4c34-a6d7-0b4ebdda2210</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#e0b16791-89cb-4c34-a6d7-0b4ebdda2210</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-list/vet-list.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-list/vet-list.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularResolver37dbea2a-db52-4853-9aa8-928c124b4204</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularResolver#37dbea2a-db52-4853-9aa8-928c124b4204</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vet-resolver.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vet-resolver.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vets.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/vets/vets.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate05be3af0-1574-40a6-b3fc-44a92c632368</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#05be3af0-1574-40a6-b3fc-44a92c632368</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vets-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/vets/vets-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Model.FormGroupTemplate0407b758-21de-4e06-8fbc-c67df0da6948</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/vets/vets.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/vets/vets.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Model.FormGroupTemplate#0407b758-21de-4e06-8fbc-c67df0da6948</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/models/visit-form.model.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/models/visit-form.model.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate6fc8db73-771a-4c7b-b656-06393f984173</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#6fc8db73-771a-4c7b-b656-06393f984173</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-add/visit-add.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-add/visit-add.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate6fc8db73-771a-4c7b-b656-06393f984173</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#6fc8db73-771a-4c7b-b656-06393f984173</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-add/visit-add.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-add/visit-add.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate6fc8db73-771a-4c7b-b656-06393f984173</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#6fc8db73-771a-4c7b-b656-06393f984173</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-add/visit-add.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-add/visit-add.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplatebe9f9225-c352-44a5-8081-578634f56a5d</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#be9f9225-c352-44a5-8081-578634f56a5d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-edit/visit-edit.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-edit/visit-edit.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplatebe9f9225-c352-44a5-8081-578634f56a5d</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#be9f9225-c352-44a5-8081-578634f56a5d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-edit/visit-edit.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-edit/visit-edit.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplatebe9f9225-c352-44a5-8081-578634f56a5d</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#be9f9225-c352-44a5-8081-578634f56a5d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-edit/visit-edit.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-edit/visit-edit.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate665874ff-e825-4b60-888d-44fcb85d5871</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentHtmlTemplate#665874ff-e825-4b60-888d-44fcb85d5871</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-list/visit-list.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-list/visit-list.component.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate665874ff-e825-4b60-888d-44fcb85d5871</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentCssTemplate#665874ff-e825-4b60-888d-44fcb85d5871</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-list/visit-list.component.scss</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-list/visit-list.component.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate665874ff-e825-4b60-888d-44fcb85d5871</CorrelationId>
+      <CorrelationId>Intent.Angular.Component.AngularComponentTsTemplate#665874ff-e825-4b60-888d-44fcb85d5871</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visit-list/visit-list.component.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visit-list/visit-list.component.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate96a68e32-5f01-4d5f-92cf-b87cfd26d865</CorrelationId>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visits.module.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/visits/visits.module.ts</ProjectRelativeFilePath>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate910f31db-1b93-4d7c-a8d5-3a529f0ba184</CorrelationId>
+      <CorrelationId>Intent.Angular.Module.AngularRoutingModuleTemplate#910f31db-1b93-4d7c-a8d5-3a529f0ba184</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visits-routing.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/visits/visits-routing.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Module.AngularModuleTemplate#96a68e32-5f01-4d5f-92cf-b87cfd26d865</CorrelationId>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/visits/visits.module.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>app/visits/visits.module.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>894065d4-989d-497f-b21f-4f1b2599ba1a</ProjectId>
-      <CorrelationId>Intent.Angular.Environment.EnvironmentTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/environments/environment.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>environment.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
   </FileLogs>
 </outputLog>

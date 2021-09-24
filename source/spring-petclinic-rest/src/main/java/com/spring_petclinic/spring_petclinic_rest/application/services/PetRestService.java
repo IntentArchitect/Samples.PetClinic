@@ -6,12 +6,12 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.PetDTO;
 
 
 public interface PetRestService {
-    PetDTO getPet(int petId);
+    PetDTO getPet(Integer petId);
 
     void addPet(PetCreateDTO dto);
 
-    void updatePet(int petId, PetUpdateDTO dto);
+    void updatePet(Integer petId, PetUpdateDTO dto);
 
-    void deletePet(int petId);
+    void deletePet(Integer petId);
 
 }

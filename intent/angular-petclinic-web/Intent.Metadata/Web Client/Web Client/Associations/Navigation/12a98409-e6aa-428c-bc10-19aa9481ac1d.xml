@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="12a98409-e6aa-428c-bc10-19aa9481ac1d">
-  <sourceEnd id="2ffbd111-90f0-4fbc-8cc9-ffc0688afb8d">
+  <sourceEnd id="2ffbd111-90f0-4fbc-8cc9-ffc0688afb8d" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>backToList</name>
     <display>backToList: SpecialtyListComponent</display>
     <typeReference id="cd63eee1-9ca7-47f6-b16b-faaffd0f2f19">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="12a98409-e6aa-428c-bc10-19aa9481ac1d">
+  <targetEnd id="12a98409-e6aa-428c-bc10-19aa9481ac1d" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToEdit</name>
     <display>goToEdit: SpecialtyEditComponent</display>
     <typeReference id="09a7aa40-66e1-46fe-bc61-2f2a5e829b5c">

@@ -1,408 +1,460 @@
 <?xml version="1.0" encoding="utf-8"?>
-<outputLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<outputLog>
   <ApplicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</ApplicationId>
   <FileLogs>
     <FileLog>
       <ProjectId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</ProjectId>
-      <CorrelationId>Intent.Java.Maven.PomFile</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/pom.xml</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>pom.xml</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4e779ef7-64dc-45a2-8139-ff790915d6a8</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.Application</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/Application.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Application.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/OwnerToOwnerDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerToOwnerDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMappingc66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#c66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/PetToPetDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetToPetDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMappingb567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#b567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/PetTypeToPetTypeDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeToPetTypeDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/SpecialtyToSpecialtyDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyToSpecialtyDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMappingd60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#d60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/VetToVetDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetToVetDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMappingbb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/VisitToPetVisitDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitToPetVisitDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>96b785a6-f495-4349-a7a8-2b2b29426415</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
+      <CorrelationId>Intent.Java.ModelMapper.EntityToDtoMapping#49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/mappings/VisitToVisitDTOMapping.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitToVisitDTOMapping.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModel4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/OwnerCreateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerCreateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModel0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/OwnerDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelb4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#b4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/OwnerUpdateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerUpdateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelaa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#aa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/PetCreateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetCreateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelc66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#c66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/PetDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelb567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#b567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/PetTypeDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelc92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#c92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/PetUpdateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetUpdateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelbb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/PetVisitDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetVisitDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModel569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/SpecialtyDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModel8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VetCreateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetCreateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModeld60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#d60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VetDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModel4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VetUpdateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetUpdateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModeld7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#d7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VisitCreateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitCreateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModel49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VisitDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</ProjectId>
-      <CorrelationId>Intent.Java.Services.DataTransferModelef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
+      <CorrelationId>Intent.Java.Services.DataTransferModel#ef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/models/VisitUpdateDTO.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitUpdateDTO.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.RestController6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
+      <CorrelationId>Intent.Java.SpringBoot.RestController#6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/OwnerRestController.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRestController.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.RestController138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
+      <CorrelationId>Intent.Java.SpringBoot.RestController#138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/PetRestController.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetRestController.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.RestControllerd6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
+      <CorrelationId>Intent.Java.SpringBoot.RestController#d6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/PetTypeRestController.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRestController.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.RestController573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
+      <CorrelationId>Intent.Java.SpringBoot.RestController#573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/SpecialtyRestController.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyRestController.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.RestController7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
+      <CorrelationId>Intent.Java.SpringBoot.RestController#7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/VetRestController.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetRestController.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</ProjectId>
-      <CorrelationId>Intent.Java.SpringBoot.RestController8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
+      <CorrelationId>Intent.Java.SpringBoot.RestController#8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/rest/VisitRestController.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitRestController.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceImplementation6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceImplementation#6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/OwnerRestServiceImpl.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRestServiceImpl.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceImplementation138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceImplementation#138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/PetRestServiceImpl.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetRestServiceImpl.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceImplementationd6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceImplementation#d6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/PetTypeRestServiceImpl.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRestServiceImpl.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceImplementation573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceImplementation#573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/SpecialtyRestServiceImpl.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyRestServiceImpl.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceImplementation7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceImplementation#7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/VetRestServiceImpl.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetRestServiceImpl.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7e804bd9-09a3-4c38-909b-5249af55e1d9</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceImplementation8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceImplementation#8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/impl/VisitRestServiceImpl.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitRestServiceImpl.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceInterface6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceInterface#6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/OwnerRestService.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRestService.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceInterface138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceInterface#138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/PetRestService.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetRestService.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceInterfaced6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceInterface#d6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/PetTypeRestService.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRestService.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceInterface573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceInterface#573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/SpecialtyRestService.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyRestService.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceInterface7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceInterface#7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/VetRestService.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetRestService.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</ProjectId>
-      <CorrelationId>Intent.Java.Services.ServiceInterface8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
+      <CorrelationId>Intent.Java.Services.ServiceInterface#8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/application/services/VisitRestService.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitRestService.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Cors.CorsConfig</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/CorsConfig.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>CorsConfig.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
-      <CorrelationId>Intent.Java.ModelMapper.ModelMapperBean</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/ModelMapperBean.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ModelMapperBean.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
-      <CorrelationId>Intent.Java.SpringFox.Swagger.SpringFoxConfig</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/SpringFoxConfig.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpringFoxConfig.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepositoryc5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
+      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#c5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/data/OwnerRepository.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRepository.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
+      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/data/PetRepository.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetRepository.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
+      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/data/PetTypeRepository.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRepository.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
+      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/data/SpecialtyRepository.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyRepository.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
+      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/data/VetRepository.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetRepository.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
-      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
+      <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/data/VisitRepository.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitRepository.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.AbstractEntity</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/AbstractEntity.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>AbstractEntity.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.DomainModelc5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
+      <CorrelationId>Intent.Java.Domain.DomainModel#c5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/Owner.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Owner.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.DomainModel1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
+      <CorrelationId>Intent.Java.Domain.DomainModel#1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/Pet.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Pet.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.DomainModel732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
+      <CorrelationId>Intent.Java.Domain.DomainModel#732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/PetType.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetType.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.DomainModel2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
+      <CorrelationId>Intent.Java.Domain.DomainModel#2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/Specialty.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Specialty.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.DomainModel62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
+      <CorrelationId>Intent.Java.Domain.DomainModel#62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/Vet.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Vet.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
-      <CorrelationId>Intent.Java.Domain.DomainModel83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
+      <CorrelationId>Intent.Java.Domain.DomainModel#83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/Visit.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Visit.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentCanAdd</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentCanAdd.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentCanAdd.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentCanRemove</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentCanRemove.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentCanRemove.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentCanUpdate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentCanUpdate.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentCanUpdate.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentIgnore</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentIgnore.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentIgnore.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentIgnoreBody</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentIgnoreBody.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentIgnoreBody.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentManage</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentManage.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentManage.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentManageClass</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentManageClass.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentManageClass.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.IntentMerge</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentMerge.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentMerge.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
-      <CorrelationId>Intent.Java.Weaving.Annotations.ModeEnum</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/Mode.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Mode.java</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
     </FileLog>
   </FileLogs>
 </outputLog>

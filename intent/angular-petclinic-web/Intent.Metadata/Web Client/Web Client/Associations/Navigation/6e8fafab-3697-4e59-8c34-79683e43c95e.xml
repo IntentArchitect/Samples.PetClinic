@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="6e8fafab-3697-4e59-8c34-79683e43c95e">
-  <sourceEnd id="2b53a4c6-2a96-4e36-bc07-524ee1a1edf9">
+  <sourceEnd id="2b53a4c6-2a96-4e36-bc07-524ee1a1edf9" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>VisitAddComponent</name>
     <display>VisitAddComponent: VisitAddComponent</display>
     <typeReference id="5b134b8b-34f0-4898-a702-ac23903723ca">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="6e8fafab-3697-4e59-8c34-79683e43c95e">
+  <targetEnd id="6e8fafab-3697-4e59-8c34-79683e43c95e" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToOwnerDetails</name>
     <display>goToOwnerDetails: OwnerDetailComponent</display>
     <typeReference id="47d2d5e1-6475-401f-9f25-f29a0a305221">

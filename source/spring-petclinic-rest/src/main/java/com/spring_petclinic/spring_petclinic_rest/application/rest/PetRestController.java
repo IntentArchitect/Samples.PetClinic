@@ -20,7 +20,7 @@ public class PetRestController {
 
     @GetMapping("/{petId}")
     @ApiOperation(value = "getPet")
-    public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") int petId) {
+    public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") Integer petId) {
         final PetDTO result = petRestService.getPet(petId);
         if (result == null) {
             return new ResponseEntity<PetDTO>(HttpStatus.NOT_FOUND);
@@ -38,7 +38,7 @@ public class PetRestController {
 
     @PutMapping("/{petId}")
     @ApiOperation(value = "updatePet")
-    public ResponseEntity<Void> updatePet(@PathVariable(value = "petId") int petId, @RequestBody PetUpdateDTO dto) {
+    public ResponseEntity<Void> updatePet(@PathVariable(value = "petId") Integer petId, @RequestBody PetUpdateDTO dto) {
         petRestService.updatePet(petId, dto);
 
         return new ResponseEntity<>(HttpStatus.OK);
@@ -46,7 +46,7 @@ public class PetRestController {
 
     @DeleteMapping("/{petId}")
     @ApiOperation(value = "deletePet")
-    public ResponseEntity<Void> deletePet(@PathVariable(value = "petId") int petId) {
+    public ResponseEntity<Void> deletePet(@PathVariable(value = "petId") Integer petId) {
         petRestService.deletePet(petId);
 
         return new ResponseEntity<>(HttpStatus.OK);

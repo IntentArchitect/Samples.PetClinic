@@ -11,11 +11,11 @@ public interface OwnerRestService {
 
     void addOwner(OwnerCreateDTO dto);
 
-    OwnerDTO getOwner(int ownerId);
+    OwnerDTO getOwner(Integer ownerId);
 
-    void updateOwner(int ownerId, OwnerUpdateDTO dto);
+    void updateOwner(Integer ownerId, OwnerUpdateDTO dto);
 
-    void deleteOwner(int ownerId);
+    void deleteOwner(Integer ownerId);
 
     List<OwnerDTO> getOwnersList(String lastName);
 

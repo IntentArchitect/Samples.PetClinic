@@ -8,17 +8,18 @@ import java.util.List;
 import org.modelmapper.ModelMapper;
 import java.util.Collection;
 import java.util.stream.Collectors;
+import java.time.LocalDate;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class PetDTO {
-    private int id;
+    private Integer id;
     private String name;
-    private java.time.LocalDate birthDate;
-    private int petTypeId;
+    private LocalDate birthDate;
+    private Integer petTypeId;
     private String petTypeName;
-    private int ownerId;
+    private Integer ownerId;
     private String ownerFirstName;
     private String ownerLastName;
     private List<PetVisitDTO> Visits;

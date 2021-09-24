@@ -3,13 +3,14 @@ package com.spring_petclinic.spring_petclinic_rest.application.models;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import java.time.LocalDate;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class VisitCreateDTO {
-    private int petId;
-    private java.time.LocalDate visitDate;
+    private Integer petId;
+    private LocalDate visitDate;
     private String description;
 
 }

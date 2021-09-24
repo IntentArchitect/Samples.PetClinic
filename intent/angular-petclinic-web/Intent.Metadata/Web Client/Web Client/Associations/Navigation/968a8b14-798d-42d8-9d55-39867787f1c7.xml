@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="968a8b14-798d-42d8-9d55-39867787f1c7">
-  <sourceEnd id="abb02072-bc94-446c-8818-3019259c6375">
+  <sourceEnd id="abb02072-bc94-446c-8818-3019259c6375" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>PetEditComponent</name>
     <display>PetEditComponent: PetEditComponent</display>
     <typeReference id="d4aa6580-4205-4c0e-9494-43bb9bcb096f">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="968a8b14-798d-42d8-9d55-39867787f1c7">
+  <targetEnd id="968a8b14-798d-42d8-9d55-39867787f1c7" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToOwnerDetails</name>
     <display>goToOwnerDetails: OwnerDetailComponent</display>
     <typeReference id="61cd110a-09b1-44fc-909e-30073fe237f3">

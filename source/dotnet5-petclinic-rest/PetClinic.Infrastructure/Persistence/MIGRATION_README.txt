@@ -1,31 +1,31 @@
 Create a new migration:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Add-Migration -Name {ChangeName} -StartupProject "PetClinic.Api" -Project Persistence
+Add-Migration -Name {ChangeName} -StartupProject "PetClinic.Api" -Project PetClinic.Infrastructure
 
 
 Overwrite an existing migration:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Add-Migration -Name {ChangeName} -StartupProject "PetClinic.Api" -Project Persistence
+Add-Migration -Name {ChangeName} -StartupProject "PetClinic.Api" -Project PetClinic.Infrastructure
 
 
 Update schema to the latest version:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Update-Database -StartupProject "PetClinic.Api" -Project Persistence
+Update-Database -StartupProject "PetClinic.Api" -Project PetClinic.Infrastructure
 
 
 Upgrade/downgrade schema to specific version:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Update-Database -Migration {Target} -StartupProject "PetClinic.Api" -Project Persistence
+Update-Database -Migration {Target} -StartupProject "PetClinic.Api" -Project PetClinic.Infrastructure
 
 
 Generate a script which detects the current database schema version and updates it to the latest:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Script-Migration -SourceMigration:$InitialDatabase -Script -StartupProject "PetClinic.Api" -Project Persistence
+Script-Migration -SourceMigration:$InitialDatabase -Script -StartupProject "PetClinic.Api" -Project PetClinic.Infrastructure
 
 
 Generate a script which upgrades from and to a specific schema version:
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-Script-Migration -SourceMigration:{Source} -TargetMigration:{Target} -Script -StartupProject "PetClinic.Api" -Project Persistence
+Script-Migration -SourceMigration:{Source} -TargetMigration:{Target} -Script -StartupProject "PetClinic.Api" -Project PetClinic.Infrastructure
 
 
 Drop all tables in schema:
