@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="dc2f1650-53d0-4065-87aa-d1a830eb1a39">
-  <sourceEnd id="68f429a3-a0d6-478c-b2da-d74b6aea73bf">
+  <sourceEnd id="68f429a3-a0d6-478c-b2da-d74b6aea73bf" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
     <name>Vets</name>
     <display>Vets: Vet[*]</display>
     <typeReference id="2700e5c3-fb7c-4366-ad97-df29d70e5180">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="dc2f1650-53d0-4065-87aa-d1a830eb1a39">
+  <targetEnd id="dc2f1650-53d0-4065-87aa-d1a830eb1a39" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Specialties</name>
     <display>Specialties: Specialty[*]</display>
     <typeReference id="58168de3-1e17-4f50-b55c-894e4b8e1591">

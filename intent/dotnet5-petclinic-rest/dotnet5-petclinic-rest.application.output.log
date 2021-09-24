@@ -1,603 +1,603 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <outputLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ApplicationId>3b9a6d6e-1cf0-4aea-b0bc-adac6ace7c4b</ApplicationId>
   <FileLogs>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.AppSettings</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/appsettings.json</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/appsettings.json</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>appsettings.json</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>5d91708c-d384-4d24-8bb6-9e11e9039f8b</ProjectId>
       <CorrelationId>Intent.Modules.AspNetCore.Cors.CorsConfiguration</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Configuration/CorsConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Configuration/CorsConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>CorsConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>5d91708c-d384-4d24-8bb6-9e11e9039f8b</ProjectId>
       <CorrelationId>Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Configuration/SwashbuckleConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Configuration/SwashbuckleConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SwashbuckleConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b4d16374-fdf8-4e30-b755-d8487f34cdad</ProjectId>
       <CorrelationId>Intent.AspNetCore.Controllers.Controller6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/OwnerRestController.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/OwnerRestController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b4d16374-fdf8-4e30-b755-d8487f34cdad</ProjectId>
       <CorrelationId>Intent.AspNetCore.Controllers.Controller138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/PetRestController.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/PetRestController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b4d16374-fdf8-4e30-b755-d8487f34cdad</ProjectId>
       <CorrelationId>Intent.AspNetCore.Controllers.Controllerd6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/PetTypeRestController.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/PetTypeRestController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b4d16374-fdf8-4e30-b755-d8487f34cdad</ProjectId>
       <CorrelationId>Intent.AspNetCore.Controllers.Controller573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/SpecialtyRestController.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/SpecialtyRestController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b4d16374-fdf8-4e30-b755-d8487f34cdad</ProjectId>
       <CorrelationId>Intent.AspNetCore.Controllers.Controller7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/VetRestController.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/VetRestController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b4d16374-fdf8-4e30-b755-d8487f34cdad</ProjectId>
       <CorrelationId>Intent.AspNetCore.Controllers.Controller8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/VisitRestController.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Controllers/VisitRestController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitRestController.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>4c6804de-2e91-44ca-a1c9-6538577f79d2</ProjectId>
       <CorrelationId>Intent.AspNetCore.Swashbuckle.AuthorizeCheckOperationFilter</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Filters/AuthorizeCheckOperationFilter.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Filters/AuthorizeCheckOperationFilter.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>AuthorizeCheckOperationFilter.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.CSProjectaad0939b-56a1-4294-aa6b-930d17d22a3d</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/PetClinic.Api.csproj</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/PetClinic.Api.csproj</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetClinic.Api.csproj</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.AspNetCore.Program</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Program.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Program.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Program.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.LaunchSettings</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Properties/launchsettings.json</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Properties/launchsettings.json</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Properties/launchsettings.json</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.AspNetCore.Startup</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Startup.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Startup.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Startup.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b65ba9cb-6313-42e2-be86-029a29fc3e8f</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.DbContextInterface</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Interfaces/IApplicationDbContext.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Interfaces/IApplicationDbContext.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IApplicationDbContext.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>2810e38d-9d95-443b-9aa3-c9fed85b3345</ProjectId>
       <CorrelationId>Intent.Application.AutoMapper.MapFromInterface</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Mappings/IMapFrom.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Mappings/IMapFrom.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IMapFrom.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>2810e38d-9d95-443b-9aa3-c9fed85b3345</ProjectId>
       <CorrelationId>Intent.Application.AutoMapper.MappingProfile</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Mappings/MappingProfile.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Mappings/MappingProfile.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>MappingProfile.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>9f3d11b6-702d-4f14-bdbb-7cba65a0272a</ProjectId>
       <CorrelationId>Intent.Application.DependencyInjection.DependencyInjection</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/DependencyInjection.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/DependencyInjection.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>DependencyInjection.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModel4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerCreateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerCreateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerCreateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModel0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelb4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerUpdateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/OwnerUpdateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerUpdateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelaa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetCreateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetCreateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetCreateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelc66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensionsc66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelb567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetTypeDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetTypeDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensionsb567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetTypeDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetTypeDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelc92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetUpdateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetUpdateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetUpdateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelbb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetVisitDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetVisitDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetVisitDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensionsbb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetVisitDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/PetVisitDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetVisitDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModel569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/SpecialtyDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/SpecialtyDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/SpecialtyDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/SpecialtyDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModel8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetCreateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetCreateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetCreateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModeld60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensionsd60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModel4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetUpdateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VetUpdateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetUpdateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModeld7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitCreateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitCreateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitCreateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModel49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitDTOMappingExtensions.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitDTOMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitDTOMappingExtensions.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>1b7bdae8-1f29-4370-8969-835b0eee41f9</ProjectId>
       <CorrelationId>Intent.Application.Dtos.DtoModelef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitUpdateDTO.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Dtos/VisitUpdateDTO.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitUpdateDTO.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>40918a15-2435-4d58-82c2-a0227e0ce7e1</ProjectId>
       <CorrelationId>Intent.Application.ServiceImplementations6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/OwnerService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/OwnerService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>40918a15-2435-4d58-82c2-a0227e0ce7e1</ProjectId>
       <CorrelationId>Intent.Application.ServiceImplementations138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/PetService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/PetService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>40918a15-2435-4d58-82c2-a0227e0ce7e1</ProjectId>
       <CorrelationId>Intent.Application.ServiceImplementationsd6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/PetTypeService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/PetTypeService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>40918a15-2435-4d58-82c2-a0227e0ce7e1</ProjectId>
       <CorrelationId>Intent.Application.ServiceImplementations573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/SpecialtyService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/SpecialtyService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>40918a15-2435-4d58-82c2-a0227e0ce7e1</ProjectId>
       <CorrelationId>Intent.Application.ServiceImplementations7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/VetService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/VetService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>40918a15-2435-4d58-82c2-a0227e0ce7e1</ProjectId>
       <CorrelationId>Intent.Application.ServiceImplementations8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/VisitService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Implementation/VisitService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5e97be7-194a-4fd2-b317-44b3dbffe4a5</ProjectId>
       <CorrelationId>Intent.Application.Contracts.ServiceContract6f40b401-47be-4cc2-a9bc-85dedc6b4535</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IOwnerService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IOwnerService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IOwnerService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5e97be7-194a-4fd2-b317-44b3dbffe4a5</ProjectId>
       <CorrelationId>Intent.Application.Contracts.ServiceContract138a9bbf-cd1d-4a12-a867-0101e1bbee8f</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IPetService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IPetService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPetService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5e97be7-194a-4fd2-b317-44b3dbffe4a5</ProjectId>
       <CorrelationId>Intent.Application.Contracts.ServiceContractd6aa110a-6887-4262-9036-1a64e620da70</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IPetTypeService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IPetTypeService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPetTypeService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5e97be7-194a-4fd2-b317-44b3dbffe4a5</ProjectId>
       <CorrelationId>Intent.Application.Contracts.ServiceContract573c68a9-585f-42af-864f-decd6ffeccc9</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/ISpecialtyService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/ISpecialtyService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ISpecialtyService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5e97be7-194a-4fd2-b317-44b3dbffe4a5</ProjectId>
       <CorrelationId>Intent.Application.Contracts.ServiceContract7ec57d50-0b2a-49a5-b43a-aef9131a99bb</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IVetService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IVetService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IVetService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>b5e97be7-194a-4fd2-b317-44b3dbffe4a5</ProjectId>
       <CorrelationId>Intent.Application.Contracts.ServiceContract8a3ec4bb-5b22-4293-8785-0336c74661c4</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IVisitService.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Interfaces/IVisitService.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IVisitService.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>9f3d11b6-702d-4f14-bdbb-7cba65a0272a</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreLibrary.CSProject9f3d11b6-702d-4f14-bdbb-7cba65a0272a</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/PetClinic.Application.csproj</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/PetClinic.Application.csproj</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetClinic.Application.csproj</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>dbf173c8-b7d6-41cf-9436-ba8acb1690c1</ProjectId>
       <CorrelationId>Intent.Entities.Keys.IdentityGenerator</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Common/IdentityGenerator.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Common/IdentityGenerator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IdentityGenerator.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityInterfacec5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IOwner.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IOwner.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IOwner.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityInterface1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IPet.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IPet.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPet.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityInterface732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IPetType.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IPetType.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPetType.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityInterface2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/ISpecialty.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/ISpecialty.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ISpecialty.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityInterface62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IVet.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IVet.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IVet.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityInterface83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IVisit.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/IVisit.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IVisit.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityc5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Owner.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Owner.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Owner.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityStatec5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/OwnerState.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/OwnerState.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerState.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntity1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Pet.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Pet.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Pet.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityState1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/PetState.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/PetState.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetState.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntity732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/PetType.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/PetType.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetType.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityState732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/PetTypeState.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/PetTypeState.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeState.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntity2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Specialty.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Specialty.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Specialty.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityState2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/SpecialtyState.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/SpecialtyState.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyState.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntity62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Vet.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Vet.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Vet.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityState62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/VetState.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/VetState.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetState.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntity83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Visit.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Visit.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Visit.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3a83110f-1f22-4889-aae9-814c5a793e82</ProjectId>
       <CorrelationId>Intent.Entities.DomainEntityState83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/VisitState.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/VisitState.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitState.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>f831cd54-e897-4477-9cd4-dfa49482ed91</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreLibrary.CSProjectf831cd54-e897-4477-9cd4-dfa49482ed91</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/PetClinic.Domain.csproj</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/PetClinic.Domain.csproj</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetClinic.Domain.csproj</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityInterfacec5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IOwnerRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IOwnerRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IOwnerRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.PagedResultInterface</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPagedResult.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPagedResult.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPagedResult.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityInterface1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPetRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPetRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPetRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityInterface732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPetTypeRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPetTypeRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPetTypeRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.BaseInterface</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityInterface2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/ISpecialtyRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/ISpecialtyRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ISpecialtyRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityInterface62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IVetRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IVetRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IVetRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityInterface83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IVisitRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IVisitRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IVisitRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>a27bace3-6846-4929-a9d5-978bbf5120dc</ProjectId>
       <CorrelationId>Intent.Infrastructure.DependencyInjection.DependencyInjection</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/DependencyInjection.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/DependencyInjection.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>DependencyInjection.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>486ebca5-5f95-442b-8432-cf675baa9bdb</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.DbContext</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/ApplicationDbContext.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/ApplicationDbContext.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ApplicationDbContext.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3cc11a76-70c7-4139-9ade-d702274229f3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfigurationc5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/OwnerConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/OwnerConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3cc11a76-70c7-4139-9ade-d702274229f3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/PetConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/PetConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3cc11a76-70c7-4139-9ade-d702274229f3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/PetTypeConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/PetTypeConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3cc11a76-70c7-4139-9ade-d702274229f3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/SpecialtyConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/SpecialtyConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3cc11a76-70c7-4139-9ade-d702274229f3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/VetConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/VetConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>3cc11a76-70c7-4139-9ade-d702274229f3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/VisitConfiguration.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/Configurations/VisitConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitConfiguration.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>486ebca5-5f95-442b-8432-cf675baa9bdb</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.DbMigrationsReadMe</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/MIGRATION_README.txt</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/MIGRATION_README.txt</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>MIGRATION_README.txt</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>a27bace3-6846-4929-a9d5-978bbf5120dc</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreLibrary.CSProjecta27bace3-6846-4929-a9d5-978bbf5120dc</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/PetClinic.Infrastructure.csproj</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/PetClinic.Infrastructure.csproj</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetClinic.Infrastructure.csproj</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.Implementationc5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/OwnerRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/OwnerRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>OwnerRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.PagedList</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PagedList.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PagedList.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PagedList.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.Implementation1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PetRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PetRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.Implementation732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PetTypeRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PetTypeRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PetTypeRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.BaseRepository</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/RepositoryBase.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/RepositoryBase.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>RepositoryBase.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.Implementation2b74779f-48ab-4cd1-8002-097d26dcf584</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/SpecialtyRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/SpecialtyRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpecialtyRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.Implementation62166c3b-8dce-465c-b978-1237cc69b64e</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/VetRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/VetRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VetRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.Implementation83fb9ee9-cd31-473a-bed1-38abaaa122c2</CorrelationId>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/VisitRepository.cs</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/VisitRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>VisitRepository.cs</ProjectRelativeFilePath>
     </FileLog>
     <FileLog>
-      <SolutionRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.sln</SolutionRelativeFilePath>
+      <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.sln</ApplicationRelativeFilePath>
     </FileLog>
   </FileLogs>
 </outputLog>

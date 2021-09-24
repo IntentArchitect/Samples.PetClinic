@@ -5,6 +5,14 @@
   <isAbstract>false</isAbstract>
   <order>1</order>
   <genericTypes />
+  <typeReference id="731a9974-a15c-47c4-a841-d5b45a76d7c6">
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>
   <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
@@ -15,7 +23,7 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="340ab44a-daa4-43b2-9a61-b70e0b4b4108">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -39,7 +47,7 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="70675680-1484-40b9-a92d-cdd3bc4bef06">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -63,7 +71,7 @@
       <name>address</name>
       <display>address: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>3</order>
       <genericTypes />
       <typeReference id="e2907a58-78b4-4419-b25a-ba37fa5491fb">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -87,7 +95,7 @@
       <name>city</name>
       <display>city: string</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>4</order>
       <genericTypes />
       <typeReference id="493d9236-da7e-4e24-a11c-b7e5cac54505">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -111,7 +119,7 @@
       <name>telephone</name>
       <display>telephone: string</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <order>5</order>
       <genericTypes />
       <typeReference id="ef55fadf-a5f7-49c2-97ea-a146d91c24c0">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="bf1c6193-3ac2-43bf-b02d-6e5f10920a50">
-  <sourceEnd id="fa3b1c76-3449-4faa-b989-314968546e4d">
+  <sourceEnd id="fa3b1c76-3449-4faa-b989-314968546e4d" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
     <name>Pet</name>
     <display>Pet: Pet</display>
     <typeReference id="e935b53e-6c2e-48b8-a75b-971e6dca6c71">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="bf1c6193-3ac2-43bf-b02d-6e5f10920a50">
+  <targetEnd id="bf1c6193-3ac2-43bf-b02d-6e5f10920a50" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Visits</name>
     <display>Visits: Visit[*]</display>
     <typeReference id="d1bc2cf7-05a3-4d8c-ab50-2ae8d523b223">

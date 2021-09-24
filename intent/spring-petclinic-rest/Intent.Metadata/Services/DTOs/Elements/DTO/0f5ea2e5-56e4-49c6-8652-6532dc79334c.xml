@@ -5,6 +5,14 @@
   <isAbstract>false</isAbstract>
   <order>2</order>
   <genericTypes />
+  <typeReference id="8ea975dc-511f-489c-a6ce-01b2e51a1f8f">
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
   <isMapped>true</isMapped>
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
@@ -23,7 +31,7 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="bd5e137e-102e-4045-9a14-003670583dff">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -53,7 +61,7 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="a2694a60-2692-486e-9778-60d15d673b9e">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -83,7 +91,7 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>3</order>
       <genericTypes />
       <typeReference id="bd537b8a-5c99-411b-84f7-b5d2b612bccd">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -113,7 +121,7 @@
       <name>address</name>
       <display>address: string</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>4</order>
       <genericTypes />
       <typeReference id="d884b4ec-27f1-4fda-9562-3670ab084fe2">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -143,7 +151,7 @@
       <name>city</name>
       <display>city: string</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <order>5</order>
       <genericTypes />
       <typeReference id="684774d9-fb56-4827-839e-32dd8fcd6d5d">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -173,7 +181,7 @@
       <name>telephone</name>
       <display>telephone: string</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
+      <order>6</order>
       <genericTypes />
       <typeReference id="0c93051c-ede4-4431-92f2-e822e17b0233">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -203,7 +211,7 @@
       <name>Pets</name>
       <display>Pets: PetDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>6</order>
+      <order>7</order>
       <genericTypes />
       <typeReference id="b6bf0f70-bc9a-4c81-8ff8-5068268bfa1e">
         <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>

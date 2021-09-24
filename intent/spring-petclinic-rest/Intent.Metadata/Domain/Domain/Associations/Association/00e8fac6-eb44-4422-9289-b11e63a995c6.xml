@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <association id="00e8fac6-eb44-4422-9289-b11e63a995c6">
-  <sourceEnd id="40e6744a-8df3-4d5c-b95f-6ff9b998f85f">
+  <sourceEnd id="40e6744a-8df3-4d5c-b95f-6ff9b998f85f" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
     <name>Pets</name>
     <display>Pets: Pet[*]</display>
     <typeReference id="df71fd58-7aa0-4c97-b878-85f9e420d298">
@@ -16,7 +16,7 @@
     </typeReference>
     <stereotypes />
   </sourceEnd>
-  <targetEnd id="00e8fac6-eb44-4422-9289-b11e63a995c6">
+  <targetEnd id="00e8fac6-eb44-4422-9289-b11e63a995c6" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>PetType</name>
     <display>PetType: PetType</display>
     <typeReference id="21df378e-5ab7-4532-b95d-14f3eee65a04">
