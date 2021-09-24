@@ -30,18 +30,6 @@ sys$command
 **/.vs*
 node_modules/
 lib/
-/Intent.IArchitect/Intent.IArchitect.Server/Intent.IArchitect.Distribution.WebApi/Intent.Packages/*.*
-**/Intent.Packages/**
-*.imod
-*.iat
-**/.intent/**
-**/main/**/*.js
-**/wwwroot/js/app.js
-**/wwwroot/js/app.min.js
-**/wwwroot/App/**/*.js
-/Intent.IArchitect/Intent.IArchitect.Electron/Intent.IArchitect.Electron/Solutions
-/Intent.IArchitect/Intent.IArchitect.Electron/Distributable
-/Intent.IArchitect/Intent.IArchitect.Electron/Intent.IArchitect.Electron/dist/win-unpacked
 
 # As per: https://docs.nuget.org/consume/package-restore#git
 
@@ -55,3 +43,9 @@ lib/
 #!**/packages/repositories.config
 /Intent.IntentArchitect/IntentArchitect.ElectronClient/Intent.IArchitect.Electron/Assemblies
 tempkey.jwk
+
+# INTENT FILES:
+*.imod
+*.iat
+!*.application.output.log
+.intent/
