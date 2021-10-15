@@ -5,14 +5,6 @@
   <isAbstract>false</isAbstract>
   <order>5</order>
   <genericTypes />
-  <typeReference id="2f1af683-33f9-41ef-9f4c-3ba36fd5b4d2">
-    <isNavigable>true</isNavigable>
-    <isNullable>false</isNullable>
-    <isCollection>false</isCollection>
-    <isRequired>true</isRequired>
-    <stereotypes />
-    <genericTypeParameters />
-  </typeReference>
   <isMapped>true</isMapped>
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
@@ -31,7 +23,7 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>0</order>
       <genericTypes />
       <typeReference id="eaeab779-bf9d-4007-a0e8-5cbf8416c036">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -61,7 +53,7 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="d11a6afb-adb3-409a-ae56-83d6b40a29d3">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -91,7 +83,7 @@
       <name>birthDate</name>
       <display>birthDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="74f86f59-4260-4650-a741-a422d1ce3536">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
@@ -121,7 +113,7 @@
       <name>petTypeId</name>
       <display>petTypeId: int</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <order>3</order>
       <genericTypes />
       <typeReference id="ff7a9830-8b96-4457-8a0b-08e2946d2079">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -152,7 +144,7 @@
       <name>petTypeName</name>
       <display>petTypeName: string</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
+      <order>4</order>
       <genericTypes />
       <typeReference id="7a7397a3-d1fc-450b-8535-795cc7e74c26">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -183,7 +175,7 @@
       <name>ownerId</name>
       <display>ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>6</order>
+      <order>5</order>
       <genericTypes />
       <typeReference id="2d6a1315-9892-4e09-a563-43a81242b3e0">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -214,7 +206,7 @@
       <name>ownerFirstName</name>
       <display>ownerFirstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>7</order>
+      <order>6</order>
       <genericTypes />
       <typeReference id="790c6bfb-cbad-4948-b426-3a8fee7af9dc">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -245,7 +237,7 @@
       <name>ownerLastName</name>
       <display>ownerLastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>8</order>
+      <order>7</order>
       <genericTypes />
       <typeReference id="911d9507-57e2-4f08-a28e-2c2a0f01a0a8">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -276,7 +268,7 @@
       <name>Visits</name>
       <display>Visits: PetVisitDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>9</order>
+      <order>8</order>
       <genericTypes />
       <typeReference id="3493d085-4e41-40fd-a199-b4beb23ac697">
         <typeId>bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</typeId>

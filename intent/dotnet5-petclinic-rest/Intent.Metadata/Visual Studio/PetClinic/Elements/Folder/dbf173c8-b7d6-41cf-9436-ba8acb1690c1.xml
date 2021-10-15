@@ -20,7 +20,7 @@
     </stereotype>
   </stereotypes>
   <childElements>
-    <childElement id="5be7c9f3-6263-4b4c-bd4d-d959526d8d26" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+    <childElement id="43d73c3e-bb09-4e0e-921c-63fd7432ab6f" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
       <name>Intent.Entities.Keys.IdentityGenerator</name>
       <display>Intent.Entities.Keys.IdentityGenerator</display>
       <externalReference>Intent.Entities.Keys</externalReference>

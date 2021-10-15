@@ -5,14 +5,6 @@
   <isAbstract>false</isAbstract>
   <order>10</order>
   <genericTypes />
-  <typeReference id="5f981e53-28bf-4f01-b677-4b5a4d83969c">
-    <isNavigable>true</isNavigable>
-    <isNullable>false</isNullable>
-    <isCollection>false</isCollection>
-    <isRequired>true</isRequired>
-    <stereotypes />
-    <genericTypeParameters />
-  </typeReference>
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>
   <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
@@ -23,7 +15,7 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>0</order>
       <genericTypes />
       <typeReference id="fb1fe9e1-8bda-464c-a4c6-aa402fbb6003">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -47,7 +39,7 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="9c62c01c-fb20-43de-9534-c26660d73a6c">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -71,7 +63,7 @@
       <name>specialties</name>
       <display>specialties: int[*]</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="29384381-73c2-4602-925c-586dd1706882">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

@@ -5,14 +5,6 @@
   <isAbstract>false</isAbstract>
   <order>4</order>
   <genericTypes />
-  <typeReference id="a8c03dbd-e212-4314-8b25-fe74160bbf6f">
-    <isNavigable>true</isNavigable>
-    <isNullable>false</isNullable>
-    <isCollection>false</isCollection>
-    <isRequired>true</isRequired>
-    <stereotypes />
-    <genericTypeParameters />
-  </typeReference>
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>
   <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
@@ -23,7 +15,7 @@
       <name>ownerId</name>
       <display>ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>0</order>
       <genericTypes />
       <typeReference id="63f31e0f-ce00-4636-949a-3e17f6fee162">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -47,7 +39,7 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="74903fa8-74c0-44b3-9106-0c3be925d636">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -71,7 +63,7 @@
       <name>birthDate</name>
       <display>birthDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="91f9e385-2fb9-4d1d-bafb-3e204591e6d5">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
@@ -95,7 +87,7 @@
       <name>petTypeId</name>
       <display>petTypeId: int</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <order>3</order>
       <genericTypes />
       <typeReference id="03ae2e39-c91d-4540-b7fc-cb2ab505573c">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

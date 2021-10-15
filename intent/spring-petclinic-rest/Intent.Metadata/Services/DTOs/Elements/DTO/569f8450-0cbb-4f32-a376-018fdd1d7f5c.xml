@@ -5,14 +5,6 @@
   <isAbstract>false</isAbstract>
   <order>9</order>
   <genericTypes />
-  <typeReference id="ab834257-d037-41d2-919c-1a658433cfb4">
-    <isNavigable>true</isNavigable>
-    <isNullable>false</isNullable>
-    <isCollection>false</isCollection>
-    <isRequired>true</isRequired>
-    <stereotypes />
-    <genericTypeParameters />
-  </typeReference>
   <isMapped>true</isMapped>
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
@@ -31,7 +23,7 @@
       <name>id</name>
       <display>id: int?</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>0</order>
       <genericTypes />
       <typeReference id="bc0e8fc7-6dac-4a84-894f-06d3c95d40f2">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -61,7 +53,7 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="16f01301-9a3a-4ac2-8ec3-b9719d5aeed7">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

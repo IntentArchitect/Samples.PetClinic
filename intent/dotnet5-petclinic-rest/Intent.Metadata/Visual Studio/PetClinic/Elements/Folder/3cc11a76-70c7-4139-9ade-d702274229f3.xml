@@ -25,7 +25,7 @@
       <display>Intent.EntityFrameworkCore.EntityTypeConfiguration</display>
       <externalReference>Intent.EntityFrameworkCore</externalReference>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>3cc11a76-70c7-4139-9ade-d702274229f3</parentFolderId>

@@ -5,14 +5,6 @@
   <isAbstract>false</isAbstract>
   <order>14</order>
   <genericTypes />
-  <typeReference id="29570b68-06a7-43ba-9eeb-7f2da78b2eb2">
-    <isNavigable>true</isNavigable>
-    <isNullable>false</isNullable>
-    <isCollection>false</isCollection>
-    <isRequired>true</isRequired>
-    <stereotypes />
-    <genericTypeParameters />
-  </typeReference>
   <isMapped>true</isMapped>
   <mappedClass>
     <applicationId>c0565004-77fc-40e6-9a3f-7a484ce53709</applicationId>
@@ -31,7 +23,7 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <order>0</order>
       <genericTypes />
       <typeReference id="c797ea06-1503-477e-8952-fb387be0b65f">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -61,7 +53,7 @@
       <name>visitDate</name>
       <display>visitDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>1</order>
       <genericTypes />
       <typeReference id="9d6eefde-1e82-4d46-8619-5ebecb8766d2">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
@@ -91,7 +83,7 @@
       <name>description</name>
       <display>description: string</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <order>2</order>
       <genericTypes />
       <typeReference id="ff3efc2f-370b-4f8e-bd24-9771da0b9a70">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -121,7 +113,7 @@
       <name>pet</name>
       <display>pet: PetDTO</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <order>3</order>
       <genericTypes />
       <typeReference id="9119c599-1902-493e-b84a-ec5cd4e5f0d1">
         <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
@@ -151,7 +143,7 @@
       <name>ownerId</name>
       <display>ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
+      <order>4</order>
       <genericTypes />
       <typeReference id="d87e8ef6-dfb4-44b0-b4a5-550507d04cbf">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
