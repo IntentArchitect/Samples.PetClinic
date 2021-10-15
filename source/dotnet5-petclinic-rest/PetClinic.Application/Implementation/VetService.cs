@@ -14,13 +14,13 @@ using PetClinic.Domain.Repositories;
 
 namespace PetClinic.Application.Implementation
 {
-    public class VetRestController : IVetService
+    public class VetService : IVetService
     {
         private IVetRepository _vetRepository;
         private readonly ISpecialtyRepository _specialtyRepository;
         private IMapper _mapper;
 
-        public VetRestController(IVetRepository vetRepository, ISpecialtyRepository specialtyRepository, IMapper mapper)
+        public VetService(IVetRepository vetRepository, ISpecialtyRepository specialtyRepository, IMapper mapper)
         {
             _vetRepository = vetRepository;
             _specialtyRepository = specialtyRepository;

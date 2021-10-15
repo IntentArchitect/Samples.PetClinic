@@ -14,12 +14,12 @@ using PetClinic.Domain.Repositories;
 
 namespace PetClinic.Application.Implementation
 {
-    public class OwnerRestController : IOwnerService
+    public class OwnerService : IOwnerService
     {
         private IOwnerRepository _ownerRepository;
         private IMapper _mapper;
 
-        public OwnerRestController(IOwnerRepository ownerRepository, IMapper mapper)
+        public OwnerService(IOwnerRepository ownerRepository, IMapper mapper)
         {
             _ownerRepository = ownerRepository;
             _mapper = mapper;

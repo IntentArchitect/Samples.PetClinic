@@ -14,12 +14,12 @@ using PetClinic.Domain.Repositories;
 
 namespace PetClinic.Application.Implementation
 {
-    public class VisitRestController : IVisitService
+    public class VisitService : IVisitService
     {
         private IVisitRepository _visitRepository;
         private IMapper _mapper;
 
-        public VisitRestController(IVisitRepository visitRepository, IMapper mapper)
+        public VisitService(IVisitRepository visitRepository, IMapper mapper)
         {
             _visitRepository = visitRepository;
             _mapper = mapper;

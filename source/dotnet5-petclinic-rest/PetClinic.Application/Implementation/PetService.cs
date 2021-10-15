@@ -14,12 +14,13 @@ using PetClinic.Domain.Repositories;
 
 namespace PetClinic.Application.Implementation
 {
-    public class PetRestController : IPetService
+    public class PetService : IPetService
     {
         private IPetRepository _petRepository;
         private IMapper _mapper;
 
-        public PetRestController(IPetRepository petRepository, IMapper mapper)
+        [IntentManaged(Mode.Merge)]
+        public PetService(IPetRepository petRepository, IMapper mapper)
         {
             _petRepository = petRepository;
             _mapper = mapper;

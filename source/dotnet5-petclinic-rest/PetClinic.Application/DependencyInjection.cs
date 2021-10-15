@@ -15,12 +15,12 @@ namespace PetClinic.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddTransient<IOwnerService, OwnerRestController>();
-            services.AddTransient<IPetService, PetRestController>();
-            services.AddTransient<IPetTypeService, PetTypeRestController>();
-            services.AddTransient<ISpecialtyService, SpecialtyRestController>();
-            services.AddTransient<IVetService, VetRestController>();
-            services.AddTransient<IVisitService, VisitRestController>();
+            services.AddTransient<IOwnerService, OwnerService>();
+            services.AddTransient<IPetService, PetService>();
+            services.AddTransient<IPetTypeService, PetTypeService>();
+            services.AddTransient<ISpecialtyService, SpecialtyService>();
+            services.AddTransient<IVetService, VetService>();
+            services.AddTransient<IVisitService, VisitService>();
             return services;
         }
     }

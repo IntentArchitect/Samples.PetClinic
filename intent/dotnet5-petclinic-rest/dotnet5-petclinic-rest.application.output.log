@@ -4,18 +4,21 @@
   <FileLogs>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
+      <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.AppSettings#aad0939b-56a1-4294-aa6b-930d17d22a3d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/appsettings.json</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>appsettings.json</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>5d91708c-d384-4d24-8bb6-9e11e9039f8b</ProjectId>
+      <CorrelationId>Intent.Modules.AspNetCore.Cors.CorsConfiguration</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Configuration/CorsConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>CorsConfiguration.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>5d91708c-d384-4d24-8bb6-9e11e9039f8b</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Configuration/SwashbuckleConfiguration.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SwashbuckleConfiguration.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -64,6 +67,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>4c6804de-2e91-44ca-a1c9-6538577f79d2</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Swashbuckle.AuthorizeCheckOperationFilter</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Filters/AuthorizeCheckOperationFilter.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>AuthorizeCheckOperationFilter.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -77,42 +81,49 @@
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Program</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Program.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Program.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
+      <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.LaunchSettings#aad0939b-56a1-4294-aa6b-930d17d22a3d</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Properties/launchsettings.json</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Properties/launchsettings.json</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Startup</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Api/Startup.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Startup.cs</ProjectRelativeFilePath>
       <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b65ba9cb-6313-42e2-be86-029a29fc3e8f</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.DbContextInterface</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Interfaces/IApplicationDbContext.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IApplicationDbContext.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>2810e38d-9d95-443b-9aa3-c9fed85b3345</ProjectId>
+      <CorrelationId>Intent.Application.AutoMapper.MapFromInterface</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Mappings/IMapFrom.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IMapFrom.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>2810e38d-9d95-443b-9aa3-c9fed85b3345</ProjectId>
+      <CorrelationId>Intent.Application.AutoMapper.MappingProfile</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/Common/Mappings/MappingProfile.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>MappingProfile.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>9f3d11b6-702d-4f14-bdbb-7cba65a0272a</ProjectId>
+      <CorrelationId>Intent.Application.DependencyInjection.DependencyInjection</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Application/DependencyInjection.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>DependencyInjection.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -364,6 +375,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>dbf173c8-b7d6-41cf-9436-ba8acb1690c1</ProjectId>
+      <CorrelationId>Intent.Entities.Keys.IdentityGenerator</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Entities/Common/IdentityGenerator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IdentityGenerator.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -510,6 +522,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
+      <CorrelationId>Intent.Entities.Repositories.Api.PagedResultInterface</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IPagedResult.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IPagedResult.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -530,6 +543,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
+      <CorrelationId>Intent.Entities.Repositories.Api.BaseInterface</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Domain/Repositories/IRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IRepository.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -557,12 +571,14 @@
     </FileLog>
     <FileLog>
       <ProjectId>a27bace3-6846-4929-a9d5-978bbf5120dc</ProjectId>
+      <CorrelationId>Intent.Infrastructure.DependencyInjection.DependencyInjection</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/DependencyInjection.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>DependencyInjection.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>486ebca5-5f95-442b-8432-cf675baa9bdb</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.DbContext</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/ApplicationDbContext.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ApplicationDbContext.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -611,6 +627,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>486ebca5-5f95-442b-8432-cf675baa9bdb</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.DbMigrationsReadMe</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Persistence/MIGRATION_README.txt</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>MIGRATION_README.txt</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -631,6 +648,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.Repositories.PagedList</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/PagedList.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PagedList.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -651,6 +669,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.Repositories.BaseRepository</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.Infrastructure/Repositories/RepositoryBase.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>RepositoryBase.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -677,6 +696,7 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
+      <CorrelationId>Intent.VisualStudio.Projects.VisualStudio2015Solution#d1d71292-3301-45e1-8d83-6b309e115bc0</CorrelationId>
       <ApplicationRelativeFilePath>../../source/dotnet5-petclinic-rest/PetClinic.sln</ApplicationRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
