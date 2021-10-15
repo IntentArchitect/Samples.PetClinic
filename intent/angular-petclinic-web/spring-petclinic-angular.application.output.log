@@ -200,18 +200,21 @@
     </FileLog>
     <FileLog>
       <ProjectId>017fc0bc-4cd3-4940-a541-48eefa051f60</ProjectId>
+      <CorrelationId>Intent.Angular.Core.ApiServiceTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/core/api.service.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>api.service.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>017fc0bc-4cd3-4940-a541-48eefa051f60</ProjectId>
+      <CorrelationId>Intent.Angular.Core.CoreModuleTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/core/core.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>core.module.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>b2379c02-f1ba-47f7-8484-b0b62e737bc2</ProjectId>
+      <CorrelationId>Intent.Angular.Shared.IntentDecoratorsTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/intent/intent.decorators.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>intent.decorators.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -806,6 +809,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>894065d4-989d-497f-b21f-4f1b2599ba1a</ProjectId>
+      <CorrelationId>Intent.Angular.Environment.EnvironmentTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/environments/environment.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>environment.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>

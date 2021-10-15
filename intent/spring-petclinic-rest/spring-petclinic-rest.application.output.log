@@ -4,12 +4,14 @@
   <FileLogs>
     <FileLog>
       <ProjectId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</ProjectId>
+      <CorrelationId>Intent.Java.Maven.PomFile</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/pom.xml</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>pom.xml</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4e779ef7-64dc-45a2-8139-ff790915d6a8</ProjectId>
+      <CorrelationId>Intent.Java.SpringBoot.Application</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/Application.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Application.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -296,18 +298,21 @@
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
+      <CorrelationId>Intent.Java.Spring.Cors.CorsConfig</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/CorsConfig.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>CorsConfig.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
+      <CorrelationId>Intent.Java.ModelMapper.ModelMapperBean</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/ModelMapperBean.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ModelMapperBean.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
+      <CorrelationId>Intent.Java.SpringFox.Swagger.SpringFoxConfig</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/SpringFoxConfig.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>SpringFoxConfig.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -356,6 +361,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>9a54a21d-dd04-4865-8c30-fb08235835ce</ProjectId>
+      <CorrelationId>Intent.Java.Domain.AbstractEntity</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/domain/models/AbstractEntity.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>AbstractEntity.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -404,54 +410,63 @@
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentCanAdd</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentCanAdd.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentCanAdd.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentCanRemove</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentCanRemove.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentCanRemove.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentCanUpdate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentCanUpdate.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentCanUpdate.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentIgnore</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentIgnore.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentIgnore.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentIgnoreBody</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentIgnoreBody.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentIgnoreBody.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentManage</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentManage.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentManage.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentManageClass</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentManageClass.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentManageClass.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.IntentMerge</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/IntentMerge.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IntentMerge.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</ProjectId>
+      <CorrelationId>Intent.Java.Weaving.Annotations.ModeEnum</CorrelationId>
       <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/intent/Mode.java</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Mode.java</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>

@@ -28,6 +28,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d7819f90-fec9-4ace-a874-0b9429f0075b</ProjectId>
+      <CorrelationId>Intent.Npm.PackageJsonFile</CorrelationId>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/package.json</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>package.json</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -40,6 +41,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.AppModule</CorrelationId>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/app.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app.module.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -88,18 +90,21 @@
     </FileLog>
     <FileLog>
       <ProjectId>6567b01a-2b40-4424-84e0-dd13bf9839cb</ProjectId>
+      <CorrelationId>Intent.TypeScript.Weaving.Decorators.IntentDecorators</CorrelationId>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/intent/intent.decorators.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>intent.decorators.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Core.Main</CorrelationId>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/main.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>main.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</ProjectId>
+      <CorrelationId>Intent.NodeJS.TypeORM.OrmConfig</CorrelationId>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/orm.config.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>orm.config.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
@@ -295,6 +300,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>17674e94-c04b-46e8-9fe8-8ddf183851ee</ProjectId>
+      <CorrelationId>Intent.NodeJS.NestJS.Controllers.ControllerBaseTemplate</CorrelationId>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/web/rest/controller.base.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>controller.base.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
