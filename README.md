@@ -16,7 +16,7 @@ Three servers are showcased:
 
 ### Open in Intent Architect
 Follow the instructions below to open this sample solution in Intent Architect:
- 1. Ensure that [Intent Architect](https://intentarchitect.com) is installed and that you have a the appropriate license.
+ 1. Ensure that [Intent Architect](https://intentarchitect.com) is installed and that you have the appropriate license.
  2. Open the `petclinic.isln` file (located in the `/intent` folder) with Intent Architect.
  3. Explore each application by clicking on the item in the solution dashboard.
 
