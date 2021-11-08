@@ -3,7 +3,10 @@ package com.spring_petclinic.spring_petclinic_rest.domain.models;
 import com.spring_petclinic.spring_petclinic_rest.intent.IntentManageClass;
 import com.spring_petclinic.spring_petclinic_rest.intent.Mode;
 import java.util.List;
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Column;
+import javax.persistence.OneToMany;
 
 
 
