@@ -19,6 +19,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="ae9c04d2-d267-4040-b6f9-35cac8c4cb3e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
       <name>Intent.Entities.DomainEntity</name>
@@ -32,6 +33,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="71e6328c-2afa-46f7-9533-319e5330d2cb" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
@@ -46,6 +48,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="087ad466-a3e8-49e9-a9f1-e91b84377256" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
@@ -60,6 +63,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

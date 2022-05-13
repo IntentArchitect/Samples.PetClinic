@@ -38,7 +38,7 @@ namespace PetClinic.Domain.Entities
             }
         }
 
-        public virtual ICollection<Vet> Vets { get; set; }
+        protected virtual ICollection<Vet> Vets { get; set; }
 
     }
 }

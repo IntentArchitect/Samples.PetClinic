@@ -31,6 +31,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="04fd3d08-48e7-4a76-93eb-5451c35e6d14" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
       <name>Intent.Application.DependencyInjection.DependencyInjection</name>
@@ -44,6 +45,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="ca828763-152d-4a4b-a2e8-ede1d2e2b892" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
@@ -57,6 +59,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

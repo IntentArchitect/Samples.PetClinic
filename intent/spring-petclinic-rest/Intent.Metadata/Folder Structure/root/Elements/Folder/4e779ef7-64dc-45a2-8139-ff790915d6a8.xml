@@ -10,6 +10,7 @@
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="71556c64-6227-488c-8ac0-41a068cd6245" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.Java.SpringBoot.Application</name>
@@ -23,6 +24,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="05442a2b-6ba0-4f66-9f5e-438318b01abc" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
@@ -36,6 +38,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

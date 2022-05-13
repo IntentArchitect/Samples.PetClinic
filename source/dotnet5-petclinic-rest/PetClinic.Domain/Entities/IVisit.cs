@@ -16,7 +16,6 @@ namespace PetClinic.Domain.Entities
         DateTime VisitDate { get; set; }
 
         string Description { get; set; }
-
         int PetId { get; }
         Pet Pet { get; set; }
 

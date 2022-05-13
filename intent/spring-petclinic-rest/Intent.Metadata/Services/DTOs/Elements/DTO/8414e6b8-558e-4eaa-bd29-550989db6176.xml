@@ -10,6 +10,7 @@
   <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
   <packageName>DTOs</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="15d4b8de-b08b-417e-b004-eb0b3bdc9c2a" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>firstName</name>
@@ -33,6 +34,7 @@
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="3296c8ff-dc1f-4b56-82ae-23a0aeaf369d" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
@@ -57,6 +59,7 @@
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="f0078e8a-24f4-41de-8aaa-b452800ca924" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
@@ -81,6 +84,7 @@
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

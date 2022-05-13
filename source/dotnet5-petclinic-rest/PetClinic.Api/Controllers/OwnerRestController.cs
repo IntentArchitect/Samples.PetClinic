@@ -1,14 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetClinic.Application;
-using PetClinic.Application.Interfaces;
-using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
-using System.Threading;
+using PetClinic.Application.Interfaces;
+using PetClinic.Domain.Common.Interfaces;
+using PetClinic.Infrastructure.Persistence;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -20,16 +22,21 @@ namespace PetClinic.Api.Controllers
     public class OwnerRestController : ControllerBase
     {
         private readonly IOwnerService _appService;
-        private readonly ApplicationDbContext _dbContext;
+        private readonly IUnitOfWork _unitOfWork;
 
         public OwnerRestController(IOwnerService appService,
-                ApplicationDbContext dbContext)
+            IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
-            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Returns the specified List&lt;OwnerDTO&gt;.</response>
         [HttpGet]
+        [ProducesResponseType(typeof(List<OwnerDTO>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<OwnerDTO>>> getOwners(CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
@@ -39,18 +46,33 @@ namespace PetClinic.Api.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPost]
-        public async Task<ActionResult> addOwner(OwnerCreateDTO dto, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> addOwner([FromBody] OwnerCreateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.AddOwner(dto);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
-            return NoContent();
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return Created(string.Empty, null);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Returns the specified OwnerDTO.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">Can't find an OwnerDTO with the parameters provided.</response>
         [HttpGet("{ownerId}")]
-        public async Task<ActionResult<OwnerDTO>> getOwner(int ownerId, CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(OwnerDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<OwnerDTO>> getOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
         {
             var result = default(OwnerDTO);
 
@@ -59,28 +81,47 @@ namespace PetClinic.Api.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="204">Successfully updated.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPut("{ownerId}")]
-        public async Task<ActionResult> updateOwner(int ownerId, OwnerUpdateDTO dto, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> updateOwner([FromRoute] int ownerId, [FromBody] OwnerUpdateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdateOwner(ownerId, dto);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
             return NoContent();
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Successfully deleted.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpDelete("{ownerId}")]
-        public async Task<ActionResult> deleteOwner(int ownerId, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> deleteOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
         {
 
             await _appService.DeleteOwner(ownerId);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
-            return NoContent();
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return Ok();
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Returns the specified List&lt;OwnerDTO&gt;.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpGet("*/lastname/{lastName}")]
-        public async Task<ActionResult<List<OwnerDTO>>> getOwnersList(string lastName, CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(List<OwnerDTO>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<List<OwnerDTO>>> getOwnersList([FromRoute] string lastName, CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
 

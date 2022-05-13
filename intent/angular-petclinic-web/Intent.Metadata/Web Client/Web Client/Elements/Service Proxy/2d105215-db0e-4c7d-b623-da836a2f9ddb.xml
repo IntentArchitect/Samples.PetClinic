@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="a36a06a5-2e50-424c-bfca-822944ef87cc" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getPet</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="4a2f3350-d72b-468e-8c10-8a55de66c202" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petId</name>
@@ -76,6 +78,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -105,6 +108,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="6b0e7904-322d-45cd-81e1-bb978a0a9cf4" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>dto</name>
@@ -134,6 +138,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -163,6 +168,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="1fea791f-b638-4188-9f3f-a6f64ba669e9" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petId</name>
@@ -192,6 +198,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="6cf65c91-7b8f-47e4-a944-faefaff84f90" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
@@ -222,6 +229,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -251,6 +259,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="86cf4531-95eb-487e-94d0-f7a6428f7d43" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petId</name>
@@ -280,6 +289,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

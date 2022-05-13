@@ -19,6 +19,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="6d54d432-4bc4-4e10-afad-8986504d9797" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>getVisit</name>
@@ -52,6 +53,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="5af0b7fe-2a6d-49e7-bc65-e28d97560cdc" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>visitId</name>
@@ -84,6 +86,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -117,6 +120,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="e0db7d09-157c-40e2-82e5-f28e1a1770eb" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>dto</name>
@@ -149,6 +153,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -182,6 +187,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="afb3de07-6cc0-4e4c-a65f-c158f0d7a4da" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>visitId</name>
@@ -214,6 +220,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="0e40120e-298a-485e-a97c-f565e1fffa16" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
@@ -247,6 +254,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -280,6 +288,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="b1455ad5-bbbc-4ac5-a632-57a539aa1325" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>visitId</name>
@@ -312,6 +321,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

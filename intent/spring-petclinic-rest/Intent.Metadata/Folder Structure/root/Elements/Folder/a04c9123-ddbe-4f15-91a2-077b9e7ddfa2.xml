@@ -10,6 +10,7 @@
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="ba39b357-c573-4538-b538-6db4a0d42994" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.Java.SpringBoot.RestController</name>
@@ -23,6 +24,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

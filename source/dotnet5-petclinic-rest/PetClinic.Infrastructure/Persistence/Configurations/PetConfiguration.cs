@@ -15,9 +15,6 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Id)
-                .IsRequired();
-
             builder.Property(x => x.Name)
                 .IsRequired()
                 .HasMaxLength(30);

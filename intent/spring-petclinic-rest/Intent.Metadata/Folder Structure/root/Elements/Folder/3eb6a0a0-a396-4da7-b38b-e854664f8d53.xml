@@ -10,6 +10,7 @@
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="48fbfd9e-e9e6-4c95-91fa-918b6a94bf4d" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
       <name>Domain</name>
@@ -22,6 +23,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

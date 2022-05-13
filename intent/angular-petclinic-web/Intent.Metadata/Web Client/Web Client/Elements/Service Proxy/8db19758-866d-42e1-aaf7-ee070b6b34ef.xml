@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="659d7303-4514-445b-8c40-6f55091f9351" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getAllVets</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="a29273d0-96af-46fe-95f5-223fb155670a" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
@@ -77,6 +79,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="e038d4c3-2a9b-4ffa-8fe9-58bd9bd87cca" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>vetId</name>
@@ -106,6 +109,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -135,6 +139,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="30c97283-d005-4ae8-9019-0dcc403b41ef" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>dto</name>
@@ -164,6 +169,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -193,6 +199,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="13389486-fffa-406f-aecd-ce5357d378b5" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>vetId</name>
@@ -222,6 +229,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="65e1bbfa-d2d8-4563-965c-43232739d647" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
@@ -252,6 +260,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -281,6 +290,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="e6dd0944-ec26-4581-8b9c-b5af1440dddd" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>vetId</name>
@@ -310,6 +320,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

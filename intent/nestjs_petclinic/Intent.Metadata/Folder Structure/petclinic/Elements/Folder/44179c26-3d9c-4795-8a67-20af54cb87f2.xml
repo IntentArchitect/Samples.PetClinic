@@ -10,6 +10,7 @@
   <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
   <packageName>petclinic</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="9f6debfe-d674-49f4-94fc-09b2ea866cd5" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.NodeJS.NestJS.Controllers.DtoModel</name>
@@ -23,6 +24,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

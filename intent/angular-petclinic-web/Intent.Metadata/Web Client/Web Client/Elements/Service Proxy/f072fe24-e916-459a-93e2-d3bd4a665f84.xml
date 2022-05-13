@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="2f3b8d2f-841d-4eb3-8807-bfd1216d77f8" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getAllSpecialties</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="1f64b61f-d34f-41ec-8942-c8db304d7733" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
@@ -77,6 +79,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="2cfed45c-dbf5-47ef-b3ac-b05f9e993b5a" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>specialtyId</name>
@@ -106,6 +109,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -138,6 +142,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="70893769-f0c7-48e7-bbf0-03465ff40b69" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>dto</name>
@@ -167,6 +172,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -196,6 +202,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="2f3fc72b-f5f8-4c9d-86ac-d85bee843995" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>specialtyId</name>
@@ -225,6 +232,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="601ae61b-fa87-4077-8a24-3dfcb33ca63e" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
@@ -255,6 +263,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -284,6 +293,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="0af68423-bd2d-4190-b341-08241d18ea5b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>specialtyId</name>
@@ -313,6 +323,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

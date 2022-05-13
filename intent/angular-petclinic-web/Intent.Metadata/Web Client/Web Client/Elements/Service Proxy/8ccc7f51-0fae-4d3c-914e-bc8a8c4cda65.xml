@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="d9ffce79-ed7d-42fd-bbc1-6df381654ad4" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getAllPetTypes</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="d9bef61f-ef73-4e62-b441-fc3e3d18c6e7" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
@@ -77,6 +79,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="81d0bc30-b04e-4301-8156-f7318661a784" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petTypeId</name>
@@ -106,6 +109,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -135,6 +139,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="c6462a77-a8ca-4250-9863-443d69945d07" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petTypeId</name>
@@ -164,6 +169,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="f7616d8b-610a-4854-b5d1-202015031995" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
@@ -194,6 +200,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -223,6 +230,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="979fbd1a-5d44-4ad7-b289-1e02b1ae03ab" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>petTypeId</name>
@@ -252,6 +260,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -284,6 +293,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="ea0628c1-df8d-4687-b195-28d60938d04e" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>dto</name>
@@ -313,6 +323,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

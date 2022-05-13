@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="af1f4b21-5af4-49d0-ad2e-cff7ab256fab" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getOwners</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="fe311037-cfbb-46fd-a255-35c026f3f923" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
@@ -77,6 +79,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="7fe18d04-4773-40a1-ac1e-d95635f9ac5b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>lastName</name>
@@ -106,6 +109,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -138,6 +142,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="42e77329-df72-4e4b-954b-6fb12c132769" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>ownerId</name>
@@ -167,6 +172,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -196,6 +202,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="daed7615-63f0-43ff-b245-b1e4cfd7ed7c" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>owner</name>
@@ -225,6 +232,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -254,6 +262,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="1a219e9d-ffce-46d7-ba6d-0b561361537b" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>ownerId</name>
@@ -283,6 +292,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="10fc146c-0714-469b-8159-cf3d27d0cd04" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
@@ -313,6 +323,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -342,6 +353,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="5988456a-489e-43e1-958e-e350ea57d650" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>ownerId</name>
@@ -371,6 +383,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

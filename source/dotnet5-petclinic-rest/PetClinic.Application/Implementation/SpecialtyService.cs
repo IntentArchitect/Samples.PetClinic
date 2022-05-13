@@ -6,6 +6,7 @@ using AutoMapper;
 using Intent.RoslynWeaver.Attributes;
 using PetClinic.Application.Dtos;
 using PetClinic.Application.Interfaces;
+using PetClinic.Domain.Common.Interfaces;
 using PetClinic.Domain.Entities;
 using PetClinic.Domain.Repositories;
 
@@ -18,11 +19,13 @@ namespace PetClinic.Application.Implementation
     {
         private ISpecialtyRepository _specialtyRepository;
         private IMapper _mapper;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public SpecialtyService(ISpecialtyRepository specialtyRepository, IMapper mapper)
+        public SpecialtyService(ISpecialtyRepository specialtyRepository, IMapper mapper, IUnitOfWork unitOfWork)
         {
             _specialtyRepository = specialtyRepository;
             _mapper = mapper;
+            _unitOfWork = unitOfWork;
         }
 
         [IntentManaged(Mode.Merge, Body = Mode.Ignore, Signature = Mode.Fully)]
@@ -48,7 +51,7 @@ namespace PetClinic.Application.Implementation
             };
 
             _specialtyRepository.Add(newSpecialty);
-            await _specialtyRepository.SaveChangesAsync();
+            await _unitOfWork.SaveChangesAsync();
             return newSpecialty.Id;
         }
 

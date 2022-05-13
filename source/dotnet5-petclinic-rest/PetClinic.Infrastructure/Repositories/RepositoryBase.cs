@@ -6,15 +6,16 @@ using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.EntityFrameworkCore;
+using PetClinic.Domain.Common.Interfaces;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
-[assembly: IntentTemplate("Intent.EntityFrameworkCore.Repositories.BaseRepository", Version = "1.0")]
+[assembly: IntentTemplate("Intent.EntityFrameworkCore.Repositories.RepositoryBase", Version = "1.0")]
 
 namespace PetClinic.Infrastructure.Repositories
 {
     public class RepositoryBase<TDomain, TPersistence, TDbContext> : IRepository<TDomain, TPersistence>
-        where TDbContext : DbContext
+        where TDbContext : DbContext, IUnitOfWork
         where TPersistence : class, TDomain
         where TDomain : class
     {
@@ -24,6 +25,8 @@ namespace PetClinic.Infrastructure.Repositories
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
         }
+
+        public IUnitOfWork UnitOfWork => _dbContext;
 
         public virtual void Remove(TDomain entity)
         {
@@ -35,14 +38,9 @@ namespace PetClinic.Infrastructure.Repositories
             GetSet().Add((TPersistence)entity);
         }
 
-        public Task<int> SaveChangesAsync()
+        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
         {
-            return _dbContext.SaveChangesAsync();
-        }
-
-        public Task<int> SaveChangesAsync(CancellationToken cancellationToken)
-        {
-            return _dbContext.SaveChangesAsync(cancellationToken);
+            return await _dbContext.SaveChangesAsync(cancellationToken);
         }
 
         public virtual async Task<TDomain> FindAsync(Expression<Func<TPersistence, bool>> filterExpression, CancellationToken cancellationToken = default)

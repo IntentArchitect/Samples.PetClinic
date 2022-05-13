@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="fc68642f-2253-4cc8-965e-bc889072e664" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>getVisit</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="82f40c99-d406-48b3-bb3e-f9feb6bce6a4" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>visitId</name>
@@ -76,6 +78,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -105,6 +108,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="1be28fdc-450a-4136-9032-0f6f62d78db3" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>dto</name>
@@ -134,6 +138,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -163,6 +168,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="cb6f53c8-c349-44e4-9bb2-125d154a9b98" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>visitId</name>
@@ -192,6 +198,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="95c81c8f-f2cc-490e-8899-627914276e7e" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
@@ -222,6 +229,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -251,6 +259,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="c8374eb5-ea84-4566-b17c-1aa3c7832788" type="Parameter" typeId="f11273c1-217f-4f42-b690-3d8b488f95a8">
           <name>visitId</name>
@@ -280,6 +289,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

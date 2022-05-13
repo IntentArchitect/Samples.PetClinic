@@ -10,6 +10,7 @@
   <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
   <packageName>DTOs</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="b029fa21-8bfe-41a5-a20c-b47a565f580c" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>petId</name>
@@ -33,6 +34,7 @@
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="ce0562ae-6fcc-4c9e-ad10-a286796e88b5" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
@@ -57,6 +59,7 @@
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="f3d38abf-1a8d-406f-87fa-0a249d334fb7" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
@@ -81,6 +84,7 @@
       <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
       <packageName>DTOs</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

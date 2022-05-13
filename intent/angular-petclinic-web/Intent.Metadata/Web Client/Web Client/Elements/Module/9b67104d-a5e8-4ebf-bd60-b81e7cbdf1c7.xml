@@ -9,10 +9,11 @@
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
-  <stereotypes />
   <diagram>
     <targetPackageId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</targetPackageId>
   </diagram>
+  <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="05be3af0-1574-40a6-b3fc-44a92c632368" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
       <name>[routing]</name>
@@ -25,6 +26,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="01ebfaae-4987-4768-95ae-a90bb59de700" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
           <name>vets</name>
@@ -48,6 +50,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="ac415590-3223-47c1-b134-cfe014460da7" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
@@ -72,6 +75,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="3636e3a3-026a-4127-b900-38d67e67dd6f" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
@@ -96,6 +100,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements>
             <childElement id="835dc519-f526-48f2-8951-3daf64f5758d" type="Route Parameter" typeId="2e770bf6-0f58-4806-8fdc-1477360b74e9">
               <name>id</name>
@@ -119,6 +124,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
           </childElements>

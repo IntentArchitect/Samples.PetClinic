@@ -16,12 +16,10 @@ namespace PetClinic.Domain.Entities
         string Name { get; set; }
 
         DateTime BirthDate { get; set; }
-
         int PetTypeId { get; }
         PetType PetType { get; set; }
 
         ICollection<Visit> Visits { get; set; }
-
         int OwnerId { get; }
         Owner Owner { get; set; }
 

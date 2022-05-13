@@ -10,6 +10,7 @@
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="bee926f5-f7b1-4546-b053-45c3ff874dc8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.Java.Domain.AbstractEntity</name>
@@ -23,6 +24,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="96919d79-2469-416e-a79d-a3be0637b91d" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -37,6 +39,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -9,10 +9,11 @@
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
-  <stereotypes />
   <diagram>
     <targetPackageId>f107d3c9-1bb2-4f73-8924-1c093812010b</targetPackageId>
   </diagram>
+  <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="34c6ac47-5b72-4134-92fd-7a77735c82a5" type="Routing" typeId="b548c3c2-a27d-4290-8d23-99d158bb8987">
       <name>[routing]</name>
@@ -25,6 +26,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="33770efd-d1a2-4640-ac14-a233d17bc54e" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
           <name>specialties</name>
@@ -48,6 +50,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="db297eba-f438-4da3-a0c9-ccd397fe5c7c" type="Route" typeId="9094f807-b330-4af8-be8d-bc7955035b94">
@@ -72,6 +75,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

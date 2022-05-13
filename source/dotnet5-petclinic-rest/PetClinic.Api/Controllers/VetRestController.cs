@@ -1,14 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetClinic.Application;
-using PetClinic.Application.Interfaces;
-using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
-using System.Threading;
+using PetClinic.Application.Interfaces;
+using PetClinic.Domain.Common.Interfaces;
+using PetClinic.Infrastructure.Persistence;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -20,16 +22,21 @@ namespace PetClinic.Api.Controllers
     public class VetRestController : ControllerBase
     {
         private readonly IVetService _appService;
-        private readonly ApplicationDbContext _dbContext;
+        private readonly IUnitOfWork _unitOfWork;
 
         public VetRestController(IVetService appService,
-                ApplicationDbContext dbContext)
+            IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
-            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Returns the specified List&lt;VetDTO&gt;.</response>
         [HttpGet]
+        [ProducesResponseType(typeof(List<VetDTO>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<VetDTO>>> getAllVets(CancellationToken cancellationToken)
         {
             var result = default(List<VetDTO>);
@@ -39,8 +46,17 @@ namespace PetClinic.Api.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Returns the specified VetDTO.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">Can't find an VetDTO with the parameters provided.</response>
         [HttpGet("{vetId}")]
-        public async Task<ActionResult<VetDTO>> getVet(int vetId, CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(VetDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<VetDTO>> getVet([FromRoute] int vetId, CancellationToken cancellationToken)
         {
             var result = default(VetDTO);
 
@@ -49,34 +65,52 @@ namespace PetClinic.Api.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPost]
-        public async Task<ActionResult> addVet(VetCreateDTO dto, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> addVet([FromBody] VetCreateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.AddVet(dto);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
-            return NoContent();
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return Created(string.Empty, null);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="204">Successfully updated.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPut("{vetId}")]
-        public async Task<ActionResult> updateVet(int vetId, VetUpdateDTO dto, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> updateVet([FromRoute] int vetId, [FromBody] VetUpdateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdateVet(vetId, dto);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
             return NoContent();
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Successfully deleted.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpDelete("{vetId}")]
-        public async Task<ActionResult> deleteVet(int vetId, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> deleteVet([FromRoute] int vetId, CancellationToken cancellationToken)
         {
 
             await _appService.DeleteVet(vetId);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
-            return NoContent();
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return Ok();
         }
 
 

@@ -10,6 +10,7 @@
   <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
   <packageName>Domain</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="0953b8aa-c06d-4e1e-9d9a-dd1a5552138e" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
       <name>id</name>
@@ -42,6 +43,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="89275cd3-d7e0-46a1-85dd-f3c9f849986f" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
@@ -66,6 +68,7 @@
       <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
       <packageName>Domain</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="3da4f51e-3ac3-45ae-8ada-c019ec134c79" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
@@ -90,6 +93,7 @@
       <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
       <packageName>Domain</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using PetClinic.Application.Dtos;
 
-
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.Application.Contracts.ServiceContract", Version = "1.0")]
 

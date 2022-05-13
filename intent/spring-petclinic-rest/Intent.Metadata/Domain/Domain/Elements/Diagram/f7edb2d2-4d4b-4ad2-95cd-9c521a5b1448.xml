@@ -9,9 +9,10 @@
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
   <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
   <packageName>Domain</packageName>
-  <stereotypes />
   <diagram>
     <targetPackageId>00b749ca-cbd8-43d7-8058-671c68702ddb</targetPackageId>
   </diagram>
+  <stereotypes />
+  <metadata />
   <childElements />
 </class>

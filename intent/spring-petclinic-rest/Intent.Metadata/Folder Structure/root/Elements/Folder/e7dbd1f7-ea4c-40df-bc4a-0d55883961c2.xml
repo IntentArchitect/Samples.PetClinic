@@ -10,6 +10,7 @@
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="ddfe1632-bc73-442e-b480-bdeb44bdb4d1" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.Java.Spring.Data.Repositories.EntityRepository</name>
@@ -23,6 +24,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="01f29e0f-23fc-4e51-9942-5ab5b0d8b297" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
@@ -36,6 +38,7 @@
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -10,6 +10,7 @@
   <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
   <packageName>petclinic</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="95d7744d-579f-4707-a66c-9d6c08e03f49" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
       <name>Domain</name>
@@ -22,6 +23,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -10,6 +10,7 @@
   <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
   <packageName>root</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="ac27f96e-6c26-42fa-a300-7850a0d59271" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.Angular.Core.ApiServiceTemplate</name>
@@ -23,6 +24,7 @@
       <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="31bef96e-86e0-4c84-a393-56b9fb0282d1" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -37,6 +39,7 @@
       <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
       <packageName>root</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -20,6 +20,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="071d6c63-839b-4a7e-8e5b-7161350a729d" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
       <name>id</name>
@@ -52,6 +53,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="ef506b2b-4075-4734-bbe1-a6b411523862" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
@@ -87,6 +89,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -10,6 +10,7 @@
   <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
   <packageName>petclinic</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="ed9d4a15-6a57-483c-b7b7-5d29a07fbe25" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.NodeJS.NestJS.Core.AppModule</name>
@@ -23,6 +24,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="194ed73c-50eb-47b3-8322-9efefdc2bff4" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -37,6 +39,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="25bc7921-689f-4363-aeb2-b06a031261b1" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
@@ -51,6 +54,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="94fb9075-334d-4d74-9a32-9809a37637fa" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
@@ -64,6 +68,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

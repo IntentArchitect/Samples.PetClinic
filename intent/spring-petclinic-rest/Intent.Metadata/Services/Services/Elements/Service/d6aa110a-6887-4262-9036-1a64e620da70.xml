@@ -19,6 +19,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="fbc7347e-72d2-41a2-852c-eeeb24b30b49" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>getAllPetTypes</name>
@@ -52,6 +53,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="0b246482-b19d-4f9f-86b1-cf11996720cd" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
@@ -86,6 +88,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="f6c8de9b-7b9b-4931-baf6-d507509d34f9" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>petTypeId</name>
@@ -118,6 +121,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -154,6 +158,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="ad2ecc63-813f-4ff6-b3ff-3824a95b3605" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>dto</name>
@@ -186,6 +191,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -219,6 +225,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="6b1f0dda-e418-4a04-a795-6e213f54b8d0" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>petTypeId</name>
@@ -251,6 +258,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="65b5fb34-de76-42cf-9813-ec0f22fe39aa" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
@@ -284,6 +292,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -317,6 +326,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="48834f22-4adc-422e-931c-6f3da8b590f3" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>petTypeId</name>
@@ -349,6 +359,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

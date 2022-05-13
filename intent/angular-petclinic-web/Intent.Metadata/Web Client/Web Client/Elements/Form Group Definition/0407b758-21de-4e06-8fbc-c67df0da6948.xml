@@ -18,6 +18,7 @@
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="0e1a8537-a2f5-4780-b1aa-72c2655af4e4" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
       <name>id</name>
@@ -47,6 +48,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="8e94ffe0-160c-44b0-b5c4-caa5d28c14a5" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
@@ -77,6 +79,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="71e4ac71-e78f-4fae-80df-9fb5292380af" type="Form Group Control" typeId="b4e29ea5-b9a4-47eb-8214-c4cc5b46ee91">
@@ -107,6 +110,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

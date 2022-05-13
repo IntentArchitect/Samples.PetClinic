@@ -23,17 +23,17 @@ export class OwnerListComponent implements OnInit {
 
   @IntentManage()
   onSelected(ownerId: number): void {
-    this.router.navigate(["owners", ownerId]);
+    // write your business logic here for this command
   }
 
   @IntentManage()
   goToAdd(): void {
-    this.router.navigate(["owners/add"]);
+    this.router.navigate(["owners", "add"]);
   }
 
   @IntentManage()
   goToDetails(id: any): void {
-    this.router.navigate(["owners/:id"]);
+    this.router.navigate(["owners", id]);
   }
 
 }

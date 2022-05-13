@@ -3,6 +3,7 @@
   <sourceEnd id="9da3c97b-7bbd-4297-8023-65420a9de98d" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>PettypeListComponent</name>
     <display>PettypeListComponent: PettypeListComponent</display>
+    <order>0</order>
     <typeReference id="448735a5-7ba2-48ee-8335-a795172c2adc">
       <typeId>3aee390d-3fe5-4663-8556-7b3dcaacc7d8</typeId>
       <isNavigable>false</isNavigable>
@@ -15,10 +16,12 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </sourceEnd>
   <targetEnd id="d509e9cb-37b2-433a-a4ca-fb7e795d7d4f" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToHome</name>
     <display>goToHome: WelcomeComponent</display>
+    <order>0</order>
     <typeReference id="0409c7bb-4db7-4ef6-aae4-039771db561b">
       <typeId>dadaa986-e710-474a-be77-4a8687c56824</typeId>
       <isNavigable>true</isNavigable>
@@ -31,6 +34,7 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </targetEnd>
   <associationType>Navigation</associationType>
   <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>

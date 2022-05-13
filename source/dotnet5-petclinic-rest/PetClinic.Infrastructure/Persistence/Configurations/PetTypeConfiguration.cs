@@ -13,12 +13,9 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<PetType> builder)
         {
-            builder.ToTable("types", "dbo");
+            builder.ToTable("types");
 
             builder.HasKey(x => x.Id);
-
-            builder.Property(x => x.Id)
-                .IsRequired();
 
             builder.Property(x => x.Name)
                 .IsRequired()

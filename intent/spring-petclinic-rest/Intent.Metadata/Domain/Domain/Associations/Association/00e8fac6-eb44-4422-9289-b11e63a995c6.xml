@@ -3,6 +3,7 @@
   <sourceEnd id="40e6744a-8df3-4d5c-b95f-6ff9b998f85f" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
     <name>Pets</name>
     <display>Pets: Pet[*]</display>
+    <order>2</order>
     <typeReference id="df71fd58-7aa0-4c97-b878-85f9e420d298">
       <typeId>1cada2f2-b08e-4caf-8505-7bc92f69bab6</typeId>
       <isNavigable>false</isNavigable>
@@ -15,10 +16,12 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </sourceEnd>
   <targetEnd id="00e8fac6-eb44-4422-9289-b11e63a995c6" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>PetType</name>
     <display>PetType: PetType</display>
+    <order>3</order>
     <typeReference id="21df378e-5ab7-4532-b95d-14f3eee65a04">
       <typeId>732f9d1f-cae2-49b5-bbb3-215cbf1b4834</typeId>
       <isNavigable>true</isNavigable>
@@ -31,6 +34,7 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </targetEnd>
   <associationType>Association</associationType>
   <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>

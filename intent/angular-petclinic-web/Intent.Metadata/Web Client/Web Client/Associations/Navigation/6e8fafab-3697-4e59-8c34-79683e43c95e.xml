@@ -3,6 +3,7 @@
   <sourceEnd id="2b53a4c6-2a96-4e36-bc07-524ee1a1edf9" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>VisitAddComponent</name>
     <display>VisitAddComponent: VisitAddComponent</display>
+    <order>0</order>
     <typeReference id="5b134b8b-34f0-4898-a702-ac23903723ca">
       <typeId>6fc8db73-771a-4c7b-b656-06393f984173</typeId>
       <isNavigable>false</isNavigable>
@@ -15,10 +16,12 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </sourceEnd>
   <targetEnd id="6e8fafab-3697-4e59-8c34-79683e43c95e" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToOwnerDetails</name>
     <display>goToOwnerDetails: OwnerDetailComponent</display>
+    <order>0</order>
     <typeReference id="47d2d5e1-6475-401f-9f25-f29a0a305221">
       <typeId>c3549af2-c500-48a1-ac11-4be486cbc0de</typeId>
       <isNavigable>true</isNavigable>
@@ -31,6 +34,7 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </targetEnd>
   <associationType>Navigation</associationType>
   <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>

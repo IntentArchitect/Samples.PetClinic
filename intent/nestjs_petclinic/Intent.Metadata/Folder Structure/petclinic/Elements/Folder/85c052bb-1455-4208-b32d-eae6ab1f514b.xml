@@ -10,6 +10,7 @@
   <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
   <packageName>petclinic</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="c7ff6e47-3b09-4705-9698-a3afefc5658c" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.NodeJS.TypeORM.RepositoryTemplate</name>
@@ -23,6 +24,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="02028ed1-fa3c-456b-9946-7681405a1831" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
@@ -36,6 +38,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

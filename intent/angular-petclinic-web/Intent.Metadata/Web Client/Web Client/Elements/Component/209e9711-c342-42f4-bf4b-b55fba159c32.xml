@@ -21,6 +21,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="f8f09ecd-fc22-4b17-b96c-bc29cc5c7ea4" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
       <name>owners</name>
@@ -44,6 +45,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="dd3f6bf2-4d45-4a83-ac19-85e4e8c0565d" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
@@ -65,6 +67,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="69e5be3d-6416-4e79-9031-0a8dd708846e" type="Command Parameter" typeId="4a1ce2a9-e79f-4e93-96af-24b44728ecbc">
           <name>ownerId</name>
@@ -88,6 +91,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -103,6 +107,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="2030e131-f4ba-4cf7-8e09-bf0885037f31" type="Table Control" typeId="e302d9ca-268e-4a98-ad8d-4434aefb9903">
           <name>Table</name>
@@ -132,6 +137,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements>
             <childElement id="a7e35e14-30a7-479c-842e-decf17f10547" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
               <name>Name</name>
@@ -150,6 +156,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="5bad9102-ae58-4c26-b30d-2d7d825b7ab7" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
@@ -169,6 +176,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="931d59d2-79d8-481f-9b30-567ecf1ec861" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
@@ -188,6 +196,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="69089b31-ba62-4a3d-8f1e-6baa87de5295" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
@@ -207,6 +216,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="47607d25-6cb3-4986-8fec-d8bd4b48eeb5" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
@@ -226,6 +236,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
           </childElements>
@@ -241,6 +252,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements>
             <childElement id="66cdfe16-85c1-4c68-8ed4-552c73d84836" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
               <name>Add Owner</name>
@@ -270,6 +282,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
           </childElements>

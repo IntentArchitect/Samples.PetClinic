@@ -19,6 +19,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="723e13da-c45f-44e6-a5ef-9ff17e6f3f02" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>getOwners</name>
@@ -52,6 +53,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="1469c898-d05a-40cb-ac35-2e82fe89b2b0" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
@@ -83,6 +85,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="983293bf-7121-489a-bdc6-495b6c000063" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>dto</name>
@@ -115,6 +118,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -151,6 +155,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="9c2069fc-a9d4-4f69-b594-9b70af4984b4" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>ownerId</name>
@@ -183,6 +188,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -216,6 +222,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="9052e0ae-d3f0-41f8-8390-b50c0c0b911a" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>ownerId</name>
@@ -248,6 +255,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="e546adee-589f-4d1a-a125-f624a97a6c54" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
@@ -281,6 +289,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -314,6 +323,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="ecfae00a-a750-484e-84de-f507c063e0cc" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>ownerId</name>
@@ -346,6 +356,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -382,6 +393,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="71bd3cc6-d150-4e86-a7b0-101be4c69eb0" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>lastName</name>
@@ -414,6 +426,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

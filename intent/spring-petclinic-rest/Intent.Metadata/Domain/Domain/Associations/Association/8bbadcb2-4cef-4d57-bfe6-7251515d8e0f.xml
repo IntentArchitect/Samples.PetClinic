@@ -3,6 +3,7 @@
   <sourceEnd id="67c50926-0b77-4fbe-85f3-5e03ee918591" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
     <name>Owner</name>
     <display>Owner: Owner</display>
+    <order>5</order>
     <typeReference id="db49ef2f-b73f-49e4-9bf6-8ea9bd7039a7">
       <typeId>c5d02993-df1d-4c79-a5e1-d7c0b474aec1</typeId>
       <isNavigable>true</isNavigable>
@@ -15,10 +16,12 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </sourceEnd>
   <targetEnd id="8bbadcb2-4cef-4d57-bfe6-7251515d8e0f" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Pets</name>
     <display>Pets: Pet[*]</display>
+    <order>6</order>
     <typeReference id="f34959df-33b5-4a6f-ae1c-5e4dd7f892ff">
       <typeId>1cada2f2-b08e-4caf-8505-7bc92f69bab6</typeId>
       <isNavigable>true</isNavigable>
@@ -31,6 +34,7 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </targetEnd>
   <associationType>Association</associationType>
   <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>

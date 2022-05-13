@@ -10,6 +10,7 @@
   <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
   <packageName>petclinic</packageName>
   <stereotypes />
+  <metadata />
   <childElements>
     <childElement id="a4cc4c14-c078-4026-8038-21af243e7a30" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.NodeJS.Domain.Entity</name>
@@ -23,6 +24,7 @@
       <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
       <packageName>petclinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

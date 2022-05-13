@@ -9,9 +9,10 @@
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
   <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
   <packageName>Web Client</packageName>
-  <stereotypes />
   <diagram>
     <targetPackageId>a973d437-3be9-441f-b25b-a982a60192f8</targetPackageId>
   </diagram>
+  <stereotypes />
+  <metadata />
   <childElements />
 </class>

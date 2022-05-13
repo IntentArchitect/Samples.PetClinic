@@ -3,6 +3,7 @@
   <sourceEnd id="59164833-3952-4e77-a467-a16d9260d344" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>VetListComponent</name>
     <display>VetListComponent: VetListComponent</display>
+    <order>0</order>
     <typeReference id="b3bbe0fa-41e1-4371-8341-094307e186c3">
       <typeId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</typeId>
       <isNavigable>false</isNavigable>
@@ -15,10 +16,12 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </sourceEnd>
   <targetEnd id="bf0e87f1-b496-43ea-9250-9b26086b0598" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToHome</name>
     <display>goToHome: WelcomeComponent</display>
+    <order>0</order>
     <typeReference id="fedf44d3-7a22-4938-89b8-7ed56149e369">
       <typeId>dadaa986-e710-474a-be77-4a8687c56824</typeId>
       <isNavigable>true</isNavigable>
@@ -31,6 +34,7 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </targetEnd>
   <associationType>Navigation</associationType>
   <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>

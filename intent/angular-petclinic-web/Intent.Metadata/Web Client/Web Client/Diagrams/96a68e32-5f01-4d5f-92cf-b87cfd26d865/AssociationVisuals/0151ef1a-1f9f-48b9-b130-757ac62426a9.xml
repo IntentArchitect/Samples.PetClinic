@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<associationVisual id="0151ef1a-1f9f-48b9-b130-757ac62426a9">
+<associationVisual id="0151ef1a-1f9f-48b9-b130-757ac62426a9" zIndex="0">
   <targetPrefPoint x="168" y="78" />
   <fixedPoints>
     <point x="1161" y="725" />

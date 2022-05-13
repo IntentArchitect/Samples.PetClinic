@@ -57,7 +57,7 @@ export class PettypeListComponent implements OnInit {
 
   @IntentManage()
   goToHome(): void {
-    this.router.navigate(["/"]);
+    this.router.navigate(["welcome"]);
   }
 
   @IntentIgnore()

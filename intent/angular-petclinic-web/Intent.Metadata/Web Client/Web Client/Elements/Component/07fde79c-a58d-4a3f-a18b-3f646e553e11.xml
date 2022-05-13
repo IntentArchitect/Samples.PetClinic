@@ -21,6 +21,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="c699f9fd-3cc2-45ef-b596-d86dd0e9b106" type="Component Input" typeId="807bc2cd-cdba-482d-a47e-d2aa546200fc">
       <name>specialtyId</name>
@@ -44,6 +45,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="842576e5-7da0-48c1-b285-10c102513552" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
@@ -68,6 +70,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="48cf38bf-ee4d-435d-8104-15519cadedf8" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
@@ -89,6 +92,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="93d1b5f2-cfb5-46df-a926-1908d8c5d5c0" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
@@ -102,6 +106,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="b2cd2f96-d8f0-46da-aa60-bbf38285ad4b" type="Form" typeId="8aee9b69-d02d-4ca8-b28a-6585508bd033">
           <name>Form</name>
@@ -122,6 +127,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements>
             <childElement id="3a88287e-e942-4322-94ca-db46adf3a10c" type="Form Field" typeId="1e3e3916-0cdb-45bb-a3b8-d7e01834cc36">
               <name>Name</name>
@@ -151,6 +157,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
           </childElements>
@@ -166,6 +173,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements>
             <childElement id="307afd7d-1c0a-4d3b-a544-98fdbbe71b3d" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
               <name>Cancel</name>
@@ -195,6 +203,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="b4f5cacf-b442-4b95-9882-8fadd7cfd28f" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
@@ -225,6 +234,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
           </childElements>

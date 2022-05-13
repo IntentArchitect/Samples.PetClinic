@@ -15,9 +15,6 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Id)
-                .IsRequired();
-
             builder.Property(x => x.FirstName)
                 .IsRequired()
                 .HasMaxLength(30);
@@ -28,7 +25,7 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
 
 
             builder.HasMany(x => x.Specialties)
-                .WithMany(x => x.Vets)
+                .WithMany("Vets")
                 .UsingEntity(x => x.ToTable("VetSpecialties"));
 
         }

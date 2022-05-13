@@ -21,6 +21,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="ddb47ec6-d63a-4487-858d-da535cf20bde" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
       <name>petTypes</name>
@@ -44,6 +45,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="fb60c94d-2b3e-4d99-ad0e-9d2fe0e9ebaa" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
@@ -68,6 +70,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="0ddd3519-ca1a-4b43-8dcb-148979a2582e" type="Component Model" typeId="356fbe17-bc63-4e16-b915-feefbc063cbe">
@@ -92,6 +95,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="33b8bee0-29ef-48df-a137-9f17803747e3" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
@@ -113,6 +117,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="d519c53a-bb76-4f84-a556-44932b9f2f41" type="Component Command" typeId="d6739ffc-30e6-4170-a105-bf28e69aa578">
@@ -134,6 +139,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="7c1fa52e-5455-4c9b-aa76-c99bb004b3f3" type="Command Parameter" typeId="4a1ce2a9-e79f-4e93-96af-24b44728ecbc">
           <name>petTypeId</name>
@@ -157,6 +163,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -172,6 +179,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="cad6e8c7-bd01-4fc9-a2c1-d4b928e7170e" type="Table Control" typeId="e302d9ca-268e-4a98-ad8d-4434aefb9903">
           <name>Table</name>
@@ -201,6 +209,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements>
             <childElement id="ea036dc1-a445-4202-b2f4-ca106afd663c" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
               <name>Name</name>
@@ -219,6 +228,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="c7532261-98a3-424d-ae5e-761046e76e5f" type="Table Column" typeId="6837f6c2-f098-45df-8be4-900036b73e25">
@@ -232,6 +242,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements />
             </childElement>
           </childElements>
@@ -247,6 +258,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements>
             <childElement id="1230c95c-f0db-4e14-8841-933b4d1cd8f7" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
               <name>Home</name>
@@ -276,6 +288,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="a0076ae5-15ea-41a9-af60-a8b068c24cfc" type="Button Control" typeId="13eca516-0628-4085-91c3-36d5eddda6c9">
@@ -306,6 +319,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
           </childElements>
@@ -332,6 +346,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

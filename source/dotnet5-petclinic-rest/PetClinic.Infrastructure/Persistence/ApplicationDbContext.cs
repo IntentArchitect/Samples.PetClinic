@@ -3,18 +3,19 @@ using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.EntityFrameworkCore;
-using PetClinic.Application.Common.Interfaces;
+using PetClinic.Domain.Common.Interfaces;
 using PetClinic.Domain.Entities;
 using PetClinic.Infrastructure.Persistence.Configurations;
+
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.EntityFrameworkCore.DbContext", Version = "1.0")]
 
 namespace PetClinic.Infrastructure.Persistence
 {
-    public class ApplicationDbContext : DbContext, IApplicationDbContext
+    public class ApplicationDbContext : DbContext, IUnitOfWork
     {
 
-        public ApplicationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
@@ -25,7 +26,7 @@ namespace PetClinic.Infrastructure.Persistence
         public DbSet<Vet> Vets { get; set; }
         public DbSet<Visit> Visits { get; set; }
 
-        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
         {
 
             var result = await base.SaveChangesAsync(cancellationToken);

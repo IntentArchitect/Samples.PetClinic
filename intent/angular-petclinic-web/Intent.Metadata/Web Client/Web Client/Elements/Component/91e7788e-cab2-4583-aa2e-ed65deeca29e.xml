@@ -21,6 +21,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="4c8d1e75-a5cd-4c10-b5f5-361cd2e80a0f" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
       <name>[view]</name>
@@ -33,6 +34,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

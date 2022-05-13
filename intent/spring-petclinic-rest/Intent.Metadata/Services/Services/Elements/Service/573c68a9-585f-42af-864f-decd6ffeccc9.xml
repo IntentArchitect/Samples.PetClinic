@@ -19,6 +19,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="ec706d94-3115-41b9-9b5e-ffb68f8b9a6c" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
       <name>getAllSpecialties</name>
@@ -52,6 +53,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="9108e087-40a1-4c3e-bcd4-c109f2c67c53" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
@@ -86,6 +88,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="42061aa0-c256-485e-81dc-446ca0ad155f" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>specialtyId</name>
@@ -118,6 +121,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -154,6 +158,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="7ed3bb85-7ff9-4962-aa0c-0dd35b253574" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>dto</name>
@@ -186,6 +191,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -219,6 +225,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="7486eb92-e935-4588-aae1-258f0d28b538" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>specialtyId</name>
@@ -251,6 +258,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
         <childElement id="e90e75c6-0741-4aed-9841-73ecff46d28c" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
@@ -284,6 +292,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>
@@ -317,6 +326,7 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
       <childElements>
         <childElement id="fdcbe7f9-d6bf-4969-a07f-ecfee6923b10" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
           <name>specialtyId</name>
@@ -349,6 +359,7 @@
               </properties>
             </stereotype>
           </stereotypes>
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

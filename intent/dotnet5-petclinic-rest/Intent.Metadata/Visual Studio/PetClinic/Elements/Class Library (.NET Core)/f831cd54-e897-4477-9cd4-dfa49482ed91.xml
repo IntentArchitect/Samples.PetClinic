@@ -31,6 +31,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="f17f43dc-e3b1-40b7-86dc-b46e62269153" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
       <name>Domain</name>
@@ -43,6 +44,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="14a1e317-1bcd-410b-9eab-44cb2e121730" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
@@ -56,6 +58,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

@@ -31,6 +31,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="64abec03-f70f-4831-aff6-318f3b8e7846" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
       <name>Intent.AspNetCore.Program</name>
@@ -44,6 +45,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="5d960bb0-7048-4f35-8345-1f0b5c3b8942" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
@@ -58,6 +60,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="4465a693-619e-4376-971d-7e0aa43650ea" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
@@ -71,6 +74,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
     <childElement id="74aff928-16c3-4769-9ded-bffa212a98c8" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
@@ -84,6 +88,7 @@
       <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
       <packageName>PetClinic</packageName>
       <stereotypes />
+      <metadata />
       <childElements />
     </childElement>
   </childElements>

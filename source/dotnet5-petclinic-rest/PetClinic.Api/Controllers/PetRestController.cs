@@ -1,14 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetClinic.Application;
-using PetClinic.Application.Interfaces;
-using PetClinic.Infrastructure.Persistence;
 using PetClinic.Application.Dtos;
-using System.Threading;
+using PetClinic.Application.Interfaces;
+using PetClinic.Domain.Common.Interfaces;
+using PetClinic.Infrastructure.Persistence;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Controllers.Controller", Version = "1.0")]
@@ -20,17 +22,26 @@ namespace PetClinic.Api.Controllers
     public class PetRestController : ControllerBase
     {
         private readonly IPetService _appService;
-        private readonly ApplicationDbContext _dbContext;
+        private readonly IUnitOfWork _unitOfWork;
 
         public PetRestController(IPetService appService,
-                ApplicationDbContext dbContext)
+            IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
-            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Returns the specified PetDTO.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">Can't find an PetDTO with the parameters provided.</response>
         [HttpGet("{petId}")]
-        public async Task<ActionResult<PetDTO>> getPet(int petId, CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(PetDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<PetDTO>> getPet([FromRoute] int petId, CancellationToken cancellationToken)
         {
             var result = default(PetDTO);
 
@@ -39,34 +50,52 @@ namespace PetClinic.Api.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="201">Successfully created.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPost]
-        public async Task<ActionResult> addPet(PetCreateDTO dto, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> addPet([FromBody] PetCreateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.AddPet(dto);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
-            return NoContent();
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return Created(string.Empty, null);
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="204">Successfully updated.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPut("{petId}")]
-        public async Task<ActionResult> updatePet(int petId, PetUpdateDTO dto, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> updatePet([FromRoute] int petId, [FromBody] PetUpdateDTO dto, CancellationToken cancellationToken)
         {
 
             await _appService.UpdatePet(petId, dto);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
             return NoContent();
         }
 
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Successfully deleted.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
         [HttpDelete("{petId}")]
-        public async Task<ActionResult> deletePet(int petId, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> deletePet([FromRoute] int petId, CancellationToken cancellationToken)
         {
 
             await _appService.DeletePet(petId);
-            await _dbContext.SaveChangesAsync(cancellationToken);
-
-            return NoContent();
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return Ok();
         }
 
 

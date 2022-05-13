@@ -21,6 +21,7 @@
       </properties>
     </stereotype>
   </stereotypes>
+  <metadata />
   <childElements>
     <childElement id="e0055768-bb13-4b67-8ee7-39ec564ab17c" type="Component View" typeId="624513a6-cba8-4dde-8ebe-6b19f00f0364">
       <name>[view]</name>
@@ -33,6 +34,7 @@
       <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
       <packageName>Web Client</packageName>
       <stereotypes />
+      <metadata />
       <childElements>
         <childElement id="e75e58a8-0c16-434f-aea3-2d2117ca08e5" type="Navbar" typeId="990cd6f1-8840-419b-be75-4ec63f03f359">
           <name>navbar</name>
@@ -45,6 +47,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements>
             <childElement id="0b3b2367-8ca6-44bb-b9a8-b42f0117ab89" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
               <name>Home</name>
@@ -66,6 +69,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="389a0c6f-f645-4359-8b28-ec93d06441d2" type="Dropdown" typeId="91610e3a-f0e4-4807-a1b3-4dc947fe13ac">
@@ -79,6 +83,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements>
                 <childElement id="bc2b8de7-6b7b-47f3-8b06-3492a7a51a2f" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
                   <name>List</name>
@@ -100,6 +105,7 @@
                       </properties>
                     </stereotype>
                   </stereotypes>
+                  <metadata />
                   <childElements />
                 </childElement>
                 <childElement id="6309cd06-84a8-4166-ab6a-6f1d01a8c647" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
@@ -122,6 +128,7 @@
                       </properties>
                     </stereotype>
                   </stereotypes>
+                  <metadata />
                   <childElements />
                 </childElement>
               </childElements>
@@ -137,6 +144,7 @@
               <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
               <packageName>Web Client</packageName>
               <stereotypes />
+              <metadata />
               <childElements>
                 <childElement id="3887f1c7-9c77-4aed-b30a-6aeccc9d1e4c" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
                   <name>List</name>
@@ -158,6 +166,7 @@
                       </properties>
                     </stereotype>
                   </stereotypes>
+                  <metadata />
                   <childElements />
                 </childElement>
                 <childElement id="cbd57a1e-71d0-4b55-9391-d0773a712486" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
@@ -180,6 +189,7 @@
                       </properties>
                     </stereotype>
                   </stereotypes>
+                  <metadata />
                   <childElements />
                 </childElement>
               </childElements>
@@ -204,6 +214,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
             <childElement id="c98946e0-7c87-4072-a8a1-923b7b87cd95" type="Link" typeId="b0127146-e571-4000-825e-e7a04e4a45d6">
@@ -226,6 +237,7 @@
                   </properties>
                 </stereotype>
               </stereotypes>
+              <metadata />
               <childElements />
             </childElement>
           </childElements>
@@ -241,6 +253,7 @@
           <packageId>a58ecbe3-16da-44ee-a67b-edc733f9a696</packageId>
           <packageName>Web Client</packageName>
           <stereotypes />
+          <metadata />
           <childElements />
         </childElement>
       </childElements>

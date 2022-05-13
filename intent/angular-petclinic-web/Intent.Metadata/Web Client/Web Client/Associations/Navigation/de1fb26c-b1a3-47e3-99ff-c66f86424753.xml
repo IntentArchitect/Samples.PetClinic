@@ -3,6 +3,7 @@
   <sourceEnd id="0557e97b-c866-457e-ac0c-f22ebe58d427" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>VisitListComponent</name>
     <display>VisitListComponent: VisitListComponent</display>
+    <order>0</order>
     <typeReference id="965c3160-ec85-4648-bfc1-8e11fba6c202">
       <typeId>665874ff-e825-4b60-888d-44fcb85d5871</typeId>
       <isNavigable>false</isNavigable>
@@ -15,10 +16,12 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </sourceEnd>
   <targetEnd id="de1fb26c-b1a3-47e3-99ff-c66f86424753" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToEdit</name>
     <display>goToEdit: VisitEditComponent</display>
+    <order>0</order>
     <typeReference id="a5490580-01f7-470d-8836-ec931ac14c46">
       <typeId>be9f9225-c352-44a5-8081-578634f56a5d</typeId>
       <isNavigable>true</isNavigable>
@@ -31,6 +34,7 @@
       <genericTypeParameters />
     </typeReference>
     <stereotypes />
+    <metadata />
   </targetEnd>
   <associationType>Navigation</associationType>
   <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>

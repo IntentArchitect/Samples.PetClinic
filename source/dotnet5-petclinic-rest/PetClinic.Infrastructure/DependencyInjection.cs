@@ -2,7 +2,7 @@ using Intent.RoslynWeaver.Attributes;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PetClinic.Application.Common.Interfaces;
+using PetClinic.Domain.Common.Interfaces;
 using PetClinic.Domain.Repositories;
 using PetClinic.Infrastructure.Persistence;
 using PetClinic.Infrastructure.Repositories;
@@ -16,27 +16,12 @@ namespace PetClinic.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-
-            if (configuration.GetValue<bool>("UseInMemoryDatabase"))
+            services.AddDbContext<ApplicationDbContext>((sp, options) =>
             {
-                services.AddDbContext<ApplicationDbContext>(options =>
-                {
-                    options.UseInMemoryDatabase("Pet Clinic Rest (.NET 5)");
-                    options.UseLazyLoadingProxies();
-                });
-            }
-            else
-            {
-                services.AddDbContext<ApplicationDbContext>(options =>
-                {
-                    options.UseSqlServer(
-                        configuration.GetConnectionString("DefaultConnection"),
-                        b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
-                    options.UseLazyLoadingProxies();
-                });
-            }
-
-            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
+                options.UseInMemoryDatabase("DefaultConnection");
+                options.UseLazyLoadingProxies();
+            });
+            services.AddScoped<IUnitOfWork>(provider => provider.GetService<ApplicationDbContext>());
             services.AddTransient<IOwnerRepository, OwnerRepository>();
             services.AddTransient<IPetRepository, PetRepository>();
             services.AddTransient<IPetTypeRepository, PetTypeRepository>();
