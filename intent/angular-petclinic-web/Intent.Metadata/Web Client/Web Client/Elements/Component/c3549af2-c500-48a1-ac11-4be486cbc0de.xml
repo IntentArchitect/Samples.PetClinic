@@ -132,6 +132,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                 <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="8acf38a1-ccfd-463f-ad24-d4d4aaae3280" name="goBackToList" type="association" specialization="NavigationSourceEnd" />
@@ -163,6 +164,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                 <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="69897963-bd9c-4382-9b29-9d4e4dc3878b" name="goToEdit" type="association" specialization="NavigationTargetEnd" />
@@ -194,6 +196,7 @@
               <mappedClass>
                 <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                 <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                 <autoSyncTypeReference>true</autoSyncTypeReference>
                 <mappedPath>
                   <target id="f518c8b7-df6c-4805-99ab-814e7968937e" name="goToAddPet" type="association" specialization="NavigationTargetEnd" />

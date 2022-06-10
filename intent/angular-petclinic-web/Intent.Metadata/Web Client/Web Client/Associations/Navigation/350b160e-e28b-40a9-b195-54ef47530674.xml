@@ -3,7 +3,7 @@
   <sourceEnd id="8acf38a1-ccfd-463f-ad24-d4d4aaae3280" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>goBackToList</name>
     <display>goBackToList: OwnerListComponent</display>
-    <order>0</order>
+    <order>6</order>
     <typeReference id="eeb6e8e5-a403-4ea0-bff7-7f64ae1dff31">
       <typeId>209e9711-c342-42f4-bf4b-b55fba159c32</typeId>
       <isNavigable>true</isNavigable>
@@ -21,7 +21,7 @@
   <targetEnd id="350b160e-e28b-40a9-b195-54ef47530674" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToDetails</name>
     <display>goToDetails: OwnerDetailComponent</display>
-    <order>0</order>
+    <order>4</order>
     <typeReference id="08286917-af50-4f5e-ad3f-84191b21d83a">
       <typeId>c3549af2-c500-48a1-ac11-4be486cbc0de</typeId>
       <isNavigable>true</isNavigable>

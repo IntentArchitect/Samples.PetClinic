@@ -11,9 +11,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
-using PetClinic.Infrastructure;
-using PetClinic.Application;
 using PetClinic.Api.Configuration;
+using PetClinic.Application;
+using PetClinic.Infrastructure;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
 [assembly: IntentTemplate("Intent.AspNetCore.Startup", Version = "1.0")]

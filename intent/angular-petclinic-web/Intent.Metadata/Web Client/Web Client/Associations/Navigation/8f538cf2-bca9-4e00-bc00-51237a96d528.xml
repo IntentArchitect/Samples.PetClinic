@@ -3,7 +3,7 @@
   <sourceEnd id="0c4b7b63-4b73-487b-b512-28a9b3e59448" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>backToList</name>
     <display>backToList: PetListComponent</display>
-    <order>0</order>
+    <order>8</order>
     <typeReference id="bccce920-454a-40c8-a17b-7c7bbe1e9240">
       <typeId>b3dc4311-6baa-415d-b20f-5a56ef718803</typeId>
       <isNavigable>false</isNavigable>
@@ -21,7 +21,7 @@
   <targetEnd id="8f538cf2-bca9-4e00-bc00-51237a96d528" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToEdit</name>
     <display>goToEdit: PetEditComponent</display>
-    <order>0</order>
+    <order>5</order>
     <typeReference id="136d37c3-f0a6-4cbd-a802-be8fb8911659">
       <typeId>b21c472a-1e6a-497c-8f67-4275f3e43594</typeId>
       <isNavigable>true</isNavigable>

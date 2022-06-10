@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappingSettingsId>df491bea-8a85-4bc9-a93d-41b7abb80ffb</mappingSettingsId>
     <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="d6aa110a-6887-4262-9036-1a64e620da70" name="PetTypeRestController" type="element" specialization="Service" />

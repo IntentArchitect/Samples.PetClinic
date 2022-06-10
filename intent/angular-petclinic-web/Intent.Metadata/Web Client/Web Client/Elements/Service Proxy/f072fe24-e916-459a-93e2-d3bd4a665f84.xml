@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappingSettingsId>df491bea-8a85-4bc9-a93d-41b7abb80ffb</mappingSettingsId>
     <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="573c68a9-585f-42af-864f-decd6ffeccc9" name="SpecialtyRestController" type="element" specialization="Service" />

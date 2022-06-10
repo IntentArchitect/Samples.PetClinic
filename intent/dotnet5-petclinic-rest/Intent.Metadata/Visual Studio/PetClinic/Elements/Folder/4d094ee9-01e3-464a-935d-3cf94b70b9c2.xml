@@ -7,7 +7,18 @@
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>f831cd54-e897-4477-9cd4-dfa49482ed91</parentFolderId>
-  <stereotypes />
+  <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
+  <packageName>PetClinic</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
   <metadata />
   <childElements />
 </class>

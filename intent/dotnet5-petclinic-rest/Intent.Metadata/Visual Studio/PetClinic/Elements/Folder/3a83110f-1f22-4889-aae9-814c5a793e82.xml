@@ -3,7 +3,7 @@
   <name>Entities</name>
   <display>Entities</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <order>1</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>f831cd54-e897-4477-9cd4-dfa49482ed91</parentFolderId>

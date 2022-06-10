@@ -26,7 +26,7 @@
       <display>Intent.EntityFrameworkCore.Repositories.PagedList</display>
       <externalReference>Intent.EntityFrameworkCore.Repositories</externalReference>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</parentFolderId>
@@ -41,10 +41,12 @@
       <display>Intent.EntityFrameworkCore.Repositories.Repository</display>
       <externalReference>Intent.EntityFrameworkCore.Repositories</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</parentFolderId>
+      <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
+      <packageName>PetClinic</packageName>
       <stereotypes />
       <metadata>
         <entry key="status" value="assigned" />
@@ -56,10 +58,12 @@
       <display>Intent.EntityFrameworkCore.Repositories.RepositoryBase</display>
       <externalReference>Intent.EntityFrameworkCore.Repositories</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <order>2</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</parentFolderId>
+      <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
+      <packageName>PetClinic</packageName>
       <stereotypes />
       <metadata>
         <entry key="status" value="assigned" />

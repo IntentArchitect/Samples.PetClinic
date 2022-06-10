@@ -118,6 +118,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappingSettingsId>90a4b25a-0490-472c-aa00-12bb8ce93c99</mappingSettingsId>
             <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="8145d671-982d-4aad-9118-b066c5cd7e5b" name="vet" type="element" specialization="Component Model" />
@@ -245,6 +246,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                     <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="c6a163da-c8ac-4ddd-b078-d4b72eb88845" name="goBackToList" type="association" specialization="NavigationSourceEnd" />
@@ -276,6 +278,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                     <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="c5385674-c1db-4b87-bb86-59527057ab2e" name="saveVet" type="element" specialization="Component Command" />

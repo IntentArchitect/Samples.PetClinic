@@ -168,6 +168,7 @@
           <mappedClass>
             <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
             <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+            <mappingSettingsId>90a4b25a-0490-472c-aa00-12bb8ce93c99</mappingSettingsId>
             <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
               <target id="9ee39da1-848e-46ff-bfdf-6289d5eef80d" name="visit" type="element" specialization="Component Model" />
@@ -264,6 +265,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                     <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="6e8fafab-3697-4e59-8c34-79683e43c95e" name="goToOwnerDetails" type="association" specialization="NavigationTargetEnd" />
@@ -295,6 +297,7 @@
                   <mappedClass>
                     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
                     <metadataId>f492faed-0665-4513-9853-5a230721786f</metadataId>
+                    <mappingSettingsId>67e826e4-cf1c-4554-ab6f-be922c2d6a9f</mappingSettingsId>
                     <autoSyncTypeReference>true</autoSyncTypeReference>
                     <mappedPath>
                       <target id="cd323071-b1e4-4df4-8d2a-955f3a3577a8" name="addVisit" type="element" specialization="Component Command" />

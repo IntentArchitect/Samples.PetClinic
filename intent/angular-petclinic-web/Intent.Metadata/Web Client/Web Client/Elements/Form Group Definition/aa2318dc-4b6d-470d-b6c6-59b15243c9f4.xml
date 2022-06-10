@@ -9,6 +9,7 @@
   <mappedClass>
     <applicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</applicationId>
     <metadataId>81104ae6-2bc5-4bae-b05a-f987b0372d81</metadataId>
+    <mappingSettingsId>3d511511-fce6-45ee-b3fb-836c06df5f97</mappingSettingsId>
     <autoSyncTypeReference>true</autoSyncTypeReference>
     <mappedPath>
       <target id="569f8450-0cbb-4f32-a376-018fdd1d7f5c" name="SpecialtyDTO" type="element" specialization="DTO" />
