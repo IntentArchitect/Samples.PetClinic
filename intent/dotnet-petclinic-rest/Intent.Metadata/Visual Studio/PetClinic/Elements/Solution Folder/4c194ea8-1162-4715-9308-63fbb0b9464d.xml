@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="4c194ea8-1162-4715-9308-63fbb0b9464d" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>2 - Application</name>
+  <display>2 - Application</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d1d71292-3301-45e1-8d83-6b309e115bc0</parentFolderId>
+  <packageId>d1d71292-3301-45e1-8d83-6b309e115bc0</packageId>
+  <packageName>PetClinic</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>
