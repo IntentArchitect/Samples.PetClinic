@@ -12,21 +12,6 @@
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="b92adff6-4194-4e7e-bb04-07fd0486dea2" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.NodeJS.NestJS.Controllers.ServiceTemplate</name>
-      <display>Intent.NodeJS.NestJS.Controllers.ServiceTemplate</display>
-      <externalReference>Intent.NodeJS.NestJS.Controllers</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>1</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>c1d04f21-cf0e-44be-9fca-eab62dcdb5cf</parentFolderId>
-      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
-      <packageName>petclinic</packageName>
-      <stereotypes />
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="33385f82-715f-4ac3-9f8f-46bcb15434a4" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
       <name>Services</name>
       <display>Services</display>
@@ -39,6 +24,20 @@
       <packageName>petclinic</packageName>
       <stereotypes />
       <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="68724d53-58a0-4797-a11b-5ade867c10c6" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.NestJS.Controllers.Service</name>
+      <display>Intent.NodeJS.NestJS.Controllers.Service</display>
+      <externalReference>Intent.NodeJS.NestJS.Controllers</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>c1d04f21-cf0e-44be-9fca-eab62dcdb5cf</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
       <childElements />
     </childElement>
   </childElements>

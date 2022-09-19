@@ -3,7 +3,7 @@
   <name>Pet</name>
   <display>Pet</display>
   <isAbstract>false</isAbstract>
-  <order>2</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
@@ -16,7 +16,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="e7f593d9-b17b-4548-8852-8cd721565f71">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -50,7 +49,6 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="4b7d54c2-4c5b-44a6-aa5a-3cca479a8b35">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -86,7 +84,6 @@
       <name>birthDate</name>
       <display>birthDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="97e30293-e28c-4a67-9fa2-3c5ae29cdd04">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>

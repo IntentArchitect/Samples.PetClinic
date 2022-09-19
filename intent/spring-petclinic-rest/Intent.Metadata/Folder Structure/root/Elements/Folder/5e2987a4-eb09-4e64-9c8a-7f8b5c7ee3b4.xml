@@ -3,7 +3,7 @@
   <name>spring_petclinic</name>
   <display>spring_petclinic</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>e33e42bc-3738-4688-bed7-14d3df405f39</parentFolderId>

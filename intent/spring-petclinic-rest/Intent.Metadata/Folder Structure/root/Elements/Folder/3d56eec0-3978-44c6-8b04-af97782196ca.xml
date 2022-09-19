@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class id="b5aef8f4-6fc4-4533-8842-7c7473ca5b77" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
-  <name>models</name>
-  <display>models</display>
+<class id="3d56eec0-3978-44c6-8b04-af97782196ca" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>exceptions</name>
+  <display>exceptions</display>
   <isAbstract>false</isAbstract>
   <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
-  <parentFolderId>95a9c5e3-855e-40fc-8d41-86a178a8763e</parentFolderId>
+  <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="9c0868ca-6038-42b3-9544-e1914347cf73" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Java.Services.DataTransferModel</name>
-      <display>Intent.Java.Services.DataTransferModel</display>
+    <childElement id="546044bb-075f-4e30-b997-d9ab5b424973" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.Services.ExceptionType</name>
+      <display>Intent.Java.Services.ExceptionType</display>
       <externalReference>Intent.Java.Services</externalReference>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <isMapped>false</isMapped>
-      <parentFolderId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</parentFolderId>
+      <parentFolderId>3d56eec0-3978-44c6-8b04-af97782196ca</parentFolderId>
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
-      <metadata />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
       <childElements />
     </childElement>
   </childElements>

@@ -4,7 +4,6 @@
   <display>Intent.Java.Maven.PomFile</display>
   <externalReference>Intent.Java.Maven</externalReference>
   <isAbstract>false</isAbstract>
-  <order>2</order>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</parentFolderId>

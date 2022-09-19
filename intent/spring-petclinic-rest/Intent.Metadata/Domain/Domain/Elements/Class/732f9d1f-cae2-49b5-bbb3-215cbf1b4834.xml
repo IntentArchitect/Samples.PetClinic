@@ -3,7 +3,7 @@
   <name>PetType</name>
   <display>PetType</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
@@ -26,7 +26,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="9035cabc-2841-480b-b2fe-fcdd17b4719d">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -60,7 +59,6 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="7afac626-5c8e-4dee-9761-31474754e5bc">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

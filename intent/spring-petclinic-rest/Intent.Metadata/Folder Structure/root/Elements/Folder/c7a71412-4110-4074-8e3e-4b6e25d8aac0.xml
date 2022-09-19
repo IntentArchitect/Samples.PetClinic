@@ -3,7 +3,7 @@
   <name>services</name>
   <display>services</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>95a9c5e3-855e-40fc-8d41-86a178a8763e</parentFolderId>
@@ -17,7 +17,6 @@
       <display>Intent.Java.Services.ServiceInterface</display>
       <externalReference>Intent.Java.Services</externalReference>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</parentFolderId>

@@ -3,7 +3,7 @@
   <name>Owner</name>
   <display>Owner</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
@@ -16,7 +16,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="b2a4becc-2c7d-4ef1-a856-dfbf5fe149ec">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -50,7 +49,6 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="091311cd-8c89-4359-b92e-02b28e35d745">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -86,7 +84,6 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="f166ae0d-52b8-455f-9112-88df409d1fde">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -122,7 +119,6 @@
       <name>address</name>
       <display>address: string</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="058a752f-fded-4aa3-9f47-b995c4a9f55d">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -158,7 +154,6 @@
       <name>city</name>
       <display>city: string</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
       <genericTypes />
       <typeReference id="1bce64dc-087d-4ba0-9434-0fed15c0eab3">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -194,7 +189,6 @@
       <name>telephone</name>
       <display>telephone: string</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
       <genericTypes />
       <typeReference id="6e8d783b-f1cd-44b2-9054-182eeefac7f9">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

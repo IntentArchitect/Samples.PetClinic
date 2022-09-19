@@ -3,7 +3,7 @@
   <name>spring_petclinic_rest</name>
   <display>spring_petclinic_rest</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>5e2987a4-eb09-4e64-9c8a-7f8b5c7ee3b4</parentFolderId>
@@ -17,7 +17,6 @@
       <display>Intent.Java.SpringBoot.Application</display>
       <externalReference>Intent.Java.SpringBoot</externalReference>
       <isAbstract>false</isAbstract>
-      <order>5</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
@@ -31,7 +30,6 @@
       <name>Startup</name>
       <display>Startup</display>
       <isAbstract>false</isAbstract>
-      <order>6</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>

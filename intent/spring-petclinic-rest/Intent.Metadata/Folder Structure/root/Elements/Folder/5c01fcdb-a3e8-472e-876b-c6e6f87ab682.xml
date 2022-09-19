@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class id="a04c9123-ddbe-4f15-91a2-077b9e7ddfa2" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
-  <name>rest</name>
-  <display>rest</display>
+<class id="5c01fcdb-a3e8-472e-876b-c6e6f87ab682" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>resources</name>
+  <display>resources</display>
   <isAbstract>false</isAbstract>
   <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
-  <parentFolderId>95a9c5e3-855e-40fc-8d41-86a178a8763e</parentFolderId>
+  <parentFolderId>9187f15b-dc26-4e87-b721-648843d958da</parentFolderId>
   <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
   <packageName>root</packageName>
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="ba39b357-c573-4538-b538-6db4a0d42994" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Java.SpringBoot.RestController</name>
-      <display>Intent.Java.SpringBoot.RestController</display>
+    <childElement id="ae9e0d4c-3383-432c-9c84-d8d027791d62" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.SpringBoot.ApplicationProperties</name>
+      <display>Intent.Java.SpringBoot.ApplicationProperties</display>
       <externalReference>Intent.Java.SpringBoot</externalReference>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <isMapped>false</isMapped>
-      <parentFolderId>a04c9123-ddbe-4f15-91a2-077b9e7ddfa2</parentFolderId>
+      <parentFolderId>5c01fcdb-a3e8-472e-876b-c6e6f87ab682</parentFolderId>
       <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
       <packageName>root</packageName>
       <stereotypes />
-      <metadata />
+      <metadata>
+        <entry key="status" value="unassigned" />
+      </metadata>
       <childElements />
     </childElement>
   </childElements>

@@ -3,7 +3,7 @@
   <name>Vet</name>
   <display>Vet</display>
   <isAbstract>false</isAbstract>
-  <order>5</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
@@ -16,7 +16,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="da062382-e56d-47f6-94a9-c74962e6c7bd">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -50,7 +49,6 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="ee246174-cea4-42a1-9c6a-2857403c6715">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -86,7 +84,6 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="f8ceb549-8e33-479c-9c55-0eb5ccd9e30d">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

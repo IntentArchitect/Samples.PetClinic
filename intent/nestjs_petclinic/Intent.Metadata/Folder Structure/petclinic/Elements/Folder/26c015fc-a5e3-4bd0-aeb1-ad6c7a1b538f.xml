@@ -71,5 +71,19 @@
       <metadata />
       <childElements />
     </childElement>
+    <childElement id="971ac3fc-5aab-4c31-9979-492de022b1a4" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.TypeORM.Datasource</name>
+      <display>Intent.NodeJS.TypeORM.Datasource</display>
+      <externalReference>Intent.NodeJS.TypeORM</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

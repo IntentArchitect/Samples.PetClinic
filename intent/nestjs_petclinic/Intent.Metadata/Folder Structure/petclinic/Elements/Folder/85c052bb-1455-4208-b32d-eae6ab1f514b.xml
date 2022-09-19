@@ -12,21 +12,6 @@
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="c7ff6e47-3b09-4705-9698-a3afefc5658c" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.NodeJS.TypeORM.RepositoryTemplate</name>
-      <display>Intent.NodeJS.TypeORM.RepositoryTemplate</display>
-      <externalReference>Intent.NodeJS.TypeORM</externalReference>
-      <isAbstract>false</isAbstract>
-      <order>0</order>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>85c052bb-1455-4208-b32d-eae6ab1f514b</parentFolderId>
-      <packageId>d7819f90-fec9-4ace-a874-0b9429f0075b</packageId>
-      <packageName>petclinic</packageName>
-      <stereotypes />
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="02028ed1-fa3c-456b-9946-7681405a1831" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
       <name>Repositories</name>
       <display>Repositories</display>
@@ -39,6 +24,20 @@
       <packageName>petclinic</packageName>
       <stereotypes />
       <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="a2848fd8-6b96-452b-9079-c4c850e58ca0" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.TypeORM.Repository</name>
+      <display>Intent.NodeJS.TypeORM.Repository</display>
+      <externalReference>Intent.NodeJS.TypeORM</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>85c052bb-1455-4208-b32d-eae6ab1f514b</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
       <childElements />
     </childElement>
   </childElements>

@@ -3,7 +3,7 @@
   <name>mappings</name>
   <display>mappings</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>95a9c5e3-855e-40fc-8d41-86a178a8763e</parentFolderId>
@@ -17,7 +17,6 @@
       <display>Intent.Java.ModelMapper.EntityToDtoMapping</display>
       <externalReference>Intent.Java.ModelMapper</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>96b785a6-f495-4349-a7a8-2b2b29426415</parentFolderId>

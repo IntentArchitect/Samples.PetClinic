@@ -3,7 +3,7 @@
   <name>intent</name>
   <display>intent</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
@@ -17,7 +17,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentCanAdd</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -32,7 +31,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentCanRemove</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -47,7 +45,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentCanUpdate</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -62,7 +59,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentIgnore</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -77,7 +73,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentIgnoreBody</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>4</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -92,7 +87,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentManage</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>5</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -107,7 +101,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentManageClass</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>6</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -122,7 +115,6 @@
       <display>Intent.Java.Weaving.Annotations.IntentMerge</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>7</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -137,7 +129,6 @@
       <display>Intent.Java.Weaving.Annotations.ModeEnum</display>
       <externalReference>Intent.Java.Weaving.Annotations</externalReference>
       <isAbstract>false</isAbstract>
-      <order>8</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>
@@ -151,7 +142,6 @@
       <name>Intent.Annotations</name>
       <display>Intent.Annotations</display>
       <isAbstract>false</isAbstract>
-      <order>9</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2719976-ae8e-4093-ac3b-1ba52ba0f56e</parentFolderId>

@@ -3,7 +3,7 @@
   <name>java</name>
   <display>java</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>9187f15b-dc26-4e87-b721-648843d958da</parentFolderId>

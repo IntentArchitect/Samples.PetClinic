@@ -3,7 +3,7 @@
   <name>impl</name>
   <display>impl</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>c7a71412-4110-4074-8e3e-4b6e25d8aac0</parentFolderId>
@@ -17,7 +17,6 @@
       <display>Intent.Java.Services.ServiceImplementation</display>
       <externalReference>Intent.Java.Services</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>7e804bd9-09a3-4c38-909b-5249af55e1d9</parentFolderId>

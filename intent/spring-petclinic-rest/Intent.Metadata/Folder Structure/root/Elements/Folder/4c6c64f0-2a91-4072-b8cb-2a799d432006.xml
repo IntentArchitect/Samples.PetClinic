@@ -3,7 +3,7 @@
   <name>configuration</name>
   <display>configuration</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
@@ -17,7 +17,6 @@
       <display>Intent.Java.ModelMapper.ModelMapperBean</display>
       <externalReference>Intent.Java.ModelMapper</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>4c6c64f0-2a91-4072-b8cb-2a799d432006</parentFolderId>
@@ -32,7 +31,6 @@
       <display>Intent.Java.Spring.Cors.CorsConfig</display>
       <externalReference>Intent.Java.Spring.Cors</externalReference>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>4c6c64f0-2a91-4072-b8cb-2a799d432006</parentFolderId>
@@ -47,7 +45,6 @@
       <display>Intent.Java.SpringFox.Swagger.SpringFoxConfig</display>
       <externalReference>Intent.Java.SpringFox.Swagger</externalReference>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>4c6c64f0-2a91-4072-b8cb-2a799d432006</parentFolderId>

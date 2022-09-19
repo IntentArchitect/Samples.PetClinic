@@ -3,7 +3,7 @@
   <name>domain</name>
   <display>domain</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>4e779ef7-64dc-45a2-8139-ff790915d6a8</parentFolderId>
@@ -16,7 +16,6 @@
       <name>Domain</name>
       <display>Domain</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>3eb6a0a0-a396-4da7-b38b-e854664f8d53</parentFolderId>

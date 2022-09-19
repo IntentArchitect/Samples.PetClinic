@@ -3,7 +3,7 @@
   <name>Specialty</name>
   <display>Specialty</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
@@ -16,7 +16,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="268103b4-a370-4f44-9eec-11e66883fa1c">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -50,7 +49,6 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="1a7f7a19-f1b0-497e-9277-7ea6aff0196a">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

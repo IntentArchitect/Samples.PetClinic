@@ -3,7 +3,7 @@
   <name>Visit</name>
   <display>Visit</display>
   <isAbstract>false</isAbstract>
-  <order>6</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
@@ -16,7 +16,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="a2317b6c-e85f-411e-a0a7-9667e9c0a19a">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -50,7 +49,6 @@
       <name>visitDate</name>
       <display>visitDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="d494ae4c-7213-4681-a49a-6a1fe1c1fb28">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
@@ -75,7 +73,6 @@
       <name>description</name>
       <display>description: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="d7236e34-671f-40d7-ae1c-2d04ed25689c">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

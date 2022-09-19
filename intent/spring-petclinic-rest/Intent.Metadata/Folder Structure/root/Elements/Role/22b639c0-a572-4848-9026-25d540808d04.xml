@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class id="f0b73837-0e19-4beb-92f5-e3b728b91fbf" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
-  <name>src</name>
-  <display>src</display>
+<class id="22b639c0-a572-4848-9026-25d540808d04" type="Role" typeId="8663c9f9-2852-45e7-aaa1-0883a2e6f1da">
+  <name>Root</name>
+  <display>Root</display>
   <isAbstract>false</isAbstract>
-  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</parentFolderId>
