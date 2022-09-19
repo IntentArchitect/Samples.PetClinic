@@ -3,7 +3,7 @@
   <name>PetTypeDTO</name>
   <display>PetTypeDTO</display>
   <isAbstract>false</isAbstract>
-  <order>6</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>id</name>
       <display>id: int?</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="0a424d07-9afb-42a7-a8bd-8e02d344f889">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -56,7 +55,6 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="962ca661-f885-4390-aa09-1f19602149ba">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

@@ -3,7 +3,7 @@
   <name>VetCreateDTO</name>
   <display>VetCreateDTO</display>
   <isAbstract>false</isAbstract>
-  <order>10</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>
@@ -16,7 +16,6 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="fb1fe9e1-8bda-464c-a4c6-aa402fbb6003">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -41,7 +40,6 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="9c62c01c-fb20-43de-9534-c26660d73a6c">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -66,7 +64,6 @@
       <name>specialties</name>
       <display>specialties: int[*]</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="29384381-73c2-4602-925c-586dd1706882">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

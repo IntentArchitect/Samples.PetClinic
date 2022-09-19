@@ -3,7 +3,7 @@
   <name>PetTypeRestController</name>
   <display>PetTypeRestController</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</parentFolderId>
@@ -25,7 +25,6 @@
       <name>getAllPetTypes</name>
       <display>getAllPetTypes(): PetTypeDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="8d23a687-312e-4064-b72a-8e946aefee1c">
         <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
@@ -60,7 +59,7 @@
       <name>getPetType</name>
       <display>getPetType(petTypeId: int): PetTypeDTO</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="af37167f-c746-468a-a157-cbe490d6a710">
         <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
@@ -94,7 +93,6 @@
           <name>petTypeId</name>
           <display>in : petTypeId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="970aa0d4-ac85-4bc7-b320-79d437cc48ee">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -130,7 +128,7 @@
       <name>addPetType</name>
       <display>addPetType(dto: PetTypeDTO): int</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="db62b4cc-f535-4848-b8f0-07d6f61b233b">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -164,7 +162,6 @@
           <name>dto</name>
           <display>in : dto: PetTypeDTO</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="51401c89-fe5b-43a0-947f-d63f302bc983">
             <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
@@ -200,7 +197,7 @@
       <name>updatePetType</name>
       <display>updatePetType(petTypeId: int, dto: PetTypeDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="74085b67-9d79-405e-b966-1544f1aba46c">
         <isNavigable>true</isNavigable>
@@ -231,7 +228,6 @@
           <name>petTypeId</name>
           <display>in : petTypeId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="ac201f9c-b3cd-4f4a-90cc-567a5fc2f10c">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -265,7 +261,6 @@
           <name>dto</name>
           <display>in : dto: PetTypeDTO</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="37aa9c59-c464-45a5-ada0-9a05a4cec2c8">
             <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
@@ -301,7 +296,7 @@
       <name>deletePetType</name>
       <display>deletePetType(petTypeId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="84d303ac-965c-497f-814e-20b755ad0399">
         <isNavigable>true</isNavigable>
@@ -332,7 +327,6 @@
           <name>petTypeId</name>
           <display>in : petTypeId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="0720dd59-66d2-455e-bec4-bd678c157636">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

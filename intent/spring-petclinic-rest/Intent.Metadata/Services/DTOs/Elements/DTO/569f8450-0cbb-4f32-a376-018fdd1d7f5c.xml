@@ -3,7 +3,7 @@
   <name>SpecialtyDTO</name>
   <display>SpecialtyDTO</display>
   <isAbstract>false</isAbstract>
-  <order>9</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>id</name>
       <display>id: int?</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="bc0e8fc7-6dac-4a84-894f-06d3c95d40f2">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -56,7 +55,6 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="16f01301-9a3a-4ac2-8ec3-b9719d5aeed7">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

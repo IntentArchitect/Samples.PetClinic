@@ -3,7 +3,7 @@
   <name>VetRestController</name>
   <display>VetRestController</display>
   <isAbstract>false</isAbstract>
-  <order>5</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</parentFolderId>
@@ -25,7 +25,6 @@
       <name>getAllVets</name>
       <display>getAllVets(): VetDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="7eed9d21-643a-481b-919e-b8696737d1d5">
         <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
@@ -60,7 +59,7 @@
       <name>getVet</name>
       <display>getVet(vetId: int): VetDTO</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="9ac30c5f-c6c6-4e56-89fe-a149dc6e3dad">
         <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
@@ -94,7 +93,6 @@
           <name>vetId</name>
           <display>in : vetId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="e1e52847-24ea-4001-b8ad-9cd911faa40a">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -130,7 +128,7 @@
       <name>addVet</name>
       <display>addVet(dto: VetCreateDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="4fc57382-be3e-4d85-9bab-72ac2694a35e">
         <isNavigable>true</isNavigable>
@@ -161,7 +159,6 @@
           <name>dto</name>
           <display>in : dto: VetCreateDTO</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="b61e5803-f89c-4b6d-8417-f83e271b9660">
             <typeId>8414e6b8-558e-4eaa-bd29-550989db6176</typeId>
@@ -197,7 +194,7 @@
       <name>updateVet</name>
       <display>updateVet(vetId: int, dto: VetUpdateDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="bf293ed7-3b2f-44ac-b9cc-0699fcce4e21">
         <isNavigable>true</isNavigable>
@@ -228,7 +225,6 @@
           <name>vetId</name>
           <display>in : vetId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="2348502d-db66-4654-9a38-d16911243985">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -262,7 +258,6 @@
           <name>dto</name>
           <display>in : dto: VetUpdateDTO</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="9dee8381-8efd-4cb1-b5cd-8571f25f033b">
             <typeId>4fbd75ee-114e-4da7-a35c-bf5590888c68</typeId>
@@ -298,7 +293,7 @@
       <name>deleteVet</name>
       <display>deleteVet(vetId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="acdda452-27bf-4311-91c5-8a240304851f">
         <isNavigable>true</isNavigable>
@@ -329,7 +324,6 @@
           <name>vetId</name>
           <display>in : vetId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="d00085b0-1855-4047-8d5e-31ce7fa063a3">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

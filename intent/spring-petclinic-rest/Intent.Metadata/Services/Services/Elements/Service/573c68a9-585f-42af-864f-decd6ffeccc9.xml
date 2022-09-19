@@ -3,7 +3,7 @@
   <name>SpecialtyRestController</name>
   <display>SpecialtyRestController</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>147d0c0c-dc3a-4658-abf6-2a0f67e14f82</parentFolderId>
@@ -25,7 +25,6 @@
       <name>getAllSpecialties</name>
       <display>getAllSpecialties(): SpecialtyDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="f81bc5d4-d7a8-4e45-94a5-4c2180829f24">
         <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
@@ -60,7 +59,7 @@
       <name>getSpecialty</name>
       <display>getSpecialty(specialtyId: int): SpecialtyDTO</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="5fdb78ff-d7a1-4f46-9efa-b9aab8c61f45">
         <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
@@ -94,7 +93,6 @@
           <name>specialtyId</name>
           <display>in : specialtyId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="1f44cbcf-bcc7-4c4c-b5d4-9cce28730626">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -130,7 +128,7 @@
       <name>addSpecialty</name>
       <display>addSpecialty(dto: SpecialtyDTO): int</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="e895b97d-fb23-48cb-8975-f98817658321">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -164,7 +162,6 @@
           <name>dto</name>
           <display>in : dto: SpecialtyDTO</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="c541e6c3-7ae8-44cf-a943-bb2043289fac">
             <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
@@ -200,7 +197,7 @@
       <name>updateSpecialty</name>
       <display>updateSpecialty(specialtyId: int, dto: SpecialtyDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="c4629aae-5b10-46c7-8a16-07bbc0ff1a71">
         <isNavigable>true</isNavigable>
@@ -231,7 +228,6 @@
           <name>specialtyId</name>
           <display>in : specialtyId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="4670f08d-550e-48dd-93e6-950133137e47">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -265,7 +261,6 @@
           <name>dto</name>
           <display>in : dto: SpecialtyDTO</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="2a95f4ba-45f1-408f-9797-77775ed3a1c4">
             <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
@@ -301,7 +296,7 @@
       <name>deleteSpecialty</name>
       <display>deleteSpecialty(specialtyId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="e4a0c105-3a8e-4407-8f3e-6b3c2d7a9483">
         <isNavigable>true</isNavigable>
@@ -332,7 +327,6 @@
           <name>specialtyId</name>
           <display>in : specialtyId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="0d1420da-1849-4866-96c6-dea20967e25a">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
