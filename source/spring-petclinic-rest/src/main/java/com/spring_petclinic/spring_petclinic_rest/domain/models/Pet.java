@@ -10,6 +10,7 @@ import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
+import javax.persistence.CascadeType;
 
 
 
@@ -25,14 +26,14 @@ public class Pet extends AbstractEntity {
     @Column(name = "birth_date", nullable = false)
     private LocalDate birthDate;
 
-    @ManyToOne(optional = false)
+    @ManyToOne(optional = false, cascade = { CascadeType.ALL })
     @JoinColumn(name="pet_type_id", nullable = false)
     private PetType petType;
 
-    @OneToMany(mappedBy="pet", orphanRemoval = true)
+    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="pet", orphanRemoval = true)
     private List<Visit> visits;
 
-    @ManyToOne(optional = false)
+    @ManyToOne(optional = false, cascade = { CascadeType.ALL })
     @JoinColumn(name="owner_id", nullable = false)
     private Owner owner;
 

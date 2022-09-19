@@ -24,42 +24,39 @@ public class VetRestController {
     public ResponseEntity<List<VetDTO>> getAllVets() {
         final List<VetDTO> result = vetRestService.getAllVets();
         if (result.isEmpty()) {
-            return new ResponseEntity<List<VetDTO>>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @GetMapping("/{vetId}")
+    @GetMapping(path = "/{vetId}")
     @ApiOperation(value = "getVet")
-    public ResponseEntity<VetDTO> getVet(@PathVariable(value = "vetId") Integer vetId) {
+    public ResponseEntity<VetDTO> getVet(@PathVariable(value = "vetId") int vetId) {
         final VetDTO result = vetRestService.getVet(vetId);
         if (result == null) {
-            return new ResponseEntity<VetDTO>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
+    @ResponseStatus(HttpStatus.OK)
     @PostMapping
     @ApiOperation(value = "addVet")
-    public ResponseEntity<Void> addVet(@RequestBody VetCreateDTO dto) {
+    public void addVet(@RequestBody VetCreateDTO dto) {
         vetRestService.addVet(dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PutMapping("/{vetId}")
+    @ResponseStatus(HttpStatus.OK)
+    @PutMapping(path = "/{vetId}")
     @ApiOperation(value = "updateVet")
-    public ResponseEntity<Void> updateVet(@PathVariable(value = "vetId") Integer vetId, @RequestBody VetUpdateDTO dto) {
+    public void updateVet(@PathVariable(value = "vetId") int vetId, @RequestBody VetUpdateDTO dto) {
         vetRestService.updateVet(vetId, dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{vetId}")
+    @ResponseStatus(HttpStatus.OK)
+    @DeleteMapping(path = "/{vetId}")
     @ApiOperation(value = "deleteVet")
-    public ResponseEntity<Void> deleteVet(@PathVariable(value = "vetId") Integer vetId) {
+    public void deleteVet(@PathVariable(value = "vetId") int vetId) {
         vetRestService.deleteVet(vetId);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

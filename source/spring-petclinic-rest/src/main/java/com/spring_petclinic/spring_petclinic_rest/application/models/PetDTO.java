@@ -1,6 +1,6 @@
 package com.spring_petclinic.spring_petclinic_rest.application.models;
-
 import lombok.AllArgsConstructor;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import com.spring_petclinic.spring_petclinic_rest.domain.models.Pet;
@@ -14,12 +14,12 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Data
 public class PetDTO {
-    private Integer id;
+    private int id;
     private String name;
     private LocalDate birthDate;
-    private Integer petTypeId;
+    private int petTypeId;
     private String petTypeName;
-    private Integer ownerId;
+    private int ownerId;
     private String ownerFirstName;
     private String ownerLastName;
     private List<PetVisitDTO> Visits;

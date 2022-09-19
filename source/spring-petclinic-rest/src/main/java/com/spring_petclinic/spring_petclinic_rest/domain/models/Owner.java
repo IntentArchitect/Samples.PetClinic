@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Column;
 import javax.persistence.OneToMany;
+import javax.persistence.CascadeType;
 
 
 
@@ -31,7 +32,7 @@ public class Owner extends AbstractEntity {
     @Column(name = "telephone", length = 20, nullable = false)
     private String telephone;
 
-    @OneToMany(mappedBy="owner", orphanRemoval = true)
+    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="owner", orphanRemoval = true)
     private List<Pet> pets;
 
     public String getFirstName() {

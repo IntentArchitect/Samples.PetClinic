@@ -44,3 +44,5 @@
 *.pdb		binary
 *.zip		binary
 *.jar		binary
+
+sqlite-dev-db.sql	binary

@@ -70,7 +70,7 @@ namespace PetClinic.Domain.Entities
         {
             get
             {
-                return _visits ?? (_visits = new List<Visit>());
+                return _visits ??= new List<Visit>();
             }
             set
             {

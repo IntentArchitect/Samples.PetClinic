@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Transactions;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -40,10 +41,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<List<OwnerDTO>>> getOwners(CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetOwners();
+                result = await _appService.GetOwners();
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -56,10 +61,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> addOwner([FromBody] OwnerCreateDTO dto, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.AddOwner(dto);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Created(string.Empty, null);
+                await _appService.AddOwner(dto);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Created(string.Empty, null);
+            }
         }
 
         /// <summary>
@@ -75,10 +85,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<OwnerDTO>> getOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
         {
             var result = default(OwnerDTO);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetOwner(ownerId);
+                result = await _appService.GetOwner(ownerId);
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -91,10 +105,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> updateOwner([FromRoute] int ownerId, [FromBody] OwnerUpdateDTO dto, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.UpdateOwner(ownerId, dto);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return NoContent();
+                await _appService.UpdateOwner(ownerId, dto);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return NoContent();
+            }
         }
 
         /// <summary>
@@ -107,10 +126,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> deleteOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.DeleteOwner(ownerId);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Ok();
+                await _appService.DeleteOwner(ownerId);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Ok();
+            }
         }
 
         /// <summary>
@@ -124,10 +148,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<List<OwnerDTO>>> getOwnersList([FromRoute] string lastName, CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetOwnersList(lastName);
+                result = await _appService.GetOwnersList(lastName);
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
 

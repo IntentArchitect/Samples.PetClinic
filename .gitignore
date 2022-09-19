@@ -49,3 +49,4 @@ tempkey.jwk
 *.iat
 !*.application.output.log
 .intent/
+.idea/

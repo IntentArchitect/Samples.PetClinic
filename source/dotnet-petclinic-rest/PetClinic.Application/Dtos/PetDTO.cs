@@ -67,7 +67,8 @@ namespace PetClinic.Application.Dtos
                 .ForMember(d => d.PetTypeName, opt => opt.MapFrom(src => src.PetType.Name))
                 .ForMember(d => d.OwnerId, opt => opt.MapFrom(src => src.Owner.Id))
                 .ForMember(d => d.OwnerFirstName, opt => opt.MapFrom(src => src.Owner.FirstName))
-                .ForMember(d => d.OwnerLastName, opt => opt.MapFrom(src => src.Owner.LastName));
+                .ForMember(d => d.OwnerLastName, opt => opt.MapFrom(src => src.Owner.LastName))
+                .ForMember(d => d.Visits, opt => opt.MapFrom(src => src.Visits));
         }
     }
 }

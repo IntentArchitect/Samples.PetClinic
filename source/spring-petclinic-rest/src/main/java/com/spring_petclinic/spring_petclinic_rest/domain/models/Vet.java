@@ -9,6 +9,7 @@ import javax.persistence.Column;
 import javax.persistence.ManyToMany;
 import javax.persistence.JoinTable;
 import javax.persistence.JoinColumn;
+import javax.persistence.CascadeType;
 
 
 
@@ -24,7 +25,7 @@ public class Vet extends AbstractEntity {
     @Column(name = "last_name", length = 30, nullable = false)
     private String lastName;
 
-    @ManyToMany
+    @ManyToMany(cascade = { CascadeType.ALL })
     @JoinTable(
             name = "vet_specialties",
             joinColumns = { @JoinColumn(name = "vet_id") },

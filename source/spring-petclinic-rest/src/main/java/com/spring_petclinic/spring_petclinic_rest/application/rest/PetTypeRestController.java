@@ -22,17 +22,17 @@ public class PetTypeRestController {
     public ResponseEntity<List<PetTypeDTO>> getAllPetTypes() {
         final List<PetTypeDTO> result = petTypeRestService.getAllPetTypes();
         if (result.isEmpty()) {
-            return new ResponseEntity<List<PetTypeDTO>>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @GetMapping("/{petTypeId}")
+    @GetMapping(path = "/{petTypeId}")
     @ApiOperation(value = "getPetType")
-    public ResponseEntity<PetTypeDTO> getPetType(@PathVariable(value = "petTypeId") Integer petTypeId) {
+    public ResponseEntity<PetTypeDTO> getPetType(@PathVariable(value = "petTypeId") int petTypeId) {
         final PetTypeDTO result = petTypeRestService.getPetType(petTypeId);
         if (result == null) {
-            return new ResponseEntity<PetTypeDTO>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
@@ -40,23 +40,21 @@ public class PetTypeRestController {
     @PostMapping
     @ApiOperation(value = "addPetType")
     public ResponseEntity<Integer> addPetType(@RequestBody PetTypeDTO dto) {
-        final Integer result = petTypeRestService.addPetType(dto);
+        final int result = petTypeRestService.addPetType(dto);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @PutMapping("/{petTypeId}")
+    @ResponseStatus(HttpStatus.OK)
+    @PutMapping(path = "/{petTypeId}")
     @ApiOperation(value = "updatePetType")
-    public ResponseEntity<Void> updatePetType(@PathVariable(value = "petTypeId") Integer petTypeId, @RequestBody PetTypeDTO dto) {
+    public void updatePetType(@PathVariable(value = "petTypeId") int petTypeId, @RequestBody PetTypeDTO dto) {
         petTypeRestService.updatePetType(petTypeId, dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{petTypeId}")
+    @ResponseStatus(HttpStatus.OK)
+    @DeleteMapping(path = "/{petTypeId}")
     @ApiOperation(value = "deletePetType")
-    public ResponseEntity<Void> deletePetType(@PathVariable(value = "petTypeId") Integer petTypeId) {
+    public void deletePetType(@PathVariable(value = "petTypeId") int petTypeId) {
         petTypeRestService.deletePetType(petTypeId);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

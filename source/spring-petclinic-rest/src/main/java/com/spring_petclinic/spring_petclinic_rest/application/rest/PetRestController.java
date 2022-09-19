@@ -18,37 +18,34 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.PetDTO;
 public class PetRestController {
     private final PetRestService petRestService;
 
-    @GetMapping("/{petId}")
+    @GetMapping(path = "/{petId}")
     @ApiOperation(value = "getPet")
-    public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") Integer petId) {
+    public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") int petId) {
         final PetDTO result = petRestService.getPet(petId);
         if (result == null) {
-            return new ResponseEntity<PetDTO>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
+    @ResponseStatus(HttpStatus.OK)
     @PostMapping
     @ApiOperation(value = "addPet")
-    public ResponseEntity<Void> addPet(@RequestBody PetCreateDTO dto) {
+    public void addPet(@RequestBody PetCreateDTO dto) {
         petRestService.addPet(dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PutMapping("/{petId}")
+    @ResponseStatus(HttpStatus.OK)
+    @PutMapping(path = "/{petId}")
     @ApiOperation(value = "updatePet")
-    public ResponseEntity<Void> updatePet(@PathVariable(value = "petId") Integer petId, @RequestBody PetUpdateDTO dto) {
+    public void updatePet(@PathVariable(value = "petId") int petId, @RequestBody PetUpdateDTO dto) {
         petRestService.updatePet(petId, dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{petId}")
+    @ResponseStatus(HttpStatus.OK)
+    @DeleteMapping(path = "/{petId}")
     @ApiOperation(value = "deletePet")
-    public ResponseEntity<Void> deletePet(@PathVariable(value = "petId") Integer petId) {
+    public void deletePet(@PathVariable(value = "petId") int petId) {
         petRestService.deletePet(petId);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

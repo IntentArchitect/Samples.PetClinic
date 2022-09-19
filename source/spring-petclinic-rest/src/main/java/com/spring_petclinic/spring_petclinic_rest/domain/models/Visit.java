@@ -8,6 +8,7 @@ import javax.persistence.Table;
 import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 import javax.persistence.JoinColumn;
+import javax.persistence.CascadeType;
 
 
 
@@ -23,7 +24,7 @@ public class Visit extends AbstractEntity {
     @Column(name = "description", nullable = false)
     private String description;
 
-    @ManyToOne(optional = false)
+    @ManyToOne(optional = false, cascade = { CascadeType.ALL })
     @JoinColumn(name="pet_id", nullable = false)
     private Pet pet;
 

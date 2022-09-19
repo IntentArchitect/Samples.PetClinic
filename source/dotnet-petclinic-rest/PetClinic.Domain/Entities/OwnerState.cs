@@ -88,7 +88,7 @@ namespace PetClinic.Domain.Entities
         {
             get
             {
-                return _pets ?? (_pets = new List<Pet>());
+                return _pets ??= new List<Pet>();
             }
             set
             {

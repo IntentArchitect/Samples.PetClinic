@@ -1,17 +1,17 @@
 package com.spring_petclinic.spring_petclinic_rest.application.services;
+
 import com.spring_petclinic.spring_petclinic_rest.application.models.PetCreateDTO;
 import com.spring_petclinic.spring_petclinic_rest.application.models.PetUpdateDTO;
-
 import com.spring_petclinic.spring_petclinic_rest.application.models.PetDTO;
 
 
 public interface PetRestService {
-    PetDTO getPet(Integer petId);
+    PetDTO getPet(int petId);
 
     void addPet(PetCreateDTO dto);
 
-    void updatePet(Integer petId, PetUpdateDTO dto);
+    void updatePet(int petId, PetUpdateDTO dto);
 
-    void deletePet(Integer petId);
+    void deletePet(int petId);
 
 }

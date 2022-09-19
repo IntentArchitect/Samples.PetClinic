@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Transactions;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -44,10 +45,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<VisitDTO>> getVisit([FromRoute] int visitId, CancellationToken cancellationToken)
         {
             var result = default(VisitDTO);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetVisit(visitId);
+                result = await _appService.GetVisit(visitId);
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -60,10 +65,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> addVisit([FromBody] VisitCreateDTO dto, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.AddVisit(dto);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Created(string.Empty, null);
+                await _appService.AddVisit(dto);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Created(string.Empty, null);
+            }
         }
 
         /// <summary>
@@ -76,10 +86,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> updateVisit([FromRoute] int visitId, [FromBody] VisitUpdateDTO dto, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.UpdateVisit(visitId, dto);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return NoContent();
+                await _appService.UpdateVisit(visitId, dto);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return NoContent();
+            }
         }
 
         /// <summary>
@@ -92,10 +107,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> deleteVisit([FromRoute] int visitId, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.DeleteVisit(visitId);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Ok();
+                await _appService.DeleteVisit(visitId);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Ok();
+            }
         }
 
 

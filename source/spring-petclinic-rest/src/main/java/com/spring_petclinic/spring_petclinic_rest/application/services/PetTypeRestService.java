@@ -7,12 +7,12 @@ import java.util.List;
 public interface PetTypeRestService {
     List<PetTypeDTO> getAllPetTypes();
 
-    PetTypeDTO getPetType(Integer petTypeId);
+    PetTypeDTO getPetType(int petTypeId);
 
-    Integer addPetType(PetTypeDTO dto);
+    int addPetType(PetTypeDTO dto);
 
-    void updatePetType(Integer petTypeId, PetTypeDTO dto);
+    void updatePetType(int petTypeId, PetTypeDTO dto);
 
-    void deletePetType(Integer petTypeId);
+    void deletePetType(int petTypeId);
 
 }

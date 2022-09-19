@@ -10,15 +10,16 @@ using PetClinic.Domain.Entities;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Merge)]
-[assembly: IntentTemplate("Intent.Application.ServiceImplementations", Version = "1.0")]
+[assembly: IntentTemplate("Intent.Application.ServiceImplementations.ServiceImplementation", Version = "1.0")]
 
 namespace PetClinic.Application.Implementation
 {
     public class VisitService : IVisitService
     {
-        private IVisitRepository _visitRepository;
-        private IMapper _mapper;
+        private readonly IVisitRepository _visitRepository;
+        private readonly IMapper _mapper;
 
+        [IntentManaged(Mode.Fully, Body = Mode.Ignore, Signature = Mode.Ignore)]
         public VisitService(IVisitRepository visitRepository, IMapper mapper)
         {
             _visitRepository = visitRepository;

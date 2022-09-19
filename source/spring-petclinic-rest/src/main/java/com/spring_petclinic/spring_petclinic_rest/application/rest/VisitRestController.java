@@ -19,37 +19,34 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.VisitDTO;
 public class VisitRestController {
     private final VisitRestService visitRestService;
 
-    @GetMapping("/{visitId}")
+    @GetMapping(path = "/{visitId}")
     @ApiOperation(value = "getVisit")
-    public ResponseEntity<VisitDTO> getVisit(@PathVariable(value = "visitId") Integer visitId) {
+    public ResponseEntity<VisitDTO> getVisit(@PathVariable(value = "visitId") int visitId) {
         final VisitDTO result = visitRestService.getVisit(visitId);
         if (result == null) {
-            return new ResponseEntity<VisitDTO>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
+    @ResponseStatus(HttpStatus.OK)
     @PostMapping
     @ApiOperation(value = "addVisit")
-    public ResponseEntity<Void> addVisit(@RequestBody VisitCreateDTO dto) {
+    public void addVisit(@RequestBody VisitCreateDTO dto) {
         visitRestService.addVisit(dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PutMapping("/{visitId}")
+    @ResponseStatus(HttpStatus.OK)
+    @PutMapping(path = "/{visitId}")
     @ApiOperation(value = "updateVisit")
-    public ResponseEntity<Void> updateVisit(@PathVariable(value = "visitId") Integer visitId, @RequestBody VisitUpdateDTO dto) {
+    public void updateVisit(@PathVariable(value = "visitId") int visitId, @RequestBody VisitUpdateDTO dto) {
         visitRestService.updateVisit(visitId, dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{visitId}")
+    @ResponseStatus(HttpStatus.OK)
+    @DeleteMapping(path = "/{visitId}")
     @ApiOperation(value = "deleteVisit")
-    public ResponseEntity<Void> deleteVisit(@PathVariable(value = "visitId") Integer visitId) {
+    public void deleteVisit(@PathVariable(value = "visitId") int visitId) {
         visitRestService.deleteVisit(visitId);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

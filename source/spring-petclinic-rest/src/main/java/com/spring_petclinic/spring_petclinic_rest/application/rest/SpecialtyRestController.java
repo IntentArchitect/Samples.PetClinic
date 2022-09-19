@@ -22,17 +22,17 @@ public class SpecialtyRestController {
     public ResponseEntity<List<SpecialtyDTO>> getAllSpecialties() {
         final List<SpecialtyDTO> result = specialtyRestService.getAllSpecialties();
         if (result.isEmpty()) {
-            return new ResponseEntity<List<SpecialtyDTO>>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @GetMapping("/{specialtyId}")
+    @GetMapping(path = "/{specialtyId}")
     @ApiOperation(value = "getSpecialty")
-    public ResponseEntity<SpecialtyDTO> getSpecialty(@PathVariable(value = "specialtyId") Integer specialtyId) {
+    public ResponseEntity<SpecialtyDTO> getSpecialty(@PathVariable(value = "specialtyId") int specialtyId) {
         final SpecialtyDTO result = specialtyRestService.getSpecialty(specialtyId);
         if (result == null) {
-            return new ResponseEntity<SpecialtyDTO>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
@@ -40,23 +40,21 @@ public class SpecialtyRestController {
     @PostMapping
     @ApiOperation(value = "addSpecialty")
     public ResponseEntity<Integer> addSpecialty(@RequestBody SpecialtyDTO dto) {
-        final Integer result = specialtyRestService.addSpecialty(dto);
+        final int result = specialtyRestService.addSpecialty(dto);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @PutMapping("/{specialtyId}")
+    @ResponseStatus(HttpStatus.OK)
+    @PutMapping(path = "/{specialtyId}")
     @ApiOperation(value = "updateSpecialty")
-    public ResponseEntity<Void> updateSpecialty(@PathVariable(value = "specialtyId") Integer specialtyId, @RequestBody SpecialtyDTO dto) {
+    public void updateSpecialty(@PathVariable(value = "specialtyId") int specialtyId, @RequestBody SpecialtyDTO dto) {
         specialtyRestService.updateSpecialty(specialtyId, dto);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @DeleteMapping("/{specialtyId}")
+    @ResponseStatus(HttpStatus.OK)
+    @DeleteMapping(path = "/{specialtyId}")
     @ApiOperation(value = "deleteSpecialty")
-    public ResponseEntity<Void> deleteSpecialty(@PathVariable(value = "specialtyId") Integer specialtyId) {
+    public void deleteSpecialty(@PathVariable(value = "specialtyId") int specialtyId) {
         specialtyRestService.deleteSpecialty(specialtyId);
-
-        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

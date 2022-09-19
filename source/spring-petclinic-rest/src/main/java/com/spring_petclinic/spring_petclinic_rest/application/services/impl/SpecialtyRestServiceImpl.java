@@ -32,7 +32,7 @@ public class SpecialtyRestServiceImpl implements SpecialtyRestService {
     @Override
     @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public SpecialtyDTO getSpecialty(Integer specialtyId) {
+    public SpecialtyDTO getSpecialty(int specialtyId) {
         var specialty = this.specialtyRepository.findById(specialtyId);
         return specialty.isPresent() ? SpecialtyDTO.mapFromSpecialty(specialty.get(), mapper) : null;
     }
@@ -40,7 +40,7 @@ public class SpecialtyRestServiceImpl implements SpecialtyRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public Integer addSpecialty(SpecialtyDTO dto) {
+    public int addSpecialty(SpecialtyDTO dto) {
         var specialty = new Specialty();
         specialty.setName(dto.getName());
         return this.specialtyRepository.save(specialty).getId();
@@ -49,7 +49,7 @@ public class SpecialtyRestServiceImpl implements SpecialtyRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void updateSpecialty(Integer specialtyId, SpecialtyDTO dto) {
+    public void updateSpecialty(int specialtyId, SpecialtyDTO dto) {
         var specialty = this.specialtyRepository.findById(specialtyId).get();
         specialty.setName(dto.getName());
         this.specialtyRepository.save(specialty);
@@ -58,7 +58,7 @@ public class SpecialtyRestServiceImpl implements SpecialtyRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void deleteSpecialty(Integer specialtyId) {
+    public void deleteSpecialty(int specialtyId) {
         var specialty = this.specialtyRepository.findById(specialtyId).get();
         this.specialtyRepository.delete(specialty);
     }

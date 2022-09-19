@@ -7,12 +7,12 @@ import java.util.List;
 public interface SpecialtyRestService {
     List<SpecialtyDTO> getAllSpecialties();
 
-    SpecialtyDTO getSpecialty(Integer specialtyId);
+    SpecialtyDTO getSpecialty(int specialtyId);
 
-    Integer addSpecialty(SpecialtyDTO dto);
+    int addSpecialty(SpecialtyDTO dto);
 
-    void updateSpecialty(Integer specialtyId, SpecialtyDTO dto);
+    void updateSpecialty(int specialtyId, SpecialtyDTO dto);
 
-    void deleteSpecialty(Integer specialtyId);
+    void deleteSpecialty(int specialtyId);
 
 }

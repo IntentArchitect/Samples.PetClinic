@@ -55,7 +55,7 @@ namespace PetClinic.Domain.Entities
         {
             get
             {
-                return _specialties ?? (_specialties = new List<Specialty>());
+                return _specialties ??= new List<Specialty>();
             }
             set
             {

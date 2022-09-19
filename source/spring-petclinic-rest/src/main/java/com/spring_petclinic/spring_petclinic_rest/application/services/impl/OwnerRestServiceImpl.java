@@ -47,7 +47,7 @@ public class OwnerRestServiceImpl implements OwnerRestService {
     @Override
     @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public OwnerDTO getOwner(Integer ownerId) {
+    public OwnerDTO getOwner(int ownerId) {
         var owner = ownerRepository.findById(ownerId);
         return owner.isPresent() ? OwnerDTO.mapFromOwner(owner.get(), mapper) : null;
     }
@@ -55,7 +55,7 @@ public class OwnerRestServiceImpl implements OwnerRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void updateOwner(Integer ownerId, OwnerUpdateDTO dto) {
+    public void updateOwner(int ownerId, OwnerUpdateDTO dto) {
         var owner = ownerRepository.findById(ownerId);
         if (owner.isEmpty()) {
             throw new RuntimeException("Owner could not be found for id: " + ((Integer)ownerId).toString());
@@ -71,7 +71,7 @@ public class OwnerRestServiceImpl implements OwnerRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void deleteOwner(Integer ownerId) {
+    public void deleteOwner(int ownerId) {
         var owner = ownerRepository.findById(ownerId);
         if (owner.isEmpty()) {
             throw new RuntimeException("Owner could not be found for id: " + ((Integer)ownerId).toString());

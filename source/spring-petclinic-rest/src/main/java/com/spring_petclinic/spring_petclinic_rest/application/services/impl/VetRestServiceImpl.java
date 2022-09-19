@@ -35,7 +35,7 @@ public class VetRestServiceImpl implements VetRestService {
     @Override
     @Transactional(readOnly = true)
     @IntentIgnoreBody
-    public VetDTO getVet(Integer vetId) {
+    public VetDTO getVet(int vetId) {
         var vet = this.vetRepository.findById(vetId);
         return vet.isPresent() ? VetDTO.mapFromVet(vet.get(), mapper) : null;
     }
@@ -55,7 +55,7 @@ public class VetRestServiceImpl implements VetRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void updateVet(Integer vetId, VetUpdateDTO dto) {
+    public void updateVet(int vetId, VetUpdateDTO dto) {
         var specialties = this.specialtyRepository.findAllById(dto.getSpecialties());
         var vet = this.vetRepository.findById(vetId).get();
         vet.setFirstName(dto.getFirstName());
@@ -67,7 +67,7 @@ public class VetRestServiceImpl implements VetRestService {
     @Override
     @Transactional(readOnly = false)
     @IntentIgnoreBody
-    public void deleteVet(Integer vetId) {
+    public void deleteVet(int vetId) {
         var vet = this.vetRepository.findById(vetId).get();
         this.vetRepository.delete(vet);
     }

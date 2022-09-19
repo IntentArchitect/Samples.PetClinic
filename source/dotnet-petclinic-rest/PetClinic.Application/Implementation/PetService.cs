@@ -10,7 +10,7 @@ using PetClinic.Domain.Entities;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Merge)]
-[assembly: IntentTemplate("Intent.Application.ServiceImplementations", Version = "1.0")]
+[assembly: IntentTemplate("Intent.Application.ServiceImplementations.ServiceImplementation", Version = "1.0")]
 
 namespace PetClinic.Application.Implementation
 {

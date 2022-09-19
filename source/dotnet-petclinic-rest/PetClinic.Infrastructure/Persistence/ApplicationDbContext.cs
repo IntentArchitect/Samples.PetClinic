@@ -20,11 +20,9 @@ namespace PetClinic.Infrastructure.Persistence
         }
 
         public DbSet<Owner> Owners { get; set; }
-        public DbSet<Pet> Pets { get; set; }
         public DbSet<PetType> PetTypes { get; set; }
         public DbSet<Specialty> Specialties { get; set; }
         public DbSet<Vet> Vets { get; set; }
-        public DbSet<Visit> Visits { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
         {
@@ -41,11 +39,10 @@ namespace PetClinic.Infrastructure.Persistence
             ConfigureModel(modelBuilder);
 
             modelBuilder.ApplyConfiguration(new OwnerConfiguration());
-            modelBuilder.ApplyConfiguration(new PetConfiguration());
             modelBuilder.ApplyConfiguration(new PetTypeConfiguration());
             modelBuilder.ApplyConfiguration(new SpecialtyConfiguration());
             modelBuilder.ApplyConfiguration(new VetConfiguration());
-            modelBuilder.ApplyConfiguration(new VisitConfiguration());
+
         }
 
         [IntentManaged(Mode.Ignore)]

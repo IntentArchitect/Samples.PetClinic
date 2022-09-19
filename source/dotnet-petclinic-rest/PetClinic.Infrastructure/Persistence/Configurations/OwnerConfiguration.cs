@@ -36,12 +36,42 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
                 .HasMaxLength(20);
 
 
-            builder.HasMany(x => x.Pets)
-                .WithOne(x => x.Owner)
-                .HasForeignKey(x => x.OwnerId)
-                .IsRequired()
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.OwnsMany(x => x.Pets, ConfigurePets);
 
+        }
+
+        public void ConfigureVisits(OwnedNavigationBuilder<Pet, Visit> builder)
+        {
+            builder.WithOwner(x => x.Pet).HasForeignKey(x => x.PetId);
+
+            builder.HasKey(x => x.Id);
+
+            builder.Property(x => x.VisitDate)
+                .IsRequired();
+
+            builder.Property(x => x.Description)
+                .IsRequired();
+        }
+
+        public void ConfigurePets(OwnedNavigationBuilder<Owner, Pet> builder)
+        {
+            builder.WithOwner(x => x.Owner).HasForeignKey(x => x.OwnerId);
+
+            builder.HasKey(x => x.Id);
+
+            builder.Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(30);
+
+            builder.Property(x => x.BirthDate)
+                .IsRequired();
+
+            builder.HasOne(x => x.PetType)
+                .WithMany()
+                .HasForeignKey(x => x.PetTypeId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.OwnsMany(x => x.Visits, ConfigureVisits);
         }
     }
 }

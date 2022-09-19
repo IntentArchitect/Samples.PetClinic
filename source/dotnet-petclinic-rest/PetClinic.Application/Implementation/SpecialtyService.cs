@@ -11,16 +11,17 @@ using PetClinic.Domain.Entities;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Merge)]
-[assembly: IntentTemplate("Intent.Application.ServiceImplementations", Version = "1.0")]
+[assembly: IntentTemplate("Intent.Application.ServiceImplementations.ServiceImplementation", Version = "1.0")]
 
 namespace PetClinic.Application.Implementation
 {
     public class SpecialtyService : ISpecialtyService
     {
-        private ISpecialtyRepository _specialtyRepository;
-        private IMapper _mapper;
+        private readonly ISpecialtyRepository _specialtyRepository;
+        private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
 
+        [IntentManaged(Mode.Fully, Body = Mode.Ignore, Signature = Mode.Ignore)]
         public SpecialtyService(ISpecialtyRepository specialtyRepository, IMapper mapper, IUnitOfWork unitOfWork)
         {
             _specialtyRepository = specialtyRepository;

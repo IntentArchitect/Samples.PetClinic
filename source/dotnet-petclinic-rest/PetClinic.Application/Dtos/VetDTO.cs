@@ -42,7 +42,8 @@ namespace PetClinic.Application.Dtos
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<Vet, VetDTO>();
+            profile.CreateMap<Vet, VetDTO>()
+                .ForMember(d => d.Specialties, opt => opt.MapFrom(src => src.Specialties));
         }
     }
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Transactions;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -40,10 +41,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<List<SpecialtyDTO>>> getAllSpecialties(CancellationToken cancellationToken)
         {
             var result = default(List<SpecialtyDTO>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetAllSpecialties();
+                result = await _appService.GetAllSpecialties();
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -59,10 +64,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<SpecialtyDTO>> getSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
         {
             var result = default(SpecialtyDTO);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetSpecialty(specialtyId);
+                result = await _appService.GetSpecialty(specialtyId);
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -76,11 +85,16 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<int>> addSpecialty([FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
         {
             var result = default(int);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.AddSpecialty(dto);
+                result = await _appService.AddSpecialty(dto);
 
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Created(string.Empty, result);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Created(string.Empty, result);
+            }
         }
 
         /// <summary>
@@ -93,10 +107,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> updateSpecialty([FromRoute] int specialtyId, [FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.UpdateSpecialty(specialtyId, dto);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return NoContent();
+                await _appService.UpdateSpecialty(specialtyId, dto);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return NoContent();
+            }
         }
 
         /// <summary>
@@ -109,10 +128,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> deleteSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.DeleteSpecialty(specialtyId);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Ok();
+                await _appService.DeleteSpecialty(specialtyId);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Ok();
+            }
         }
 
 

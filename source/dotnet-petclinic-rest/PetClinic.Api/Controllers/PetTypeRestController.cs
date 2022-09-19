@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Transactions;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -40,10 +41,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<List<PetTypeDTO>>> getAllPetTypes(CancellationToken cancellationToken)
         {
             var result = default(List<PetTypeDTO>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetAllPetTypes();
+                result = await _appService.GetAllPetTypes();
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -59,10 +64,14 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<PetTypeDTO>> getPetType([FromRoute] int petTypeId, CancellationToken cancellationToken)
         {
             var result = default(PetTypeDTO);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.GetPetType(petTypeId);
+                result = await _appService.GetPetType(petTypeId);
 
-            return Ok(result);
+                return Ok(result);
+            }
         }
 
         /// <summary>
@@ -76,11 +85,16 @@ namespace PetClinic.Api.Controllers
         public async Task<ActionResult<int>> addPetType([FromBody] PetTypeDTO dto, CancellationToken cancellationToken)
         {
             var result = default(int);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            result = await _appService.AddPetType(dto);
+                result = await _appService.AddPetType(dto);
 
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Created(string.Empty, result);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Created(string.Empty, result);
+            }
         }
 
         /// <summary>
@@ -93,10 +107,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> updatePetType([FromRoute] int petTypeId, [FromBody] PetTypeDTO dto, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.UpdatePetType(petTypeId, dto);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return NoContent();
+                await _appService.UpdatePetType(petTypeId, dto);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return NoContent();
+            }
         }
 
         /// <summary>
@@ -109,10 +128,15 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> deletePetType([FromRoute] int petTypeId, CancellationToken cancellationToken)
         {
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
 
-            await _appService.DeletePetType(petTypeId);
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-            return Ok();
+                await _appService.DeletePetType(petTypeId);
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+                transaction.Complete();
+                return Ok();
+            }
         }
 
 
