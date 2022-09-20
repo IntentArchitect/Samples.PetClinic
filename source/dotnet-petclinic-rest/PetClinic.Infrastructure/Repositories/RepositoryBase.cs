@@ -38,11 +38,6 @@ namespace PetClinic.Infrastructure.Repositories
             GetSet().Add((TPersistence)entity);
         }
 
-        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
-        {
-            return await _dbContext.SaveChangesAsync(cancellationToken);
-        }
-
         public virtual async Task<TDomain> FindAsync(Expression<Func<TPersistence, bool>> filterExpression, CancellationToken cancellationToken = default)
         {
             return await QueryInternal(filterExpression).SingleOrDefaultAsync<TDomain>(cancellationToken);
@@ -135,6 +130,11 @@ namespace PetClinic.Infrastructure.Repositories
         protected virtual DbSet<TPersistence> GetSet()
         {
             return _dbContext.Set<TPersistence>();
+        }
+
+        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return await _dbContext.SaveChangesAsync(cancellationToken);
         }
     }
 }

@@ -16,8 +16,8 @@ namespace PetClinic.Application.Implementation
 {
     public class PetService : IPetService
     {
-        private IPetRepository _petRepository;
-        private IMapper _mapper;
+        private readonly IPetRepository _petRepository;
+        private readonly IMapper _mapper;
 
         [IntentManaged(Mode.Merge)]
         public PetService(IPetRepository petRepository, IMapper mapper)

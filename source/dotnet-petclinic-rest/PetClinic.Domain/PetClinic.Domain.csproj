@@ -72,4 +72,8 @@
     <PackageReference Include="RT.Comb" Version="2.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories" />
+  </ItemGroup>
+
 </Project>

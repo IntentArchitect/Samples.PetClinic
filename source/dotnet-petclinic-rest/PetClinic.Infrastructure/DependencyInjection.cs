@@ -23,6 +23,7 @@ namespace PetClinic.Infrastructure
             });
             services.AddScoped<IUnitOfWork>(provider => provider.GetService<ApplicationDbContext>());
             services.AddTransient<IOwnerRepository, OwnerRepository>();
+            services.AddTransient<IPetRepository, PetRepository>();
             services.AddTransient<IPetTypeRepository, PetTypeRepository>();
             services.AddTransient<ISpecialtyRepository, SpecialtyRepository>();
             services.AddTransient<IVetRepository, VetRepository>();

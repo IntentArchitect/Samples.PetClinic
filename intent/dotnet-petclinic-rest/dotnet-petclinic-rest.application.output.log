@@ -604,6 +604,14 @@
     </FileLog>
     <FileLog>
       <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
+      <CorrelationId>Intent.Entities.Repositories.Api.EntityRepositoryInterface#1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/dotnet-petclinic-rest/PetClinic.Domain/Repositories/IPetRepository.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IPetRepository.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d6e05f69-e16b-4e21-982e-8dc79b55bf9b</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.EntityRepositoryInterface#732f9d1f-cae2-49b5-bbb3-215cbf1b4834</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/dotnet-petclinic-rest/PetClinic.Domain/Repositories/IPetTypeRepository.cs</ApplicationRelativeFilePath>
@@ -720,6 +728,14 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/dotnet-petclinic-rest/PetClinic.Infrastructure/Repositories/PagedList.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>PagedList.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>7a7836f9-5376-42a3-85c5-d7d5d1eaf803</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.Repositories.Repository#1cada2f2-b08e-4caf-8505-7bc92f69bab6</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/dotnet-petclinic-rest/PetClinic.Infrastructure/Repositories/PetRepository.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>PetRepository.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
