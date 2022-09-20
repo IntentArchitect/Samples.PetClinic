@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PetVisitDTO = void 0;
 const swagger_1 = require("@nestjs/swagger");
+const class_transformer_1 = require("class-transformer");
 class PetVisitDTO {
     static fromVisit(visit) {
         if (visit == null) {
@@ -25,15 +26,16 @@ class PetVisitDTO {
 }
 PetVisitDTO.requiredRelations = [];
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], PetVisitDTO.prototype, "id", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
+    (0, class_transformer_1.Type)(() => Date),
     __metadata("design:type", Date)
 ], PetVisitDTO.prototype, "visitDate", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetVisitDTO.prototype, "description", void 0);
 exports.PetVisitDTO = PetVisitDTO;

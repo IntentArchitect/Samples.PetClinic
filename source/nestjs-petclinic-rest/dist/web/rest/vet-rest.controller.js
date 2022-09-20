@@ -41,42 +41,47 @@ let VetRestController = class VetRestController {
     }
 };
 __decorate([
-    common_1.Get(""),
-    __param(0, common_1.Req()),
+    (0, common_1.Get)(""),
+    __param(0, (0, common_1.Req)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "getAllVets", null);
 __decorate([
-    common_1.Get(":vetId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('vetId')),
+    (0, common_1.Get)(":vetId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('vetId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "getVet", null);
 __decorate([
-    common_1.Post(""),
-    __param(0, common_1.Req()), __param(1, common_1.Body()),
+    (0, common_1.Post)(""),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, vet_create_dto_1.VetCreateDTO]),
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "addVet", null);
 __decorate([
-    common_1.Put(":vetId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('vetId')), __param(2, common_1.Body()),
+    (0, common_1.Put)(":vetId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('vetId')),
+    __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number, vet_update_dto_1.VetUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "updateVet", null);
 __decorate([
-    common_1.Delete(":vetId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('vetId')),
+    (0, common_1.Delete)(":vetId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('vetId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "deleteVet", null);
 VetRestController = __decorate([
-    common_1.Controller('api/vets'),
+    (0, common_1.Controller)('api/vets'),
     __metadata("design:paramtypes", [vet_rest_service_1.VetRestService])
 ], VetRestController);
 exports.VetRestController = VetRestController;

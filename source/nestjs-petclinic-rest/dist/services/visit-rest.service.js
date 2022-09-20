@@ -23,11 +23,11 @@ let VisitRestService = class VisitRestService {
         this.petRepository = petRepository;
     }
     async getVisit(visitId) {
-        var visit = await this.visitRepository.findOne(visitId, { relations: visit_dto_1.VisitDTO.requiredRelations });
+        var visit = await this.visitRepository.findOne({ where: { id: visitId }, relations: visit_dto_1.VisitDTO.requiredRelations });
         return visit_dto_1.VisitDTO.fromVisit(visit);
     }
     async addVisit(dto) {
-        var pet = await this.petRepository.findOne(dto.petId);
+        var pet = await this.petRepository.findOneBy({ id: dto.petId });
         var newVisit = {
             pet: pet,
             visitDate: dto.visitDate,
@@ -36,42 +36,42 @@ let VisitRestService = class VisitRestService {
         await this.visitRepository.save(newVisit);
     }
     async updateVisit(visitId, dto) {
-        var existingVisit = await this.visitRepository.findOne(visitId);
+        var existingVisit = await this.visitRepository.findOneBy({ id: visitId });
         existingVisit.visitDate = dto.visitDate;
         existingVisit.description = dto.description;
         await this.visitRepository.save(existingVisit);
     }
     async deleteVisit(visitId) {
-        var existingVisit = await this.visitRepository.findOne(visitId);
+        var existingVisit = await this.visitRepository.findOneBy({ id: visitId });
         await this.visitRepository.remove(existingVisit);
     }
 };
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], VisitRestService.prototype, "getVisit", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [visit_create_dto_1.VisitCreateDTO]),
     __metadata("design:returntype", Promise)
 ], VisitRestService.prototype, "addVisit", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number, visit_update_dto_1.VisitUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], VisitRestService.prototype, "updateVisit", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], VisitRestService.prototype, "deleteVisit", null);
 VisitRestService = __decorate([
-    common_1.Injectable(),
+    (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [visit_repository_1.VisitRepository, pet_repository_1.PetRepository])
 ], VisitRestService);
 exports.VisitRestService = VisitRestService;

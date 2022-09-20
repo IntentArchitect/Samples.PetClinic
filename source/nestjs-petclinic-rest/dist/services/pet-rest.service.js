@@ -25,12 +25,12 @@ let PetRestService = class PetRestService {
         this.petTypeRepository = petTypeRepository;
     }
     async getPet(petId) {
-        var pet = await this.petRepository.findOne(petId, { relations: pet_dto_1.PetDTO.requiredRelations });
+        var pet = await this.petRepository.findOne({ where: { id: petId }, relations: pet_dto_1.PetDTO.requiredRelations });
         return pet_dto_1.PetDTO.fromPet(pet);
     }
     async addPet(dto) {
-        var owner = await this.ownerRepository.findOne(dto.ownerId);
-        var petType = await this.petTypeRepository.findOne(dto.petTypeId);
+        var owner = await this.ownerRepository.findOneBy({ id: dto.ownerId });
+        var petType = await this.petTypeRepository.findOneBy({ id: dto.petTypeId });
         var newPet = {
             owner: owner,
             name: dto.name,
@@ -40,44 +40,44 @@ let PetRestService = class PetRestService {
         await this.petRepository.save(newPet);
     }
     async updatePet(petId, dto) {
-        var petType = await this.petTypeRepository.findOne(dto.petTypeId);
-        var existingPet = await this.petRepository.findOne(petId);
+        var petType = await this.petTypeRepository.findOneBy({ id: dto.petTypeId });
+        var existingPet = await this.petRepository.findOneBy({ id: petId });
         existingPet.name = dto.name;
         existingPet.birthDate = dto.birthDate;
         existingPet.petType = petType;
         await this.petRepository.save(existingPet);
     }
     async deletePet(petId) {
-        var existingPet = await this.petRepository.findOne(petId);
+        var existingPet = await this.petRepository.findOneBy({ id: petId });
         await this.petRepository.remove(existingPet);
     }
 };
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], PetRestService.prototype, "getPet", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [pet_create_dto_1.PetCreateDTO]),
     __metadata("design:returntype", Promise)
 ], PetRestService.prototype, "addPet", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number, pet_update_dto_1.PetUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], PetRestService.prototype, "updatePet", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], PetRestService.prototype, "deletePet", null);
 PetRestService = __decorate([
-    common_1.Injectable(),
+    (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [pet_repository_1.PetRepository, owner_repository_1.OwnerRepository, pet_type_repository_1.PetTypeRepository])
 ], PetRestService);
 exports.PetRestService = PetRestService;

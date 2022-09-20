@@ -14,23 +14,23 @@ const swagger_1 = require("@nestjs/swagger");
 class OwnerCreateDTO {
 }
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], OwnerCreateDTO.prototype, "firstName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], OwnerCreateDTO.prototype, "lastName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], OwnerCreateDTO.prototype, "address", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], OwnerCreateDTO.prototype, "city", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], OwnerCreateDTO.prototype, "telephone", void 0);
 exports.OwnerCreateDTO = OwnerCreateDTO;

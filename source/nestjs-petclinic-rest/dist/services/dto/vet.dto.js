@@ -28,19 +28,19 @@ class VetDTO {
 }
 VetDTO.requiredRelations = ["specialties"];
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], VetDTO.prototype, "id", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], VetDTO.prototype, "firstName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], VetDTO.prototype, "lastName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Array)
 ], VetDTO.prototype, "specialties", void 0);
 exports.VetDTO = VetDTO;

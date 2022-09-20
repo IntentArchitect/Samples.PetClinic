@@ -8,7 +8,7 @@ import { PetType } from './../domain/entities/pet-type.entity';
 export class PetTypeRestService {
 
   //@IntentCanAdd()
-  constructor(private petTypeRepository: PetTypeRepository) {}
+  constructor(private petTypeRepository: PetTypeRepository) { }
 
   @IntentIgnoreBody()
   async getAllPetTypes(): Promise<PetTypeDTO[]> {
@@ -18,7 +18,7 @@ export class PetTypeRestService {
 
   @IntentIgnoreBody()
   async getPetType(petTypeId: number): Promise<PetTypeDTO> {
-    var petType = await this.petTypeRepository.findOne(petTypeId, { relations: PetTypeDTO.requiredRelations });
+    var petType = await this.petTypeRepository.findOne({ where: { id: petTypeId }, relations: PetTypeDTO.requiredRelations });
     return PetTypeDTO.fromPetType(petType);
   }
 
@@ -28,14 +28,14 @@ export class PetTypeRestService {
       id: dto.id,
       name: dto.name,
     } as PetType;
-      
+
     await this.petTypeRepository.save(newPetType);
     return newPetType.id;
   }
 
   @IntentIgnoreBody()
   async updatePetType(petTypeId: number, dto: PetTypeDTO): Promise<void> {
-    var existingPetType = await this.petTypeRepository.findOne(petTypeId);
+    var existingPetType = await this.petTypeRepository.findOneBy({ id: petTypeId });
     existingPetType.id = dto.id;
     existingPetType.name = dto.name;
 
@@ -44,7 +44,7 @@ export class PetTypeRestService {
 
   @IntentIgnoreBody()
   async deletePetType(petTypeId: number): Promise<void> {
-    var existingPetType = await this.petTypeRepository.findOne(petTypeId);
+    var existingPetType = await this.petTypeRepository.findOneBy({ id: petTypeId });
     await this.petTypeRepository.remove(existingPetType);
   }
 }

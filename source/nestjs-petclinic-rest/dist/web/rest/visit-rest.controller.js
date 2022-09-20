@@ -37,35 +37,40 @@ let VisitRestController = class VisitRestController {
     }
 };
 __decorate([
-    common_1.Get(":visitId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('visitId')),
+    (0, common_1.Get)(":visitId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('visitId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "getVisit", null);
 __decorate([
-    common_1.Post(""),
-    __param(0, common_1.Req()), __param(1, common_1.Body()),
+    (0, common_1.Post)(""),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, visit_create_dto_1.VisitCreateDTO]),
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "addVisit", null);
 __decorate([
-    common_1.Put(":visitId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('visitId')), __param(2, common_1.Body()),
+    (0, common_1.Put)(":visitId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('visitId')),
+    __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number, visit_update_dto_1.VisitUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "updateVisit", null);
 __decorate([
-    common_1.Delete(":visitId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('visitId')),
+    (0, common_1.Delete)(":visitId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('visitId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "deleteVisit", null);
 VisitRestController = __decorate([
-    common_1.Controller('api/visits'),
+    (0, common_1.Controller)('api/visits'),
     __metadata("design:paramtypes", [visit_rest_service_1.VisitRestService])
 ], VisitRestController);
 exports.VisitRestController = VisitRestController;

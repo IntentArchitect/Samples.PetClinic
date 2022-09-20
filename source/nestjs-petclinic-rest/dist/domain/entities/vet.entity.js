@@ -15,41 +15,41 @@ const typeorm_1 = require("typeorm");
 let Vet = class Vet {
 };
 __decorate([
-    typeorm_1.ObjectIdColumn(),
-    typeorm_1.PrimaryGeneratedColumn(),
+    (0, typeorm_1.ObjectIdColumn)(),
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Vet.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 30 }),
     __metadata("design:type", String)
 ], Vet.prototype, "firstName", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 30 }),
     __metadata("design:type", String)
 ], Vet.prototype, "lastName", void 0);
 __decorate([
-    typeorm_1.ManyToMany(() => specialty_entity_1.Specialty),
-    typeorm_1.JoinTable(),
+    (0, typeorm_1.ManyToMany)(() => specialty_entity_1.Specialty, { cascade: ['insert', 'update'] }),
+    (0, typeorm_1.JoinTable)(),
     __metadata("design:type", Array)
 ], Vet.prototype, "specialties", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Vet.prototype, "createdBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Vet.prototype, "createdDate", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Vet.prototype, "lastModifiedBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Vet.prototype, "lastModifiedDate", void 0);
 Vet = __decorate([
-    typeorm_1.Entity('vet')
+    (0, typeorm_1.Entity)('vet')
 ], Vet);
 exports.Vet = Vet;
 //# sourceMappingURL=vet.entity.js.map

@@ -10,7 +10,7 @@ import { Owner } from './../domain/entities/owner.entity';
 export class OwnerRestService {
 
   //@IntentCanAdd()
-  constructor(private ownerRepository: OwnerRepository) {}
+  constructor(private ownerRepository: OwnerRepository) { }
 
   @IntentIgnoreBody()
   async getOwners(): Promise<OwnerDTO[]> {
@@ -27,19 +27,19 @@ export class OwnerRestService {
       city: dto.city,
       telephone: dto.telephone,
     } as Owner;
-      
+
     await this.ownerRepository.save(newOwner);
   }
 
   @IntentIgnoreBody()
   async getOwner(ownerId: number): Promise<OwnerDTO> {
-    var owner = await this.ownerRepository.findOne(ownerId, { relations: OwnerDTO.requiredRelations });
+    var owner = await this.ownerRepository.findOne({ where: { id: ownerId }, relations: OwnerDTO.requiredRelations });
     return OwnerDTO.fromOwner(owner);
   }
 
   @IntentIgnoreBody()
   async updateOwner(ownerId: number, dto: OwnerUpdateDTO): Promise<void> {
-    var existingOwner = await this.ownerRepository.findOne(ownerId);
+    var existingOwner = await this.ownerRepository.findOne({ where: { id: ownerId } });
     existingOwner.firstName = dto.firstName;
     existingOwner.lastName = dto.lastName;
     existingOwner.address = dto.address;
@@ -51,7 +51,7 @@ export class OwnerRestService {
 
   @IntentIgnoreBody()
   async deleteOwner(ownerId: number): Promise<void> {
-    var existingOwner = await this.ownerRepository.findOne(ownerId);
+    var existingOwner = await this.ownerRepository.findOneBy({ id: ownerId });
     await this.ownerRepository.remove(existingOwner);
   }
 

@@ -1,7 +1,8 @@
-import { EntityRepository, Repository } from "typeorm";
+import { Repository, EntityRepository } from "typeorm";
+import { CustomRepository } from './../typeorm/typeorm-ex.decorator';
 import { Owner } from './../domain/entities/owner.entity';
 
-@EntityRepository(Owner)
+@CustomRepository(Owner)
 export class OwnerRepository extends Repository<Owner>
 {
 

@@ -1,7 +1,6 @@
 import { Specialty } from './specialty.entity';
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable, JoinColumn } from 'typeorm';
 
-
 @Entity('vet')
 export class Vet {
   
@@ -9,13 +8,13 @@ export class Vet {
   @PrimaryGeneratedColumn()
   id: number;
   
-  @Column()
+  @Column({ length: 30 })
   firstName: string;
   
-  @Column()
+  @Column({ length: 30 })
   lastName: string;
   
-  @ManyToMany(() => Specialty)
+  @ManyToMany(() => Specialty, { cascade: ['insert', 'update'] })
   @JoinTable()
   specialties: Specialty[];
 

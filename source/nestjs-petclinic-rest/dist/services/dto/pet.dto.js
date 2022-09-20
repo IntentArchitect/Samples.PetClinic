@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PetDTO = void 0;
 const pet_visit_dto_1 = require("./pet-visit.dto");
 const swagger_1 = require("@nestjs/swagger");
+const class_transformer_1 = require("class-transformer");
 class PetDTO {
     static fromPet(pet) {
         var _a, _b, _c, _d, _e, _f;
@@ -33,39 +34,40 @@ class PetDTO {
 }
 PetDTO.requiredRelations = ["petType", "owner", "visits"];
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], PetDTO.prototype, "id", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetDTO.prototype, "name", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
+    (0, class_transformer_1.Type)(() => Date),
     __metadata("design:type", Date)
 ], PetDTO.prototype, "birthDate", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], PetDTO.prototype, "petTypeId", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetDTO.prototype, "petTypeName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], PetDTO.prototype, "ownerId", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetDTO.prototype, "ownerFirstName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetDTO.prototype, "ownerLastName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Array)
 ], PetDTO.prototype, "visits", void 0);
 exports.PetDTO = PetDTO;

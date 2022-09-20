@@ -1,25 +1,24 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
+import { get } from 'env-var';
+import { config } from 'dotenv';
+config();
 
 const commonConf = {
-  SYNCRONIZE: false,
   ENTITIES: [__dirname + '/domain/entities/*.entity{.ts,.js}'],
   MIGRATIONS: [__dirname + '/migrations/**/*{.ts,.js}'],
-  CLI: {
-    migrationsDir: 'src/migrations'
-  },
-  MIGRATIONS_RUN: true
+  MIGRATIONS_RUN: get('DB_MIGRATIONS_RUN').asBool(),
+  SYNCHRONIZE: get('DB_SYNCHRONIZE').asBool()
 };
 
-let ormconfig: TypeOrmModuleOptions = {
+const typeOrmConfig: TypeOrmModuleOptions = {
   name: 'default',
   type: 'sqlite',
   database: './target/sqlite-dev-db.sql',
   logging: true,
-  synchronize: true,
   entities: commonConf.ENTITIES,
   migrations: commonConf.MIGRATIONS,
-  cli: commonConf.CLI,
-  migrationsRun: commonConf.MIGRATIONS_RUN
+  migrationsRun: commonConf.MIGRATIONS_RUN,
+  synchronize: commonConf.SYNCHRONIZE
 };
 
 if (process.env.NODE_ENV === 'prod') {
@@ -30,4 +29,4 @@ if (process.env.NODE_ENV === 'test') {
   // your test options here
 }
 
-export { ormconfig };
+export { typeOrmConfig };

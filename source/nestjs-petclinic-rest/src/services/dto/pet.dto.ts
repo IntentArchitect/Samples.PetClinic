@@ -1,6 +1,7 @@
 import { PetVisitDTO } from './pet-visit.dto';
 import { Pet } from './../../domain/entities/pet.entity';
 import { ApiProperty } from '@nestjs/swagger';
+import { Type } from 'class-transformer';
 
 export class PetDTO
 {
@@ -11,6 +12,7 @@ export class PetDTO
   name: string;
 
   @ApiProperty()
+  @Type(() => Date)
   birthDate: Date;
 
   @ApiProperty()

@@ -41,42 +41,47 @@ let PetTypeRestController = class PetTypeRestController {
     }
 };
 __decorate([
-    common_1.Get(""),
-    __param(0, common_1.Req()),
+    (0, common_1.Get)(""),
+    __param(0, (0, common_1.Req)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "getAllPetTypes", null);
 __decorate([
-    common_1.Get(":petTypeId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('petTypeId')),
+    (0, common_1.Get)(":petTypeId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('petTypeId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "getPetType", null);
 __decorate([
-    common_1.Post(""),
-    __param(0, common_1.Req()), __param(1, common_1.Body()),
+    (0, common_1.Post)(""),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, pet_type_dto_1.PetTypeDTO]),
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "addPetType", null);
 __decorate([
-    common_1.Put(":petTypeId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('petTypeId')), __param(2, common_1.Body()),
+    (0, common_1.Put)(":petTypeId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('petTypeId')),
+    __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number, pet_type_dto_1.PetTypeDTO]),
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "updatePetType", null);
 __decorate([
-    common_1.Delete(":petTypeId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('petTypeId')),
+    (0, common_1.Delete)(":petTypeId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('petTypeId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "deletePetType", null);
 PetTypeRestController = __decorate([
-    common_1.Controller('api/pettypes'),
+    (0, common_1.Controller)('api/pettypes'),
     __metadata("design:paramtypes", [pet_type_rest_service_1.PetTypeRestService])
 ], PetTypeRestController);
 exports.PetTypeRestController = PetTypeRestController;

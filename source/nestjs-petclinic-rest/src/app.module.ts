@@ -12,7 +12,8 @@ import { PetTypeRestService } from './services/pet-type-rest.service';
 import { SpecialtyRestService } from './services/specialty-rest.service';
 import { VetRestService } from './services/vet-rest.service';
 import { VisitRestService } from './services/visit-rest.service';
-import { ormconfig } from './orm.config';
+import { typeOrmConfig } from './orm.config';
+import { TypeOrmExModule } from './typeorm/typeorm-ex.module';
 import { OwnerRepository } from './repository/owner.repository';
 import { PetRepository } from './repository/pet.repository';
 import { PetTypeRepository } from './repository/pet-type.repository';
@@ -20,11 +21,14 @@ import { SpecialtyRepository } from './repository/specialty.repository';
 import { VetRepository } from './repository/vet.repository';
 import { VisitRepository } from './repository/visit.repository';
 import { IntentIgnore, IntentMerge } from './intent/intent.decorators';
+import { ConfigModule } from '@nestjs/config';
 
 @IntentMerge()
 @Module({
   imports: [
-    TypeOrmModule.forRoot(ormconfig),
+    ConfigModule.forRoot({ isGlobal: true }),
+    TypeOrmModule.forRoot(typeOrmConfig),
+    TypeOrmExModule.forCustomRepository([OwnerRepository, PetRepository, PetTypeRepository, SpecialtyRepository, VetRepository, VisitRepository]),
     TypeOrmModule.forFeature([OwnerRepository, PetRepository, PetTypeRepository, SpecialtyRepository, VetRepository, VisitRepository])
   ],
   controllers: [

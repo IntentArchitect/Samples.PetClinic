@@ -1,4 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
+import { Type } from 'class-transformer';
 
 export class PetCreateDTO
 {
@@ -9,6 +10,7 @@ export class PetCreateDTO
   name: string;
 
   @ApiProperty()
+  @Type(() => Date)
   birthDate: Date;
 
   @ApiProperty()

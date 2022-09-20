@@ -41,42 +41,47 @@ let SpecialtyRestController = class SpecialtyRestController {
     }
 };
 __decorate([
-    common_1.Get(""),
-    __param(0, common_1.Req()),
+    (0, common_1.Get)(""),
+    __param(0, (0, common_1.Req)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestController.prototype, "getAllSpecialties", null);
 __decorate([
-    common_1.Get(":specialtyId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('specialtyId')),
+    (0, common_1.Get)(":specialtyId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('specialtyId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestController.prototype, "getSpecialty", null);
 __decorate([
-    common_1.Post(""),
-    __param(0, common_1.Req()), __param(1, common_1.Body()),
+    (0, common_1.Post)(""),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, specialty_dto_1.SpecialtyDTO]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestController.prototype, "addSpecialty", null);
 __decorate([
-    common_1.Put(":specialtyId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('specialtyId')), __param(2, common_1.Body()),
+    (0, common_1.Put)(":specialtyId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('specialtyId')),
+    __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number, specialty_dto_1.SpecialtyDTO]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestController.prototype, "updateSpecialty", null);
 __decorate([
-    common_1.Delete(":specialtyId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('specialtyId')),
+    (0, common_1.Delete)(":specialtyId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('specialtyId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestController.prototype, "deleteSpecialty", null);
 SpecialtyRestController = __decorate([
-    common_1.Controller('api/specialties'),
+    (0, common_1.Controller)('api/specialties'),
     __metadata("design:paramtypes", [specialty_rest_service_1.SpecialtyRestService])
 ], SpecialtyRestController);
 exports.SpecialtyRestController = SpecialtyRestController;

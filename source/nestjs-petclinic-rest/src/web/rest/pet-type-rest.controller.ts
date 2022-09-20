@@ -2,7 +2,6 @@ import { Controller, Logger, Get, Req, Request, Param, Post, Body, Put, Delete }
 import { PetTypeDTO } from './../../services/dto/pet-type.dto';
 import { PetTypeRestService } from './../../services/pet-type-rest.service';
 
-
 @Controller('api/pettypes')
 export class PetTypeRestController {
   logger = new Logger('PetTypeRestController');

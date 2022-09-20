@@ -23,7 +23,7 @@ let SpecialtyRestService = class SpecialtyRestService {
         return Promise.all(specialties.map(x => specialty_dto_1.SpecialtyDTO.fromSpecialty(x)));
     }
     async getSpecialty(specialtyId) {
-        var specialty = await this.specialtyRepository.findOne(specialtyId, { relations: specialty_dto_1.SpecialtyDTO.requiredRelations });
+        var specialty = await this.specialtyRepository.findOne({ where: { id: specialtyId }, relations: specialty_dto_1.SpecialtyDTO.requiredRelations });
         return specialty_dto_1.SpecialtyDTO.fromSpecialty(specialty);
     }
     async addSpecialty(dto) {
@@ -35,48 +35,48 @@ let SpecialtyRestService = class SpecialtyRestService {
         return newSpecialty.id;
     }
     async updateSpecialty(specialtyId, dto) {
-        var existingSpecialty = await this.specialtyRepository.findOne(specialtyId);
+        var existingSpecialty = await this.specialtyRepository.findOneBy({ id: specialtyId });
         existingSpecialty.id = dto.id;
         existingSpecialty.name = dto.name;
         await this.specialtyRepository.save(existingSpecialty);
     }
     async deleteSpecialty(specialtyId) {
-        var existingSpecialty = await this.specialtyRepository.findOne(specialtyId);
+        var existingSpecialty = await this.specialtyRepository.findOneBy({ id: specialtyId });
         await this.specialtyRepository.remove(existingSpecialty);
     }
 };
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestService.prototype, "getAllSpecialties", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestService.prototype, "getSpecialty", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [specialty_dto_1.SpecialtyDTO]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestService.prototype, "addSpecialty", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number, specialty_dto_1.SpecialtyDTO]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestService.prototype, "updateSpecialty", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], SpecialtyRestService.prototype, "deleteSpecialty", null);
 SpecialtyRestService = __decorate([
-    common_1.Injectable(),
+    (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [specialty_repository_1.SpecialtyRepository])
 ], SpecialtyRestService);
 exports.SpecialtyRestService = SpecialtyRestService;

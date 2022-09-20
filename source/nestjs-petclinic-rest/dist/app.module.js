@@ -22,6 +22,7 @@ const specialty_rest_service_1 = require("./services/specialty-rest.service");
 const vet_rest_service_1 = require("./services/vet-rest.service");
 const visit_rest_service_1 = require("./services/visit-rest.service");
 const orm_config_1 = require("./orm.config");
+const typeorm_ex_module_1 = require("./typeorm/typeorm-ex.module");
 const owner_repository_1 = require("./repository/owner.repository");
 const pet_repository_1 = require("./repository/pet.repository");
 const pet_type_repository_1 = require("./repository/pet-type.repository");
@@ -29,13 +30,16 @@ const specialty_repository_1 = require("./repository/specialty.repository");
 const vet_repository_1 = require("./repository/vet.repository");
 const visit_repository_1 = require("./repository/visit.repository");
 const intent_decorators_1 = require("./intent/intent.decorators");
+const config_1 = require("@nestjs/config");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
-    intent_decorators_1.IntentMerge(),
-    common_1.Module({
+    (0, intent_decorators_1.IntentMerge)(),
+    (0, common_1.Module)({
         imports: [
-            typeorm_1.TypeOrmModule.forRoot(orm_config_1.ormconfig),
+            config_1.ConfigModule.forRoot({ isGlobal: true }),
+            typeorm_1.TypeOrmModule.forRoot(orm_config_1.typeOrmConfig),
+            typeorm_ex_module_1.TypeOrmExModule.forCustomRepository([owner_repository_1.OwnerRepository, pet_repository_1.PetRepository, pet_type_repository_1.PetTypeRepository, specialty_repository_1.SpecialtyRepository, vet_repository_1.VetRepository, visit_repository_1.VisitRepository]),
             typeorm_1.TypeOrmModule.forFeature([owner_repository_1.OwnerRepository, pet_repository_1.PetRepository, pet_type_repository_1.PetTypeRepository, specialty_repository_1.SpecialtyRepository, vet_repository_1.VetRepository, visit_repository_1.VisitRepository])
         ],
         controllers: [

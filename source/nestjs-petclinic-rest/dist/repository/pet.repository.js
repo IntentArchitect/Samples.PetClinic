@@ -8,11 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PetRepository = void 0;
 const typeorm_1 = require("typeorm");
+const typeorm_ex_decorator_1 = require("./../typeorm/typeorm-ex.decorator");
 const pet_entity_1 = require("./../domain/entities/pet.entity");
 let PetRepository = class PetRepository extends typeorm_1.Repository {
 };
 PetRepository = __decorate([
-    typeorm_1.EntityRepository(pet_entity_1.Pet)
+    (0, typeorm_ex_decorator_1.CustomRepository)(pet_entity_1.Pet)
 ], PetRepository);
 exports.PetRepository = PetRepository;
 //# sourceMappingURL=pet.repository.js.map

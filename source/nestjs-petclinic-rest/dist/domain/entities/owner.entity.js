@@ -15,52 +15,52 @@ const typeorm_1 = require("typeorm");
 let Owner = class Owner {
 };
 __decorate([
-    typeorm_1.ObjectIdColumn(),
-    typeorm_1.PrimaryGeneratedColumn(),
+    (0, typeorm_1.ObjectIdColumn)(),
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Owner.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 30 }),
     __metadata("design:type", String)
 ], Owner.prototype, "firstName", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 30 }),
     __metadata("design:type", String)
 ], Owner.prototype, "lastName", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 255 }),
     __metadata("design:type", String)
 ], Owner.prototype, "address", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 80 }),
     __metadata("design:type", String)
 ], Owner.prototype, "city", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 20 }),
     __metadata("design:type", String)
 ], Owner.prototype, "telephone", void 0);
 __decorate([
-    typeorm_1.OneToMany(() => pet_entity_1.Pet, pets => pets.owner),
+    (0, typeorm_1.OneToMany)(() => pet_entity_1.Pet, pets => pets.owner, { cascade: true }),
     __metadata("design:type", Array)
 ], Owner.prototype, "pets", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Owner.prototype, "createdBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Owner.prototype, "createdDate", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Owner.prototype, "lastModifiedBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Owner.prototype, "lastModifiedDate", void 0);
 Owner = __decorate([
-    typeorm_1.Entity('owner')
+    (0, typeorm_1.Entity)('owner')
 ], Owner);
 exports.Owner = Owner;
 //# sourceMappingURL=owner.entity.js.map

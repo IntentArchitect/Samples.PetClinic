@@ -11,18 +11,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PetUpdateDTO = void 0;
 const swagger_1 = require("@nestjs/swagger");
+const class_transformer_1 = require("class-transformer");
 class PetUpdateDTO {
 }
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetUpdateDTO.prototype, "name", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
+    (0, class_transformer_1.Type)(() => Date),
     __metadata("design:type", Date)
 ], PetUpdateDTO.prototype, "birthDate", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], PetUpdateDTO.prototype, "petTypeId", void 0);
 exports.PetUpdateDTO = PetUpdateDTO;

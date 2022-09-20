@@ -14,32 +14,32 @@ const typeorm_1 = require("typeorm");
 let PetType = class PetType {
 };
 __decorate([
-    typeorm_1.ObjectIdColumn(),
-    typeorm_1.PrimaryGeneratedColumn(),
+    (0, typeorm_1.ObjectIdColumn)(),
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], PetType.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 80 }),
     __metadata("design:type", String)
 ], PetType.prototype, "name", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], PetType.prototype, "createdBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], PetType.prototype, "createdDate", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], PetType.prototype, "lastModifiedBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], PetType.prototype, "lastModifiedDate", void 0);
 PetType = __decorate([
-    typeorm_1.Entity('pet_type')
+    (0, typeorm_1.Entity)('pet_type')
 ], PetType);
 exports.PetType = PetType;
 //# sourceMappingURL=pet-type.entity.js.map

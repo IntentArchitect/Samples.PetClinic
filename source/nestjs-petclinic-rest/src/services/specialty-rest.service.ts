@@ -8,7 +8,7 @@ import { Specialty } from './../domain/entities/specialty.entity';
 export class SpecialtyRestService {
 
   //@IntentCanAdd()
-  constructor(private specialtyRepository: SpecialtyRepository) {}
+  constructor(private specialtyRepository: SpecialtyRepository) { }
 
   @IntentIgnoreBody()
   async getAllSpecialties(): Promise<SpecialtyDTO[]> {
@@ -18,7 +18,7 @@ export class SpecialtyRestService {
 
   @IntentIgnoreBody()
   async getSpecialty(specialtyId: number): Promise<SpecialtyDTO> {
-    var specialty = await this.specialtyRepository.findOne(specialtyId, { relations: SpecialtyDTO.requiredRelations });
+    var specialty = await this.specialtyRepository.findOne({ where: { id: specialtyId }, relations: SpecialtyDTO.requiredRelations });
     return SpecialtyDTO.fromSpecialty(specialty);
   }
 
@@ -28,14 +28,14 @@ export class SpecialtyRestService {
       id: dto.id,
       name: dto.name,
     } as Specialty;
-      
+
     await this.specialtyRepository.save(newSpecialty);
     return newSpecialty.id;
   }
 
   @IntentIgnoreBody()
   async updateSpecialty(specialtyId: number, dto: SpecialtyDTO): Promise<void> {
-    var existingSpecialty = await this.specialtyRepository.findOne(specialtyId);
+    var existingSpecialty = await this.specialtyRepository.findOneBy({ id: specialtyId });
     existingSpecialty.id = dto.id;
     existingSpecialty.name = dto.name;
 
@@ -44,7 +44,7 @@ export class SpecialtyRestService {
 
   @IntentIgnoreBody()
   async deleteSpecialty(specialtyId: number): Promise<void> {
-    var existingSpecialty = await this.specialtyRepository.findOne(specialtyId);
+    var existingSpecialty = await this.specialtyRepository.findOneBy({ id: specialtyId });
     await this.specialtyRepository.remove(existingSpecialty);
   }
 }

@@ -14,15 +14,15 @@ const swagger_1 = require("@nestjs/swagger");
 class VetUpdateDTO {
 }
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], VetUpdateDTO.prototype, "firstName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], VetUpdateDTO.prototype, "lastName", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Array)
 ], VetUpdateDTO.prototype, "specialties", void 0);
 exports.VetUpdateDTO = VetUpdateDTO;

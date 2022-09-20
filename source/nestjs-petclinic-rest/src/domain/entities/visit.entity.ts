@@ -1,7 +1,6 @@
 import { Pet } from './pet.entity';
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 
-
 @Entity('visit')
 export class Visit {
   
@@ -15,7 +14,7 @@ export class Visit {
   @Column()
   description: string;
   
-  @ManyToOne(() => Pet, pet => pet.visits)
+  @ManyToOne(() => Pet, pet => pet.visits, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' })
   pet: Pet;
 
   @Column({ nullable: true })

@@ -1,6 +1,5 @@
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column } from 'typeorm';
 
-
 @Entity('pet_type')
 export class PetType {
   
@@ -8,7 +7,7 @@ export class PetType {
   @PrimaryGeneratedColumn()
   id: number;
   
-  @Column()
+  @Column({ length: 80 })
   name: string;
 
   @Column({ nullable: true })

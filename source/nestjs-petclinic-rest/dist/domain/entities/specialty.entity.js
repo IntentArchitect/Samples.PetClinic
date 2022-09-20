@@ -14,32 +14,32 @@ const typeorm_1 = require("typeorm");
 let Specialty = class Specialty {
 };
 __decorate([
-    typeorm_1.ObjectIdColumn(),
-    typeorm_1.PrimaryGeneratedColumn(),
+    (0, typeorm_1.ObjectIdColumn)(),
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Specialty.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)({ length: 80 }),
     __metadata("design:type", String)
 ], Specialty.prototype, "name", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Specialty.prototype, "createdBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Specialty.prototype, "createdDate", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Specialty.prototype, "lastModifiedBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Specialty.prototype, "lastModifiedDate", void 0);
 Specialty = __decorate([
-    typeorm_1.Entity('specialty')
+    (0, typeorm_1.Entity)('specialty')
 ], Specialty);
 exports.Specialty = Specialty;
 //# sourceMappingURL=specialty.entity.js.map

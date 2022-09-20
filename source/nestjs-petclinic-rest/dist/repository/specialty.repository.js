@@ -8,11 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SpecialtyRepository = void 0;
 const typeorm_1 = require("typeorm");
+const typeorm_ex_decorator_1 = require("./../typeorm/typeorm-ex.decorator");
 const specialty_entity_1 = require("./../domain/entities/specialty.entity");
 let SpecialtyRepository = class SpecialtyRepository extends typeorm_1.Repository {
 };
 SpecialtyRepository = __decorate([
-    typeorm_1.EntityRepository(specialty_entity_1.Specialty)
+    (0, typeorm_ex_decorator_1.CustomRepository)(specialty_entity_1.Specialty)
 ], SpecialtyRepository);
 exports.SpecialtyRepository = SpecialtyRepository;
 //# sourceMappingURL=specialty.repository.js.map

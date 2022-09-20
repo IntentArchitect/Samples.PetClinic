@@ -45,49 +45,55 @@ let OwnerRestController = class OwnerRestController {
     }
 };
 __decorate([
-    common_1.Get(""),
-    __param(0, common_1.Req()),
+    (0, common_1.Get)(""),
+    __param(0, (0, common_1.Req)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], OwnerRestController.prototype, "getOwners", null);
 __decorate([
-    common_1.Post(""),
-    __param(0, common_1.Req()), __param(1, common_1.Body()),
+    (0, common_1.Post)(""),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, owner_create_dto_1.OwnerCreateDTO]),
     __metadata("design:returntype", Promise)
 ], OwnerRestController.prototype, "addOwner", null);
 __decorate([
-    common_1.Get(":ownerId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('ownerId')),
+    (0, common_1.Get)(":ownerId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('ownerId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], OwnerRestController.prototype, "getOwner", null);
 __decorate([
-    common_1.Put(":ownerId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('ownerId')), __param(2, common_1.Body()),
+    (0, common_1.Put)(":ownerId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('ownerId')),
+    __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number, owner_update_dto_1.OwnerUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], OwnerRestController.prototype, "updateOwner", null);
 __decorate([
-    common_1.Delete(":ownerId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('ownerId')),
+    (0, common_1.Delete)(":ownerId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('ownerId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], OwnerRestController.prototype, "deleteOwner", null);
 __decorate([
-    common_1.Get("*/lastname/:lastName"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('lastName')),
+    (0, common_1.Get)("*/lastname/:lastName"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('lastName')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], OwnerRestController.prototype, "getOwnersList", null);
 OwnerRestController = __decorate([
-    common_1.Controller('api/owners'),
+    (0, common_1.Controller)('api/owners'),
     __metadata("design:paramtypes", [owner_rest_service_1.OwnerRestService])
 ], OwnerRestController);
 exports.OwnerRestController = OwnerRestController;

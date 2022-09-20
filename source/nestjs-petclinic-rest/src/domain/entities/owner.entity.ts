@@ -1,7 +1,6 @@
 import { Pet } from './pet.entity';
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
 
-
 @Entity('owner')
 export class Owner {
   
@@ -9,22 +8,22 @@ export class Owner {
   @PrimaryGeneratedColumn()
   id: number;
   
-  @Column()
+  @Column({ length: 30 })
   firstName: string;
   
-  @Column()
+  @Column({ length: 30 })
   lastName: string;
   
-  @Column()
+  @Column({ length: 255 })
   address: string;
   
-  @Column()
+  @Column({ length: 80 })
   city: string;
   
-  @Column()
+  @Column({ length: 20 })
   telephone: string;
   
-  @OneToMany(() => Pet, pets => pets.owner)
+  @OneToMany(() => Pet, pets => pets.owner, { cascade: true })
   pets: Pet[];
 
   @Column({ nullable: true })

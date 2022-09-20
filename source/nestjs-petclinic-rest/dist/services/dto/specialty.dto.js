@@ -24,11 +24,11 @@ class SpecialtyDTO {
 }
 SpecialtyDTO.requiredRelations = [];
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], SpecialtyDTO.prototype, "id", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], SpecialtyDTO.prototype, "name", void 0);
 exports.SpecialtyDTO = SpecialtyDTO;

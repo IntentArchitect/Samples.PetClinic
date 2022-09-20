@@ -1,7 +1,8 @@
-import { EntityRepository, Repository } from "typeorm";
+import { Repository, EntityRepository } from "typeorm";
+import { CustomRepository } from './../typeorm/typeorm-ex.decorator';
 import { Vet } from './../domain/entities/vet.entity';
 
-@EntityRepository(Vet)
+@CustomRepository(Vet)
 export class VetRepository extends Repository<Vet>
 {
 

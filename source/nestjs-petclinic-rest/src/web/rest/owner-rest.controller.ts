@@ -4,7 +4,6 @@ import { OwnerCreateDTO } from './../../services/dto/owner-create.dto';
 import { OwnerUpdateDTO } from './../../services/dto/owner-update.dto';
 import { OwnerRestService } from './../../services/owner-rest.service';
 
-
 @Controller('api/owners')
 export class OwnerRestController {
   logger = new Logger('OwnerRestController');

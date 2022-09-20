@@ -2,7 +2,6 @@ import { Controller, Logger, Get, Req, Request, Param, Post, Body, Put, Delete }
 import { SpecialtyDTO } from './../../services/dto/specialty.dto';
 import { SpecialtyRestService } from './../../services/specialty-rest.service';
 
-
 @Controller('api/specialties')
 export class SpecialtyRestController {
   logger = new Logger('SpecialtyRestController');

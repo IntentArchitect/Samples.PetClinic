@@ -11,29 +11,29 @@ import { PetRepository } from 'src/repository/pet.repository';
 export class VisitRestService {
 
   //@IntentCanAdd()
-  constructor(private visitRepository: VisitRepository, private petRepository: PetRepository) {}
+  constructor(private visitRepository: VisitRepository, private petRepository: PetRepository) { }
 
   @IntentIgnoreBody()
   async getVisit(visitId: number): Promise<VisitDTO> {
-    var visit = await this.visitRepository.findOne(visitId, { relations: VisitDTO.requiredRelations });
+    var visit = await this.visitRepository.findOne({ where: { id: visitId }, relations: VisitDTO.requiredRelations });
     return VisitDTO.fromVisit(visit);
   }
 
   @IntentIgnoreBody()
   async addVisit(dto: VisitCreateDTO): Promise<void> {
-    var pet = await this.petRepository.findOne(dto.petId);
+    var pet = await this.petRepository.findOneBy({ id: dto.petId });
     var newVisit = {
       pet: pet,
       visitDate: dto.visitDate,
       description: dto.description,
     } as Visit;
-      
+
     await this.visitRepository.save(newVisit);
   }
 
   @IntentIgnoreBody()
   async updateVisit(visitId: number, dto: VisitUpdateDTO): Promise<void> {
-    var existingVisit = await this.visitRepository.findOne(visitId);
+    var existingVisit = await this.visitRepository.findOneBy({ id: visitId });
     existingVisit.visitDate = dto.visitDate;
     existingVisit.description = dto.description;
 
@@ -42,7 +42,7 @@ export class VisitRestService {
 
   @IntentIgnoreBody()
   async deleteVisit(visitId: number): Promise<void> {
-    var existingVisit = await this.visitRepository.findOne(visitId);
+    var existingVisit = await this.visitRepository.findOneBy({ id: visitId });
     await this.visitRepository.remove(existingVisit);
   }
 }

@@ -15,40 +15,40 @@ const typeorm_1 = require("typeorm");
 let Visit = class Visit {
 };
 __decorate([
-    typeorm_1.ObjectIdColumn(),
-    typeorm_1.PrimaryGeneratedColumn(),
+    (0, typeorm_1.ObjectIdColumn)(),
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Visit.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)(),
     __metadata("design:type", Date)
 ], Visit.prototype, "visitDate", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)(),
     __metadata("design:type", String)
 ], Visit.prototype, "description", void 0);
 __decorate([
-    typeorm_1.ManyToOne(() => pet_entity_1.Pet, pet => pet.visits),
+    (0, typeorm_1.ManyToOne)(() => pet_entity_1.Pet, pet => pet.visits, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' }),
     __metadata("design:type", pet_entity_1.Pet)
 ], Visit.prototype, "pet", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Visit.prototype, "createdBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Visit.prototype, "createdDate", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", String)
 ], Visit.prototype, "lastModifiedBy", void 0);
 __decorate([
-    typeorm_1.Column({ nullable: true }),
+    (0, typeorm_1.Column)({ nullable: true }),
     __metadata("design:type", Date)
 ], Visit.prototype, "lastModifiedDate", void 0);
 Visit = __decorate([
-    typeorm_1.Entity('visit')
+    (0, typeorm_1.Entity)('visit')
 ], Visit);
 exports.Visit = Visit;
 //# sourceMappingURL=visit.entity.js.map

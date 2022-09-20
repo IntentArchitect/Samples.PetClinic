@@ -4,7 +4,6 @@ import { VisitCreateDTO } from './../../services/dto/visit-create.dto';
 import { VisitUpdateDTO } from './../../services/dto/visit-update.dto';
 import { VisitRestService } from './../../services/visit-rest.service';
 
-
 @Controller('api/visits')
 export class VisitRestController {
   logger = new Logger('VisitRestController');

@@ -1,6 +1,5 @@
 import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column } from 'typeorm';
 
-
 @Entity('specialty')
 export class Specialty {
   
@@ -8,7 +7,7 @@ export class Specialty {
   @PrimaryGeneratedColumn()
   id: number;
   
-  @Column()
+  @Column({ length: 80 })
   name: string;
 
   @Column({ nullable: true })

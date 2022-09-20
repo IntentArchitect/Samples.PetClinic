@@ -24,11 +24,11 @@ class PetTypeDTO {
 }
 PetTypeDTO.requiredRelations = [];
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], PetTypeDTO.prototype, "id", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], PetTypeDTO.prototype, "name", void 0);
 exports.PetTypeDTO = PetTypeDTO;

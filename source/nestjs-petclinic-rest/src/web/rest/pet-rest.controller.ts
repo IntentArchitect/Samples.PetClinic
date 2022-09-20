@@ -4,7 +4,6 @@ import { PetCreateDTO } from './../../services/dto/pet-create.dto';
 import { PetUpdateDTO } from './../../services/dto/pet-update.dto';
 import { PetRestService } from './../../services/pet-rest.service';
 
-
 @Controller('api/pets')
 export class PetRestController {
   logger = new Logger('PetRestController');

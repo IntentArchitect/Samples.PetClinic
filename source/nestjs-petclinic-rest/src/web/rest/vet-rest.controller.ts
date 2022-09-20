@@ -4,7 +4,6 @@ import { VetCreateDTO } from './../../services/dto/vet-create.dto';
 import { VetUpdateDTO } from './../../services/dto/vet-update.dto';
 import { VetRestService } from './../../services/vet-rest.service';
 
-
 @Controller('api/vets')
 export class VetRestController {
   logger = new Logger('VetRestController');

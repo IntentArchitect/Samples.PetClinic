@@ -37,35 +37,40 @@ let PetRestController = class PetRestController {
     }
 };
 __decorate([
-    common_1.Get(":petId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('petId')),
+    (0, common_1.Get)(":petId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('petId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "getPet", null);
 __decorate([
-    common_1.Post(""),
-    __param(0, common_1.Req()), __param(1, common_1.Body()),
+    (0, common_1.Post)(""),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, pet_create_dto_1.PetCreateDTO]),
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "addPet", null);
 __decorate([
-    common_1.Put(":petId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('petId')), __param(2, common_1.Body()),
+    (0, common_1.Put)(":petId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('petId')),
+    __param(2, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number, pet_update_dto_1.PetUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "updatePet", null);
 __decorate([
-    common_1.Delete(":petId"),
-    __param(0, common_1.Req()), __param(1, common_1.Param('petId')),
+    (0, common_1.Delete)(":petId"),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Param)('petId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, Number]),
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "deletePet", null);
 PetRestController = __decorate([
-    common_1.Controller('api/pets'),
+    (0, common_1.Controller)('api/pets'),
     __metadata("design:paramtypes", [pet_rest_service_1.PetRestService])
 ], PetRestController);
 exports.PetRestController = PetRestController;

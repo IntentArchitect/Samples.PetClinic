@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.VisitDTO = void 0;
 const pet_dto_1 = require("./pet.dto");
 const swagger_1 = require("@nestjs/swagger");
+const class_transformer_1 = require("class-transformer");
 class VisitDTO {
     static fromVisit(visit) {
         var _a, _b;
@@ -29,23 +30,24 @@ class VisitDTO {
 }
 VisitDTO.requiredRelations = ["pet", "pet.petType", "pet.owner", "pet.visits"];
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], VisitDTO.prototype, "id", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
+    (0, class_transformer_1.Type)(() => Date),
     __metadata("design:type", Date)
 ], VisitDTO.prototype, "visitDate", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", String)
 ], VisitDTO.prototype, "description", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", pet_dto_1.PetDTO)
 ], VisitDTO.prototype, "pet", void 0);
 __decorate([
-    swagger_1.ApiProperty(),
+    (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Number)
 ], VisitDTO.prototype, "ownerId", void 0);
 exports.VisitDTO = VisitDTO;

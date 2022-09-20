@@ -35,11 +35,11 @@ let OwnerRestService = class OwnerRestService {
         await this.ownerRepository.save(newOwner);
     }
     async getOwner(ownerId) {
-        var owner = await this.ownerRepository.findOne(ownerId, { relations: owner_dto_1.OwnerDTO.requiredRelations });
+        var owner = await this.ownerRepository.findOne({ where: { id: ownerId }, relations: owner_dto_1.OwnerDTO.requiredRelations });
         return owner_dto_1.OwnerDTO.fromOwner(owner);
     }
     async updateOwner(ownerId, dto) {
-        var existingOwner = await this.ownerRepository.findOne(ownerId);
+        var existingOwner = await this.ownerRepository.findOne({ where: { id: ownerId } });
         existingOwner.firstName = dto.firstName;
         existingOwner.lastName = dto.lastName;
         existingOwner.address = dto.address;
@@ -48,7 +48,7 @@ let OwnerRestService = class OwnerRestService {
         await this.ownerRepository.save(existingOwner);
     }
     async deleteOwner(ownerId) {
-        var existingOwner = await this.ownerRepository.findOne(ownerId);
+        var existingOwner = await this.ownerRepository.findOneBy({ id: ownerId });
         await this.ownerRepository.remove(existingOwner);
     }
     async getOwnersList(lastName) {
@@ -56,43 +56,43 @@ let OwnerRestService = class OwnerRestService {
     }
 };
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
 ], OwnerRestService.prototype, "getOwners", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [owner_create_dto_1.OwnerCreateDTO]),
     __metadata("design:returntype", Promise)
 ], OwnerRestService.prototype, "addOwner", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], OwnerRestService.prototype, "getOwner", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number, owner_update_dto_1.OwnerUpdateDTO]),
     __metadata("design:returntype", Promise)
 ], OwnerRestService.prototype, "updateOwner", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], OwnerRestService.prototype, "deleteOwner", null);
 __decorate([
-    intent_decorators_1.IntentIgnoreBody(),
+    (0, intent_decorators_1.IntentIgnoreBody)(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
 ], OwnerRestService.prototype, "getOwnersList", null);
 OwnerRestService = __decorate([
-    common_1.Injectable(),
+    (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [owner_repository_1.OwnerRepository])
 ], OwnerRestService);
 exports.OwnerRestService = OwnerRestService;
