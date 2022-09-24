@@ -1,5 +1,4 @@
 package com.spring_petclinic.spring_petclinic_rest.domain.models;
-
 import com.spring_petclinic.spring_petclinic_rest.intent.IntentManageClass;
 import com.spring_petclinic.spring_petclinic_rest.intent.Mode;
 import java.util.List;
@@ -12,10 +11,18 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.CascadeType;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import javax.persistence.FetchType;
+
 
 
 @Entity
 @Table(name = "pets")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Pet extends AbstractEntity {
     private static final long serialVersionUID = 1L;
@@ -26,54 +33,14 @@ public class Pet extends AbstractEntity {
     @Column(name = "birth_date", nullable = false)
     private LocalDate birthDate;
 
-    @ManyToOne(optional = false, cascade = { CascadeType.ALL })
+    @ManyToOne(optional = false, cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
     @JoinColumn(name="pet_type_id", nullable = false)
     private PetType petType;
 
-    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="pet", orphanRemoval = true)
+    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="pet", orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Visit> visits;
 
-    @ManyToOne(optional = false, cascade = { CascadeType.ALL })
+    @ManyToOne(optional = false, cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
     @JoinColumn(name="owner_id", nullable = false)
     private Owner owner;
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public LocalDate getBirthDate() {
-        return this.birthDate;
-    }
-
-    public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
-    }
-
-    public PetType getPetType() {
-        return this.petType;
-    }
-
-    public void setPetType(PetType petType) {
-        this.petType = petType;
-    }
-
-    public List<Visit> getVisits() {
-        return this.visits;
-    }
-
-    public void setVisits(List<Visit> visits) {
-        this.visits = visits;
-    }
-
-    public Owner getOwner() {
-        return this.owner;
-    }
-
-    public void setOwner(Owner owner) {
-        this.owner = owner;
-    }
 }

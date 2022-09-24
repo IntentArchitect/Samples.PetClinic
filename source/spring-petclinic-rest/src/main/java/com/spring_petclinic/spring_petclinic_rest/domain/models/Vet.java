@@ -1,5 +1,4 @@
 package com.spring_petclinic.spring_petclinic_rest.domain.models;
-
 import com.spring_petclinic.spring_petclinic_rest.intent.IntentManageClass;
 import com.spring_petclinic.spring_petclinic_rest.intent.Mode;
 import java.util.List;
@@ -11,10 +10,18 @@ import javax.persistence.JoinTable;
 import javax.persistence.JoinColumn;
 import javax.persistence.CascadeType;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import javax.persistence.FetchType;
+
 
 
 @Entity
 @Table(name = "vets")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Vet extends AbstractEntity {
     private static final long serialVersionUID = 1L;
@@ -25,35 +32,11 @@ public class Vet extends AbstractEntity {
     @Column(name = "last_name", length = 30, nullable = false)
     private String lastName;
 
-    @ManyToMany(cascade = { CascadeType.ALL })
+    @ManyToMany(cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
     @JoinTable(
             name = "vet_specialties",
             joinColumns = { @JoinColumn(name = "vet_id") },
             inverseJoinColumns = { @JoinColumn(name = "specialty_id") }
     )
     private List<Specialty> specialties;
-
-    public String getFirstName() {
-        return this.firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return this.lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public List<Specialty> getSpecialties() {
-        return this.specialties;
-    }
-
-    public void setSpecialties(List<Specialty> specialties) {
-        this.specialties = specialties;
-    }
 }

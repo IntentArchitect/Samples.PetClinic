@@ -54,5 +54,19 @@
       </metadata>
       <childElements />
     </childElement>
+    <childElement id="cf90d0f2-992e-48ca-b084-d2e3e371e3f8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.NodeJS.NestJS.Controllers.JsonResponse</name>
+      <display>Intent.NodeJS.NestJS.Controllers.JsonResponse</display>
+      <externalReference>Intent.NodeJS.NestJS.Controllers</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>17674e94-c04b-46e8-9fe8-8ddf183851ee</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

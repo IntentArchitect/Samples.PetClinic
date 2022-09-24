@@ -1,5 +1,4 @@
 package com.spring_petclinic.spring_petclinic_rest.domain.models;
-
 import com.spring_petclinic.spring_petclinic_rest.intent.IntentManageClass;
 import com.spring_petclinic.spring_petclinic_rest.intent.Mode;
 import java.util.List;
@@ -9,10 +8,18 @@ import javax.persistence.Column;
 import javax.persistence.OneToMany;
 import javax.persistence.CascadeType;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import javax.persistence.FetchType;
+
 
 
 @Entity
 @Table(name = "owners")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Owner extends AbstractEntity {
     private static final long serialVersionUID = 1L;
@@ -32,54 +39,6 @@ public class Owner extends AbstractEntity {
     @Column(name = "telephone", length = 20, nullable = false)
     private String telephone;
 
-    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="owner", orphanRemoval = true)
+    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="owner", orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Pet> pets;
-
-    public String getFirstName() {
-        return this.firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return this.lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getAddress() {
-        return this.address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getCity() {
-        return this.city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getTelephone() {
-        return this.telephone;
-    }
-
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
-    }
-
-    public List<Pet> getPets() {
-        return this.pets;
-    }
-
-    public void setPets(List<Pet> pets) {
-        this.pets = pets;
-    }
 }

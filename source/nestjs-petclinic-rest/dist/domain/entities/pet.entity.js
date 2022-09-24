@@ -34,7 +34,7 @@ __decorate([
     __metadata("design:type", pet_type_entity_1.PetType)
 ], Pet.prototype, "petType", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => visit_entity_1.Visit, visits => visits.pet, { cascade: true }),
+    (0, typeorm_1.OneToMany)(() => visit_entity_1.Visit, visits => visits.pet, { cascade: true, eager: true }),
     __metadata("design:type", Array)
 ], Pet.prototype, "visits", void 0);
 __decorate([

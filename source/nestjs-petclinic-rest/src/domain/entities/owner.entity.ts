@@ -23,7 +23,7 @@ export class Owner {
   @Column({ length: 20 })
   telephone: string;
   
-  @OneToMany(() => Pet, pets => pets.owner, { cascade: true })
+  @OneToMany(() => Pet, pets => pets.owner, { cascade: true, eager: true })
   pets: Pet[];
 
   @Column({ nullable: true })

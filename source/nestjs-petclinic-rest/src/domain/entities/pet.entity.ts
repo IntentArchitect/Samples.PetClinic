@@ -19,7 +19,7 @@ export class Pet {
   @ManyToOne(() => PetType, { cascade: ['insert', 'update'], nullable: false })
   petType: PetType;
   
-  @OneToMany(() => Visit, visits => visits.pet, { cascade: true })
+  @OneToMany(() => Visit, visits => visits.pet, { cascade: true, eager: true })
   visits: Visit[];
   
   @ManyToOne(() => Owner, owner => owner.pets, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' })
