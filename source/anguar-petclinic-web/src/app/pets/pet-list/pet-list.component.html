@@ -10,7 +10,7 @@
               <dt>Birth Date</dt>
               <dd>{{ pet.birthDate }}</dd>
               <dt>Type</dt>
-              <dd *ngIf="!deleteSuccess">{{ pet.petTypeName }}</dd>
+              <dd>{{ pet.petTypeName }}</dd>
               <span intent-manage="" intent-id="022e3f5d-a56d-4007-ad64-0feed594e74a">
                 <button class="btn btn-default" type="button" (click)="goToEdit(pet.id)">Edit Pet</button>
               </span>

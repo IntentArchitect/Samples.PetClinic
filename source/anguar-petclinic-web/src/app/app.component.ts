@@ -7,6 +7,8 @@ import { IntentIgnore } from './intent/intent.decorators';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  @IntentIgnore()
+  isCollapsed: boolean = true;
 
   //@IntentCanAdd()
   constructor() { }

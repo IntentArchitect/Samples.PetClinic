@@ -21,9 +21,9 @@ export class OwnerListComponent implements OnInit {
       .subscribe(result => this.owners = result);
   }
 
-  @IntentManage()
+  @IntentIgnoreBody()
   onSelected(ownerId: number): void {
-    // write your business logic here for this command
+    this.router.navigate(["owners", ownerId]);
   }
 
   @IntentManage()
