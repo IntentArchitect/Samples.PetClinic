@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { OwnerForm } from './../models/owner-form.model';
 import { IntentIgnore, IntentIgnoreBody, IntentManage, IntentMerge } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
-import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import { OwnersService } from 'src/app/api-access/owners-service.service';
 
 @Component({

@@ -1,7 +1,7 @@
-import { FormGroup, FormControl, FormArray } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormControl, FormArray } from '@angular/forms';
 import { OwnerDTO } from './../../api-access/models/owner.dto';
 
-export class OwnerForm extends FormGroup {
+export class OwnerForm extends UntypedFormGroup {
   public static createEmpty(): OwnerForm {
     return new OwnerForm({
       id: null,
@@ -33,12 +33,12 @@ export class OwnerForm extends FormGroup {
     telephone: string;
   }) {
     super({
-      id: new FormControl(initialValue.id),
-      firstName: new FormControl(initialValue.firstName),
-      lastName: new FormControl(initialValue.lastName),
-      address: new FormControl(initialValue.address),
-      city: new FormControl(initialValue.city),
-      telephone: new FormControl(initialValue.telephone),
+      id: new UntypedFormControl(initialValue.id),
+      firstName: new UntypedFormControl(initialValue.firstName),
+      lastName: new UntypedFormControl(initialValue.lastName),
+      address: new UntypedFormControl(initialValue.address),
+      city: new UntypedFormControl(initialValue.city),
+      telephone: new UntypedFormControl(initialValue.telephone),
     });
   }
 

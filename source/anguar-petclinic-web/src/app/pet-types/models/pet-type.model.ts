@@ -1,7 +1,7 @@
-import { FormGroup, FormControl, FormArray } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormControl, FormArray } from '@angular/forms';
 import { PetTypeDTO } from './../../api-access/models/pet-type.dto';
 
-export class PetTypeModel extends FormGroup {
+export class PetTypeModel extends UntypedFormGroup {
   public static createEmpty(): PetTypeModel {
     return new PetTypeModel({
       id: null,
@@ -21,8 +21,8 @@ export class PetTypeModel extends FormGroup {
     name: string;
   }) {
     super({
-      id: new FormControl(initialValue.id),
-      name: new FormControl(initialValue.name),
+      id: new UntypedFormControl(initialValue.id),
+      name: new UntypedFormControl(initialValue.name),
     });
   }
 

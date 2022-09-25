@@ -1,6 +1,6 @@
-import { FormGroup, FormControl, FormArray } from '@angular/forms';import { VetDTO } from './../../api-access/models/vet.dto';
+import { UntypedFormGroup, UntypedFormControl, FormArray } from '@angular/forms';import { VetDTO } from './../../api-access/models/vet.dto';
 
-export class VetFormModel extends FormGroup {
+export class VetFormModel extends UntypedFormGroup {
   public static createEmpty(): VetFormModel {
     return new VetFormModel({
       id: null,
@@ -26,10 +26,10 @@ export class VetFormModel extends FormGroup {
     specialties: number[];
   }) {
     super({
-      id: new FormControl(initialValue.id),
-      firstName: new FormControl(initialValue.firstName),
-      lastName: new FormControl(initialValue.lastName),
-      specialties: new FormControl(initialValue.specialties),
+      id: new UntypedFormControl(initialValue.id),
+      firstName: new UntypedFormControl(initialValue.firstName),
+      lastName: new UntypedFormControl(initialValue.lastName),
+      specialties: new UntypedFormControl(initialValue.specialties),
     });
   }
 

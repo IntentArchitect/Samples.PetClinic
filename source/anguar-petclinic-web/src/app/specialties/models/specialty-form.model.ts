@@ -1,7 +1,7 @@
-import { FormGroup, FormControl, FormArray } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormControl, FormArray } from '@angular/forms';
 import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
 
-export class SpecialtyFormModel extends FormGroup {
+export class SpecialtyFormModel extends UntypedFormGroup {
   public static createEmpty(): SpecialtyFormModel {
     return new SpecialtyFormModel({
       id: null,
@@ -21,8 +21,8 @@ export class SpecialtyFormModel extends FormGroup {
     name: string;
   }) {
     super({
-      id: new FormControl(initialValue.id),
-      name: new FormControl(initialValue.name),
+      id: new UntypedFormControl(initialValue.id),
+      name: new UntypedFormControl(initialValue.name),
     });
   }
 
