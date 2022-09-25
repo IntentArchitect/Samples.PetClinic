@@ -3,7 +3,7 @@
   <name>shared</name>
   <display>shared</display>
   <isAbstract>false</isAbstract>
-  <order>2</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>

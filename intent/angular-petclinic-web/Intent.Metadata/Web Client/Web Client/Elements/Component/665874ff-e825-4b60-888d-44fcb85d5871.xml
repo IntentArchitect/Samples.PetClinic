@@ -3,7 +3,7 @@
   <name>VisitListComponent</name>
   <display>VisitListComponent</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>96a68e32-5f01-4d5f-92cf-b87cfd26d865</parentFolderId>
@@ -27,7 +27,6 @@
       <name>visits</name>
       <display>visits: PetVisitDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="efe4827c-bffd-41aa-86ea-c3c63cd0fd44">
         <typeId>bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</typeId>
@@ -52,7 +51,7 @@
       <name>deleteVisit</name>
       <display>deleteVisit(visitId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <typeReference id="676d5b5f-af0a-4569-9625-2d0f1f5a7dc0">
         <isNavigable>true</isNavigable>
@@ -73,7 +72,6 @@
           <name>visitId</name>
           <display>visitId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="138cf218-f5a8-43e4-ae16-085938fc0857">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -100,7 +98,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>665874ff-e825-4b60-888d-44fcb85d5871</parentFolderId>
@@ -113,7 +111,7 @@
           <name>Table</name>
           <display>Table</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -144,7 +142,6 @@
               <name>Visit Date</name>
               <display>Visit Date</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -164,7 +161,6 @@
               <name>Description</name>
               <display>Description</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -186,7 +182,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>fb11ca4c-edea-4952-b737-528b2563365b</parentFolderId>
@@ -199,7 +195,6 @@
               <name>Edit Visit</name>
               <display>Edit Visit</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -231,7 +226,6 @@
               <name>Delete Visit</name>
               <display>Delete Visit</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

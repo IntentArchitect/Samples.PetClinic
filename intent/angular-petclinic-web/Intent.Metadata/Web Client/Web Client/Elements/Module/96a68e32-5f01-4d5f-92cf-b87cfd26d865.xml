@@ -3,7 +3,7 @@
   <name>VisitsModule</name>
   <display>VisitsModule</display>
   <isAbstract>false</isAbstract>
-  <order>9</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -19,7 +19,7 @@
       <name>[routing]</name>
       <display>[routing]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>96a68e32-5f01-4d5f-92cf-b87cfd26d865</parentFolderId>
@@ -32,7 +32,6 @@
           <name>visits</name>
           <display>visits: VisitListComponent</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <typeReference id="c8a8e3f4-c046-4f55-a5d7-0d74d2272b17">
             <typeId>665874ff-e825-4b60-888d-44fcb85d5871</typeId>
@@ -57,7 +56,6 @@
           <name>visits/add</name>
           <display>visits/add: VisitAddComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="4a44f17b-18b3-4883-ac9d-df0f27878a74">
             <typeId>6fc8db73-771a-4c7b-b656-06393f984173</typeId>
@@ -82,7 +80,6 @@
           <name>visits/:id/edit</name>
           <display>visits/:id/edit: VisitEditComponent</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="7e9f7fca-fe3a-452d-bb01-564eb70e4523">
             <typeId>be9f9225-c352-44a5-8081-578634f56a5d</typeId>

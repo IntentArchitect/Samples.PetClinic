@@ -3,7 +3,7 @@
   <name>WelcomeComponent</name>
   <display>WelcomeComponent</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a973d437-3be9-441f-b25b-a982a60192f8</parentFolderId>
@@ -27,7 +27,6 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>dadaa986-e710-474a-be77-4a8687c56824</parentFolderId>

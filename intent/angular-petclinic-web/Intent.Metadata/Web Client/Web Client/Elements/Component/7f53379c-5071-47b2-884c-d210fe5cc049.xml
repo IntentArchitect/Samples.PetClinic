@@ -3,7 +3,7 @@
   <name>VetAddComponent</name>
   <display>VetAddComponent</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
@@ -27,7 +27,6 @@
       <name>vet</name>
       <display>vet: VetFormModel</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="856ffbae-4cb1-4abf-a917-e795564a29b9">
         <typeId>89e70f19-0a52-4c1d-9b1b-918141392c17</typeId>
@@ -52,7 +51,6 @@
       <name>specialties</name>
       <display>specialties: SpecialtyDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="bbb4837a-084e-48a9-b984-7d9474b7b7ba">
         <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
@@ -77,7 +75,6 @@
       <name>saveVet</name>
       <display>saveVet(): void</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="6a4a9d4a-701a-4062-b509-51f05f84c440">
         <isNavigable>true</isNavigable>
@@ -99,7 +96,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>7f53379c-5071-47b2-884c-d210fe5cc049</parentFolderId>
@@ -112,7 +109,7 @@
           <name>Form</name>
           <display>Form</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -134,7 +131,6 @@
               <name>First Name</name>
               <display>First Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <typeReference id="1770d129-fb6f-4cd2-b0e9-e8e2fb42abd2">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -165,7 +161,6 @@
               <name>Last Name</name>
               <display>Last Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="958e4b3c-4fd4-4d0c-9a2b-943e78edec23">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -196,7 +191,6 @@
               <name>Specialties</name>
               <display>Specialties: Custom</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
               <genericTypes />
               <typeReference id="6c577e6d-e2dd-449f-a207-2b423b008fe6">
                 <typeId>1f31b286-f6d6-4d80-9531-7fbafcbc501f</typeId>
@@ -227,7 +221,7 @@
               <name>Buttons Section</name>
               <display>Buttons Section</display>
               <isAbstract>false</isAbstract>
-              <order>3</order>
+              <sort-children>by-type-then-manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>970ebf0e-def6-4f53-81a2-38375b5f2103</parentFolderId>
@@ -240,7 +234,6 @@
                   <name>&lt; Back</name>
                   <display>&lt; Back</display>
                   <isAbstract>false</isAbstract>
-                  <order>0</order>
                   <genericTypes />
                   <isMapped>true</isMapped>
                   <mappedClass>
@@ -272,7 +265,6 @@
                   <name>Save Vet</name>
                   <display>Save Vet</display>
                   <isAbstract>false</isAbstract>
-                  <order>1</order>
                   <genericTypes />
                   <isMapped>true</isMapped>
                   <mappedClass>

@@ -3,7 +3,7 @@
   <name>PetEditComponent</name>
   <display>PetEditComponent</display>
   <isAbstract>false</isAbstract>
-  <order>2</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</parentFolderId>
@@ -27,7 +27,6 @@
       <name>petId</name>
       <display>in : petId: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="7b250415-d2a3-414b-953e-09a9ca58a161">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -52,7 +51,6 @@
       <name>pet</name>
       <display>pet: PetModel</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="2bd10ad3-fc96-4b3e-97ff-ab2cc41715f3">
         <typeId>d608dfa3-100e-44eb-9be0-663cf4759e15</typeId>
@@ -77,7 +75,6 @@
       <name>petTypes</name>
       <display>petTypes: PetTypeDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="2e7c8731-f168-424e-add5-b8274a583f7d">
         <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
@@ -102,7 +99,6 @@
       <name>ownerId</name>
       <display>ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="bbc92a60-a071-4cdc-bc9b-b1dbb80a36d2">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -127,7 +123,6 @@
       <name>ownerName</name>
       <display>ownerName: string</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
       <genericTypes />
       <typeReference id="591efa4e-b318-4a46-82cd-38bec242f936">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -152,7 +147,6 @@
       <name>onUpdate</name>
       <display>onUpdate(): void</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
       <genericTypes />
       <typeReference id="71463dc5-89f6-47a8-bc9d-ad5b75d8ef75">
         <isNavigable>true</isNavigable>
@@ -174,7 +168,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>6</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>b21c472a-1e6a-497c-8f67-4275f3e43594</parentFolderId>
@@ -187,7 +181,7 @@
           <name>Form</name>
           <display>Form</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -209,7 +203,6 @@
               <name>Name</name>
               <display>Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <typeReference id="05120a8d-c441-43e9-b7eb-83526d157767">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -240,7 +233,6 @@
               <name>Date of Birth</name>
               <display>Date of Birth: Datepicker</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="8d9c5eda-8108-417b-a5ba-7807c80326c8">
                 <typeId>e83b4954-27de-404f-b19a-174064cd6881</typeId>
@@ -271,7 +263,6 @@
               <name>Pet Type</name>
               <display>Pet Type: Select</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
               <genericTypes />
               <typeReference id="09fd39f3-1f99-48fa-a359-ecc34fdbbe8e">
                 <typeId>1db37bef-68b3-4128-8e92-b1c5853dca00</typeId>
@@ -315,7 +306,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>e4fdf97d-3be7-4b74-92e7-46574002b985</parentFolderId>
@@ -328,7 +319,6 @@
               <name>Update</name>
               <display>Update</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -360,7 +350,6 @@
               <name>Cancel</name>
               <display>Cancel</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

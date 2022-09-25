@@ -3,7 +3,7 @@
   <name>VisitEditComponent</name>
   <display>VisitEditComponent</display>
   <isAbstract>false</isAbstract>
-  <order>2</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>96a68e32-5f01-4d5f-92cf-b87cfd26d865</parentFolderId>
@@ -27,7 +27,6 @@
       <name>visitId</name>
       <display>in : visitId: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="095c95b2-d189-43ba-974c-1d20c9806311">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -52,7 +51,6 @@
       <name>visit</name>
       <display>visit: VisitForm</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="45e14297-6630-4d85-ba72-dd239ceb2ede">
         <typeId>0407b758-21de-4e06-8fbc-c67df0da6948</typeId>
@@ -77,7 +75,6 @@
       <name>pet</name>
       <display>pet: PetDTO</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="d9cdb083-2861-4fa4-ae37-9fe01510af92">
         <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
@@ -102,7 +99,6 @@
       <name>ownerId</name>
       <display>ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="d2f6918b-f883-4945-818e-fcd10ff44a5d">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -127,7 +123,6 @@
       <name>updateVisit</name>
       <display>updateVisit(): void</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
       <genericTypes />
       <typeReference id="b34b7eca-ab26-40aa-9028-9e8ba85bb6ed">
         <isNavigable>true</isNavigable>
@@ -149,7 +144,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>be9f9225-c352-44a5-8081-578634f56a5d</parentFolderId>
@@ -162,7 +157,7 @@
           <name>Form</name>
           <display>Form</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -184,7 +179,6 @@
               <name>Date of Visit</name>
               <display>Date of Visit: Datepicker</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <typeReference id="e0d67564-9456-4913-857f-c46e1277627c">
                 <typeId>e83b4954-27de-404f-b19a-174064cd6881</typeId>
@@ -215,7 +209,6 @@
               <name>Description</name>
               <display>Description: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="b830506b-e80c-4f62-a8aa-5f455a840dec">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -246,7 +239,7 @@
               <name>Buttons</name>
               <display>Buttons</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
+              <sort-children>by-type-then-manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>d3d00d94-57f3-40ff-b0c5-853a82167f33</parentFolderId>
@@ -259,7 +252,6 @@
                   <name>Cancel</name>
                   <display>Cancel</display>
                   <isAbstract>false</isAbstract>
-                  <order>0</order>
                   <genericTypes />
                   <isMapped>true</isMapped>
                   <mappedClass>
@@ -291,7 +283,6 @@
                   <name>Update Visit</name>
                   <display>Update Visit</display>
                   <isAbstract>false</isAbstract>
-                  <order>1</order>
                   <genericTypes />
                   <isMapped>true</isMapped>
                   <mappedClass>

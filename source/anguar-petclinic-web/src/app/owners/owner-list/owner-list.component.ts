@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
 import { Router } from '@angular/router'
 import { OwnersService } from 'src/app/api-access/owners-service.service';
 import { OwnerDTO } from './../../api-access/models/owner.dto';
-import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
 
 @Component({
   selector: 'app-owner-list',

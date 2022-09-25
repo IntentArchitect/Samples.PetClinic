@@ -3,7 +3,7 @@
   <name>SpecialtiesModule</name>
   <display>SpecialtiesModule</display>
   <isAbstract>false</isAbstract>
-  <order>7</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -19,7 +19,7 @@
       <name>[routing]</name>
       <display>[routing]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>f107d3c9-1bb2-4f73-8924-1c093812010b</parentFolderId>
@@ -32,7 +32,6 @@
           <name>specialties</name>
           <display>specialties: SpecialtyListComponent</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <typeReference id="6639bcb1-dae4-4380-be19-c30e0e862531">
             <typeId>6ae05437-0a1c-4a83-9957-ab08647dada5</typeId>
@@ -57,7 +56,6 @@
           <name>specialties/:id/edit</name>
           <display>specialties/:id/edit: SpecialtyEditComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="9df2abc9-fe40-4fe3-844d-0daac3388cd9">
             <typeId>07fde79c-a58d-4a3f-a18b-3f646e553e11</typeId>

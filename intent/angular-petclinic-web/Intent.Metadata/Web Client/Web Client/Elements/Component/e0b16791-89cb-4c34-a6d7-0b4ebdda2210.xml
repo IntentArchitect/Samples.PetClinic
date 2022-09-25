@@ -3,7 +3,7 @@
   <name>VetListComponent</name>
   <display>VetListComponent</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
@@ -27,7 +27,6 @@
       <name>vets</name>
       <display>vets: VetDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="454b25b7-8a3e-49b0-b600-b00a6a3d38d9">
         <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>
@@ -52,7 +51,7 @@
       <name>deleteVet</name>
       <display>deleteVet(vetId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <typeReference id="b2919769-5e9f-4d84-940c-d47e577f29a8">
         <isNavigable>true</isNavigable>
@@ -73,7 +72,6 @@
           <name>vetId</name>
           <display>vetId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="b003c027-7bd7-41d0-a227-c932fc14be3c">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -100,7 +98,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</parentFolderId>
@@ -113,7 +111,7 @@
           <name>Table</name>
           <display>Table</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -144,7 +142,6 @@
               <name>Name</name>
               <display>Name</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -164,7 +161,6 @@
               <name>Specialties</name>
               <display>Specialties</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -184,7 +180,6 @@
               <name />
               <display />
               <isAbstract>false</isAbstract>
-              <order>2</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>a122b177-de08-43f1-b6c1-98e87430e53d</parentFolderId>
@@ -200,7 +195,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b1cd8bb7-222a-4f20-9437-da432fc80aa5</parentFolderId>
@@ -213,7 +208,6 @@
               <name>Home</name>
               <display>Home</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -245,7 +239,6 @@
               <name>Add Vet</name>
               <display>Add Vet</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

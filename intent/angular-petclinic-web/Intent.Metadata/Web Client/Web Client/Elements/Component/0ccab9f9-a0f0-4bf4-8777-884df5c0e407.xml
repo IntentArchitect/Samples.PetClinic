@@ -3,7 +3,7 @@
   <name>PettypeEditComponent</name>
   <display>PettypeEditComponent</display>
   <isAbstract>false</isAbstract>
-  <order>2</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>313bc728-fff5-4e58-b7ad-4a276474b94d</parentFolderId>
@@ -27,7 +27,6 @@
       <name>model</name>
       <display>model: PetTypeModel</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="77a5af1f-25c6-430e-b863-06912d514cd2">
         <typeId>ba02675a-9b41-40cd-a32b-6332410384b3</typeId>
@@ -52,7 +51,6 @@
       <name>onUpdate</name>
       <display>onUpdate(): void</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="56fbc3c0-a971-4c15-8e08-40fd2e2fb0a7">
         <isNavigable>true</isNavigable>
@@ -74,7 +72,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>0ccab9f9-a0f0-4bf4-8777-884df5c0e407</parentFolderId>
@@ -87,7 +85,7 @@
           <name>Form</name>
           <display>Form</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -109,7 +107,6 @@
               <name>Name</name>
               <display>Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <typeReference id="2bbb65f0-273d-4abe-8a66-909cd3c3fc65">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -142,7 +139,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>8976f1ad-5e0f-49ce-8721-c2aeb66ed15d</parentFolderId>
@@ -155,7 +152,6 @@
               <name>Cancel</name>
               <display>Cancel</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -187,7 +183,6 @@
               <name>Update</name>
               <display>Update</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

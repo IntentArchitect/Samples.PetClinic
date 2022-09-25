@@ -3,7 +3,7 @@
   <name>OwnerForm</name>
   <display>OwnerForm</display>
   <isAbstract>false</isAbstract>
-  <order>5</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="e86add8f-4c97-418f-91d4-f2f2d0c8cc85">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -56,7 +55,6 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="ba2d914a-f39a-448d-8e49-0bd6403c03f1">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -87,7 +85,6 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="4c7059ba-eac3-4388-9f29-c538db6549c2">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -118,7 +115,6 @@
       <name>address</name>
       <display>address: string</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="04d514d0-1bde-4105-b3f5-0e63d4c6af51">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -149,7 +145,6 @@
       <name>city</name>
       <display>city: string</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
       <genericTypes />
       <typeReference id="8cf0a349-04f0-41ad-8ee5-e227a4482523">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -180,7 +175,6 @@
       <name>telephone</name>
       <display>telephone: string</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
       <genericTypes />
       <typeReference id="191983b5-0207-42bd-92b5-4ad9c2ef1a1c">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

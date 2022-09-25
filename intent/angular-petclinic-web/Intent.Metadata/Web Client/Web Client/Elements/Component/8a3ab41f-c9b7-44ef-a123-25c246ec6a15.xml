@@ -3,7 +3,7 @@
   <name>OwnerEditComponent</name>
   <display>OwnerEditComponent</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
@@ -27,7 +27,6 @@
       <name>ownerId</name>
       <display>in : ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="567f3e50-5724-47c0-b239-9a6947cb8c9c">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -52,7 +51,6 @@
       <name>owner</name>
       <display>owner: OwnerForm</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="69bbaed8-15de-42ca-a4f5-e6336d61c23c">
         <typeId>8da25236-fa4f-48dc-b588-21bdf44e02a7</typeId>
@@ -77,7 +75,6 @@
       <name>errorMessage</name>
       <display>errorMessage: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="044bbdb6-b522-4c33-ab36-a6434479cc34">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -102,7 +99,6 @@
       <name>onSubmit</name>
       <display>onSubmit(): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="4a48ddfb-2d92-425f-95af-00f60ccbfd63">
         <isNavigable>true</isNavigable>
@@ -124,7 +120,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>8a3ab41f-c9b7-44ef-a123-25c246ec6a15</parentFolderId>
@@ -137,7 +133,7 @@
           <name>Form</name>
           <display>Form</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -159,7 +155,6 @@
               <name>First Name</name>
               <display>First Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <typeReference id="d7c41f12-8c57-4d96-96e7-f547abebfd48">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -190,7 +185,6 @@
               <name>Last Name</name>
               <display>Last Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="4b74ba89-3e82-487b-87da-7ac3886d8920">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -221,7 +215,6 @@
               <name>Address</name>
               <display>Address: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
               <genericTypes />
               <typeReference id="270f6799-c20e-4721-b4e3-18259d924e71">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -252,7 +245,6 @@
               <name>City</name>
               <display>City: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>3</order>
               <genericTypes />
               <typeReference id="8f6328d7-af5d-44b4-b098-9b804367907d">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -283,7 +275,6 @@
               <name>Telephone</name>
               <display>Telephone: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>4</order>
               <genericTypes />
               <typeReference id="d0217a0e-f220-4580-b5fb-686b2e6d0275">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -316,7 +307,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>865fe604-6868-4b29-bf88-eedb757c0cc5</parentFolderId>
@@ -329,7 +320,6 @@
               <name>Back</name>
               <display>Back</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -361,7 +351,6 @@
               <name>Update Owner</name>
               <display>Update Owner</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

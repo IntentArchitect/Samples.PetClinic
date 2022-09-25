@@ -3,7 +3,7 @@
   <name>VetFormModel</name>
   <display>VetFormModel</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="7391a581-0f5d-4d5c-8a2e-68030d7452eb">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -56,7 +55,6 @@
       <name>firstName</name>
       <display>firstName: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="2ca1fdbd-6523-4e28-8cbf-8d2a237a7b87">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -87,7 +85,6 @@
       <name>lastName</name>
       <display>lastName: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="e52165cc-2b22-466f-b827-98661e8e7c2a">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -118,7 +115,6 @@
       <name>specialties</name>
       <display>specialties: int[*]</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="7875d9a6-e029-428b-b1cb-445182f7ec1c">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

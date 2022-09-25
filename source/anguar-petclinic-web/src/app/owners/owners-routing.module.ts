@@ -5,6 +5,7 @@ import { OwnerAddComponent } from './owner-add/owner-add.component';
 import { OwnerDetailComponent } from './owner-detail/owner-detail.component';
 import { OwnerEditComponent } from './owner-edit/owner-edit.component';
 import { PetAddComponent } from './../pets/pet-add/pet-add.component';
+import { TestComponent } from './test/test.component';
 import { IntentIgnore } from './../intent/intent.decorators';
 
 const routes: Routes = [

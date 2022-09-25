@@ -3,7 +3,7 @@
   <name>AppComponent</name>
   <display>AppComponent</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -27,7 +27,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>db6be016-d0ee-437f-9f35-60837514fff1</parentFolderId>
@@ -40,7 +40,7 @@
           <name>navbar</name>
           <display>navbar</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>e0055768-bb13-4b67-8ee7-39ec564ab17c</parentFolderId>
@@ -53,7 +53,6 @@
               <name>Home</name>
               <display>Home</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
@@ -76,7 +75,7 @@
               <name>Owners</name>
               <display>Owners</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
+              <sort-children>by-type-then-manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
@@ -89,7 +88,6 @@
                   <name>List</name>
                   <display>List</display>
                   <isAbstract>false</isAbstract>
-                  <order>0</order>
                   <genericTypes />
                   <isMapped>false</isMapped>
                   <parentFolderId>389a0c6f-f645-4359-8b28-ec93d06441d2</parentFolderId>
@@ -112,7 +110,6 @@
                   <name>Add</name>
                   <display>Add</display>
                   <isAbstract>false</isAbstract>
-                  <order>1</order>
                   <genericTypes />
                   <isMapped>false</isMapped>
                   <parentFolderId>389a0c6f-f645-4359-8b28-ec93d06441d2</parentFolderId>
@@ -137,7 +134,7 @@
               <name>Vets</name>
               <display>Vets</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
+              <sort-children>by-type-then-manually</sort-children>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
@@ -150,7 +147,6 @@
                   <name>List</name>
                   <display>List</display>
                   <isAbstract>false</isAbstract>
-                  <order>0</order>
                   <genericTypes />
                   <isMapped>false</isMapped>
                   <parentFolderId>4f82e70d-8b60-4ab4-8624-25a5506e5942</parentFolderId>
@@ -173,7 +169,6 @@
                   <name>Add</name>
                   <display>Add</display>
                   <isAbstract>false</isAbstract>
-                  <order>1</order>
                   <genericTypes />
                   <isMapped>false</isMapped>
                   <parentFolderId>4f82e70d-8b60-4ab4-8624-25a5506e5942</parentFolderId>
@@ -198,7 +193,6 @@
               <name>Pet Types</name>
               <display>Pet Types</display>
               <isAbstract>false</isAbstract>
-              <order>3</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
@@ -221,7 +215,6 @@
               <name>Specialties</name>
               <display>Specialties</display>
               <isAbstract>false</isAbstract>
-              <order>4</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>e75e58a8-0c16-434f-aea3-2d2117ca08e5</parentFolderId>
@@ -246,7 +239,6 @@
           <name>[router-outlet]</name>
           <display>[router-outlet]</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>e0055768-bb13-4b67-8ee7-39ec564ab17c</parentFolderId>

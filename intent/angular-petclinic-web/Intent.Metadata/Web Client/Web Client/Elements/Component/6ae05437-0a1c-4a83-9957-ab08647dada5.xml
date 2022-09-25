@@ -3,7 +3,7 @@
   <name>SpecialtyListComponent</name>
   <display>SpecialtyListComponent</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>f107d3c9-1bb2-4f73-8924-1c093812010b</parentFolderId>
@@ -27,7 +27,6 @@
       <name>specialties</name>
       <display>specialties: SpecialtyDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="a9ea64a4-a1ce-4885-a0b8-cffc1e9280c2">
         <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
@@ -52,7 +51,6 @@
       <name>isAddVisible</name>
       <display>isAddVisible: bool</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="0c9c64f3-779b-491a-aab0-13e94966ae91">
         <typeId>e6f92b09-b2c5-4536-8270-a4d9e5bbd930</typeId>
@@ -77,7 +75,6 @@
       <name>errorMessage</name>
       <display>errorMessage: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="49920d35-fc6b-4ae0-a2c1-570c5902ab1a">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -102,7 +99,6 @@
       <name>toggleShowAdd</name>
       <display>toggleShowAdd(): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="67cb11df-90e3-4eec-bbf3-14479a2b6510">
         <isNavigable>true</isNavigable>
@@ -124,7 +120,7 @@
       <name>deleteSpecialty</name>
       <display>deleteSpecialty(specialtyId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <typeReference id="01a64355-b33a-4264-afbf-3b34ee89529f">
         <isNavigable>true</isNavigable>
@@ -145,7 +141,6 @@
           <name>specialtyId</name>
           <display>specialtyId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="c711e353-f9fb-4aff-825a-75bb43769be9">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -172,7 +167,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>6ae05437-0a1c-4a83-9957-ab08647dada5</parentFolderId>
@@ -185,7 +180,7 @@
           <name>Table</name>
           <display>Table</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -216,7 +211,6 @@
               <name>Name</name>
               <display>Name</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -236,7 +230,6 @@
               <name />
               <display />
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>282e4c18-1c02-4c92-ac9a-499839e2d462</parentFolderId>
@@ -252,7 +245,6 @@
           <name>[display]</name>
           <display>[display]: SpecialtyAddComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="821bf6d2-2de7-4f59-aef7-f68e1834fe40">
             <typeId>64ef14ff-4709-4744-b491-6f1e5d2521f5</typeId>
@@ -277,7 +269,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>23c6cd24-2816-4ff6-af31-a201bed19c98</parentFolderId>
@@ -290,7 +282,6 @@
               <name>Home</name>
               <display>Home</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -322,7 +313,6 @@
               <name>Add</name>
               <display>Add</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

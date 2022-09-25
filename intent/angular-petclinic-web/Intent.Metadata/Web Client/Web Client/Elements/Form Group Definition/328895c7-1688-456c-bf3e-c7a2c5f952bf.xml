@@ -3,7 +3,7 @@
   <name>PetVisitModel</name>
   <display>PetVisitModel</display>
   <isAbstract>false</isAbstract>
-  <order>5</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="feee7c41-1f48-42cb-aea8-85e870b10f25">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -56,7 +55,6 @@
       <name>visitDate</name>
       <display>visitDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="b34f19d6-a929-491d-a4ac-acdb1fa831dc">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
@@ -87,7 +85,6 @@
       <name>description</name>
       <display>description: string</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="03ebe9cb-3357-4c91-8284-ea0eb3183f7d">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

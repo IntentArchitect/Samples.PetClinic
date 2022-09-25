@@ -3,7 +3,7 @@
   <name>PageNotFoundComponent</name>
   <display>PageNotFoundComponent</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a973d437-3be9-441f-b25b-a982a60192f8</parentFolderId>
@@ -27,7 +27,6 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>91e7788e-cab2-4583-aa2e-ed65deeca29e</parentFolderId>

@@ -3,7 +3,7 @@
   <name>VetsModule</name>
   <display>VetsModule</display>
   <isAbstract>false</isAbstract>
-  <order>8</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -19,7 +19,7 @@
       <name>[routing]</name>
       <display>[routing]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>9b67104d-a5e8-4ebf-bd60-b81e7cbdf1c7</parentFolderId>
@@ -32,7 +32,6 @@
           <name>vets</name>
           <display>vets: VetListComponent</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <typeReference id="32e413ab-eac4-4933-a7ce-47325a3b7d48">
             <typeId>e0b16791-89cb-4c34-a6d7-0b4ebdda2210</typeId>
@@ -57,7 +56,6 @@
           <name>vets/add</name>
           <display>vets/add: VetAddComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="df805990-68ae-49dd-bd2a-e3434d43aa1f">
             <typeId>7f53379c-5071-47b2-884c-d210fe5cc049</typeId>
@@ -82,7 +80,7 @@
           <name>vets/:id/edit</name>
           <display>vets/:id/edit: VetEditComponent</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <typeReference id="2e8198cd-fb3b-419e-a42b-e2a352ee2b74">
             <typeId>3abaa704-907b-4360-8287-f039d48e7d60</typeId>
@@ -106,7 +104,6 @@
               <name>id</name>
               <display>id: string</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="62bacb30-1fae-45b1-bb1d-12de64accde6">
                 <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

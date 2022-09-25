@@ -3,7 +3,7 @@
   <name>PetAddComponent</name>
   <display>PetAddComponent</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</parentFolderId>
@@ -27,7 +27,6 @@
       <name>ownerId</name>
       <display>in : ownerId: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="9a440e03-d007-4278-be14-a1b91cb2abec">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -52,7 +51,6 @@
       <name>petTypes</name>
       <display>petTypes: PetTypeDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="469dfa18-326c-402f-aa46-a28c05c4dc4c">
         <typeId>b567ee65-c344-492a-8cf0-678a444fde27</typeId>
@@ -77,7 +75,6 @@
       <name>model</name>
       <display>model: PetModel</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="25d1c376-84b4-4cf2-8c87-68300f8408f9">
         <typeId>d608dfa3-100e-44eb-9be0-663cf4759e15</typeId>
@@ -102,7 +99,6 @@
       <name>save</name>
       <display>save(): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="d7e71679-9f39-4f7b-8219-8a6debf228cc">
         <isNavigable>true</isNavigable>
@@ -124,7 +120,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2861cdd-025b-4769-b568-d6ec52c44855</parentFolderId>
@@ -137,7 +133,7 @@
           <name>Form</name>
           <display>Form</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -159,7 +155,6 @@
               <name>Name</name>
               <display>Name: Text Input</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <typeReference id="b96124b6-b06d-47c1-8a9b-06d046e90a23">
                 <typeId>cddc4621-68ae-4888-8f4c-118a9cefdb33</typeId>
@@ -190,7 +185,6 @@
               <name>Date of Birth</name>
               <display>Date of Birth: Datepicker</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="fa4d93d5-15b6-4d88-99d3-adfc87bf7b8d">
                 <typeId>e83b4954-27de-404f-b19a-174064cd6881</typeId>
@@ -221,7 +215,6 @@
               <name>Pet Type</name>
               <display>Pet Type: Select</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
               <genericTypes />
               <typeReference id="2b2a044b-7996-480d-a2f6-75deb6fa22d7">
                 <typeId>1db37bef-68b3-4128-8e92-b1c5853dca00</typeId>
@@ -265,7 +258,7 @@
           <name>Section</name>
           <display>Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>662ebbbc-b983-42a4-ae05-f80ecbecb043</parentFolderId>
@@ -278,7 +271,6 @@
               <name>Back</name>
               <display>Back</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -310,7 +302,6 @@
               <name>Save</name>
               <display>Save</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

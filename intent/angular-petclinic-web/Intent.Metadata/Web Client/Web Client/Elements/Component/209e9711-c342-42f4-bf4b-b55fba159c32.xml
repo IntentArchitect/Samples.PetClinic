@@ -3,7 +3,7 @@
   <name>OwnerListComponent</name>
   <display>OwnerListComponent</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
@@ -27,7 +27,6 @@
       <name>owners</name>
       <display>owners: OwnerDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="4e2d4719-65e4-40e8-9f1f-f5a8995bb61c">
         <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
@@ -52,7 +51,7 @@
       <name>onSelected</name>
       <display>onSelected(ownerId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <typeReference id="232e7c64-1087-4765-a15b-b7722259eee4">
         <isNavigable>true</isNavigable>
@@ -73,7 +72,6 @@
           <name>ownerId</name>
           <display>ownerId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="fe67941d-cf10-436a-a798-0c5ede2c410d">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -100,7 +98,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>209e9711-c342-42f4-bf4b-b55fba159c32</parentFolderId>
@@ -113,7 +111,7 @@
           <name>Table</name>
           <display>Table</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -144,7 +142,6 @@
               <name>Name</name>
               <display>Name</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -164,7 +161,6 @@
               <name>Address</name>
               <display>Address</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -184,7 +180,6 @@
               <name>City</name>
               <display>City</display>
               <isAbstract>false</isAbstract>
-              <order>2</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -204,7 +199,6 @@
               <name>Telephone</name>
               <display>Telephone</display>
               <isAbstract>false</isAbstract>
-              <order>3</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -224,7 +218,6 @@
               <name>Pets</name>
               <display>Pets</display>
               <isAbstract>false</isAbstract>
-              <order>4</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>
@@ -246,7 +239,7 @@
           <name>Button Section</name>
           <display>Button Section</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>194122a9-8569-458d-bbd5-a877a1d87d92</parentFolderId>
@@ -259,7 +252,6 @@
               <name>Add Owner</name>
               <display>Add Owner</display>
               <isAbstract>false</isAbstract>
-              <order>0</order>
               <genericTypes />
               <isMapped>true</isMapped>
               <mappedClass>

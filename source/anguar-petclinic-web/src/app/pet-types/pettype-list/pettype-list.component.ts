@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PetTypeDTO } from './../../api-access/models/pet-type.dto';
 import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
+import { PetTypeDTO } from './../../api-access/models/pet-type.dto';
 import { Router } from '@angular/router';
 import { PetTypeModel } from '../models/pet-type.model';
 import { PetTypesService } from 'src/app/api-access/pet-types-service.service';

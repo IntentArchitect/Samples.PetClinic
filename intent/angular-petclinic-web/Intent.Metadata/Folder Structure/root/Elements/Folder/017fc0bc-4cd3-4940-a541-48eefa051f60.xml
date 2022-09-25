@@ -3,7 +3,7 @@
   <name>core</name>
   <display>core</display>
   <isAbstract>false</isAbstract>
-  <order>0</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
@@ -12,34 +12,36 @@
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="ac27f96e-6c26-42fa-a300-7850a0d59271" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Core.ApiServiceTemplate</name>
-      <display>Intent.Angular.Core.ApiServiceTemplate</display>
+    <childElement id="3dbfa7fd-57d5-4b11-8582-fbd654138ca6" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Core.ApiService</name>
+      <display>Intent.Angular.Core.ApiService</display>
       <externalReference>Intent.Angular</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>017fc0bc-4cd3-4940-a541-48eefa051f60</parentFolderId>
       <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
       <packageName>root</packageName>
       <stereotypes />
-      <metadata />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
       <childElements />
     </childElement>
-    <childElement id="31bef96e-86e0-4c84-a393-56b9fb0282d1" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Angular.Core.CoreModuleTemplate</name>
-      <display>Intent.Angular.Core.CoreModuleTemplate</display>
+    <childElement id="02daa421-3477-49f9-bc73-9db2744e3d98" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Core.CoreModule</name>
+      <display>Intent.Angular.Core.CoreModule</display>
       <externalReference>Intent.Angular</externalReference>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>017fc0bc-4cd3-4940-a541-48eefa051f60</parentFolderId>
       <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
       <packageName>root</packageName>
       <stereotypes />
-      <metadata />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
       <childElements />
     </childElement>
   </childElements>

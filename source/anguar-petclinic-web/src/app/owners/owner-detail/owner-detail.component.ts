@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { OwnerDTO } from './../../api-access/models/owner.dto';
 import { IntentIgnore, IntentManage, IntentMerge } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
+import { OwnerDTO } from './../../api-access/models/owner.dto';
 import { OwnersService } from 'src/app/api-access/owners-service.service';
 
 @Component({

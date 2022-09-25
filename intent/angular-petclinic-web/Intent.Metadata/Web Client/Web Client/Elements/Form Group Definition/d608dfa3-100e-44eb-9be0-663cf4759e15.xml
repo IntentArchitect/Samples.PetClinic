@@ -3,7 +3,7 @@
   <name>PetModel</name>
   <display>PetModel</display>
   <isAbstract>false</isAbstract>
-  <order>4</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>id</name>
       <display>id: int</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="b9db9763-b415-4ecb-8de4-10a23e55332c">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -56,7 +55,6 @@
       <name>name</name>
       <display>name: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="fbb34f77-1c1d-4cd9-9c63-6436298cbc4e">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -87,7 +85,6 @@
       <name>birthDate</name>
       <display>birthDate: date</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="3d60f8f1-4a4a-46e5-a88a-1506851c7855">
         <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
@@ -118,7 +115,6 @@
       <name>petTypeId</name>
       <display>petTypeId: int</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
       <genericTypes />
       <typeReference id="9c310dfb-91aa-4b8e-8824-f7b276cd6fd2">
         <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -149,7 +145,6 @@
       <name>petTypeName</name>
       <display>petTypeName: string</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
       <genericTypes />
       <typeReference id="006f30eb-3ffc-4418-973d-ba91ebc23610">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>

@@ -3,7 +3,7 @@
   <name>PetTypesModule</name>
   <display>PetTypesModule</display>
   <isAbstract>false</isAbstract>
-  <order>6</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -19,7 +19,7 @@
       <name>[routing]</name>
       <display>[routing]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>313bc728-fff5-4e58-b7ad-4a276474b94d</parentFolderId>
@@ -32,7 +32,6 @@
           <name>pettypes</name>
           <display>pettypes: PettypeListComponent</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <typeReference id="d5c66e0d-4db7-49ba-98c1-10e150929aed">
             <typeId>3aee390d-3fe5-4663-8556-7b3dcaacc7d8</typeId>
@@ -57,7 +56,6 @@
           <name>pettypes/add</name>
           <display>pettypes/add: PettypeAddComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="0dfbf186-d68b-443f-8863-58f491211d50">
             <typeId>47d9eb71-d518-44c6-bb4d-f5ccef0a17f1</typeId>
@@ -82,7 +80,6 @@
           <name>pettypes/:id/edit</name>
           <display>pettypes/:id/edit: PettypeEditComponent</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="4dcdc720-7a02-45da-958c-b1fb316fd0a6">
             <typeId>0ccab9f9-a0f0-4bf4-8777-884df5c0e407</typeId>

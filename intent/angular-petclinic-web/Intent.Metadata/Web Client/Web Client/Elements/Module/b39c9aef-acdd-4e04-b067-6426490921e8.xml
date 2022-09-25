@@ -3,7 +3,7 @@
   <name>OwnersModule</name>
   <display>OwnersModule</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -19,7 +19,7 @@
       <name>[routing]</name>
       <display>[routing]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>b39c9aef-acdd-4e04-b067-6426490921e8</parentFolderId>
@@ -32,7 +32,6 @@
           <name>owners</name>
           <display>owners: OwnerListComponent</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <typeReference id="dac844fc-2ec3-4762-b5c8-69dfe2e473d7">
             <typeId>209e9711-c342-42f4-bf4b-b55fba159c32</typeId>
@@ -57,7 +56,6 @@
           <name>owners/add</name>
           <display>owners/add: OwnerAddComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="429dd1da-5636-4575-a11d-9797e26832ec">
             <typeId>ef943808-bc52-42dc-8898-8f77d6c07f93</typeId>
@@ -82,7 +80,6 @@
           <name>owners/:id</name>
           <display>owners/:id: OwnerDetailComponent</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="84200d41-a7f6-4946-8dd6-13469ec1834b">
             <typeId>c3549af2-c500-48a1-ac11-4be486cbc0de</typeId>
@@ -107,7 +104,7 @@
           <name>owners/:id/edit</name>
           <display>owners/:id/edit: OwnerEditComponent</display>
           <isAbstract>false</isAbstract>
-          <order>3</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <typeReference id="293b1ae4-ee2a-47e0-b402-e147f3e583bb">
             <typeId>8a3ab41f-c9b7-44ef-a123-25c246ec6a15</typeId>
@@ -131,7 +128,6 @@
               <name>id</name>
               <display>id: int</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="5c87a42b-9826-4fb0-accc-c377c8f03147">
                 <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -158,7 +154,7 @@
           <name>owners/:id/pets/add</name>
           <display>owners/:id/pets/add: PetAddComponent</display>
           <isAbstract>false</isAbstract>
-          <order>4</order>
+          <sort-children>by-type-then-manually</sort-children>
           <genericTypes />
           <typeReference id="d9a4251f-1799-412f-8e27-dbba7e862b0e">
             <typeId>e2861cdd-025b-4769-b568-d6ec52c44855</typeId>
@@ -182,7 +178,6 @@
               <name>id</name>
               <display>id: int</display>
               <isAbstract>false</isAbstract>
-              <order>1</order>
               <genericTypes />
               <typeReference id="8fb5f4db-d7ef-4684-a681-ce48729222a8">
                 <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

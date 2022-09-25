@@ -3,7 +3,7 @@
   <name>AppModule</name>
   <display>AppModule</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-by-name</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a58ecbe3-16da-44ee-a67b-edc733f9a696</parentFolderId>
@@ -19,7 +19,7 @@
       <name>[routing]</name>
       <display>[routing]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>97357317-3e6a-417d-805f-34c67ad6e6b8</parentFolderId>
@@ -32,7 +32,6 @@
           <name>welcome</name>
           <display>welcome: WelcomeComponent</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <typeReference id="456d6d9b-c65b-465c-aa07-2edc5d03d6db">
             <typeId>dadaa986-e710-474a-be77-4a8687c56824</typeId>
@@ -57,7 +56,6 @@
           <name />
           <display>: WelcomeComponent</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="61fc42cd-2284-4768-821d-58d847159ab8">
             <typeId>dadaa986-e710-474a-be77-4a8687c56824</typeId>
@@ -82,7 +80,6 @@
           <name>**</name>
           <display>**: PageNotFoundComponent</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="471cce30-337e-4305-b900-72794cce8210">
             <typeId>91e7788e-cab2-4583-aa2e-ed65deeca29e</typeId>

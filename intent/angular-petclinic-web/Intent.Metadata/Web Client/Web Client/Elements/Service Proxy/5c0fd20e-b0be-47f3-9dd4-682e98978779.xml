@@ -3,7 +3,7 @@
   <name>OwnersService</name>
   <display>OwnersService</display>
   <isAbstract>false</isAbstract>
-  <order>1</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,6 @@
       <name>getOwners</name>
       <display>getOwners(): OwnerDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="d107878b-fdbd-4c08-b6e7-5cd5ddae7c96">
         <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
@@ -56,7 +55,7 @@
       <name>getOwnersList</name>
       <display>getOwnersList(lastName: string): OwnerDTO[*]</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="357ad60a-0c51-4afd-9eb2-cb78af2464f9">
         <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
@@ -86,7 +85,6 @@
           <name>lastName</name>
           <display>lastName: string</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="e95f1526-34a7-4e31-94da-1103b2cf622d">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -119,7 +117,7 @@
       <name>getOwner</name>
       <display>getOwner(ownerId: int): OwnerDTO</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="26b8a0ab-e459-4c47-8f69-7722c0226ed9">
         <typeId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</typeId>
@@ -149,7 +147,6 @@
           <name>ownerId</name>
           <display>ownerId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="7ce2ed1e-9200-4bd9-b2ec-3af340db47e3">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -182,7 +179,7 @@
       <name>addOwner</name>
       <display>addOwner(owner: OwnerCreateDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="5d68b276-5a9e-43b9-9749-11c122ae93fa">
         <isNavigable>true</isNavigable>
@@ -209,7 +206,6 @@
           <name>owner</name>
           <display>owner: OwnerCreateDTO</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="baca3e49-780e-428e-b8c4-c0380c5fd684">
             <typeId>4cd165f5-996f-4f86-b65b-26c28000f4fc</typeId>
@@ -242,7 +238,7 @@
       <name>updateOwner</name>
       <display>updateOwner(ownerId: int, owner: OwnerUpdateDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>4</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="3a00d1d2-7925-45b1-907e-ac1c46667375">
         <isNavigable>true</isNavigable>
@@ -269,7 +265,6 @@
           <name>ownerId</name>
           <display>ownerId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="19357afc-dbef-403f-8a3d-cf266473ec61">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -300,7 +295,6 @@
           <name>owner</name>
           <display>owner: OwnerUpdateDTO</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="d6280483-6834-447a-a119-dbc9c910b069">
             <typeId>b4c64cd0-62c8-46ab-a693-839d6ed7b113</typeId>
@@ -333,7 +327,7 @@
       <name>deleteOwner</name>
       <display>deleteOwner(ownerId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>5</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="80e37818-f24f-4c7e-811f-803725017459">
         <isNavigable>true</isNavigable>
@@ -360,7 +354,6 @@
           <name>ownerId</name>
           <display>ownerId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="37b801b4-a930-4155-9947-210aa44c7318">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>

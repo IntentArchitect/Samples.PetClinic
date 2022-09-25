@@ -3,7 +3,7 @@
   <name>PetListComponent</name>
   <display>PetListComponent</display>
   <isAbstract>false</isAbstract>
-  <order>3</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>false</isMapped>
   <parentFolderId>a13bbdb6-b6d0-4ddf-b757-98fa44fd374b</parentFolderId>
@@ -27,7 +27,6 @@
       <name>pet</name>
       <display>in : pet: PetDTO</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <typeReference id="216103f3-7bbc-46ca-956f-c0541597c62f">
         <typeId>c66f91c8-06bb-427a-b623-36a724d627d3</typeId>
@@ -52,7 +51,6 @@
       <name>errorMessage</name>
       <display>errorMessage: string</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <typeReference id="fbda618c-c20e-4c3a-bf7a-f831c67ca8ef">
         <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
@@ -77,7 +75,6 @@
       <name>deletePet</name>
       <display>deletePet(): void</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <typeReference id="c65902e1-6268-4fd5-8b72-e147cda2badd">
         <isNavigable>true</isNavigable>
@@ -99,7 +96,7 @@
       <name>[view]</name>
       <display>[view]</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>manually</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>b3dc4311-6baa-415d-b20f-5a56ef718803</parentFolderId>
@@ -112,7 +109,6 @@
           <name>Table</name>
           <display>Table</display>
           <isAbstract>false</isAbstract>
-          <order>0</order>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>fa4d8b63-3b66-4095-abf1-6c5a81e6e53f</parentFolderId>
@@ -135,7 +131,6 @@
           <name>Edit Pet</name>
           <display>Edit Pet</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -167,7 +162,6 @@
           <name>Delete Pet</name>
           <display>Delete Pet</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>
@@ -199,7 +193,6 @@
           <name>Add Visits</name>
           <display>Add Visits</display>
           <isAbstract>false</isAbstract>
-          <order>3</order>
           <genericTypes />
           <isMapped>true</isMapped>
           <mappedClass>

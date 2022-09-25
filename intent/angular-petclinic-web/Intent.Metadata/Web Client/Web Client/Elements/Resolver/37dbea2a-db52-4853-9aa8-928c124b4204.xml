@@ -3,7 +3,6 @@
   <name>VetResolver</name>
   <display>VetResolver: VetDTO</display>
   <isAbstract>false</isAbstract>
-  <order>5</order>
   <genericTypes />
   <typeReference id="5906e943-91ee-41c3-b1ff-9d965c5e9c9b">
     <typeId>d60384f8-059a-47f2-9b37-da4d913c8b49</typeId>

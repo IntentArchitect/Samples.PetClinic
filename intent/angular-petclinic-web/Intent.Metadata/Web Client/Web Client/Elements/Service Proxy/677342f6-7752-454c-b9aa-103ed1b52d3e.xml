@@ -3,7 +3,7 @@
   <name>VisitsService</name>
   <display>VisitsService</display>
   <isAbstract>false</isAbstract>
-  <order>6</order>
+  <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
   <isMapped>true</isMapped>
   <mappedClass>
@@ -25,7 +25,7 @@
       <name>getVisit</name>
       <display>getVisit(visitId: int): VisitDTO</display>
       <isAbstract>false</isAbstract>
-      <order>0</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="4f88690b-a634-4d02-a56f-e6e8e19d5f13">
         <typeId>49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</typeId>
@@ -55,7 +55,6 @@
           <name>visitId</name>
           <display>visitId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="62032522-1d44-4a60-863f-eda9eb48db40">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -88,7 +87,7 @@
       <name>addVisit</name>
       <display>addVisit(dto: VisitCreateDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="91b8b1dc-cc3d-4b63-9dcf-bf4ecf89d7ae">
         <isNavigable>true</isNavigable>
@@ -115,7 +114,6 @@
           <name>dto</name>
           <display>dto: VisitCreateDTO</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="7aab33ea-e88e-437d-9b38-db90604cee41">
             <typeId>d7e8deff-e0fa-4af2-8df7-adc47bc6de84</typeId>
@@ -148,7 +146,7 @@
       <name>updateVisit</name>
       <display>updateVisit(visitId: int, dto: VisitUpdateDTO): void</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="2da12047-aaeb-4c2c-a471-234684744880">
         <isNavigable>true</isNavigable>
@@ -175,7 +173,6 @@
           <name>visitId</name>
           <display>visitId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="30b3e024-bfed-4e80-92a7-2233b3aec5f9">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
@@ -206,7 +203,6 @@
           <name>dto</name>
           <display>dto: VisitUpdateDTO</display>
           <isAbstract>false</isAbstract>
-          <order>2</order>
           <genericTypes />
           <typeReference id="ac05c52d-321f-43c8-8f0f-047694db3ef9">
             <typeId>ef8cab3b-1ed9-4ff8-9227-fd68640edd0d</typeId>
@@ -239,7 +235,7 @@
       <name>deleteVisit</name>
       <display>deleteVisit(visitId: int): void</display>
       <isAbstract>false</isAbstract>
-      <order>3</order>
+      <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
       <typeReference id="0b489af5-eaf6-4608-86f8-1637ef0b1dad">
         <isNavigable>true</isNavigable>
@@ -266,7 +262,6 @@
           <name>visitId</name>
           <display>visitId: int</display>
           <isAbstract>false</isAbstract>
-          <order>1</order>
           <genericTypes />
           <typeReference id="5e07bb25-0307-4d2c-a459-8857514a02fa">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
