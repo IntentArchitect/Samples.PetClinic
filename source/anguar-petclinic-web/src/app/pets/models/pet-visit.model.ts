@@ -24,9 +24,9 @@ export class PetVisitModel extends FormGroup {
     description: string;
   }) {
     super({
-      id: new FormControl(initialValue.id),
-      visitDate: new FormControl(initialValue.visitDate),
-      description: new FormControl(initialValue.description),
+      id: new FormControl<number>(initialValue.id),
+      visitDate: new FormControl<Date>(initialValue.visitDate),
+      description: new FormControl<string>(initialValue.description),
     });
   }
 

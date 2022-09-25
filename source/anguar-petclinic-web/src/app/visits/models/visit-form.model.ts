@@ -1,8 +1,7 @@
-import { UntypedFormGroup, UntypedFormControl, FormArray } from '@angular/forms';
+import { FormGroup, FormControl, FormArray } from '@angular/forms';
 import { VisitDTO } from './../../api-access/models/visit.dto';
-import { PetVisitDTO } from './../../api-access/models/pet-visit.dto';
 
-export class VisitForm extends UntypedFormGroup {
+export class VisitForm extends FormGroup {
   public static createEmpty(): VisitForm {
     return new VisitForm({
       id: null,
@@ -25,9 +24,9 @@ export class VisitForm extends UntypedFormGroup {
     description: string;
   }) {
     super({
-      id: new UntypedFormControl(initialValue.id),
-      visitDate: new UntypedFormControl(initialValue.visitDate),
-      description: new UntypedFormControl(initialValue.description),
+      id: new FormControl<number>(initialValue.id),
+      visitDate: new FormControl<Date>(initialValue.visitDate),
+      description: new FormControl<string>(initialValue.description),
     });
   }
 
