@@ -47,8 +47,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetAllSpecialties();
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
         /// <summary>
@@ -70,8 +70,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetSpecialty(specialtyId);
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
         /// <summary>
@@ -93,8 +93,8 @@ namespace PetClinic.Api.Controllers
 
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return Created(string.Empty, result);
             }
+            return Created(string.Empty, result);
         }
 
         /// <summary>
@@ -114,8 +114,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.UpdateSpecialty(specialtyId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return NoContent();
             }
+            return NoContent();
         }
 
         /// <summary>
@@ -135,8 +135,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.DeleteSpecialty(specialtyId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return Ok();
             }
+            return Ok();
         }
 
 

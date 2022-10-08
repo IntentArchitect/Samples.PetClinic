@@ -35,15 +35,12 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
                 .IsRequired()
                 .HasMaxLength(20);
 
-
             builder.OwnsMany(x => x.Pets, ConfigurePets);
-
         }
 
         public void ConfigureVisits(OwnedNavigationBuilder<Pet, Visit> builder)
         {
             builder.WithOwner(x => x.Pet).HasForeignKey(x => x.PetId);
-
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.VisitDate)
@@ -56,7 +53,6 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
         public void ConfigurePets(OwnedNavigationBuilder<Owner, Pet> builder)
         {
             builder.WithOwner(x => x.Owner).HasForeignKey(x => x.OwnerId);
-
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Name)

@@ -47,8 +47,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetOwners();
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
         /// <summary>
@@ -68,8 +68,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.AddOwner(dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return Created(string.Empty, null);
             }
+            return Created(string.Empty, null);
         }
 
         /// <summary>
@@ -91,8 +91,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetOwner(ownerId);
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
         /// <summary>
@@ -112,8 +112,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.UpdateOwner(ownerId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return NoContent();
             }
+            return NoContent();
         }
 
         /// <summary>
@@ -133,8 +133,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.DeleteOwner(ownerId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return Ok();
             }
+            return Ok();
         }
 
         /// <summary>
@@ -154,8 +154,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetOwnersList(lastName);
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
 

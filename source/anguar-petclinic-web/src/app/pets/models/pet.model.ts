@@ -30,11 +30,11 @@ export class PetModel extends FormGroup {
     petTypeName: string;
   }) {
     super({
-      id: new FormControl<number>(initialValue.id),
-      name: new FormControl<string>(initialValue.name),
-      birthDate: new FormControl<Date>(initialValue.birthDate),
-      petTypeId: new FormControl<number>(initialValue.petTypeId),
-      petTypeName: new FormControl<string>(initialValue.petTypeName),
+      id: new FormControl(initialValue.id),
+      name: new FormControl(initialValue.name),
+      birthDate: new FormControl(initialValue.birthDate),
+      petTypeId: new FormControl(initialValue.petTypeId),
+      petTypeName: new FormControl(initialValue.petTypeName),
     });
   }
 

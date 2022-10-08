@@ -24,9 +24,9 @@ export class VisitForm extends FormGroup {
     description: string;
   }) {
     super({
-      id: new FormControl<number>(initialValue.id),
-      visitDate: new FormControl<Date>(initialValue.visitDate),
-      description: new FormControl<string>(initialValue.description),
+      id: new FormControl(initialValue.id),
+      visitDate: new FormControl(initialValue.visitDate),
+      description: new FormControl(initialValue.description),
     });
   }
 

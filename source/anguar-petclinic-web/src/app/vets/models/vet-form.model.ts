@@ -26,10 +26,10 @@ export class VetFormModel extends FormGroup {
     specialties: number[];
   }) {
     super({
-      id: new FormControl<number>(initialValue.id),
-      firstName: new FormControl<string>(initialValue.firstName),
-      lastName: new FormControl<string>(initialValue.lastName),
-      specialties: new FormControl<number[]>(initialValue.specialties),
+      id: new FormControl(initialValue.id),
+      firstName: new FormControl(initialValue.firstName),
+      lastName: new FormControl(initialValue.lastName),
+      specialties: new FormControl(initialValue.specialties),
     });
   }
 

@@ -21,8 +21,8 @@ export class SpecialtyFormModel extends FormGroup {
     name: string;
   }) {
     super({
-      id: new FormControl<number>(initialValue.id),
-      name: new FormControl<string>(initialValue.name),
+      id: new FormControl(initialValue.id),
+      name: new FormControl(initialValue.name),
     });
   }
 

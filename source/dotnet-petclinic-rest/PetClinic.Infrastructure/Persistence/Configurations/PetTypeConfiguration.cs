@@ -20,8 +20,6 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
             builder.Property(x => x.Name)
                 .IsRequired()
                 .HasMaxLength(80);
-
-
         }
     }
 }

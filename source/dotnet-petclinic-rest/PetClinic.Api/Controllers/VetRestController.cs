@@ -47,8 +47,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetAllVets();
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
         /// <summary>
@@ -70,8 +70,8 @@ namespace PetClinic.Api.Controllers
 
                 result = await _appService.GetVet(vetId);
 
-                return Ok(result);
             }
+            return Ok(result);
         }
 
         /// <summary>
@@ -91,8 +91,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.AddVet(dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return Created(string.Empty, null);
             }
+            return Created(string.Empty, null);
         }
 
         /// <summary>
@@ -112,8 +112,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.UpdateVet(vetId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return NoContent();
             }
+            return NoContent();
         }
 
         /// <summary>
@@ -133,8 +133,8 @@ namespace PetClinic.Api.Controllers
                 await _appService.DeleteVet(vetId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
-                return Ok();
             }
+            return Ok();
         }
 
 

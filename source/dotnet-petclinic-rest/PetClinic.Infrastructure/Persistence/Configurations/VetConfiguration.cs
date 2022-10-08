@@ -23,11 +23,9 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
                 .IsRequired()
                 .HasMaxLength(30);
 
-
             builder.HasMany(x => x.Specialties)
                 .WithMany("Vets")
                 .UsingEntity(x => x.ToTable("VetSpecialties"));
-
         }
     }
 }

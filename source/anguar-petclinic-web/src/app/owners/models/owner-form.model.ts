@@ -33,12 +33,12 @@ export class OwnerForm extends FormGroup {
     telephone: string;
   }) {
     super({
-      id: new FormControl<number>(initialValue.id),
-      firstName: new FormControl<string>(initialValue.firstName),
-      lastName: new FormControl<string>(initialValue.lastName),
-      address: new FormControl<string>(initialValue.address),
-      city: new FormControl<string>(initialValue.city),
-      telephone: new FormControl<string>(initialValue.telephone),
+      id: new FormControl(initialValue.id),
+      firstName: new FormControl(initialValue.firstName),
+      lastName: new FormControl(initialValue.lastName),
+      address: new FormControl(initialValue.address),
+      city: new FormControl(initialValue.city),
+      telephone: new FormControl(initialValue.telephone),
     });
   }
 
