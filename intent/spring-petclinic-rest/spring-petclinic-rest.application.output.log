@@ -355,14 +355,6 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
-      <ProjectId>4c6c64f0-2a91-4072-b8cb-2a799d432006</ProjectId>
-      <CorrelationId>Intent.Java.SpringFox.Swagger.SpringFoxConfig</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/spring-petclinic-rest/src/main/java/com/spring_petclinic/spring_petclinic_rest/configuration/SpringFoxConfig.java</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>SpringFoxConfig.java</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
       <ProjectId>e7dbd1f7-ea4c-40df-bc4a-0d55883961c2</ProjectId>
       <CorrelationId>Intent.Java.Spring.Data.Repositories.EntityRepository#c5d02993-df1d-4c79-a5e1-d7c0b474aec1</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>

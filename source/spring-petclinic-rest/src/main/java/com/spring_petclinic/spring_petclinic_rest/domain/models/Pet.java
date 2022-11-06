@@ -34,13 +34,13 @@ public class Pet extends AbstractEntity {
     private LocalDate birthDate;
 
     @ManyToOne(optional = false, cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
-    @JoinColumn(name="pet_type_id", nullable = false)
+    @JoinColumn(name = "pettype_id", nullable = false)
     private PetType petType;
 
     @OneToMany(cascade = { CascadeType.ALL }, mappedBy="pet", orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Visit> visits;
 
     @ManyToOne(optional = false, cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
-    @JoinColumn(name="owner_id", nullable = false)
+    @JoinColumn(name = "owner_id", nullable = false)
     private Owner owner;
 }

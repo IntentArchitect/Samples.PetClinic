@@ -32,6 +32,6 @@ public class Visit extends AbstractEntity {
     private String description;
 
     @ManyToOne(optional = false, cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
-    @JoinColumn(name="pet_id", nullable = false)
+    @JoinColumn(name = "pet_id", nullable = false)
     private Pet pet;
 }
