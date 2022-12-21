@@ -6,6 +6,5 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.PetTypeDTO;
 
 public class PetTypeToPetTypeDTOMapping extends PropertyMap<PetType, PetTypeDTO> {
     protected void configure() {
-        map().setId((Integer)source.getId());
     }
 }

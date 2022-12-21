@@ -11,6 +11,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.Parameter;
 
 @RestController
 @RequestMapping("/api/specialties")
@@ -37,7 +38,7 @@ public class SpecialtyRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified SpecialtyDTO."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred."),
         @ApiResponse(responseCode = "404", description = "Can\'t find an SpecialtyDTO with the parameters provided.") })
-    public ResponseEntity<SpecialtyDTO> getSpecialty(@PathVariable(value = "specialtyId") int specialtyId) {
+    public ResponseEntity<SpecialtyDTO> getSpecialty(@Parameter(required = true) @PathVariable(value = "specialtyId") int specialtyId) {
         final SpecialtyDTO result = specialtyRestService.getSpecialty(specialtyId);
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -50,7 +51,7 @@ public class SpecialtyRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "201", description = "Successfully created."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public ResponseEntity<Integer> addSpecialty(@RequestBody SpecialtyDTO dto) {
+    public ResponseEntity<Integer> addSpecialty(@Parameter(required = true) @RequestBody SpecialtyDTO dto) {
         final int result = specialtyRestService.addSpecialty(dto);
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
@@ -61,7 +62,7 @@ public class SpecialtyRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "204", description = "Successfully updated."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void updateSpecialty(@PathVariable(value = "specialtyId") int specialtyId, @RequestBody SpecialtyDTO dto) {
+    public void updateSpecialty(@Parameter(required = true) @PathVariable(value = "specialtyId") int specialtyId, @Parameter(required = true) @RequestBody SpecialtyDTO dto) {
         specialtyRestService.updateSpecialty(specialtyId, dto);
     }
 
@@ -71,7 +72,7 @@ public class SpecialtyRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void deleteSpecialty(@PathVariable(value = "specialtyId") int specialtyId) {
+    public void deleteSpecialty(@Parameter(required = true) @PathVariable(value = "specialtyId") int specialtyId) {
         specialtyRestService.deleteSpecialty(specialtyId);
     }
 }

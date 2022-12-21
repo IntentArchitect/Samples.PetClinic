@@ -359,6 +359,14 @@
     </FileLog>
     <FileLog>
       <ProjectId>eabbeff8-1ea0-4c77-99aa-ad1dbf116bfd</ProjectId>
+      <CorrelationId>Intent.NodeJS.TypeORM.BasicAuditingSubscriber</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/typeorm/basic-auditing-subscriber.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>basic-auditing-subscriber.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>eabbeff8-1ea0-4c77-99aa-ad1dbf116bfd</ProjectId>
       <CorrelationId>Intent.NodeJS.TypeORM.TypeOrmExDecorator</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/nestjs-petclinic-rest/src/typeorm/typeorm-ex.decorator.ts</ApplicationRelativeFilePath>

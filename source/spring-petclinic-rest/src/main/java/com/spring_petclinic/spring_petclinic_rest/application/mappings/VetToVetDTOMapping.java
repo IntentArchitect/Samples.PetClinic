@@ -7,5 +7,6 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.SpecialtyDT
 
 public class VetToVetDTOMapping extends PropertyMap<Vet, VetDTO> {
     protected void configure() {
+        map().setId((int)source.getId());
     }
 }

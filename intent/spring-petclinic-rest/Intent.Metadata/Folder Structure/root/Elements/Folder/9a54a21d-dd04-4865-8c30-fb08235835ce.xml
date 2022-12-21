@@ -12,20 +12,6 @@
   <stereotypes />
   <metadata />
   <childElements>
-    <childElement id="bee926f5-f7b1-4546-b053-45c3ff874dc8" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
-      <name>Intent.Java.Domain.AbstractEntity</name>
-      <display>Intent.Java.Domain.AbstractEntity</display>
-      <externalReference>Intent.Java.Domain</externalReference>
-      <isAbstract>false</isAbstract>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>9a54a21d-dd04-4865-8c30-fb08235835ce</parentFolderId>
-      <packageId>a401ff81-a1a0-4c13-ba62-2ab5647d43d9</packageId>
-      <packageName>root</packageName>
-      <stereotypes />
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="96919d79-2469-416e-a79d-a3be0637b91d" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
       <name>Intent.Java.Domain.DomainModel</name>
       <display>Intent.Java.Domain.DomainModel</display>
@@ -38,6 +24,34 @@
       <packageName>root</packageName>
       <stereotypes />
       <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="1ecc77a5-3af3-4454-9cd7-6cbe5a7edae4" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.Domain.Enum</name>
+      <display>Intent.Java.Domain.Enum</display>
+      <externalReference>Intent.Java.Domain</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9a54a21d-dd04-4865-8c30-fb08235835ce</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="9632ad70-d8a6-40c8-9821-7d30f83b1370" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.Persistence.JPA.CompositeId</name>
+      <display>Intent.Java.Persistence.JPA.CompositeId</display>
+      <externalReference>Intent.Java.Persistence.JPA</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9a54a21d-dd04-4865-8c30-fb08235835ce</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
       <childElements />
     </childElement>
   </childElements>

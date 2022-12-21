@@ -8,11 +8,15 @@ import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 import javax.persistence.JoinColumn;
 import javax.persistence.CascadeType;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
+
 import lombok.NoArgsConstructor;
 import javax.persistence.FetchType;
+import java.io.Serializable;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 
 
@@ -22,8 +26,13 @@ import javax.persistence.FetchType;
 @AllArgsConstructor
 @NoArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
-public class Visit extends AbstractEntity {
+public class Visit implements Serializable {
     private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
+    private Integer id;
 
     @Column(name = "visit_date", nullable = false)
     private LocalDate visitDate;
@@ -31,7 +40,11 @@ public class Visit extends AbstractEntity {
     @Column(name = "description", nullable = false)
     private String description;
 
-    @ManyToOne(optional = false, cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
+    @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JoinColumn(name = "pet_id", nullable = false)
     private Pet pet;
+
+    public boolean isNew() {
+        return this.id == null;
+    }
 }

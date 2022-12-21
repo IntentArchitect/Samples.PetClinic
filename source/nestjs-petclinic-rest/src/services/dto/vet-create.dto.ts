@@ -1,7 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-export class VetCreateDTO
-{
+export class VetCreateDTO {
   @ApiProperty()
   firstName: string;
 

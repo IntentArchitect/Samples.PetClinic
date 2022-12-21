@@ -14,16 +14,18 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.VisitRestController = void 0;
 const common_1 = require("@nestjs/common");
+const visit_dto_1 = require("./../../services/dto/visit.dto");
 const visit_create_dto_1 = require("./../../services/dto/visit-create.dto");
 const visit_update_dto_1 = require("./../../services/dto/visit-update.dto");
 const visit_rest_service_1 = require("./../../services/visit-rest.service");
+const swagger_1 = require("@nestjs/swagger");
 let VisitRestController = class VisitRestController {
     constructor(visitRestService) {
         this.visitRestService = visitRestService;
         this.logger = new common_1.Logger('VisitRestController');
     }
     async getVisit(req, visitId) {
-        var result = await this.visitRestService.getVisit(visitId);
+        const result = await this.visitRestService.getVisit(visitId);
         return result;
     }
     async addVisit(req, dto) {
@@ -37,7 +39,13 @@ let VisitRestController = class VisitRestController {
     }
 };
 __decorate([
-    (0, common_1.Get)(":visitId"),
+    (0, common_1.Get)(':visitId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Result retrieved successfully.',
+        type: visit_dto_1.VisitDTO,
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
+    (0, swagger_1.ApiNotFoundResponse)({ description: 'Response not found.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('visitId')),
     __metadata("design:type", Function),
@@ -45,7 +53,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "getVisit", null);
 __decorate([
-    (0, common_1.Post)(""),
+    (0, common_1.Post)(''),
+    (0, swagger_1.ApiCreatedResponse)({
+        description: 'The record has been successfully created.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -53,7 +65,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "addVisit", null);
 __decorate([
-    (0, common_1.Put)(":visitId"),
+    (0, common_1.Put)(':visitId'),
+    (0, swagger_1.ApiNoContentResponse)({
+        description: 'Successfully updated.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('visitId')),
     __param(2, (0, common_1.Body)()),
@@ -62,7 +78,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "updateVisit", null);
 __decorate([
-    (0, common_1.Delete)(":visitId"),
+    (0, common_1.Delete)(':visitId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Successfully deleted.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('visitId')),
     __metadata("design:type", Function),
@@ -70,6 +90,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VisitRestController.prototype, "deleteVisit", null);
 VisitRestController = __decorate([
+    (0, swagger_1.ApiTags)('VisitRest'),
     (0, common_1.Controller)('api/visits'),
     __metadata("design:paramtypes", [visit_rest_service_1.VisitRestService])
 ], VisitRestController);

@@ -15,7 +15,6 @@ const typeorm_1 = require("typeorm");
 let Visit = class Visit {
 };
 __decorate([
-    (0, typeorm_1.ObjectIdColumn)(),
     (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Visit.prototype, "id", void 0);
@@ -28,7 +27,7 @@ __decorate([
     __metadata("design:type", String)
 ], Visit.prototype, "description", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => pet_entity_1.Pet, pet => pet.visits, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' }),
+    (0, typeorm_1.ManyToOne)(() => pet_entity_1.Pet, (pet) => pet.visits, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' }),
     __metadata("design:type", pet_entity_1.Pet)
 ], Visit.prototype, "pet", void 0);
 __decorate([

@@ -25,8 +25,7 @@ namespace PetClinic.Api.Controllers
         private readonly IVisitService _appService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public VisitRestController(IVisitService appService,
-            IUnitOfWork unitOfWork)
+        public VisitRestController(IVisitService appService, IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -42,16 +41,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<VisitDTO>> getVisit([FromRoute] int visitId, CancellationToken cancellationToken)
+        public async Task<ActionResult<VisitDTO>> GetVisit([FromRoute] int visitId, CancellationToken cancellationToken)
         {
             var result = default(VisitDTO);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetVisit(visitId);
-
-            }
+            result = await _appService.GetVisit(visitId);
             return Ok(result);
         }
 
@@ -63,12 +56,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> addVisit([FromBody] VisitCreateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> AddVisit([FromBody] VisitCreateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.AddVisit(dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -84,12 +76,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> updateVisit([FromRoute] int visitId, [FromBody] VisitUpdateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateVisit([FromRoute] int visitId, [FromBody] VisitUpdateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.UpdateVisit(visitId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -105,12 +96,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> deleteVisit([FromRoute] int visitId, CancellationToken cancellationToken)
+        public async Task<ActionResult> DeleteVisit([FromRoute] int visitId, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.DeleteVisit(visitId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();

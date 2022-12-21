@@ -1,20 +1,18 @@
 import { Pet } from './pet.entity';
-import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, ObjectIdColumn } from 'typeorm';
 
 @Entity('visit')
 export class Visit {
-  
-  @ObjectIdColumn()
   @PrimaryGeneratedColumn()
   id: number;
-  
+
   @Column()
   visitDate: Date;
-  
+
   @Column()
   description: string;
-  
-  @ManyToOne(() => Pet, pet => pet.visits, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' })
+
+  @ManyToOne(() => Pet, (pet) => pet.visits, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' })
   pet: Pet;
 
   @Column({ nullable: true })

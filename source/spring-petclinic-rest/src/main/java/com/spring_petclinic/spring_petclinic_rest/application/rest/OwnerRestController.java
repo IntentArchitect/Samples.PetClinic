@@ -13,6 +13,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.Parameter;
 
 @RestController
 @RequestMapping("/api/owners")
@@ -39,7 +40,7 @@ public class OwnerRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "201", description = "Successfully created."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void addOwner(@RequestBody OwnerCreateDTO dto) {
+    public void addOwner(@Parameter(required = true) @RequestBody OwnerCreateDTO dto) {
         ownerRestService.addOwner(dto);
     }
 
@@ -49,7 +50,7 @@ public class OwnerRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified OwnerDTO."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred."),
         @ApiResponse(responseCode = "404", description = "Can\'t find an OwnerDTO with the parameters provided.") })
-    public ResponseEntity<OwnerDTO> getOwner(@PathVariable(value = "ownerId") int ownerId) {
+    public ResponseEntity<OwnerDTO> getOwner(@Parameter(required = true) @PathVariable(value = "ownerId") int ownerId) {
         final OwnerDTO result = ownerRestService.getOwner(ownerId);
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -63,7 +64,7 @@ public class OwnerRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "204", description = "Successfully updated."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void updateOwner(@PathVariable(value = "ownerId") int ownerId, @RequestBody OwnerUpdateDTO dto) {
+    public void updateOwner(@Parameter(required = true) @PathVariable(value = "ownerId") int ownerId, @Parameter(required = true) @RequestBody OwnerUpdateDTO dto) {
         ownerRestService.updateOwner(ownerId, dto);
     }
 
@@ -73,7 +74,7 @@ public class OwnerRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void deleteOwner(@PathVariable(value = "ownerId") int ownerId) {
+    public void deleteOwner(@Parameter(required = true) @PathVariable(value = "ownerId") int ownerId) {
         ownerRestService.deleteOwner(ownerId);
     }
 
@@ -82,7 +83,7 @@ public class OwnerRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Returns the specified List<OwnerDTO>."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public ResponseEntity<List<OwnerDTO>> getOwnersList(@PathVariable(value = "lastName") String lastName) {
+    public ResponseEntity<List<OwnerDTO>> getOwnersList(@Parameter(required = true) @PathVariable(value = "lastName") String lastName) {
         final List<OwnerDTO> result = ownerRestService.getOwnersList(lastName);
         if (result.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

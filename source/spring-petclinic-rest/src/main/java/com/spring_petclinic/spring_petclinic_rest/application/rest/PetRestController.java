@@ -12,6 +12,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.Parameter;
 
 @RestController
 @RequestMapping("/api/pets")
@@ -26,7 +27,7 @@ public class PetRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified PetDTO."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred."),
         @ApiResponse(responseCode = "404", description = "Can\'t find an PetDTO with the parameters provided.") })
-    public ResponseEntity<PetDTO> getPet(@PathVariable(value = "petId") int petId) {
+    public ResponseEntity<PetDTO> getPet(@Parameter(required = true) @PathVariable(value = "petId") int petId) {
         final PetDTO result = petRestService.getPet(petId);
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -40,7 +41,7 @@ public class PetRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "201", description = "Successfully created."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void addPet(@RequestBody PetCreateDTO dto) {
+    public void addPet(@Parameter(required = true) @RequestBody PetCreateDTO dto) {
         petRestService.addPet(dto);
     }
 
@@ -50,7 +51,7 @@ public class PetRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "204", description = "Successfully updated."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void updatePet(@PathVariable(value = "petId") int petId, @RequestBody PetUpdateDTO dto) {
+    public void updatePet(@Parameter(required = true) @PathVariable(value = "petId") int petId, @Parameter(required = true) @RequestBody PetUpdateDTO dto) {
         petRestService.updatePet(petId, dto);
     }
 
@@ -60,7 +61,7 @@ public class PetRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void deletePet(@PathVariable(value = "petId") int petId) {
+    public void deletePet(@Parameter(required = true) @PathVariable(value = "petId") int petId) {
         petRestService.deletePet(petId);
     }
 }

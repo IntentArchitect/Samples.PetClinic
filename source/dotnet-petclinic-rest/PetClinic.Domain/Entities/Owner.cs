@@ -11,6 +11,19 @@ namespace PetClinic.Domain.Entities
     [DefaultIntentManaged(Mode.Merge, Signature = Mode.Merge, Body = Mode.Ignore, Targets = Targets.Methods, AccessModifiers = AccessModifiers.Public)]
     public partial class Owner
     {
+        public int Id { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string Address { get; set; }
+
+        public string City { get; set; }
+
+        public string Telephone { get; set; }
+
+        public virtual ICollection<Pet> Pets { get; set; } = new List<Pet>();
 
     }
 }

@@ -9,11 +9,15 @@ import javax.persistence.ManyToMany;
 import javax.persistence.JoinTable;
 import javax.persistence.JoinColumn;
 import javax.persistence.CascadeType;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
+
 import lombok.NoArgsConstructor;
 import javax.persistence.FetchType;
+import java.io.Serializable;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 
 
@@ -23,8 +27,13 @@ import javax.persistence.FetchType;
 @AllArgsConstructor
 @NoArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
-public class Vet extends AbstractEntity {
+public class Vet implements Serializable {
     private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
+    private Integer id;
 
     @Column(name = "first_name", length = 30, nullable = false)
     private String firstName;
@@ -32,11 +41,15 @@ public class Vet extends AbstractEntity {
     @Column(name = "last_name", length = 30, nullable = false)
     private String lastName;
 
-    @ManyToMany(cascade = { CascadeType.ALL }, fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "vet_specialties",
             joinColumns = { @JoinColumn(name = "vet_id") },
             inverseJoinColumns = { @JoinColumn(name = "specialty_id") }
     )
     private List<Specialty> specialties;
+
+    public boolean isNew() {
+        return this.id == null;
+    }
 }

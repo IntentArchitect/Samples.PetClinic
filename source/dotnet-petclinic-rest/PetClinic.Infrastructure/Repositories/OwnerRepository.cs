@@ -15,7 +15,7 @@ using PetClinic.Infrastructure.Persistence;
 namespace PetClinic.Infrastructure.Repositories
 {
     [IntentManaged(Mode.Merge, Signature = Mode.Fully)]
-    public class OwnerRepository : RepositoryBase<IOwner, Owner, ApplicationDbContext>, IOwnerRepository
+    public class OwnerRepository : RepositoryBase<Owner, Owner, ApplicationDbContext>, IOwnerRepository
     {
         [IntentManaged(Mode.Ignore, Signature = Mode.Fully)]
         public OwnerRepository(ApplicationDbContext dbContext) : base(dbContext)
@@ -24,14 +24,14 @@ namespace PetClinic.Infrastructure.Repositories
 
 
         [IntentManaged(Mode.Fully)]
-        public async Task<IOwner> FindByIdAsync(int id, CancellationToken cancellationToken = default)
+        public async Task<Owner> FindByIdAsync(int id, CancellationToken cancellationToken = default)
         {
             return await FindAsync(x => x.Id == id, cancellationToken);
         }
 
 
         [IntentManaged(Mode.Fully)]
-        public async Task<List<IOwner>> FindByIdsAsync(int[] ids, CancellationToken cancellationToken = default)
+        public async Task<List<Owner>> FindByIdsAsync(int[] ids, CancellationToken cancellationToken = default)
         {
             return await FindAllAsync(x => ids.Contains(x.Id), cancellationToken);
         }

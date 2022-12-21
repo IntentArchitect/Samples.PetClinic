@@ -10,9 +10,11 @@ exports.SpecialtyRepository = void 0;
 const typeorm_1 = require("typeorm");
 const typeorm_ex_decorator_1 = require("./../typeorm/typeorm-ex.decorator");
 const specialty_entity_1 = require("./../domain/entities/specialty.entity");
+const intent_decorators_1 = require("./../intent/intent.decorators");
 let SpecialtyRepository = class SpecialtyRepository extends typeorm_1.Repository {
 };
 SpecialtyRepository = __decorate([
+    (0, intent_decorators_1.IntentMerge)(),
     (0, typeorm_ex_decorator_1.CustomRepository)(specialty_entity_1.Specialty)
 ], SpecialtyRepository);
 exports.SpecialtyRepository = SpecialtyRepository;

@@ -19,6 +19,7 @@ import { PetRepository } from './repository/pet.repository';
 import { PetTypeRepository } from './repository/pet-type.repository';
 import { SpecialtyRepository } from './repository/specialty.repository';
 import { VetRepository } from './repository/vet.repository';
+import { BasicAuditingSubscriber } from './typeorm/basic-auditing-subscriber';
 import { VisitRepository } from './repository/visit.repository';
 import { IntentIgnore, IntentMerge } from './intent/intent.decorators';
 import { ConfigModule } from '@nestjs/config';
@@ -28,7 +29,17 @@ import { ConfigModule } from '@nestjs/config';
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRoot(typeOrmConfig),
-    TypeOrmExModule.forCustomRepository([OwnerRepository, PetRepository, PetTypeRepository, SpecialtyRepository, VetRepository, VisitRepository]),
+    TypeOrmExModule.forCustomRepository([
+      OwnerRepository,
+      PetRepository,
+      PetTypeRepository,
+      SpecialtyRepository,
+      VetRepository,
+    ]),
+    ClsModule.forRoot({
+      global: true,
+      middleware: { mount: true },
+    }),
     TypeOrmModule.forFeature([OwnerRepository, PetRepository, PetTypeRepository, SpecialtyRepository, VetRepository, VisitRepository])
   ],
   controllers: [
@@ -45,7 +56,9 @@ import { ConfigModule } from '@nestjs/config';
     PetTypeRestService,
     SpecialtyRestService,
     VetRestService,
-    VisitRestService
+    VisitRestService,
+    BasicAuditingSubscriber
   ]
 })
 export class AppModule {}
+import { ClsModule } from 'nestjs-cls';

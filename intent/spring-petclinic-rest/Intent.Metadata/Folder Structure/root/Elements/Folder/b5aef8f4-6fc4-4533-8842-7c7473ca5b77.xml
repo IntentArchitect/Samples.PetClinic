@@ -26,5 +26,19 @@
       <metadata />
       <childElements />
     </childElement>
+    <childElement id="28bec75d-c608-4e47-ada4-316e21228655" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Java.Services.Enum</name>
+      <display>Intent.Java.Services.Enum</display>
+      <externalReference>Intent.Java.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>b5aef8f4-6fc4-4533-8842-7c7473ca5b77</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

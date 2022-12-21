@@ -12,12 +12,12 @@ namespace PetClinic.Application.Dtos
 {
     public static class PetVisitDTOMappingExtensions
     {
-        public static PetVisitDTO MapToPetVisitDTO(this IVisit projectFrom, IMapper mapper)
+        public static PetVisitDTO MapToPetVisitDTO(this Visit projectFrom, IMapper mapper)
         {
             return mapper.Map<PetVisitDTO>(projectFrom);
         }
 
-        public static List<PetVisitDTO> MapToPetVisitDTOList(this IEnumerable<IVisit> projectFrom, IMapper mapper)
+        public static List<PetVisitDTO> MapToPetVisitDTOList(this IEnumerable<Visit> projectFrom, IMapper mapper)
         {
             return projectFrom.Select(x => x.MapToPetVisitDTO(mapper)).ToList();
         }

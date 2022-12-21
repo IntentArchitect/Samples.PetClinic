@@ -25,8 +25,7 @@ namespace PetClinic.Api.Controllers
         private readonly ISpecialtyService _appService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public SpecialtyRestController(ISpecialtyService appService,
-            IUnitOfWork unitOfWork)
+        public SpecialtyRestController(ISpecialtyService appService, IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -38,16 +37,10 @@ namespace PetClinic.Api.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(List<SpecialtyDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<List<SpecialtyDTO>>> getAllSpecialties(CancellationToken cancellationToken)
+        public async Task<ActionResult<List<SpecialtyDTO>>> GetAllSpecialties(CancellationToken cancellationToken)
         {
             var result = default(List<SpecialtyDTO>);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetAllSpecialties();
-
-            }
+            result = await _appService.GetAllSpecialties();
             return Ok(result);
         }
 
@@ -61,16 +54,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<SpecialtyDTO>> getSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
+        public async Task<ActionResult<SpecialtyDTO>> GetSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
         {
             var result = default(SpecialtyDTO);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetSpecialty(specialtyId);
-
-            }
+            result = await _appService.GetSpecialty(specialtyId);
             return Ok(result);
         }
 
@@ -82,15 +69,13 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(typeof(int), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<int>> addSpecialty([FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult<int>> AddSpecialty([FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
         {
             var result = default(int);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 result = await _appService.AddSpecialty(dto);
-
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
             }
@@ -105,12 +90,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> updateSpecialty([FromRoute] int specialtyId, [FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateSpecialty([FromRoute] int specialtyId, [FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.UpdateSpecialty(specialtyId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -126,12 +110,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> deleteSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
+        public async Task<ActionResult> DeleteSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.DeleteSpecialty(specialtyId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();

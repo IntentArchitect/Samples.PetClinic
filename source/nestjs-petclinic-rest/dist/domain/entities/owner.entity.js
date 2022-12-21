@@ -15,7 +15,6 @@ const typeorm_1 = require("typeorm");
 let Owner = class Owner {
 };
 __decorate([
-    (0, typeorm_1.ObjectIdColumn)(),
     (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Owner.prototype, "id", void 0);
@@ -40,7 +39,7 @@ __decorate([
     __metadata("design:type", String)
 ], Owner.prototype, "telephone", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => pet_entity_1.Pet, pets => pets.owner, { cascade: true, eager: true }),
+    (0, typeorm_1.OneToMany)(() => pet_entity_1.Pet, (pets) => pets.owner, { cascade: ['insert', 'update'] }),
     __metadata("design:type", Array)
 ], Owner.prototype, "pets", void 0);
 __decorate([

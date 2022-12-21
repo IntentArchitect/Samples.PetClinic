@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="23bc60fd-37d6-45ed-98f1-d1f2c92eb7e0" type="Repository" typeId="96ffceb2-a70a-4b69-869b-0df436c470c3">
+  <name>VisitRepository</name>
+  <display>VisitRepository: Visit</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="8d979b4e-e3d5-4d4f-81d1-b582b915bc81">
+    <typeId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>Domain</typePackageName>
+    <typePackageId>00b749ca-cbd8-43d7-8058-671c68702ddb</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
+  <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+  <packageName>Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

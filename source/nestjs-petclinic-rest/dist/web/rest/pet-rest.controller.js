@@ -14,16 +14,18 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PetRestController = void 0;
 const common_1 = require("@nestjs/common");
+const pet_dto_1 = require("./../../services/dto/pet.dto");
 const pet_create_dto_1 = require("./../../services/dto/pet-create.dto");
 const pet_update_dto_1 = require("./../../services/dto/pet-update.dto");
 const pet_rest_service_1 = require("./../../services/pet-rest.service");
+const swagger_1 = require("@nestjs/swagger");
 let PetRestController = class PetRestController {
     constructor(petRestService) {
         this.petRestService = petRestService;
         this.logger = new common_1.Logger('PetRestController');
     }
     async getPet(req, petId) {
-        var result = await this.petRestService.getPet(petId);
+        const result = await this.petRestService.getPet(petId);
         return result;
     }
     async addPet(req, dto) {
@@ -37,7 +39,13 @@ let PetRestController = class PetRestController {
     }
 };
 __decorate([
-    (0, common_1.Get)(":petId"),
+    (0, common_1.Get)(':petId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Result retrieved successfully.',
+        type: pet_dto_1.PetDTO,
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
+    (0, swagger_1.ApiNotFoundResponse)({ description: 'Response not found.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('petId')),
     __metadata("design:type", Function),
@@ -45,7 +53,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "getPet", null);
 __decorate([
-    (0, common_1.Post)(""),
+    (0, common_1.Post)(''),
+    (0, swagger_1.ApiCreatedResponse)({
+        description: 'The record has been successfully created.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -53,7 +65,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "addPet", null);
 __decorate([
-    (0, common_1.Put)(":petId"),
+    (0, common_1.Put)(':petId'),
+    (0, swagger_1.ApiNoContentResponse)({
+        description: 'Successfully updated.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('petId')),
     __param(2, (0, common_1.Body)()),
@@ -62,7 +78,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "updatePet", null);
 __decorate([
-    (0, common_1.Delete)(":petId"),
+    (0, common_1.Delete)(':petId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Successfully deleted.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('petId')),
     __metadata("design:type", Function),
@@ -70,6 +90,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetRestController.prototype, "deletePet", null);
 PetRestController = __decorate([
+    (0, swagger_1.ApiTags)('PetRest'),
     (0, common_1.Controller)('api/pets'),
     __metadata("design:paramtypes", [pet_rest_service_1.PetRestService])
 ], PetRestController);

@@ -1,16 +1,15 @@
 import { Specialty } from './../../domain/entities/specialty.entity';import { ApiProperty } from '@nestjs/swagger';
 
-export class SpecialtyDTO
-{
+export class SpecialtyDTO {
   @ApiProperty()
   id?: number;
 
   @ApiProperty()
   name: string;
 
-  static fromSpecialty(specialty: Specialty) {
+  static fromSpecialty(specialty: Specialty): SpecialtyDTO {
     if (specialty == null) {
-        return null;
+      return null;
     }
     const dto = new SpecialtyDTO();
     dto.id = specialty.id;

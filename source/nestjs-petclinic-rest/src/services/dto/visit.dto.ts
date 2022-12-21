@@ -3,8 +3,7 @@ import { Visit } from './../../domain/entities/visit.entity';
 import { ApiProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 
-export class VisitDTO
-{
+export class VisitDTO {
   @ApiProperty()
   id: number;
 
@@ -21,9 +20,9 @@ export class VisitDTO
   @ApiProperty()
   ownerId: number;
 
-  static fromVisit(visit: Visit) {
+  static fromVisit(visit: Visit): VisitDTO {
     if (visit == null) {
-        return null;
+      return null;
     }
     const dto = new VisitDTO();
     dto.id = visit.id;

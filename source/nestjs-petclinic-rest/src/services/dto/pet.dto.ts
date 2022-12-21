@@ -3,8 +3,7 @@ import { Pet } from './../../domain/entities/pet.entity';
 import { ApiProperty } from '@nestjs/swagger';
 import { Type } from 'class-transformer';
 
-export class PetDTO
-{
+export class PetDTO {
   @ApiProperty()
   id: number;
 
@@ -33,9 +32,9 @@ export class PetDTO
   @ApiProperty()
   visits: PetVisitDTO[];
 
-  static fromPet(pet: Pet) {
+  static fromPet(pet: Pet): PetDTO {
     if (pet == null) {
-        return null;
+      return null;
     }
     const dto = new PetDTO();
     dto.id = pet.id;

@@ -22,18 +22,26 @@ namespace PetClinic.Infrastructure.Persistence.Configurations
             builder.Property(x => x.BirthDate)
                 .IsRequired();
 
-
             builder.HasOne(x => x.PetType)
                 .WithMany()
                 .HasForeignKey(x => x.PetTypeId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.HasMany(x => x.Visits)
-                .WithOne(x => x.Pet)
-                .HasForeignKey(x => x.PetId)
-                .IsRequired()
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.OwnsMany(x => x.Visits, ConfigureVisits);
+        }
 
+        public void ConfigureVisits(OwnedNavigationBuilder<Pet, Visit> builder)
+        {
+            builder.WithOwner(x => x.Pet)
+                .HasForeignKey(x => x.PetId);
+
+            builder.HasKey(x => x.Id);
+
+            builder.Property(x => x.VisitDate)
+                .IsRequired();
+
+            builder.Property(x => x.Description)
+                .IsRequired();
         }
     }
 }

@@ -11,6 +11,15 @@ namespace PetClinic.Domain.Entities
     [DefaultIntentManaged(Mode.Merge, Signature = Mode.Merge, Body = Mode.Ignore, Targets = Targets.Methods, AccessModifiers = AccessModifiers.Public)]
     public partial class Visit
     {
+        public int Id { get; set; }
+
+        public DateTime VisitDate { get; set; }
+
+        public string Description { get; set; }
+
+        public int PetId { get; set; }
+
+        public virtual Pet Pet { get; set; }
 
     }
 }

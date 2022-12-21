@@ -25,8 +25,7 @@ namespace PetClinic.Api.Controllers
         private readonly IPetService _appService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public PetRestController(IPetService appService,
-            IUnitOfWork unitOfWork)
+        public PetRestController(IPetService appService, IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -42,16 +41,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<PetDTO>> getPet([FromRoute] int petId, CancellationToken cancellationToken)
+        public async Task<ActionResult<PetDTO>> GetPet([FromRoute] int petId, CancellationToken cancellationToken)
         {
             var result = default(PetDTO);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetPet(petId);
-
-            }
+            result = await _appService.GetPet(petId);
             return Ok(result);
         }
 
@@ -63,12 +56,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> addPet([FromBody] PetCreateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> AddPet([FromBody] PetCreateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.AddPet(dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -84,12 +76,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> updatePet([FromRoute] int petId, [FromBody] PetUpdateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdatePet([FromRoute] int petId, [FromBody] PetUpdateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.UpdatePet(petId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -105,12 +96,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> deletePet([FromRoute] int petId, CancellationToken cancellationToken)
+        public async Task<ActionResult> DeletePet([FromRoute] int petId, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.DeletePet(petId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();

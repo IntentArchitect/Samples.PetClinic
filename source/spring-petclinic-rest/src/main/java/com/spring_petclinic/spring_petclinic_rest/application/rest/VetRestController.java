@@ -13,6 +13,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.Parameter;
 
 @RestController
 @RequestMapping("/api/vets")
@@ -39,7 +40,7 @@ public class VetRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified VetDTO."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred."),
         @ApiResponse(responseCode = "404", description = "Can\'t find an VetDTO with the parameters provided.") })
-    public ResponseEntity<VetDTO> getVet(@PathVariable(value = "vetId") int vetId) {
+    public ResponseEntity<VetDTO> getVet(@Parameter(required = true) @PathVariable(value = "vetId") int vetId) {
         final VetDTO result = vetRestService.getVet(vetId);
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -53,7 +54,7 @@ public class VetRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "201", description = "Successfully created."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void addVet(@RequestBody VetCreateDTO dto) {
+    public void addVet(@Parameter(required = true) @RequestBody VetCreateDTO dto) {
         vetRestService.addVet(dto);
     }
 
@@ -63,7 +64,7 @@ public class VetRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "204", description = "Successfully updated."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void updateVet(@PathVariable(value = "vetId") int vetId, @RequestBody VetUpdateDTO dto) {
+    public void updateVet(@Parameter(required = true) @PathVariable(value = "vetId") int vetId, @Parameter(required = true) @RequestBody VetUpdateDTO dto) {
         vetRestService.updateVet(vetId, dto);
     }
 
@@ -73,7 +74,7 @@ public class VetRestController {
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
-    public void deleteVet(@PathVariable(value = "vetId") int vetId) {
+    public void deleteVet(@Parameter(required = true) @PathVariable(value = "vetId") int vetId) {
         vetRestService.deleteVet(vetId);
     }
 }

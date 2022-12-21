@@ -11,6 +11,9 @@ namespace PetClinic.Domain.Entities
     [DefaultIntentManaged(Mode.Merge, Signature = Mode.Merge, Body = Mode.Ignore, Targets = Targets.Methods, AccessModifiers = AccessModifiers.Public)]
     public partial class PetType
     {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
 
     }
 }

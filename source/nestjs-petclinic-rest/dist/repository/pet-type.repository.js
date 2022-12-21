@@ -10,9 +10,11 @@ exports.PetTypeRepository = void 0;
 const typeorm_1 = require("typeorm");
 const typeorm_ex_decorator_1 = require("./../typeorm/typeorm-ex.decorator");
 const pet_type_entity_1 = require("./../domain/entities/pet-type.entity");
+const intent_decorators_1 = require("./../intent/intent.decorators");
 let PetTypeRepository = class PetTypeRepository extends typeorm_1.Repository {
 };
 PetTypeRepository = __decorate([
+    (0, intent_decorators_1.IntentMerge)(),
     (0, typeorm_ex_decorator_1.CustomRepository)(pet_type_entity_1.PetType)
 ], PetTypeRepository);
 exports.PetTypeRepository = PetTypeRepository;

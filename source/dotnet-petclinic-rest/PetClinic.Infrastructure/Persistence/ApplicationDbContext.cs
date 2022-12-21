@@ -20,29 +20,21 @@ namespace PetClinic.Infrastructure.Persistence
         }
 
         public DbSet<Owner> Owners { get; set; }
+        public DbSet<Pet> Pets { get; set; }
         public DbSet<PetType> PetTypes { get; set; }
         public DbSet<Specialty> Specialties { get; set; }
         public DbSet<Vet> Vets { get; set; }
-
-        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
-        {
-
-            var result = await base.SaveChangesAsync(cancellationToken);
-
-            return result;
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             ConfigureModel(modelBuilder);
-
             modelBuilder.ApplyConfiguration(new OwnerConfiguration());
+            modelBuilder.ApplyConfiguration(new PetConfiguration());
             modelBuilder.ApplyConfiguration(new PetTypeConfiguration());
             modelBuilder.ApplyConfiguration(new SpecialtyConfiguration());
             modelBuilder.ApplyConfiguration(new VetConfiguration());
-
         }
 
         [IntentManaged(Mode.Ignore)]

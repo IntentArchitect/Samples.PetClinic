@@ -2,8 +2,7 @@ import { PetDTO } from './pet.dto';
 import { Owner } from './../../domain/entities/owner.entity';
 import { ApiProperty } from '@nestjs/swagger';
 
-export class OwnerDTO
-{
+export class OwnerDTO {
   @ApiProperty()
   id: number;
 
@@ -25,9 +24,9 @@ export class OwnerDTO
   @ApiProperty()
   pets: PetDTO[];
 
-  static fromOwner(owner: Owner) {
+  static fromOwner(owner: Owner): OwnerDTO {
     if (owner == null) {
-        return null;
+      return null;
     }
     const dto = new OwnerDTO();
     dto.id = owner.id;

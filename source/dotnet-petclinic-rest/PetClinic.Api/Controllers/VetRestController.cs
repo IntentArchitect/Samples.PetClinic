@@ -25,8 +25,7 @@ namespace PetClinic.Api.Controllers
         private readonly IVetService _appService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public VetRestController(IVetService appService,
-            IUnitOfWork unitOfWork)
+        public VetRestController(IVetService appService, IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -38,16 +37,10 @@ namespace PetClinic.Api.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(List<VetDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<List<VetDTO>>> getAllVets(CancellationToken cancellationToken)
+        public async Task<ActionResult<List<VetDTO>>> GetAllVets(CancellationToken cancellationToken)
         {
             var result = default(List<VetDTO>);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetAllVets();
-
-            }
+            result = await _appService.GetAllVets();
             return Ok(result);
         }
 
@@ -61,16 +54,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<VetDTO>> getVet([FromRoute] int vetId, CancellationToken cancellationToken)
+        public async Task<ActionResult<VetDTO>> GetVet([FromRoute] int vetId, CancellationToken cancellationToken)
         {
             var result = default(VetDTO);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetVet(vetId);
-
-            }
+            result = await _appService.GetVet(vetId);
             return Ok(result);
         }
 
@@ -82,12 +69,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> addVet([FromBody] VetCreateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> AddVet([FromBody] VetCreateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.AddVet(dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -103,12 +89,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> updateVet([FromRoute] int vetId, [FromBody] VetUpdateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateVet([FromRoute] int vetId, [FromBody] VetUpdateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.UpdateVet(vetId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -124,12 +109,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> deleteVet([FromRoute] int vetId, CancellationToken cancellationToken)
+        public async Task<ActionResult> DeleteVet([FromRoute] int vetId, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.DeleteVet(vetId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();

@@ -12,11 +12,11 @@ using PetClinic.Domain.Entities;
 namespace PetClinic.Domain.Repositories
 {
     [IntentManaged(Mode.Merge, Signature = Mode.Fully)]
-    public interface IPetTypeRepository : IRepository<IPetType, PetType>
+    public interface IPetTypeRepository : IRepository<PetType, PetType>
     {
         [IntentManaged(Mode.Fully)]
-        Task<IPetType> FindByIdAsync(int id, CancellationToken cancellationToken = default);
+        Task<PetType> FindByIdAsync(int id, CancellationToken cancellationToken = default);
         [IntentManaged(Mode.Fully)]
-        Task<List<IPetType>> FindByIdsAsync(int[] ids, CancellationToken cancellationToken = default);
+        Task<List<PetType>> FindByIdsAsync(int[] ids, CancellationToken cancellationToken = default);
     }
 }

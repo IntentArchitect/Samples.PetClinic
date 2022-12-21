@@ -14,20 +14,22 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.VetRestController = void 0;
 const common_1 = require("@nestjs/common");
+const vet_dto_1 = require("./../../services/dto/vet.dto");
 const vet_create_dto_1 = require("./../../services/dto/vet-create.dto");
 const vet_update_dto_1 = require("./../../services/dto/vet-update.dto");
 const vet_rest_service_1 = require("./../../services/vet-rest.service");
+const swagger_1 = require("@nestjs/swagger");
 let VetRestController = class VetRestController {
     constructor(vetRestService) {
         this.vetRestService = vetRestService;
         this.logger = new common_1.Logger('VetRestController');
     }
     async getAllVets(req) {
-        var result = await this.vetRestService.getAllVets();
+        const result = await this.vetRestService.getAllVets();
         return result;
     }
     async getVet(req, vetId) {
-        var result = await this.vetRestService.getVet(vetId);
+        const result = await this.vetRestService.getVet(vetId);
         return result;
     }
     async addVet(req, dto) {
@@ -41,14 +43,25 @@ let VetRestController = class VetRestController {
     }
 };
 __decorate([
-    (0, common_1.Get)(""),
+    (0, common_1.Get)(''),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Result retrieved successfully.',
+        type: vet_dto_1.VetDTO,
+        isArray: true,
+    }),
     __param(0, (0, common_1.Req)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "getAllVets", null);
 __decorate([
-    (0, common_1.Get)(":vetId"),
+    (0, common_1.Get)(':vetId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Result retrieved successfully.',
+        type: vet_dto_1.VetDTO,
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
+    (0, swagger_1.ApiNotFoundResponse)({ description: 'Response not found.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('vetId')),
     __metadata("design:type", Function),
@@ -56,7 +69,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "getVet", null);
 __decorate([
-    (0, common_1.Post)(""),
+    (0, common_1.Post)(''),
+    (0, swagger_1.ApiCreatedResponse)({
+        description: 'The record has been successfully created.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -64,7 +81,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "addVet", null);
 __decorate([
-    (0, common_1.Put)(":vetId"),
+    (0, common_1.Put)(':vetId'),
+    (0, swagger_1.ApiNoContentResponse)({
+        description: 'Successfully updated.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('vetId')),
     __param(2, (0, common_1.Body)()),
@@ -73,7 +94,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "updateVet", null);
 __decorate([
-    (0, common_1.Delete)(":vetId"),
+    (0, common_1.Delete)(':vetId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Successfully deleted.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('vetId')),
     __metadata("design:type", Function),
@@ -81,6 +106,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], VetRestController.prototype, "deleteVet", null);
 VetRestController = __decorate([
+    (0, swagger_1.ApiTags)('VetRest'),
     (0, common_1.Controller)('api/vets'),
     __metadata("design:paramtypes", [vet_rest_service_1.VetRestService])
 ], VetRestController);

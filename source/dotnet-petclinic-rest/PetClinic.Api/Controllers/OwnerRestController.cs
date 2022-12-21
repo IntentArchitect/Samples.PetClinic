@@ -25,8 +25,7 @@ namespace PetClinic.Api.Controllers
         private readonly IOwnerService _appService;
         private readonly IUnitOfWork _unitOfWork;
 
-        public OwnerRestController(IOwnerService appService,
-            IUnitOfWork unitOfWork)
+        public OwnerRestController(IOwnerService appService, IUnitOfWork unitOfWork)
         {
             _appService = appService ?? throw new ArgumentNullException(nameof(appService));
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
@@ -38,16 +37,10 @@ namespace PetClinic.Api.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(List<OwnerDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<List<OwnerDTO>>> getOwners(CancellationToken cancellationToken)
+        public async Task<ActionResult<List<OwnerDTO>>> GetOwners(CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetOwners();
-
-            }
+            result = await _appService.GetOwners();
             return Ok(result);
         }
 
@@ -59,12 +52,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> addOwner([FromBody] OwnerCreateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> AddOwner([FromBody] OwnerCreateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.AddOwner(dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -82,16 +74,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<OwnerDTO>> getOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
+        public async Task<ActionResult<OwnerDTO>> GetOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
         {
             var result = default(OwnerDTO);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetOwner(ownerId);
-
-            }
+            result = await _appService.GetOwner(ownerId);
             return Ok(result);
         }
 
@@ -103,12 +89,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> updateOwner([FromRoute] int ownerId, [FromBody] OwnerUpdateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateOwner([FromRoute] int ownerId, [FromBody] OwnerUpdateDTO dto, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.UpdateOwner(ownerId, dto);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -124,12 +109,11 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> deleteOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
+        public async Task<ActionResult> DeleteOwner([FromRoute] int ownerId, CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
             {
-
                 await _appService.DeleteOwner(ownerId);
                 await _unitOfWork.SaveChangesAsync(cancellationToken);
                 transaction.Complete();
@@ -145,16 +129,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(typeof(List<OwnerDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<List<OwnerDTO>>> getOwnersList([FromRoute] string lastName, CancellationToken cancellationToken)
+        public async Task<ActionResult<List<OwnerDTO>>> GetOwnersList([FromRoute] string lastName, CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
-            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
-                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
-            {
-
-                result = await _appService.GetOwnersList(lastName);
-
-            }
+            result = await _appService.GetOwnersList(lastName);
             return Ok(result);
         }
 

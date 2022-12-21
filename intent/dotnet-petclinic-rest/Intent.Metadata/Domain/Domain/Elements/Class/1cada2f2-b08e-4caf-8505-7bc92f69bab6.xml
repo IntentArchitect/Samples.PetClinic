@@ -9,14 +9,7 @@
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
   <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
   <packageName>Domain</packageName>
-  <stereotypes>
-    <stereotype stereotypeDefinitionId="cdc3d50d-0edd-4ffd-996f-08cbdf39595c" name="Repository">
-      <addedByDefault>false</addedByDefault>
-      <definitionPackageName>Intent.Entities.Repositories.Api</definitionPackageName>
-      <definitionPackageId>a059d995-a36f-4647-9c98-18ce340297eb</definitionPackageId>
-      <properties />
-    </stereotype>
-  </stereotypes>
+  <stereotypes />
   <metadata />
   <childElements>
     <childElement id="2f8f7064-3462-48a7-9aa0-33fb3ddf3ac8" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">

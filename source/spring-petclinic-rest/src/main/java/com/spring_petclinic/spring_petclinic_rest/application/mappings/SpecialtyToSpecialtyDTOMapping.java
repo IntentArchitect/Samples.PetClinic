@@ -6,6 +6,5 @@ import com.spring_petclinic.spring_petclinic_rest.application.models.SpecialtyDT
 
 public class SpecialtyToSpecialtyDTOMapping extends PropertyMap<Specialty, SpecialtyDTO> {
     protected void configure() {
-        map().setId((Integer)source.getId());
     }
 }

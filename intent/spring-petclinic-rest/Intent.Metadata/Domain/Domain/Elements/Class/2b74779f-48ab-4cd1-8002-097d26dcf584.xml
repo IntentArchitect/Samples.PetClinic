@@ -14,17 +14,17 @@
   <childElements>
     <childElement id="578c6b3d-9853-4a0e-8666-6384cecc3c83" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
       <name>id</name>
-      <display>id: int</display>
+      <display>id: Integer</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="268103b4-a370-4f44-9eec-11e66883fa1c">
-        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <typeId>b3e5cb3b-8a26-4346-810b-9789afa25a82</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>Intent.Common.Types</typePackageName>
-        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <typePackageName>Intent.Common.Java</typePackageName>
+        <typePackageId>1b8f2b45-99c0-42dc-b28e-bcd4621c3e71</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>

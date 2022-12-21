@@ -17,7 +17,6 @@ const typeorm_1 = require("typeorm");
 let Pet = class Pet {
 };
 __decorate([
-    (0, typeorm_1.ObjectIdColumn)(),
     (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], Pet.prototype, "id", void 0);
@@ -34,11 +33,11 @@ __decorate([
     __metadata("design:type", pet_type_entity_1.PetType)
 ], Pet.prototype, "petType", void 0);
 __decorate([
-    (0, typeorm_1.OneToMany)(() => visit_entity_1.Visit, visits => visits.pet, { cascade: true, eager: true }),
+    (0, typeorm_1.OneToMany)(() => visit_entity_1.Visit, (visits) => visits.pet, { cascade: true, eager: true }),
     __metadata("design:type", Array)
 ], Pet.prototype, "visits", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => owner_entity_1.Owner, owner => owner.pets, { cascade: ['insert', 'update'], nullable: false, onDelete: 'CASCADE', orphanedRowAction: 'delete' }),
+    (0, typeorm_1.ManyToOne)(() => owner_entity_1.Owner, (owner) => owner.pets, { cascade: ['insert', 'update'] }),
     __metadata("design:type", owner_entity_1.Owner)
 ], Pet.prototype, "owner", void 0);
 __decorate([

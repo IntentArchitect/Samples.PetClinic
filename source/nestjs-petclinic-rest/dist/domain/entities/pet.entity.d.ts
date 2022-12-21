@@ -7,7 +7,7 @@ export declare class Pet {
     birthDate: Date;
     petType: PetType;
     visits: Visit[];
-    owner: Owner;
+    owner?: Owner;
     createdBy?: string;
     createdDate?: Date;
     lastModifiedBy?: string;

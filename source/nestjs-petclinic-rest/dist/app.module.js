@@ -28,6 +28,7 @@ const pet_repository_1 = require("./repository/pet.repository");
 const pet_type_repository_1 = require("./repository/pet-type.repository");
 const specialty_repository_1 = require("./repository/specialty.repository");
 const vet_repository_1 = require("./repository/vet.repository");
+const basic_auditing_subscriber_1 = require("./typeorm/basic-auditing-subscriber");
 const visit_repository_1 = require("./repository/visit.repository");
 const intent_decorators_1 = require("./intent/intent.decorators");
 const config_1 = require("@nestjs/config");
@@ -39,7 +40,17 @@ AppModule = __decorate([
         imports: [
             config_1.ConfigModule.forRoot({ isGlobal: true }),
             typeorm_1.TypeOrmModule.forRoot(orm_config_1.typeOrmConfig),
-            typeorm_ex_module_1.TypeOrmExModule.forCustomRepository([owner_repository_1.OwnerRepository, pet_repository_1.PetRepository, pet_type_repository_1.PetTypeRepository, specialty_repository_1.SpecialtyRepository, vet_repository_1.VetRepository, visit_repository_1.VisitRepository]),
+            typeorm_ex_module_1.TypeOrmExModule.forCustomRepository([
+                owner_repository_1.OwnerRepository,
+                pet_repository_1.PetRepository,
+                pet_type_repository_1.PetTypeRepository,
+                specialty_repository_1.SpecialtyRepository,
+                vet_repository_1.VetRepository,
+            ]),
+            nestjs_cls_1.ClsModule.forRoot({
+                global: true,
+                middleware: { mount: true },
+            }),
             typeorm_1.TypeOrmModule.forFeature([owner_repository_1.OwnerRepository, pet_repository_1.PetRepository, pet_type_repository_1.PetTypeRepository, specialty_repository_1.SpecialtyRepository, vet_repository_1.VetRepository, visit_repository_1.VisitRepository])
         ],
         controllers: [
@@ -56,9 +67,11 @@ AppModule = __decorate([
             pet_type_rest_service_1.PetTypeRestService,
             specialty_rest_service_1.SpecialtyRestService,
             vet_rest_service_1.VetRestService,
-            visit_rest_service_1.VisitRestService
+            visit_rest_service_1.VisitRestService,
+            basic_auditing_subscriber_1.BasicAuditingSubscriber
         ]
     })
 ], AppModule);
 exports.AppModule = AppModule;
+const nestjs_cls_1 = require("nestjs-cls");
 //# sourceMappingURL=app.module.js.map

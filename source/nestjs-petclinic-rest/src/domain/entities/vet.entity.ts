@@ -1,19 +1,17 @@
 import { Specialty } from './specialty.entity';
-import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable, JoinColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable, ObjectIdColumn, JoinColumn } from 'typeorm';
 
 @Entity('vet')
 export class Vet {
-  
-  @ObjectIdColumn()
   @PrimaryGeneratedColumn()
   id: number;
-  
+
   @Column({ length: 30 })
   firstName: string;
-  
+
   @Column({ length: 30 })
   lastName: string;
-  
+
   @ManyToMany(() => Specialty, { cascade: ['insert', 'update'] })
   @JoinTable()
   specialties: Specialty[];

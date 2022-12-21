@@ -1,12 +1,10 @@
-import { Entity, ObjectIdColumn, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ObjectIdColumn } from 'typeorm';
 
 @Entity('pet_type')
 export class PetType {
-  
-  @ObjectIdColumn()
   @PrimaryGeneratedColumn()
   id: number;
-  
+
   @Column({ length: 80 })
   name: string;
 

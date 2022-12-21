@@ -16,21 +16,22 @@ exports.PetTypeRestController = void 0;
 const common_1 = require("@nestjs/common");
 const pet_type_dto_1 = require("./../../services/dto/pet-type.dto");
 const pet_type_rest_service_1 = require("./../../services/pet-type-rest.service");
+const swagger_1 = require("@nestjs/swagger");
 let PetTypeRestController = class PetTypeRestController {
     constructor(petTypeRestService) {
         this.petTypeRestService = petTypeRestService;
         this.logger = new common_1.Logger('PetTypeRestController');
     }
     async getAllPetTypes(req) {
-        var result = await this.petTypeRestService.getAllPetTypes();
+        const result = await this.petTypeRestService.getAllPetTypes();
         return result;
     }
     async getPetType(req, petTypeId) {
-        var result = await this.petTypeRestService.getPetType(petTypeId);
+        const result = await this.petTypeRestService.getPetType(petTypeId);
         return result;
     }
     async addPetType(req, dto) {
-        var result = await this.petTypeRestService.addPetType(dto);
+        const result = await this.petTypeRestService.addPetType(dto);
         return result;
     }
     async updatePetType(req, petTypeId, dto) {
@@ -41,14 +42,25 @@ let PetTypeRestController = class PetTypeRestController {
     }
 };
 __decorate([
-    (0, common_1.Get)(""),
+    (0, common_1.Get)(''),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Result retrieved successfully.',
+        type: pet_type_dto_1.PetTypeDTO,
+        isArray: true,
+    }),
     __param(0, (0, common_1.Req)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "getAllPetTypes", null);
 __decorate([
-    (0, common_1.Get)(":petTypeId"),
+    (0, common_1.Get)(':petTypeId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Result retrieved successfully.',
+        type: pet_type_dto_1.PetTypeDTO,
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
+    (0, swagger_1.ApiNotFoundResponse)({ description: 'Response not found.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('petTypeId')),
     __metadata("design:type", Function),
@@ -56,7 +68,12 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "getPetType", null);
 __decorate([
-    (0, common_1.Post)(""),
+    (0, common_1.Post)(''),
+    (0, swagger_1.ApiCreatedResponse)({
+        description: 'The record has been successfully created.',
+        type: 'number',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
@@ -64,7 +81,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "addPetType", null);
 __decorate([
-    (0, common_1.Put)(":petTypeId"),
+    (0, common_1.Put)(':petTypeId'),
+    (0, swagger_1.ApiNoContentResponse)({
+        description: 'Successfully updated.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('petTypeId')),
     __param(2, (0, common_1.Body)()),
@@ -73,7 +94,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "updatePetType", null);
 __decorate([
-    (0, common_1.Delete)(":petTypeId"),
+    (0, common_1.Delete)(':petTypeId'),
+    (0, swagger_1.ApiOkResponse)({
+        description: 'Successfully deleted.',
+    }),
+    (0, swagger_1.ApiBadRequestResponse)({ description: 'Bad request.' }),
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Param)('petTypeId')),
     __metadata("design:type", Function),
@@ -81,6 +106,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PetTypeRestController.prototype, "deletePetType", null);
 PetTypeRestController = __decorate([
+    (0, swagger_1.ApiTags)('PetTypeRest'),
     (0, common_1.Controller)('api/pettypes'),
     __metadata("design:paramtypes", [pet_type_rest_service_1.PetTypeRestService])
 ], PetTypeRestController);

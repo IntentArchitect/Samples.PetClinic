@@ -12,12 +12,12 @@ namespace PetClinic.Application.Dtos
 {
     public static class OwnerDTOMappingExtensions
     {
-        public static OwnerDTO MapToOwnerDTO(this IOwner projectFrom, IMapper mapper)
+        public static OwnerDTO MapToOwnerDTO(this Owner projectFrom, IMapper mapper)
         {
             return mapper.Map<OwnerDTO>(projectFrom);
         }
 
-        public static List<OwnerDTO> MapToOwnerDTOList(this IEnumerable<IOwner> projectFrom, IMapper mapper)
+        public static List<OwnerDTO> MapToOwnerDTOList(this IEnumerable<Owner> projectFrom, IMapper mapper)
         {
             return projectFrom.Select(x => x.MapToOwnerDTO(mapper)).ToList();
         }

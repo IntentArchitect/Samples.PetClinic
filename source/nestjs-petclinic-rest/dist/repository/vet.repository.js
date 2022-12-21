@@ -10,9 +10,11 @@ exports.VetRepository = void 0;
 const typeorm_1 = require("typeorm");
 const typeorm_ex_decorator_1 = require("./../typeorm/typeorm-ex.decorator");
 const vet_entity_1 = require("./../domain/entities/vet.entity");
+const intent_decorators_1 = require("./../intent/intent.decorators");
 let VetRepository = class VetRepository extends typeorm_1.Repository {
 };
 VetRepository = __decorate([
+    (0, intent_decorators_1.IntentMerge)(),
     (0, typeorm_ex_decorator_1.CustomRepository)(vet_entity_1.Vet)
 ], VetRepository);
 exports.VetRepository = VetRepository;

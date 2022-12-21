@@ -14,7 +14,6 @@ const typeorm_1 = require("typeorm");
 let PetType = class PetType {
 };
 __decorate([
-    (0, typeorm_1.ObjectIdColumn)(),
     (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], PetType.prototype, "id", void 0);

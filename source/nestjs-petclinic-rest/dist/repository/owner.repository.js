@@ -10,9 +10,11 @@ exports.OwnerRepository = void 0;
 const typeorm_1 = require("typeorm");
 const typeorm_ex_decorator_1 = require("./../typeorm/typeorm-ex.decorator");
 const owner_entity_1 = require("./../domain/entities/owner.entity");
+const intent_decorators_1 = require("./../intent/intent.decorators");
 let OwnerRepository = class OwnerRepository extends typeorm_1.Repository {
 };
 OwnerRepository = __decorate([
+    (0, intent_decorators_1.IntentMerge)(),
     (0, typeorm_ex_decorator_1.CustomRepository)(owner_entity_1.Owner)
 ], OwnerRepository);
 exports.OwnerRepository = OwnerRepository;

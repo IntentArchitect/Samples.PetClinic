@@ -7,11 +7,15 @@ import javax.persistence.Table;
 import javax.persistence.Column;
 import javax.persistence.OneToMany;
 import javax.persistence.CascadeType;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
+
 import lombok.NoArgsConstructor;
 import javax.persistence.FetchType;
+import java.io.Serializable;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 
 
@@ -21,8 +25,13 @@ import javax.persistence.FetchType;
 @AllArgsConstructor
 @NoArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
-public class Owner extends AbstractEntity {
+public class Owner implements Serializable {
     private static final long serialVersionUID = 1L;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
+    private Integer id;
 
     @Column(name = "first_name", length = 30, nullable = false)
     private String firstName;
@@ -39,6 +48,10 @@ public class Owner extends AbstractEntity {
     @Column(name = "telephone", length = 20, nullable = false)
     private String telephone;
 
-    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="owner", orphanRemoval = true, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy="owner", fetch = FetchType.LAZY)
     private List<Pet> pets;
+
+    public boolean isNew() {
+        return this.id == null;
+    }
 }

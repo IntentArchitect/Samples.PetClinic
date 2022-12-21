@@ -9,7 +9,14 @@
   <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
   <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
   <packageName>Domain</packageName>
-  <stereotypes />
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="69b79e8d-4445-44de-915a-05e984f30ee0" name="Repository">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.NodeJS.TypeORM</definitionPackageName>
+      <definitionPackageId>62374542-4fb1-4bf1-a322-f45b423ab2a8</definitionPackageId>
+      <properties />
+    </stereotype>
+  </stereotypes>
   <metadata />
   <childElements>
     <childElement id="0953b8aa-c06d-4e1e-9d9a-dd1a5552138e" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
