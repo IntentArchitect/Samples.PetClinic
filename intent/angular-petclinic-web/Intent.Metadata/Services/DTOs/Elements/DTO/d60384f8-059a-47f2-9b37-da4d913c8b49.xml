@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="d60384f8-059a-47f2-9b37-da4d913c8b49" type="DTO" typeId="fee0edca-4aa0-4f77-a524-6bbd84e78734">
+  <name>VetDTO</name>
+  <display>VetDTO</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</parentFolderId>
+  <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+  <packageName>DTOs</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="9379bfcd-205a-46bd-8a53-b075cfdb1bcb" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>id</name>
+      <display>id: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="8806f322-f946-4719-916a-6c986a995280">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>d60384f8-059a-47f2-9b37-da4d913c8b49</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3d462bc7-f27a-4754-a23e-c70224108791" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>firstName</name>
+      <display>firstName: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="a69dbab2-5e9d-428a-ae46-028aca343085">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>d60384f8-059a-47f2-9b37-da4d913c8b49</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="f4993649-4077-452f-a9e1-eb28e348c658" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>lastName</name>
+      <display>lastName: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="bfe0f1e7-31ad-4ad3-b6a5-691475db2488">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>d60384f8-059a-47f2-9b37-da4d913c8b49</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="60b44ddd-8090-4a65-88d3-a4ba6ab27661" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+      <name>specialties</name>
+      <display>specialties: SpecialtyDTO[*]</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="7f3930a9-b34c-4dfb-8c12-08003c99df4a">
+        <typeId>569f8450-0cbb-4f32-a376-018fdd1d7f5c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DTOs</typePackageName>
+        <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>d60384f8-059a-47f2-9b37-da4d913c8b49</parentFolderId>
+      <packageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</packageId>
+      <packageName>DTOs</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>
