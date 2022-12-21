@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OwnerForm } from './../models/owner-form.model';
-import { IntentIgnore, IntentIgnoreBody, IntentManage, IntentMerge } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
+import { IntentIgnore, IntentIgnoreBody, IntentManage, IntentMerge } from './../../intent/intent.decorators';
 import { OwnersService } from 'src/app/api-access/owners-service.service';
 
 @Component({

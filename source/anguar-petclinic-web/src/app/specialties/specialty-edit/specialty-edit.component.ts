@@ -1,8 +1,8 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { SpecialtyFormModel } from './../models/specialty-form.model';
+import { Router, ActivatedRoute } from '@angular/router';
 import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
-import { Router, ActivatedRoute } from '@angular/router';
 import { SpecialtiesService } from 'src/app/api-access/specialties-service.service';
 
 @Component({

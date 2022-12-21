@@ -14,37 +14,52 @@ export class ApiService {
     return throwError(error.error || error);
   }
 
-  get(path: string, params: HttpParams = new HttpParams()): Observable<any> {
-    return this.http.get(`${environment.api_base_url}${path}`, { params })
+  get(path: string, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
+    return this.http.get(`${environment.api_base_url}${path}`, { params, headers, responseType })
       .pipe(catchError(this.formatErrors));
   }
 
-  put(path: string, body: Object = {}): Observable<any> {
+  put(path: string, body: Object = {}, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
+    headers = (headers ?? new HttpHeaders()).append('Content-Type', 'application/json');
+
     return this.http.put(
       `${environment.api_base_url}${path}`,
       JSON.stringify(body),
       {
-        headers: new HttpHeaders({
-          'Content-Type': 'application/json'
-        })
+        params, headers, responseType
       }
     ).pipe(catchError(this.formatErrors));
   }
 
-  post(path: string, body: Object = {}): Observable<any> {
+  putWithFormData(path: string, formData: FormData, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
+    return this.http.put(
+      `${environment.api_base_url}${path}`,
+      formData,
+      { params, headers, responseType }
+    ).pipe(catchError(this.formatErrors));
+  }
+
+  post(path: string, body: Object = {}, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
+    headers = (headers ?? new HttpHeaders()).append('Content-Type', 'application/json');
     return this.http.post(
       `${environment.api_base_url}${path}`,
       JSON.stringify(body),
-      {
-        headers: new HttpHeaders({
-          'Content-Type': 'application/json'
-        })
-      }).pipe(catchError(this.formatErrors));
+      { params, headers, responseType }
+    ).pipe(catchError(this.formatErrors));
   }
 
-  delete(path): Observable<any> {
+  postWithFormData(path: string, formData: FormData, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
+    return this.http.post(
+      `${environment.api_base_url}${path}`,
+      formData,
+      { params, headers, responseType }
+    ).pipe(catchError(this.formatErrors));
+  }
+
+  delete(path, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
     return this.http.delete(
-      `${environment.api_base_url}${path}`
+      `${environment.api_base_url}${path}`,
+      { params, headers, responseType }
     ).pipe(catchError(this.formatErrors));
   }
 }

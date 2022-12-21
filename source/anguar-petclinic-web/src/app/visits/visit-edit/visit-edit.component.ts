@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { VisitForm } from './../models/visit-form.model';
 import { PetDTO } from './../../api-access/models/pet.dto';
-import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
+import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { VisitsService } from 'src/app/api-access/visits-service.service';
 
 @Component({
