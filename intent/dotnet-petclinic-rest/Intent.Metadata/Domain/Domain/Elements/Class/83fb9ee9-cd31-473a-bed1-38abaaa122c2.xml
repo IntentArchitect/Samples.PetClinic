@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="83fb9ee9-cd31-473a-bed1-38abaaa122c2" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>Visit</name>
+  <display>Visit</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>00b749ca-cbd8-43d7-8058-671c68702ddb</parentFolderId>
+  <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+  <packageName>Domain</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="cdc3d50d-0edd-4ffd-996f-08cbdf39595c" name="Repository">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Entities.Repositories.Api</definitionPackageName>
+      <definitionPackageId>a059d995-a36f-4647-9c98-18ce340297eb</definitionPackageId>
+      <properties />
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="0953b8aa-c06d-4e1e-9d9a-dd1a5552138e" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>id</name>
+      <display>id: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="a2317b6c-e85f-411e-a0a7-9667e9c0a19a">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</parentFolderId>
+      <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+      <packageName>Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b99aac21-9ca4-467f-a3a6-046255a9eed6" name="Primary Key">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="4c1e3f7e-61d4-460d-bd20-c2edbc0c0e2e" display="Identity" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="89275cd3-d7e0-46a1-85dd-f3c9f849986f" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>visitDate</name>
+      <display>visitDate: date</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="d494ae4c-7213-4681-a49a-6a1fe1c1fb28">
+        <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</parentFolderId>
+      <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+      <packageName>Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3da4f51e-3ac3-45ae-8ada-c019ec134c79" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>description</name>
+      <display>description: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="d7236e34-671f-40d7-ae1c-2d04ed25689c">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</parentFolderId>
+      <packageId>00b749ca-cbd8-43d7-8058-671c68702ddb</packageId>
+      <packageName>Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

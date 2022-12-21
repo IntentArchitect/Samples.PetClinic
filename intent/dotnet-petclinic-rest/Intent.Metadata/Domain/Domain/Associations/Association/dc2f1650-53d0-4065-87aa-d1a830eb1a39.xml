@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="dc2f1650-53d0-4065-87aa-d1a830eb1a39">
+  <sourceEnd id="68f429a3-a0d6-478c-b2da-d74b6aea73bf" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Vets</name>
+    <display>Vets: Vet[*]</display>
+    <order>0</order>
+    <typeReference id="2700e5c3-fb7c-4366-ad97-df29d70e5180">
+      <typeId>62166c3b-8dce-465c-b978-1237cc69b64e</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Domain</typePackageName>
+      <typePackageId>00b749ca-cbd8-43d7-8058-671c68702ddb</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes>
+      <stereotype stereotypeDefinitionId="49de8cd7-872f-4b37-b9a2-2056304434dd" name="Association JPA Settings">
+        <addedByDefault>true</addedByDefault>
+        <definitionPackageName>Intent.Java.Persistence.JPA</definitionPackageName>
+        <definitionPackageId>2e4398f1-893d-432e-badb-ab0c4ea3280e</definitionPackageId>
+        <properties>
+          <property name="abe22345-1d55-483e-b1f4-54c60cb53539" display="Fetch Type" isActive="true" />
+        </properties>
+      </stereotype>
+    </stereotypes>
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="dc2f1650-53d0-4065-87aa-d1a830eb1a39" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Specialties</name>
+    <display>Specialties: Specialty[*]</display>
+    <order>3</order>
+    <typeReference id="58168de3-1e17-4f50-b55c-894e4b8e1591">
+      <typeId>2b74779f-48ab-4cd1-8002-097d26dcf584</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Domain</typePackageName>
+      <typePackageId>00b749ca-cbd8-43d7-8058-671c68702ddb</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

@@ -3,7 +3,7 @@
   <sourceEnd id="68f429a3-a0d6-478c-b2da-d74b6aea73bf" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
     <name>Vets</name>
     <display>Vets: Vet[*]</display>
-    <order>2</order>
+    <order>0</order>
     <typeReference id="2700e5c3-fb7c-4366-ad97-df29d70e5180">
       <typeId>62166c3b-8dce-465c-b978-1237cc69b64e</typeId>
       <isNavigable>false</isNavigable>
