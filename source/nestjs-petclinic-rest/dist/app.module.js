@@ -32,6 +32,7 @@ const basic_auditing_subscriber_1 = require("./typeorm/basic-auditing-subscriber
 const visit_repository_1 = require("./repository/visit.repository");
 const intent_decorators_1 = require("./intent/intent.decorators");
 const config_1 = require("@nestjs/config");
+const nestjs_cls_1 = require("nestjs-cls");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -73,5 +74,4 @@ AppModule = __decorate([
     })
 ], AppModule);
 exports.AppModule = AppModule;
-const nestjs_cls_1 = require("nestjs-cls");
 //# sourceMappingURL=app.module.js.map

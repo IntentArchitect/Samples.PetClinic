@@ -1,4 +1,5 @@
 import { Inject } from '@nestjs/common';
+import { Request } from 'express';
 import { DataSource, EntitySubscriberInterface, EventSubscriber, InsertEvent, UpdateEvent } from 'typeorm';
 import { CLS_REQ } from 'nestjs-cls'
 

@@ -23,6 +23,7 @@ import { BasicAuditingSubscriber } from './typeorm/basic-auditing-subscriber';
 import { VisitRepository } from './repository/visit.repository';
 import { IntentIgnore, IntentMerge } from './intent/intent.decorators';
 import { ConfigModule } from '@nestjs/config';
+import { ClsModule } from 'nestjs-cls';
 
 @IntentMerge()
 @Module({
@@ -61,4 +62,3 @@ import { ConfigModule } from '@nestjs/config';
   ]
 })
 export class AppModule {}
-import { ClsModule } from 'nestjs-cls';
