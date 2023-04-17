@@ -26,9 +26,7 @@ public class SpecialtyRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified List<SpecialtyDTO>.") })
     public ResponseEntity<List<SpecialtyDTO>> getAllSpecialties() {
         final List<SpecialtyDTO> result = specialtyRestService.getAllSpecialties();
-        if (result.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -43,6 +41,7 @@ public class SpecialtyRestController {
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -53,6 +52,7 @@ public class SpecialtyRestController {
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public ResponseEntity<Integer> addSpecialty(@Parameter(required = true) @RequestBody SpecialtyDTO dto) {
         final int result = specialtyRestService.addSpecialty(dto);
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 

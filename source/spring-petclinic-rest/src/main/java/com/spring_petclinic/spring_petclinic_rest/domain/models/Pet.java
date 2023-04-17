@@ -19,6 +19,8 @@ import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 
 
@@ -36,17 +38,22 @@ public class Pet implements Serializable {
     @Column(name = "id", nullable = false)
     private Integer id;
 
+    @NotNull
+    @Size(max = 30)
     @Column(name = "name", length = 30, nullable = false)
     private String name;
 
+    @NotNull
     @Column(name = "birth_date", nullable = false)
     private LocalDate birthDate;
 
+    @NotNull
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JoinColumn(name = "pet_type_id", nullable = false)
     private PetType petType;
 
-    @OneToMany(cascade = { CascadeType.ALL }, mappedBy="pet", orphanRemoval = true, fetch = FetchType.LAZY)
+    @NotNull
+    @OneToMany(cascade = { CascadeType.ALL }, orphanRemoval = true, mappedBy="pet", fetch = FetchType.LAZY)
     private List<Visit> visits;
 
     @ManyToOne(optional = true, fetch = FetchType.LAZY)

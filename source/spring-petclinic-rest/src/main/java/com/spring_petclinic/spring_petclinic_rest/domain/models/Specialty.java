@@ -12,6 +12,8 @@ import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 
 
@@ -29,6 +31,8 @@ public class Specialty implements Serializable {
     @Column(name = "id", nullable = false)
     private Integer id;
 
+    @NotNull
+    @Size(max = 80)
     @Column(name = "name", length = 80, nullable = false)
     private String name;
 

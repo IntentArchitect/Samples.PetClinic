@@ -17,6 +17,7 @@ import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
 
 
 
@@ -34,12 +35,15 @@ public class Visit implements Serializable {
     @Column(name = "id", nullable = false)
     private Integer id;
 
+    @NotNull
     @Column(name = "visit_date", nullable = false)
     private LocalDate visitDate;
 
+    @NotNull
     @Column(name = "description", nullable = false)
     private String description;
 
+    @NotNull
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JoinColumn(name = "pet_id", nullable = false)
     private Pet pet;

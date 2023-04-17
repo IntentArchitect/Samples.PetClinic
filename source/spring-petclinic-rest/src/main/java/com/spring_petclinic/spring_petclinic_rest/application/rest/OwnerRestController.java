@@ -28,9 +28,7 @@ public class OwnerRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified List<OwnerDTO>.") })
     public ResponseEntity<List<OwnerDTO>> getOwners() {
         final List<OwnerDTO> result = ownerRestService.getOwners();
-        if (result.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -55,6 +53,7 @@ public class OwnerRestController {
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -85,9 +84,7 @@ public class OwnerRestController {
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public ResponseEntity<List<OwnerDTO>> getOwnersList(@Parameter(required = true) @PathVariable(value = "lastName") String lastName) {
         final List<OwnerDTO> result = ownerRestService.getOwnersList(lastName);
-        if (result.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 }

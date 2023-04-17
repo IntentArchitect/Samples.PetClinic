@@ -26,9 +26,7 @@ public class PetTypeRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified List<PetTypeDTO>.") })
     public ResponseEntity<List<PetTypeDTO>> getAllPetTypes() {
         final List<PetTypeDTO> result = petTypeRestService.getAllPetTypes();
-        if (result.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -43,6 +41,7 @@ public class PetTypeRestController {
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -53,6 +52,7 @@ public class PetTypeRestController {
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public ResponseEntity<Integer> addPetType(@Parameter(required = true) @RequestBody PetTypeDTO dto) {
         final int result = petTypeRestService.addPetType(dto);
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 

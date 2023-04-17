@@ -16,6 +16,8 @@ import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 
 
@@ -33,21 +35,32 @@ public class Owner implements Serializable {
     @Column(name = "id", nullable = false)
     private Integer id;
 
+    @NotNull
+    @Size(max = 30)
     @Column(name = "first_name", length = 30, nullable = false)
     private String firstName;
 
+    @NotNull
+    @Size(max = 30)
     @Column(name = "last_name", length = 30, nullable = false)
     private String lastName;
 
+    @NotNull
+    @Size(max = 255)
     @Column(name = "address", length = 255, nullable = false)
     private String address;
 
+    @NotNull
+    @Size(max = 80)
     @Column(name = "city", length = 80, nullable = false)
     private String city;
 
+    @NotNull
+    @Size(max = 20)
     @Column(name = "telephone", length = 20, nullable = false)
     private String telephone;
 
+    @NotNull
     @OneToMany(mappedBy="owner", fetch = FetchType.LAZY)
     private List<Pet> pets;
 

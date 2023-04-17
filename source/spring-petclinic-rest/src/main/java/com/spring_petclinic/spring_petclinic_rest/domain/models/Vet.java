@@ -18,6 +18,8 @@ import java.io.Serializable;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 
 
@@ -35,12 +37,17 @@ public class Vet implements Serializable {
     @Column(name = "id", nullable = false)
     private Integer id;
 
+    @NotNull
+    @Size(max = 30)
     @Column(name = "first_name", length = 30, nullable = false)
     private String firstName;
 
+    @NotNull
+    @Size(max = 30)
     @Column(name = "last_name", length = 30, nullable = false)
     private String lastName;
 
+    @NotNull
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "vet_specialties",

@@ -28,9 +28,7 @@ public class VetRestController {
         @ApiResponse(responseCode = "200", description = "Returns the specified List<VetDTO>.") })
     public ResponseEntity<List<VetDTO>> getAllVets() {
         final List<VetDTO> result = vetRestService.getAllVets();
-        if (result.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
@@ -45,6 +43,7 @@ public class VetRestController {
         if (result == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
