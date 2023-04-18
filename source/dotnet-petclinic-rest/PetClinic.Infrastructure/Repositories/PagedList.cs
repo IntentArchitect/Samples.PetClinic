@@ -26,10 +26,11 @@ namespace PetClinic.Infrastructure.Repositories
             PageSize = pageSize;
             var skip = ((PageNo - 1) * PageSize);
 
-            AddRange(source
-                .Skip(skip)
-                .Take(PageSize)
-                .ToList());
+            AddRange(
+                source
+                    .Skip(skip)
+                    .Take(PageSize)
+                    .ToList());
         }
 
         public PagedList(int totalCount, int pageNo, int pageSize, List<T> results)
@@ -41,10 +42,15 @@ namespace PetClinic.Infrastructure.Repositories
             AddRange(results);
         }
 
-        public static async Task<IPagedResult<T>> CreateAsync(IQueryable<T> source, int pageNo, int pageSize, CancellationToken cancellationToken = default)
+        public static async Task<IPagedResult<T>> CreateAsync(
+            IQueryable<T> source,
+            int pageNo,
+            int pageSize,
+            CancellationToken cancellationToken = default)
         {
             var count = await source.CountAsync(cancellationToken);
             var skip = ((pageNo - 1) * pageSize);
+
             var results = await source
                 .Skip(skip)
                 .Take(pageSize)
@@ -55,8 +61,9 @@ namespace PetClinic.Infrastructure.Repositories
         private int GetPageCount(int pageSize, int totalCount)
         {
             if (pageSize == 0)
+            {
                 return 0;
-
+            }
             var remainder = totalCount % pageSize;
             return (totalCount / pageSize) + (remainder == 0 ? 0 : 1);
         }

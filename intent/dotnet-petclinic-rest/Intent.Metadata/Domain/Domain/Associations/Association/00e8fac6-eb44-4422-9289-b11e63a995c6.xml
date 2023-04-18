@@ -26,6 +26,7 @@
       </stereotype>
     </stereotypes>
     <metadata />
+    <childElements />
   </sourceEnd>
   <targetEnd id="00e8fac6-eb44-4422-9289-b11e63a995c6" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>PetType</name>
@@ -44,6 +45,7 @@
     </typeReference>
     <stereotypes />
     <metadata />
+    <childElements />
   </targetEnd>
   <associationType>Association</associationType>
   <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>

@@ -14,12 +14,7 @@ namespace PetClinic.Application.Dtos
         {
         }
 
-        public static OwnerUpdateDTO Create(
-            string firstName,
-            string lastName,
-            string address,
-            string city,
-            string telephone)
+        public static OwnerUpdateDTO Create(string firstName, string lastName, string address, string city, string telephone)
         {
             return new OwnerUpdateDTO
             {

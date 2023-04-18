@@ -45,7 +45,7 @@ namespace PetClinic.Api.Controllers
         {
             var result = default(VisitDTO);
             result = await _appService.GetVisit(visitId);
-            return Ok(result);
+            return result != null ? Ok(result) : NotFound();
         }
 
         /// <summary>
@@ -76,7 +76,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> UpdateVisit([FromRoute] int visitId, [FromBody] VisitUpdateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateVisit(
+            [FromRoute] int visitId,
+            [FromBody] VisitUpdateDTO dto,
+            CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))

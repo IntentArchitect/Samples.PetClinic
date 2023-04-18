@@ -12,6 +12,7 @@ using PetClinic.Domain.Common.Interfaces;
 
 namespace PetClinic.Domain.Repositories
 {
+    [IntentManaged(Mode.Fully, Signature = Mode.Fully)]
     public interface IRepository<TDomain, TPersistence>
     {
         void Add(TDomain entity);

@@ -78,7 +78,7 @@ namespace PetClinic.Api.Controllers
         {
             var result = default(OwnerDTO);
             result = await _appService.GetOwner(ownerId);
-            return Ok(result);
+            return result != null ? Ok(result) : NotFound();
         }
 
         /// <summary>
@@ -89,7 +89,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> UpdateOwner([FromRoute] int ownerId, [FromBody] OwnerUpdateDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateOwner(
+            [FromRoute] int ownerId,
+            [FromBody] OwnerUpdateDTO dto,
+            CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
@@ -129,7 +132,9 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(typeof(List<OwnerDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<List<OwnerDTO>>> GetOwnersList([FromRoute] string lastName, CancellationToken cancellationToken)
+        public async Task<ActionResult<List<OwnerDTO>>> GetOwnersList(
+            [FromRoute] string lastName,
+            CancellationToken cancellationToken)
         {
             var result = default(List<OwnerDTO>);
             result = await _appService.GetOwnersList(lastName);

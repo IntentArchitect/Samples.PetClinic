@@ -17,12 +17,7 @@ namespace PetClinic.Application.Dtos
         {
         }
 
-        public static VisitDTO Create(
-            int id,
-            DateTime visitDate,
-            string description,
-            PetDTO pet,
-            int ownerId)
+        public static VisitDTO Create(int id, DateTime visitDate, string description, PetDTO pet, int ownerId)
         {
             return new VisitDTO
             {

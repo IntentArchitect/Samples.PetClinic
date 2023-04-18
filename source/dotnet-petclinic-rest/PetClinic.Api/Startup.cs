@@ -37,7 +37,6 @@ namespace PetClinic.Api
             services.AddApplication();
             services.AddInfrastructure(Configuration);
             services.ConfigureSwagger(Configuration);
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,9 +55,7 @@ namespace PetClinic.Api
             {
                 endpoints.MapControllers();
             });
-            app.UseSwagger();
-            app.UseSwaggerUI();
-
+            app.UseSwashbuckle();
         }
     }
 }

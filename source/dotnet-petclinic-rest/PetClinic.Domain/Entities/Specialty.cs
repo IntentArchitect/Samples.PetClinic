@@ -9,7 +9,7 @@ namespace PetClinic.Domain.Entities
 {
     [IntentManaged(Mode.Merge)]
     [DefaultIntentManaged(Mode.Merge, Signature = Mode.Merge, Body = Mode.Ignore, Targets = Targets.Methods, AccessModifiers = AccessModifiers.Public)]
-    public partial class Specialty
+    public class Specialty
     {
         public int Id { get; set; }
 

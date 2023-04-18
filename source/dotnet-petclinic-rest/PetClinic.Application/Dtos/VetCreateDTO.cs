@@ -14,10 +14,7 @@ namespace PetClinic.Application.Dtos
         {
         }
 
-        public static VetCreateDTO Create(
-            string firstName,
-            string lastName,
-            IEnumerable<int> specialties)
+        public static VetCreateDTO Create(string firstName, string lastName, IEnumerable<int> specialties)
         {
             return new VetCreateDTO
             {

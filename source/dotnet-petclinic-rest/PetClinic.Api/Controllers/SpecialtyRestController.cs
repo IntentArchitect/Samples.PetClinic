@@ -54,11 +54,13 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<SpecialtyDTO>> GetSpecialty([FromRoute] int specialtyId, CancellationToken cancellationToken)
+        public async Task<ActionResult<SpecialtyDTO>> GetSpecialty(
+            [FromRoute] int specialtyId,
+            CancellationToken cancellationToken)
         {
             var result = default(SpecialtyDTO);
             result = await _appService.GetSpecialty(specialtyId);
-            return Ok(result);
+            return result != null ? Ok(result) : NotFound();
         }
 
         /// <summary>
@@ -90,7 +92,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> UpdateSpecialty([FromRoute] int specialtyId, [FromBody] SpecialtyDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdateSpecialty(
+            [FromRoute] int specialtyId,
+            [FromBody] SpecialtyDTO dto,
+            CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))

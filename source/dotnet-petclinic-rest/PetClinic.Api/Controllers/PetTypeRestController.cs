@@ -54,11 +54,13 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<PetTypeDTO>> GetPetType([FromRoute] int petTypeId, CancellationToken cancellationToken)
+        public async Task<ActionResult<PetTypeDTO>> GetPetType(
+            [FromRoute] int petTypeId,
+            CancellationToken cancellationToken)
         {
             var result = default(PetTypeDTO);
             result = await _appService.GetPetType(petTypeId);
-            return Ok(result);
+            return result != null ? Ok(result) : NotFound();
         }
 
         /// <summary>
@@ -90,7 +92,10 @@ namespace PetClinic.Api.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> UpdatePetType([FromRoute] int petTypeId, [FromBody] PetTypeDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult> UpdatePetType(
+            [FromRoute] int petTypeId,
+            [FromBody] PetTypeDTO dto,
+            CancellationToken cancellationToken)
         {
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
                 new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
