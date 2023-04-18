@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8df43266-d58c-4cbe-9552-a8dc6b301656" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>4 - Infrastructure</name>
+  <display>4 - Infrastructure</display>
+  <externalReference>03755119-cb3c-4cca-a0d0-532c2b817667</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>81315411-6ba6-4e5c-8f2f-6daa79b45f70</parentFolderId>
+  <packageId>81315411-6ba6-4e5c-8f2f-6daa79b45f70</packageId>
+  <packageName>PetClinic</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

@@ -6,10 +6,12 @@
   <iconType>UrlImagePath</iconType>
   <metadataRelativePath>Intent.Metadata</metadataRelativePath>
   <modulesCacheRelativePath>.intent/modules</modulesCacheRelativePath>
+  <lastUsedApplicationTemplate id="Intent.ApplicationTemplate.AspNetCore6.0.CleanArchitecture" version="4.1.3" />
   <applications>
     <application id="c0565004-77fc-40e6-9a3f-7a484ce53709" name="spring-petclinic-rest" relativePath="spring-petclinic-rest/spring-petclinic-rest.application.config" />
     <application id="3b9a6d6e-1cf0-4aea-b0bc-adac6ace7c4b" name="dotnet-petclinic-rest" relativePath="dotnet-petclinic-rest/dotnet-petclinic-rest.application.config" />
     <application id="81d02285-f500-491b-bbc9-7c84dfe74a94" name="Pet Clinic" relativePath="angular-petclinic-web/spring-petclinic-angular.application.config" />
     <application id="a2cf696f-c814-4c89-8b51-ff3a13ec5b9f" name="nestjs_petclinic" relativePath="nestjs_petclinic/nestjs_petclinic.application.config" />
+    <application id="726968e8-f344-4d6d-bfcf-665e72196781" name="dotnet-cqrs-petclinic-rest" relativePath="dotnet-cqrs-petclinic-rest/dotnet-cqrs-petclinic-rest.application.config" />
   </applications>
 </solution>

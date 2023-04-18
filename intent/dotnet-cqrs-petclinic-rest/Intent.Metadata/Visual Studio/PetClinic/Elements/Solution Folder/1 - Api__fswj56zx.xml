@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="d015b7c7-9e60-4af9-95ea-965e01ccc1e1" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>1 - Api</name>
+  <display>1 - Api</display>
+  <externalReference>2b76d8c9-dd09-40ff-9955-8ab74ee9512a</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>81315411-6ba6-4e5c-8f2f-6daa79b45f70</parentFolderId>
+  <packageId>81315411-6ba6-4e5c-8f2f-6daa79b45f70</packageId>
+  <packageName>PetClinic</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

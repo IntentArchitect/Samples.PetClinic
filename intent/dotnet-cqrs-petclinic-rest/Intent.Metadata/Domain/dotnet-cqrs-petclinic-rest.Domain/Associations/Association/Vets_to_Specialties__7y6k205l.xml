@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="3315eb72-645e-4569-847b-30a48ad88d44">
+  <sourceEnd id="b363673d-a95b-4e16-93f5-f63c5d4393f5" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Vets</name>
+    <display>Vets: Vet[*]</display>
+    <order>0</order>
+    <typeReference id="31afd67f-2d2b-4555-8763-055925b88d60">
+      <typeId>62166c3b-8dce-465c-b978-1237cc69b64e</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>dotnet-cqrs-petclinic-rest.Domain</typePackageName>
+      <typePackageId>95d9aa84-e689-4709-8327-c5ac30f67675</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="3315eb72-645e-4569-847b-30a48ad88d44" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Specialties</name>
+    <display>Specialties: Specialty[*]</display>
+    <order>3</order>
+    <typeReference id="42169964-e8c2-4831-8290-0bf5cbf62db0">
+      <typeId>2b74779f-48ab-4cd1-8002-097d26dcf584</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>dotnet-cqrs-petclinic-rest.Domain</typePackageName>
+      <typePackageId>95d9aa84-e689-4709-8327-c5ac30f67675</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>
