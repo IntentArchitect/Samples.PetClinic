@@ -54,5 +54,19 @@
       </metadata>
       <childElements />
     </childElement>
+    <childElement id="0509b800-46c3-45b8-a16a-4b9d3f6961e8" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Modules.AspNetCore.Cors.CorsConfiguration</name>
+      <display>Intent.Modules.AspNetCore.Cors.CorsConfiguration</display>
+      <externalReference>Intent.Modules.AspNetCore.Cors</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>e04d8eda-7c46-4ec5-b6a8-f5ebb1c8b850</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

@@ -20,6 +20,14 @@
     </FileLog>
     <FileLog>
       <ProjectId>e04d8eda-7c46-4ec5-b6a8-f5ebb1c8b850</ProjectId>
+      <CorrelationId>Intent.Modules.AspNetCore.Cors.CorsConfiguration</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/dotnet-cqrs-petclinic-rest/PetClinic.Api/Configuration/CorsConfiguration.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>CorsConfiguration.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>e04d8eda-7c46-4ec5-b6a8-f5ebb1c8b850</ProjectId>
       <CorrelationId>Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/dotnet-cqrs-petclinic-rest/PetClinic.Api/Configuration/SwashbuckleConfiguration.cs</ApplicationRelativeFilePath>
@@ -128,7 +136,7 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/dotnet-cqrs-petclinic-rest/PetClinic.Api/Startup.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Startup.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
+      <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>7ebfe7d3-0ef4-4f13-b483-ce95ec36aae1</ProjectId>
@@ -952,22 +960,6 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/dotnet-cqrs-petclinic-rest/PetClinic.Application/Vets/VetDtoMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Vets/VetDtoMappingExtensions.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>e5ee929f-38f2-4cca-96b4-fc3423695e8f</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.DtoModel#a0bd32b4-bad0-432d-b468-be469d966d2d</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/dotnet-cqrs-petclinic-rest/PetClinic.Application/Vets/VetSpecialtyDto.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>Vets/VetSpecialtyDto.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>e5ee929f-38f2-4cca-96b4-fc3423695e8f</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#a0bd32b4-bad0-432d-b468-be469d966d2d</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/dotnet-cqrs-petclinic-rest/PetClinic.Application/Vets/VetSpecialtyDtoMappingExtensions.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>Vets/VetSpecialtyDtoMappingExtensions.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>

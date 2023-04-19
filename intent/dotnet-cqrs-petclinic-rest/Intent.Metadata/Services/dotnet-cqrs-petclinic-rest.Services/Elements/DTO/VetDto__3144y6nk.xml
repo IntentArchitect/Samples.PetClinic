@@ -172,11 +172,11 @@
     </childElement>
     <childElement id="01d70ef9-535b-41f8-90ba-9e51164000ba" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>Specialties</name>
-      <display>Specialties: VetSpecialtyDto[*]</display>
+      <display>Specialties: SpecialtyDto[*]</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="c650f6e6-7342-474b-a5cf-e658a10639b7">
-        <typeId>a0bd32b4-bad0-432d-b468-be469d966d2d</typeId>
+        <typeId>3e212534-10a7-4b48-b6a2-65c485060f0a</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>true</isCollection>
