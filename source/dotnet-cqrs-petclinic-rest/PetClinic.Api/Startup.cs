@@ -33,6 +33,7 @@ namespace PetClinic.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.ConfigureCors();
             services.ConfigureApplicationSecurity(Configuration);
             services.AddApplication();
             services.AddInfrastructure(Configuration);
@@ -48,10 +49,11 @@ namespace PetClinic.Api
             }
 
             app.UseSerilogRequestLogging();
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseCors();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

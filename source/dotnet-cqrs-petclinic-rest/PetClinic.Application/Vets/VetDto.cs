@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using AutoMapper;
 using Intent.RoslynWeaver.Attributes;
 using PetClinic.Application.Common.Mappings;
+using PetClinic.Application.Specialties;
 using PetClinic.Domain.Entities;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
@@ -19,9 +20,9 @@ namespace PetClinic.Application.Vets
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<VetSpecialtyDto> Specialties { get; set; }
+        public List<SpecialtyDto> Specialties { get; set; }
 
-        public static VetDto Create(int id, string firstName, string lastName, List<VetSpecialtyDto> specialties)
+        public static VetDto Create(int id, string firstName, string lastName, List<SpecialtyDto> specialties)
         {
             return new VetDto
             {

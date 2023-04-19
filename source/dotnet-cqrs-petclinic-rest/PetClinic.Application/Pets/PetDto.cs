@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using AutoMapper;
 using Intent.RoslynWeaver.Attributes;
 using PetClinic.Application.Common.Mappings;
+using PetClinic.Application.Visits;
 using PetClinic.Domain.Entities;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
@@ -24,6 +25,7 @@ namespace PetClinic.Application.Pets
         public int? OwnerId { get; set; }
         public string OwnerFirstName { get; set; }
         public string OwnerLastName { get; set; }
+        public List<VisitDto> Visits { get; set; }
 
         public static PetDto Create(
             int id,
@@ -33,7 +35,8 @@ namespace PetClinic.Application.Pets
             string petTypeName,
             int? ownerId,
             string ownerFirstName,
-            string ownerLastName)
+            string ownerLastName,
+            List<VisitDto> visits)
         {
             return new PetDto
             {
@@ -45,6 +48,7 @@ namespace PetClinic.Application.Pets
                 OwnerId = ownerId,
                 OwnerFirstName = ownerFirstName,
                 OwnerLastName = ownerLastName,
+                Visits = visits,
             };
         }
 
@@ -53,7 +57,8 @@ namespace PetClinic.Application.Pets
             profile.CreateMap<Pet, PetDto>()
                 .ForMember(d => d.PetTypeName, opt => opt.MapFrom(src => src.PetType.Name))
                 .ForMember(d => d.OwnerFirstName, opt => opt.MapFrom(src => src.Owner.FirstName))
-                .ForMember(d => d.OwnerLastName, opt => opt.MapFrom(src => src.Owner.LastName));
+                .ForMember(d => d.OwnerLastName, opt => opt.MapFrom(src => src.Owner.LastName))
+                .ForMember(d => d.Visits, opt => opt.MapFrom(src => src.Visits));
         }
     }
 }

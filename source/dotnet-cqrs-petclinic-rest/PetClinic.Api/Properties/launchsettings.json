@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:58469/",
+      "applicationUrl": "http://localhost:8080/",
       "sslPort": 44325
     }
   },
@@ -11,8 +11,8 @@
     "PetClinic.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:58469/;https://localhost:44325/",
-      "launchUrl": "http://localhost:58469/swagger",
+      "applicationUrl": "http://localhost:8080/;https://localhost:44325/",
+      "launchUrl": "http://localhost:8080/swagger",
       "publishAllPorts": false,
       "useSSL": false,
       "environmentVariables": {
@@ -22,7 +22,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:58469/swagger",
+      "launchUrl": "http://localhost:8080/swagger",
       "publishAllPorts": false,
       "useSSL": false,
       "environmentVariables": {

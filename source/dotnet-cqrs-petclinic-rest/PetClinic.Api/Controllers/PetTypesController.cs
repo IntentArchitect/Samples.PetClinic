@@ -36,7 +36,7 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="201">Successfully created.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
-        [HttpPost("api/pet-types")]
+        [HttpPost("api/pettypes")]
         [Produces(MediaTypeNames.Application.Json)]
         [ProducesResponseType(typeof(JsonResponse<int>), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -53,7 +53,7 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="200">Successfully deleted.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
-        [HttpDelete("api/pet-types/{id}")]
+        [HttpDelete("api/pettypes/{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -67,7 +67,7 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="204">Successfully updated.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
-        [HttpPut("api/pet-types/{id}")]
+        [HttpPut("api/pettypes/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -90,7 +90,7 @@ namespace PetClinic.Api.Controllers
         /// <response code="200">Returns the specified PetTypeDto.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
         /// <response code="404">Can't find an PetTypeDto with the parameters provided.</response>
-        [HttpGet("api/pet-types/{id}")]
+        [HttpGet("api/pettypes/{id}")]
         [ProducesResponseType(typeof(PetTypeDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -104,7 +104,7 @@ namespace PetClinic.Api.Controllers
         /// <summary>
         /// </summary>
         /// <response code="200">Returns the specified List&lt;PetTypeDto&gt;.</response>
-        [HttpGet("api/pet-types")]
+        [HttpGet("api/pettypes")]
         [ProducesResponseType(typeof(List<PetTypeDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<PetTypeDto>>> GetPetTypes(CancellationToken cancellationToken)
