@@ -23,17 +23,17 @@
   <childElements>
     <childElement id="8946e997-50c3-4f07-9af4-594c7fbbed93" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>id</name>
-      <display>id: int</display>
+      <display>id: Integer</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="eaeab779-bf9d-4007-a0e8-5cbf8416c036">
-        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <typeId>b3e5cb3b-8a26-4346-810b-9789afa25a82</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>Intent.Common.Types</typePackageName>
-        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <typePackageName>Intent.Common.Java</typePackageName>
+        <typePackageId>1b8f2b45-99c0-42dc-b28e-bcd4621c3e71</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
@@ -113,17 +113,17 @@
     </childElement>
     <childElement id="bf6b95f8-c8a1-434c-a0ec-30061aca5e8c" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>petTypeId</name>
-      <display>petTypeId: int</display>
+      <display>petTypeId: Integer</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="ff7a9830-8b96-4457-8a0b-08e2946d2079">
-        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <typeId>b3e5cb3b-8a26-4346-810b-9789afa25a82</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>Intent.Common.Types</typePackageName>
-        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <typePackageName>Intent.Common.Java</typePackageName>
+        <typePackageId>1b8f2b45-99c0-42dc-b28e-bcd4621c3e71</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
@@ -175,17 +175,17 @@
     </childElement>
     <childElement id="88d117ad-9804-4177-afa8-ca8c7cf27426" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>ownerId</name>
-      <display>ownerId: int</display>
+      <display>ownerId: Integer</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="2d6a1315-9892-4e09-a563-43a81242b3e0">
-        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <typeId>b3e5cb3b-8a26-4346-810b-9789afa25a82</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>Intent.Common.Types</typePackageName>
-        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <typePackageName>Intent.Common.Java</typePackageName>
+        <typePackageId>1b8f2b45-99c0-42dc-b28e-bcd4621c3e71</typePackageId>
         <stereotypes />
         <genericTypeParameters />
       </typeReference>
