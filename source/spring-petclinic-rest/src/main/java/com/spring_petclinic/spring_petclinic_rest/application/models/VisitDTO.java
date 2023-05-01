@@ -14,11 +14,11 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Data
 public class VisitDTO {
-    private int id;
+    private Integer id;
     private LocalDate visitDate;
     private String description;
     private PetDTO pet;
-    private int ownerId;
+    private Integer ownerId;
 
     public static VisitDTO mapFromVisit(Visit visit, ModelMapper mapper) {
         return mapper.map(visit, VisitDTO.class);

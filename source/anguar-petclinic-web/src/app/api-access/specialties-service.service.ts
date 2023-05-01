@@ -30,8 +30,9 @@ export class SpecialtiesService {
 
   public addSpecialty(dto: SpecialtyDTO): Observable<number> {
     let url = `/api/specialties`;
-    return this.apiService.post(url, dto)
+    return this.apiService.post(url, dto, null, null, 'text')
       .pipe(map((response: any) => {
+        if (response && (response.startsWith("\"") || response.startsWith("'"))) { response = response.substring(1, response.length - 1); }
         return response;
       }));
   }

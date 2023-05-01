@@ -56,7 +56,7 @@ export class ApiService {
     ).pipe(catchError(this.formatErrors));
   }
 
-  delete(path, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
+  delete(path: string, params?: HttpParams, headers?: HttpHeaders, responseType:any = 'json'): Observable<any> {
     return this.http.delete(
       `${environment.api_base_url}${path}`,
       { params, headers, responseType }

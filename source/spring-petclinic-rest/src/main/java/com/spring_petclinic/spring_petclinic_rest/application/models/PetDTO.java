@@ -14,12 +14,12 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Data
 public class PetDTO {
-    private int id;
+    private Integer id;
     private String name;
     private LocalDate birthDate;
-    private int petTypeId;
+    private Integer petTypeId;
     private String petTypeName;
-    private int ownerId;
+    private Integer ownerId;
     private String ownerFirstName;
     private String ownerLastName;
     private List<PetVisitDTO> Visits;

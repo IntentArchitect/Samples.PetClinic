@@ -22,9 +22,9 @@ export class OwnersService {
       }));
   }
 
-  public getOwnersList(lastName: string): Observable<OwnerDTO[]> {
-    let url = `/api/owners/*/lastname/${lastName}`;
-    return this.apiService.get(url)
+  public addOwner(dto: OwnerCreateDTO): Observable<boolean> {
+    let url = `/api/owners`;
+    return this.apiService.post(url, dto)
       .pipe(map((response: any) => {
         return response;
       }));
@@ -38,17 +38,9 @@ export class OwnersService {
       }));
   }
 
-  public addOwner(owner: OwnerCreateDTO): Observable<boolean> {
-    let url = `/api/owners`;
-    return this.apiService.post(url, owner)
-      .pipe(map((response: any) => {
-        return response;
-      }));
-  }
-
-  public updateOwner(ownerId: number, owner: OwnerUpdateDTO): Observable<boolean> {
+  public updateOwner(ownerId: number, dto: OwnerUpdateDTO): Observable<boolean> {
     let url = `/api/owners/${ownerId}`;
-    return this.apiService.put(url, owner)
+    return this.apiService.put(url, dto)
       .pipe(map((response: any) => {
         return response;
       }));
@@ -57,6 +49,14 @@ export class OwnersService {
   public deleteOwner(ownerId: number): Observable<boolean> {
     let url = `/api/owners/${ownerId}`;
     return this.apiService.delete(url)
+      .pipe(map((response: any) => {
+        return response;
+      }));
+  }
+
+  public getOwnersList(lastName: string): Observable<OwnerDTO[]> {
+    let url = `/api/owners/*/lastname/${lastName}`;
+    return this.apiService.get(url)
       .pipe(map((response: any) => {
         return response;
       }));

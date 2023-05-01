@@ -28,6 +28,15 @@ export class PetTypesService {
       }));
   }
 
+  public addPetType(dto: PetTypeDTO): Observable<number> {
+    let url = `/api/pettypes`;
+    return this.apiService.post(url, dto, null, null, 'text')
+      .pipe(map((response: any) => {
+        if (response && (response.startsWith("\"") || response.startsWith("'"))) { response = response.substring(1, response.length - 1); }
+        return response;
+      }));
+  }
+
   public updatePetType(petTypeId: number, dto: PetTypeDTO): Observable<boolean> {
     let url = `/api/pettypes/${petTypeId}`;
     return this.apiService.put(url, dto)
@@ -39,14 +48,6 @@ export class PetTypesService {
   public deletePetType(petTypeId: number): Observable<boolean> {
     let url = `/api/pettypes/${petTypeId}`;
     return this.apiService.delete(url)
-      .pipe(map((response: any) => {
-        return response;
-      }));
-  }
-
-  public addPetType(dto: PetTypeDTO): Observable<number> {
-    let url = `/api/pettypes`;
-    return this.apiService.post(url, dto)
       .pipe(map((response: any) => {
         return response;
       }));

@@ -14,7 +14,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Data
 public class PetVisitDTO {
-    private int id;
+    private Integer id;
     private LocalDate visitDate;
     private String description;
 
