@@ -50,3 +50,4 @@ tempkey.jwk
 !*.application.output.log
 .intent/
 .idea/
+/source/nestjs-petclinic-rest/target/sqlite-dev-db.sql
