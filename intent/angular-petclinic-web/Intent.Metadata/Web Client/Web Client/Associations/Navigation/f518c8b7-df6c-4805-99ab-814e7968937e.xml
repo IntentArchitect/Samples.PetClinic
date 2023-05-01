@@ -17,6 +17,7 @@
     </typeReference>
     <stereotypes />
     <metadata />
+    <childElements />
   </sourceEnd>
   <targetEnd id="f518c8b7-df6c-4805-99ab-814e7968937e" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToAddPet</name>
@@ -35,6 +36,7 @@
     </typeReference>
     <stereotypes />
     <metadata />
+    <childElements />
   </targetEnd>
   <associationType>Navigation</associationType>
   <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>

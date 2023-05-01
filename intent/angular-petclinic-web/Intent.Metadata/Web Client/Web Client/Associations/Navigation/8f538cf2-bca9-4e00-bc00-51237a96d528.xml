@@ -17,6 +17,7 @@
     </typeReference>
     <stereotypes />
     <metadata />
+    <childElements />
   </sourceEnd>
   <targetEnd id="8f538cf2-bca9-4e00-bc00-51237a96d528" type="NavigationTargetEnd" typeId="2b191288-ecae-4743-b069-cbdd927ef349">
     <name>goToEdit</name>
@@ -35,6 +36,7 @@
     </typeReference>
     <stereotypes />
     <metadata />
+    <childElements />
   </targetEnd>
   <associationType>Navigation</associationType>
   <associationTypeId>6d2b2070-c1cb-4cd2-88b4-4e5f8414bd9e</associationTypeId>

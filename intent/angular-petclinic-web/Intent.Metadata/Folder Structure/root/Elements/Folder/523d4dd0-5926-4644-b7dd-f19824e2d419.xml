@@ -170,5 +170,19 @@
       </metadata>
       <childElements />
     </childElement>
+    <childElement id="fd113dae-4b10-424e-a71b-9faf2b269925" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.ServiceProxies.Proxies.JsonResponse</name>
+      <display>Intent.Angular.ServiceProxies.Proxies.JsonResponse</display>
+      <externalReference>Intent.Angular.ServiceProxies</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>523d4dd0-5926-4644-b7dd-f19824e2d419</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>
