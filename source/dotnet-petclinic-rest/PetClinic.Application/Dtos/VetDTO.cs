@@ -24,7 +24,7 @@ namespace PetClinic.Application.Dtos
                 Id = id,
                 FirstName = firstName,
                 LastName = lastName,
-                Specialties = specialties,
+                Specialties = specialties
             };
         }
 

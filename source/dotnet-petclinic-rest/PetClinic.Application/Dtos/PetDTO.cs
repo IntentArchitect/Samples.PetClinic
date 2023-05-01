@@ -38,7 +38,7 @@ namespace PetClinic.Application.Dtos
                 OwnerId = ownerId,
                 OwnerFirstName = ownerFirstName,
                 OwnerLastName = ownerLastName,
-                Visits = visits,
+                Visits = visits
             };
         }
 

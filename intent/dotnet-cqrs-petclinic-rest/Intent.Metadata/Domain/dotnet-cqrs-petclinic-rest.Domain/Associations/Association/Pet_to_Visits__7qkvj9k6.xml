@@ -21,7 +21,7 @@
   </sourceEnd>
   <targetEnd id="793fd26f-8a0a-4702-af57-f62dd7aacae8" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Visits</name>
-    <display>Visits: Visit[*]</display>
+    <display>Visits: Visit[*]   [0..1 --&gt; *]</display>
     <order>5</order>
     <typeReference id="46484ce3-79cb-4024-b3dd-08288e6a5ec9">
       <typeId>83fb9ee9-cd31-473a-bed1-38abaaa122c2</typeId>

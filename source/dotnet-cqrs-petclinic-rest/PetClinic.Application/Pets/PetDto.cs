@@ -48,7 +48,7 @@ namespace PetClinic.Application.Pets
                 OwnerId = ownerId,
                 OwnerFirstName = ownerFirstName,
                 OwnerLastName = ownerLastName,
-                Visits = visits,
+                Visits = visits
             };
         }
 

@@ -20,7 +20,7 @@ namespace PetClinic.Application.Dtos
             {
                 FirstName = firstName,
                 LastName = lastName,
-                Specialties = specialties,
+                Specialties = specialties
             };
         }
 

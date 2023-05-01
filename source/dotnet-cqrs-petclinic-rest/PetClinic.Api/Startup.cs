@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using PetClinic.Api.Configuration;
+using PetClinic.Api.Filters;
 using PetClinic.Application;
 using PetClinic.Infrastructure;
 using Serilog;
@@ -32,7 +33,11 @@ namespace PetClinic.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(
+                opt =>
+                {
+                    opt.Filters.Add<FluentValidationFilter>();
+                });
             services.ConfigureCors();
             services.ConfigureApplicationSecurity(Configuration);
             services.AddApplication();

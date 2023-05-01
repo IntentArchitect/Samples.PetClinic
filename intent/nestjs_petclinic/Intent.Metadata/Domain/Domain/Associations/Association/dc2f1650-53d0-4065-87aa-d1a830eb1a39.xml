@@ -26,10 +26,11 @@
       </stereotype>
     </stereotypes>
     <metadata />
+    <childElements />
   </sourceEnd>
   <targetEnd id="dc2f1650-53d0-4065-87aa-d1a830eb1a39" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Specialties</name>
-    <display>Specialties: Specialty[*]</display>
+    <display>Specialties: Specialty[*]   [* --&gt; *]</display>
     <order>3</order>
     <typeReference id="58168de3-1e17-4f50-b55c-894e4b8e1591">
       <typeId>2b74779f-48ab-4cd1-8002-097d26dcf584</typeId>
@@ -44,6 +45,7 @@
     </typeReference>
     <stereotypes />
     <metadata />
+    <childElements />
   </targetEnd>
   <associationType>Association</associationType>
   <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>

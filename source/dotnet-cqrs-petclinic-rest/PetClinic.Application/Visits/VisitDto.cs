@@ -28,7 +28,7 @@ namespace PetClinic.Application.Visits
                 Id = id,
                 VisitDate = visitDate,
                 Description = description,
-                PetId = petId,
+                PetId = petId
             };
         }
 

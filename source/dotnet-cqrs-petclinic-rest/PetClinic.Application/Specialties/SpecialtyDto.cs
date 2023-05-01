@@ -24,7 +24,7 @@ namespace PetClinic.Application.Specialties
             return new SpecialtyDto
             {
                 Id = id,
-                Name = name,
+                Name = name
             };
         }
 

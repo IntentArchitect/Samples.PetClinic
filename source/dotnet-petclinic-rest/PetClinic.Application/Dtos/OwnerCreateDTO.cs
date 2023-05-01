@@ -22,7 +22,7 @@ namespace PetClinic.Application.Dtos
                 LastName = lastName,
                 Address = address,
                 City = city,
-                Telephone = telephone,
+                Telephone = telephone
             };
         }
 

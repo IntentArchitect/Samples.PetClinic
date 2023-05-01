@@ -83,6 +83,14 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
+      <ProjectId>4c6804de-2e91-44ca-a1c9-6538577f79d2</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Controllers.FluentValidation.FluentValidationFilter</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/dotnet-petclinic-rest/PetClinic.Api/Filters/FluentValidationFilter.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>FluentValidationFilter.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>aad0939b-56a1-4294-aa6b-930d17d22a3d</ProjectId>
       <CorrelationId>Intent.VisualStudio.Projects.CoreWeb.CSProject#aad0939b-56a1-4294-aa6b-930d17d22a3d</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>

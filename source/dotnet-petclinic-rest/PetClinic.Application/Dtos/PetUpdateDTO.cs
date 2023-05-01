@@ -20,7 +20,7 @@ namespace PetClinic.Application.Dtos
             {
                 Name = name,
                 BirthDate = birthDate,
-                PetTypeId = petTypeId,
+                PetTypeId = petTypeId
             };
         }
 

@@ -22,7 +22,7 @@ namespace PetClinic.Application.Dtos
             return new SpecialtyDTO
             {
                 Id = id,
-                Name = name,
+                Name = name
             };
         }
 

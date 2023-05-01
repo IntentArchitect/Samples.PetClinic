@@ -29,7 +29,7 @@ namespace PetClinic.Application.Vets
                 Id = id,
                 FirstName = firstName,
                 LastName = lastName,
-                Specialties = specialties,
+                Specialties = specialties
             };
         }
 

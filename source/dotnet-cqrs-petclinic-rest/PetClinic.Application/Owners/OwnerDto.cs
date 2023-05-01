@@ -42,7 +42,7 @@ namespace PetClinic.Application.Owners
                 Address = address,
                 City = city,
                 Telephone = telephone,
-                Pets = pets,
+                Pets = pets
             };
         }
 

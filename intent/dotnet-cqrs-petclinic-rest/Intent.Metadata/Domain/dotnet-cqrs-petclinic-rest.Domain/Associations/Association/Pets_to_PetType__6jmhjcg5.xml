@@ -21,7 +21,7 @@
   </sourceEnd>
   <targetEnd id="c190935e-9f05-4123-83ed-8a14fb7644b6" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>PetType</name>
-    <display>PetType: PetType</display>
+    <display>PetType: PetType   [* --&gt; 1]</display>
     <order>6</order>
     <typeReference id="15f4f394-8f4e-445a-815b-cfa6b8aac9ee">
       <typeId>732f9d1f-cae2-49b5-bbb3-215cbf1b4834</typeId>

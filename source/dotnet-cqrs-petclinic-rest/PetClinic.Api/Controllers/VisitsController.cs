@@ -45,7 +45,7 @@ namespace PetClinic.Api.Controllers
             CancellationToken cancellationToken)
         {
             var result = await _mediator.Send(command, cancellationToken);
-            return CreatedAtAction(nameof(GetVisitById), new { id = result }, new { Id = result });
+            return CreatedAtAction(nameof(GetVisitById), new { id = result }, new JsonResponse<int>(result));
         }
 
         /// <summary>

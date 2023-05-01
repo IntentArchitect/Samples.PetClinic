@@ -21,7 +21,7 @@
   </sourceEnd>
   <targetEnd id="8bbadcb2-4cef-4d57-bfe6-7251515d8e0f" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Pets</name>
-    <display>Pets: Pet[*]</display>
+    <display>Pets: Pet[*]   [0..1 --&gt; *]</display>
     <order>6</order>
     <typeReference id="f34959df-33b5-4a6f-ae1c-5e4dd7f892ff">
       <typeId>1cada2f2-b08e-4caf-8505-7bc92f69bab6</typeId>

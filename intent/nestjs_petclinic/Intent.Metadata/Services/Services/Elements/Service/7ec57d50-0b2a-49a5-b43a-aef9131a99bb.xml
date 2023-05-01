@@ -49,6 +49,7 @@
           <properties>
             <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
             <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
           </properties>
         </stereotype>
       </stereotypes>
@@ -84,6 +85,7 @@
           <properties>
             <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
             <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="{vetId}" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
           </properties>
         </stereotype>
       </stereotypes>
@@ -116,6 +118,7 @@
               <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
               <properties>
                 <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
               </properties>
             </stereotype>
           </stereotypes>
@@ -150,6 +153,7 @@
           <properties>
             <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
             <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
           </properties>
         </stereotype>
       </stereotypes>
@@ -182,6 +186,7 @@
               <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
               <properties>
                 <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
               </properties>
             </stereotype>
           </stereotypes>
@@ -216,6 +221,7 @@
           <properties>
             <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="PUT" isActive="true" />
             <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="{vetId}" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
           </properties>
         </stereotype>
       </stereotypes>
@@ -248,6 +254,7 @@
               <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
               <properties>
                 <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
               </properties>
             </stereotype>
           </stereotypes>
@@ -281,6 +288,7 @@
               <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
               <properties>
                 <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
               </properties>
             </stereotype>
           </stereotypes>
@@ -315,6 +323,7 @@
           <properties>
             <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="DELETE" isActive="true" />
             <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="{vetId}" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
           </properties>
         </stereotype>
       </stereotypes>
@@ -347,6 +356,7 @@
               <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
               <properties>
                 <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
               </properties>
             </stereotype>
           </stereotypes>

@@ -27,7 +27,7 @@ namespace PetClinic.Api.Configuration
                         new OpenApiInfo
                         {
                             Version = "v1",
-                            Title = "Pet Clinic Rest (.NET) API",
+                            Title = "Pet Clinic Rest (.NET) API"
                         });
                     options.OperationFilter<AuthorizeCheckOperationFilter>();
                 });

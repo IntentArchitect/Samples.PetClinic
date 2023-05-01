@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using PetClinic.Api.Configuration;
+using PetClinic.Api.Filters;
 using PetClinic.Application;
 using PetClinic.Infrastructure;
 
@@ -32,7 +33,11 @@ namespace PetClinic.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(
+                opt =>
+                {
+                    opt.Filters.Add<FluentValidationFilter>();
+                });
             services.ConfigureCors();
             services.AddApplication();
             services.AddInfrastructure(Configuration);

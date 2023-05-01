@@ -21,7 +21,7 @@
   </sourceEnd>
   <targetEnd id="3315eb72-645e-4569-847b-30a48ad88d44" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
     <name>Specialties</name>
-    <display>Specialties: Specialty[*]</display>
+    <display>Specialties: Specialty[*]   [* --&gt; *]</display>
     <order>3</order>
     <typeReference id="42169964-e8c2-4831-8290-0bf5cbf62db0">
       <typeId>2b74779f-48ab-4cd1-8002-097d26dcf584</typeId>

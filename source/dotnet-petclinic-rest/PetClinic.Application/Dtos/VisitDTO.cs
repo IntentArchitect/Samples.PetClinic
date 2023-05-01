@@ -25,7 +25,7 @@ namespace PetClinic.Application.Dtos
                 VisitDate = visitDate,
                 Description = description,
                 Pet = pet,
-                OwnerId = ownerId,
+                OwnerId = ownerId
             };
         }
 

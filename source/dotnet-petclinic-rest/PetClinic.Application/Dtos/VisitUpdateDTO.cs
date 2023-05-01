@@ -19,7 +19,7 @@ namespace PetClinic.Application.Dtos
             return new VisitUpdateDTO
             {
                 VisitDate = visitDate,
-                Description = description,
+                Description = description
             };
         }
 
