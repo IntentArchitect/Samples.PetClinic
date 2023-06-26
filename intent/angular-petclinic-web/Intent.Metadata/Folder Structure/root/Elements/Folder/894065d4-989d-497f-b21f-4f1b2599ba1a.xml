@@ -28,5 +28,19 @@
       </metadata>
       <childElements />
     </childElement>
+    <childElement id="2d5b0e3d-a194-42fe-a8f8-aee546b3e002" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.Environment.EnvironmentDotDevelopment</name>
+      <display>Intent.Angular.Environment.EnvironmentDotDevelopment</display>
+      <externalReference>Intent.Angular</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>894065d4-989d-497f-b21f-4f1b2599ba1a</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
   </childElements>
 </class>

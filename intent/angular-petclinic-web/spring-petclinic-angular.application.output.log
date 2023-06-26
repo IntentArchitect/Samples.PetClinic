@@ -924,6 +924,14 @@
     </FileLog>
     <FileLog>
       <ProjectId>894065d4-989d-497f-b21f-4f1b2599ba1a</ProjectId>
+      <CorrelationId>Intent.Angular.Environment.EnvironmentDotDevelopment</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/environments/environment.development.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>environment.development.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>894065d4-989d-497f-b21f-4f1b2599ba1a</ProjectId>
       <CorrelationId>Intent.Angular.Environment.Environment</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/environments/environment.ts</ApplicationRelativeFilePath>
