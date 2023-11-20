@@ -11,6 +11,15 @@ namespace PetClinic.Application.Owners.UpdateOwner
 {
     public class UpdateOwnerCommand : IRequest, ICommand
     {
+        public UpdateOwnerCommand(int id, string firstName, string lastName, string address, string city, string telephone)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            Address = address;
+            City = city;
+            Telephone = telephone;
+        }
         public int Id { get; set; }
 
         public string FirstName { get; set; }

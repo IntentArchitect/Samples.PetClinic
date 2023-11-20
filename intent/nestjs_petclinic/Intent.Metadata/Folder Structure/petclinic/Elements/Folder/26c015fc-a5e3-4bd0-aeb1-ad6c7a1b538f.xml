@@ -17,7 +17,6 @@
       <display>Intent.NodeJS.NestJS.Core.AppModule</display>
       <externalReference>Intent.NodeJS.NestJS.Core</externalReference>
       <isAbstract>false</isAbstract>
-      <order>5</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
@@ -32,7 +31,6 @@
       <display>Intent.NodeJS.NestJS.Core.Main</display>
       <externalReference>Intent.NodeJS.NestJS.Core</externalReference>
       <isAbstract>false</isAbstract>
-      <order>6</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
@@ -47,7 +45,6 @@
       <display>Intent.NodeJS.TypeORM.OrmConfig</display>
       <externalReference>Intent.NodeJS.TypeORM</externalReference>
       <isAbstract>false</isAbstract>
-      <order>7</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>
@@ -61,7 +58,6 @@
       <name>Startup</name>
       <display>Startup</display>
       <isAbstract>false</isAbstract>
-      <order>8</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>26c015fc-a5e3-4bd0-aeb1-ad6c7a1b538f</parentFolderId>

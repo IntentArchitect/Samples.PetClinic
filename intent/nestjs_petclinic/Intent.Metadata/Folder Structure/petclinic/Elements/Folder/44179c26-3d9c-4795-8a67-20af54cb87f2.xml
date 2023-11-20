@@ -17,7 +17,6 @@
       <display>Intent.NodeJS.NestJS.Controllers.DtoModel</display>
       <externalReference>Intent.NodeJS.NestJS.Controllers</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>44179c26-3d9c-4795-8a67-20af54cb87f2</parentFolderId>

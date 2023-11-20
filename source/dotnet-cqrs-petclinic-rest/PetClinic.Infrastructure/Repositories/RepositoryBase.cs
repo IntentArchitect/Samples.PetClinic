@@ -4,6 +4,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.EntityFrameworkCore;
 using PetClinic.Domain.Common.Interfaces;
@@ -14,16 +16,18 @@ using PetClinic.Domain.Repositories;
 
 namespace PetClinic.Infrastructure.Repositories
 {
-    public class RepositoryBase<TDomain, TPersistence, TDbContext> : IRepository<TDomain, TPersistence>
+    public class RepositoryBase<TDomain, TPersistence, TDbContext> : IEFRepository<TDomain, TPersistence>
         where TDbContext : DbContext, IUnitOfWork
         where TPersistence : class, TDomain
         where TDomain : class
     {
         private readonly TDbContext _dbContext;
+        private readonly IMapper _mapper;
 
-        public RepositoryBase(TDbContext dbContext)
+        public RepositoryBase(TDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+            _mapper = mapper;
         }
 
         public IUnitOfWork UnitOfWork => _dbContext;
@@ -38,14 +42,19 @@ namespace PetClinic.Infrastructure.Repositories
             GetSet().Add((TPersistence)entity);
         }
 
-        public virtual async Task<TDomain> FindAsync(
+        public virtual void Update(TDomain entity)
+        {
+            GetSet().Update((TPersistence)entity);
+        }
+
+        public virtual async Task<TDomain?> FindAsync(
             Expression<Func<TPersistence, bool>> filterExpression,
             CancellationToken cancellationToken = default)
         {
             return await QueryInternal(filterExpression).SingleOrDefaultAsync<TDomain>(cancellationToken);
         }
 
-        public virtual async Task<TDomain> FindAsync(
+        public virtual async Task<TDomain?> FindAsync(
             Expression<Func<TPersistence, bool>> filterExpression,
             Func<IQueryable<TPersistence>, IQueryable<TPersistence>> linq,
             CancellationToken cancellationToken = default)
@@ -134,7 +143,7 @@ namespace PetClinic.Infrastructure.Repositories
             return await QueryInternal(filterExpression).AnyAsync(cancellationToken);
         }
 
-        protected virtual IQueryable<TPersistence> QueryInternal(Expression<Func<TPersistence, bool>> filterExpression)
+        protected virtual IQueryable<TPersistence> QueryInternal(Expression<Func<TPersistence, bool>>? filterExpression)
         {
             var queryable = CreateQuery();
             if (filterExpression != null)
@@ -167,6 +176,24 @@ namespace PetClinic.Infrastructure.Repositories
         public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             return await _dbContext.SaveChangesAsync(cancellationToken);
+        }
+
+        public async Task<List<TProjection>> FindAllProjectToAsync<TProjection>(
+            Expression<Func<TPersistence, bool>>? filterExpression,
+            CancellationToken cancellationToken = default)
+        {
+            var queryable = QueryInternal(filterExpression);
+            var projection = queryable.ProjectTo<TProjection>(_mapper.ConfigurationProvider);
+            return await projection.ToListAsync(cancellationToken);
+        }
+
+        public async Task<TProjection?> FindProjectToAsync<TProjection>(
+            Expression<Func<TPersistence, bool>>? filterExpression,
+            CancellationToken cancellationToken = default)
+        {
+            var queryable = QueryInternal(filterExpression);
+            var projection = queryable.ProjectTo<TProjection>(_mapper.ConfigurationProvider);
+            return await projection.FirstOrDefaultAsync(cancellationToken);
         }
     }
 }

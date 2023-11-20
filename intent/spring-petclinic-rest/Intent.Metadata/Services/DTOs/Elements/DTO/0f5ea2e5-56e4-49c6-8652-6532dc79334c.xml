@@ -221,7 +221,7 @@
       <mappedClass>
         <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
-          <target id="8bbadcb2-4cef-4d57-bfe6-7251515d8e0f" name="Pets" type="association" specialization="Association" />
+          <target id="8bbadcb2-4cef-4d57-bfe6-7251515d8e0f" name="Pets" type="association" specialization="Association Target End" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>0f5ea2e5-56e4-49c6-8652-6532dc79334c</parentFolderId>

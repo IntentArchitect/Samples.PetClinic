@@ -11,6 +11,12 @@ namespace PetClinic.Application.Visits.UpdateVisit
 {
     public class UpdateVisitCommand : IRequest, ICommand
     {
+        public UpdateVisitCommand(int id, DateTime visitDate, string description)
+        {
+            Id = id;
+            VisitDate = visitDate;
+            Description = description;
+        }
         public int Id { get; set; }
 
         public DateTime VisitDate { get; set; }

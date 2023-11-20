@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
+using PetClinic.Domain.Common.Exceptions;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
@@ -28,6 +29,11 @@ namespace PetClinic.Application.Pets.GetPetById
         public async Task<PetDto> Handle(GetPetByIdQuery request, CancellationToken cancellationToken)
         {
             var pet = await _petRepository.FindByIdAsync(request.Id, cancellationToken);
+            if (pet is null)
+            {
+                throw new NotFoundException($"Could not find Pet '{request.Id}'");
+            }
+
             return pet.MapToPetDto(_mapper);
         }
     }

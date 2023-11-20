@@ -53,10 +53,10 @@ public class PetTypeRestController {
     public ResponseEntity<Integer> addPetType(@Parameter(required = true) @RequestBody PetTypeDTO dto) {
         final int result = petTypeRestService.addPetType(dto);
 
-        return new ResponseEntity<>(result, HttpStatus.OK);
+        return new ResponseEntity<>(result, HttpStatus.CREATED);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping(path = "/{petTypeId}")
     @Operation(summary = "updatePetType")
     @ApiResponses(value = {
@@ -66,11 +66,11 @@ public class PetTypeRestController {
         petTypeRestService.updatePetType(petTypeId, dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "/{petTypeId}")
     @Operation(summary = "deletePetType")
     @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Successfully deleted."),
+        @ApiResponse(responseCode = "204", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public void deletePetType(@Parameter(required = true) @PathVariable(value = "petTypeId") int petTypeId) {
         petTypeRestService.deletePetType(petTypeId);

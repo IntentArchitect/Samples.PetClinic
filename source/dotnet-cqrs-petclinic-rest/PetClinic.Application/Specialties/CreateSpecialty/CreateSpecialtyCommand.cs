@@ -11,6 +11,10 @@ namespace PetClinic.Application.Specialties.CreateSpecialty
 {
     public class CreateSpecialtyCommand : IRequest<int>, ICommand
     {
+        public CreateSpecialtyCommand(string name)
+        {
+            Name = name;
+        }
         public string Name { get; set; }
 
     }

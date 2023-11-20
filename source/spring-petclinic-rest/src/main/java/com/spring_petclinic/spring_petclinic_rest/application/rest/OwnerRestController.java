@@ -32,7 +32,7 @@ public class OwnerRestController {
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     @Operation(summary = "addOwner")
     @ApiResponses(value = {
@@ -57,7 +57,7 @@ public class OwnerRestController {
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping(path = "/{ownerId}")
     @Operation(summary = "updateOwner")
     @ApiResponses(value = {
@@ -67,11 +67,11 @@ public class OwnerRestController {
         ownerRestService.updateOwner(ownerId, dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "/{ownerId}")
     @Operation(summary = "deleteOwner")
     @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Successfully deleted."),
+        @ApiResponse(responseCode = "204", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public void deleteOwner(@Parameter(required = true) @PathVariable(value = "ownerId") int ownerId) {
         ownerRestService.deleteOwner(ownerId);

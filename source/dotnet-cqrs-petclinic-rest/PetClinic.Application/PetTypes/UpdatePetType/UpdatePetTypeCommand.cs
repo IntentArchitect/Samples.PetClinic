@@ -11,6 +11,11 @@ namespace PetClinic.Application.PetTypes.UpdatePetType
 {
     public class UpdatePetTypeCommand : IRequest, ICommand
     {
+        public UpdatePetTypeCommand(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
         public int Id { get; set; }
 
         public string Name { get; set; }

@@ -131,7 +131,7 @@
       <mappedClass>
         <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
-          <target id="fa3b1c76-3449-4faa-b989-314968546e4d" name="Pet" type="association" specialization="Association" />
+          <target id="fa3b1c76-3449-4faa-b989-314968546e4d" name="Pet" type="association" specialization="Association Source End" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</parentFolderId>
@@ -161,8 +161,8 @@
       <mappedClass>
         <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="fa3b1c76-3449-4faa-b989-314968546e4d" name="Pet" type="association" specialization="Association" />
-          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target id="fa3b1c76-3449-4faa-b989-314968546e4d" name="Pet" type="association" specialization="Association Source End" />
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association Source End" />
           <target id="050f6826-01cb-4bc4-872e-77f7c19685f9" name="id" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>

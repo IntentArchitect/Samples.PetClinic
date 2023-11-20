@@ -13,13 +13,9 @@ namespace PetClinic.Application.Vets
     public static class VetDtoMappingExtensions
     {
         public static VetDto MapToVetDto(this Vet projectFrom, IMapper mapper)
-        {
-            return mapper.Map<VetDto>(projectFrom);
-        }
+            => mapper.Map<VetDto>(projectFrom);
 
         public static List<VetDto> MapToVetDtoList(this IEnumerable<Vet> projectFrom, IMapper mapper)
-        {
-            return projectFrom.Select(x => x.MapToVetDto(mapper)).ToList();
-        }
+            => projectFrom.Select(x => x.MapToVetDto(mapper)).ToList();
     }
 }

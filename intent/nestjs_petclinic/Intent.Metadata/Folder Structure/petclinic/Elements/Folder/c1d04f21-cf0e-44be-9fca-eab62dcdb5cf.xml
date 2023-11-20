@@ -16,7 +16,6 @@
       <name>Services</name>
       <display>Services</display>
       <isAbstract>false</isAbstract>
-      <order>2</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>c1d04f21-cf0e-44be-9fca-eab62dcdb5cf</parentFolderId>

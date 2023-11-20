@@ -14,6 +14,7 @@ namespace PetClinic.Application.Specialties
     {
         public SpecialtyDto()
         {
+            Name = null!;
         }
 
         public int Id { get; set; }

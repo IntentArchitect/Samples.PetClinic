@@ -11,6 +11,14 @@ namespace PetClinic.Application.Owners.CreateOwner
 {
     public class CreateOwnerCommand : IRequest<int>, ICommand
     {
+        public CreateOwnerCommand(string firstName, string lastName, string address, string city, string telephone)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Address = address;
+            City = city;
+            Telephone = telephone;
+        }
         public string FirstName { get; set; }
 
         public string LastName { get; set; }

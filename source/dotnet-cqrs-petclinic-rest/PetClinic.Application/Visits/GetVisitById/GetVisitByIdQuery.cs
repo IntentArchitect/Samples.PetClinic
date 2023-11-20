@@ -11,6 +11,10 @@ namespace PetClinic.Application.Visits.GetVisitById
 {
     public class GetVisitByIdQuery : IRequest<VisitDto>, IQuery
     {
+        public GetVisitByIdQuery(int id)
+        {
+            Id = id;
+        }
         public int Id { get; set; }
 
     }

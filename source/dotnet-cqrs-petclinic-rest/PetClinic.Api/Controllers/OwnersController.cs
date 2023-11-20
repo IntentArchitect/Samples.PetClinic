@@ -41,10 +41,10 @@ namespace PetClinic.Api.Controllers
         [Produces(MediaTypeNames.Application.Json)]
         [ProducesResponseType(typeof(JsonResponse<int>), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<int>> CreateOwner(
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<JsonResponse<int>>> CreateOwner(
             [FromBody] CreateOwnerCommand command,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken = default)
         {
             var result = await _mediator.Send(command, cancellationToken);
             return CreatedAtAction(nameof(GetOwnerById), new { id = result }, new JsonResponse<int>(result));
@@ -54,13 +54,15 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="200">Successfully deleted.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">One or more entities could not be found with the provided parameters.</response>
         [HttpDelete("api/owners/{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> DeleteOwner([FromRoute] int id, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> DeleteOwner([FromRoute] int id, CancellationToken cancellationToken = default)
         {
-            await _mediator.Send(new DeleteOwnerCommand { Id = id }, cancellationToken);
+            await _mediator.Send(new DeleteOwnerCommand(id: id), cancellationToken);
             return Ok();
         }
 
@@ -68,15 +70,22 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="204">Successfully updated.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">One or more entities could not be found with the provided parameters.</response>
         [HttpPut("api/owners/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> UpdateOwner(
             [FromRoute] int id,
             [FromBody] UpdateOwnerCommand command,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken = default)
         {
+            if (command.Id == default)
+            {
+                command.Id = id;
+            }
+
             if (id != command.Id)
             {
                 return BadRequest();
@@ -90,34 +99,36 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="200">Returns the specified OwnerDto.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
-        /// <response code="404">Can't find an OwnerDto with the parameters provided.</response>
+        /// <response code="404">No OwnerDto could be found with the provided parameters.</response>
         [HttpGet("api/owners/{id}")]
         [ProducesResponseType(typeof(OwnerDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<OwnerDto>> GetOwnerById([FromRoute] int id, CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<OwnerDto>> GetOwnerById(
+            [FromRoute] int id,
+            CancellationToken cancellationToken = default)
         {
-            var result = await _mediator.Send(new GetOwnerByIdQuery { Id = id }, cancellationToken);
-            return result != null ? Ok(result) : NotFound();
+            var result = await _mediator.Send(new GetOwnerByIdQuery(id: id), cancellationToken);
+            return result == null ? NotFound() : Ok(result);
         }
 
         /// <summary>
         /// </summary>
         /// <response code="200">Returns the specified OwnerDto.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
-        /// <response code="404">Can't find an OwnerDto with the parameters provided.</response>
+        /// <response code="404">No OwnerDto could be found with the provided parameters.</response>
         [HttpGet("api/owners/*/lastName/{lastName}")]
         [ProducesResponseType(typeof(OwnerDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<OwnerDto>> GetOwnerByLastName(
             [FromRoute] string lastName,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken = default)
         {
-            var result = await _mediator.Send(new GetOwnerByLastName { LastName = lastName }, cancellationToken);
-            return result != null ? Ok(result) : NotFound();
+            var result = await _mediator.Send(new GetOwnerByLastName(lastName: lastName), cancellationToken);
+            return result == null ? NotFound() : Ok(result);
         }
 
         /// <summary>
@@ -125,8 +136,8 @@ namespace PetClinic.Api.Controllers
         /// <response code="200">Returns the specified List&lt;OwnerDto&gt;.</response>
         [HttpGet("api/owners")]
         [ProducesResponseType(typeof(List<OwnerDto>), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<List<OwnerDto>>> GetOwners(CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<List<OwnerDto>>> GetOwners(CancellationToken cancellationToken = default)
         {
             var result = await _mediator.Send(new GetOwnersQuery(), cancellationToken);
             return Ok(result);

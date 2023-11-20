@@ -37,7 +37,7 @@ public class VisitRestController {
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     @Operation(summary = "addVisit")
     @ApiResponses(value = {
@@ -47,7 +47,7 @@ public class VisitRestController {
         visitRestService.addVisit(dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping(path = "/{visitId}")
     @Operation(summary = "updateVisit")
     @ApiResponses(value = {
@@ -57,11 +57,11 @@ public class VisitRestController {
         visitRestService.updateVisit(visitId, dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "/{visitId}")
     @Operation(summary = "deleteVisit")
     @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Successfully deleted."),
+        @ApiResponse(responseCode = "204", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public void deleteVisit(@Parameter(required = true) @PathVariable(value = "visitId") int visitId) {
         visitRestService.deleteVisit(visitId);

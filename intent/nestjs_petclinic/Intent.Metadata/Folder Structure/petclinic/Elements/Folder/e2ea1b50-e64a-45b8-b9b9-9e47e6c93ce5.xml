@@ -17,7 +17,6 @@
       <display>Intent.NodeJS.Domain.Entity</display>
       <externalReference>Intent.NodeJS.Domain</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>e2ea1b50-e64a-45b8-b9b9-9e47e6c93ce5</parentFolderId>

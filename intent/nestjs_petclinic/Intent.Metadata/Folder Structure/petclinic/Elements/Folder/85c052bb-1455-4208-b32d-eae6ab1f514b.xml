@@ -16,7 +16,6 @@
       <name>Repositories</name>
       <display>Repositories</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>85c052bb-1455-4208-b32d-eae6ab1f514b</parentFolderId>

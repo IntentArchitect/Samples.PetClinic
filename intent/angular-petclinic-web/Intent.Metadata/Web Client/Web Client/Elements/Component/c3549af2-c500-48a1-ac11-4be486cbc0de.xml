@@ -58,7 +58,7 @@
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>DTOs</typePackageName>
+        <typePackageName>Application.Dtos</typePackageName>
         <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
         <stereotypes />
         <genericTypeParameters />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.EntityFrameworkCore;
 using PetClinic.Domain.Entities;
@@ -17,11 +18,11 @@ namespace PetClinic.Infrastructure.Repositories
     [IntentManaged(Mode.Merge, Signature = Mode.Fully)]
     public class SpecialtyRepository : RepositoryBase<Specialty, Specialty, ApplicationDbContext>, ISpecialtyRepository
     {
-        public SpecialtyRepository(ApplicationDbContext dbContext) : base(dbContext)
+        public SpecialtyRepository(ApplicationDbContext dbContext, IMapper mapper) : base(dbContext, mapper)
         {
         }
 
-        public async Task<Specialty> FindByIdAsync(int id, CancellationToken cancellationToken = default)
+        public async Task<Specialty?> FindByIdAsync(int id, CancellationToken cancellationToken = default)
         {
             return await FindAsync(x => x.Id == id, cancellationToken);
         }

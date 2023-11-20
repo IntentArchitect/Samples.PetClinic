@@ -11,5 +11,8 @@ namespace PetClinic.Application.PetTypes.GetPetTypes
 {
     public class GetPetTypesQuery : IRequest<List<PetTypeDto>>, IQuery
     {
+        public GetPetTypesQuery()
+        {
+        }
     }
 }

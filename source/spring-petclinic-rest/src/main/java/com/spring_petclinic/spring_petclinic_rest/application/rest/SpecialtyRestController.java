@@ -53,10 +53,10 @@ public class SpecialtyRestController {
     public ResponseEntity<Integer> addSpecialty(@Parameter(required = true) @RequestBody SpecialtyDTO dto) {
         final int result = specialtyRestService.addSpecialty(dto);
 
-        return new ResponseEntity<>(result, HttpStatus.OK);
+        return new ResponseEntity<>(result, HttpStatus.CREATED);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping(path = "/{specialtyId}")
     @Operation(summary = "updateSpecialty")
     @ApiResponses(value = {
@@ -66,11 +66,11 @@ public class SpecialtyRestController {
         specialtyRestService.updateSpecialty(specialtyId, dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "/{specialtyId}")
     @Operation(summary = "deleteSpecialty")
     @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Successfully deleted."),
+        @ApiResponse(responseCode = "204", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public void deleteSpecialty(@Parameter(required = true) @PathVariable(value = "specialtyId") int specialtyId) {
         specialtyRestService.deleteSpecialty(specialtyId);

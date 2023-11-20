@@ -11,6 +11,13 @@ namespace PetClinic.Application.Pets.UpdatePet
 {
     public class UpdatePetCommand : IRequest, ICommand
     {
+        public UpdatePetCommand(int id, string name, DateTime birthDate, int petTypeId)
+        {
+            Id = id;
+            Name = name;
+            BirthDate = birthDate;
+            PetTypeId = petTypeId;
+        }
         public int Id { get; set; }
 
         public string Name { get; set; }

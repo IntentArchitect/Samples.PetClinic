@@ -1,5 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
 using Intent.RoslynWeaver.Attributes;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -7,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using PetClinic.Api.Filters;
+using PetClinic.Application;
+using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
@@ -28,12 +33,27 @@ namespace PetClinic.Api.Configuration
                             Version = "v1",
                             Title = "Pet Clinic CQRS Rest (.NET) API"
                         });
+                    options.SchemaFilter<RequireNonNullablePropertiesSchemaFilter>();
+                    options.SupportNonNullableReferenceTypes();
+                    options.CustomSchemaIds(x => x.FullName);
+
+                    var apiXmlFile = Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
+                    if (File.Exists(apiXmlFile))
+                    {
+                        options.IncludeXmlComments(apiXmlFile);
+                    }
+
+                    var applicationXmlFile = Path.Combine(AppContext.BaseDirectory, $"{typeof(DependencyInjection).Assembly.GetName().Name}.xml");
+                    if (File.Exists(applicationXmlFile))
+                    {
+                        options.IncludeXmlComments(applicationXmlFile);
+                    }
                     options.OperationFilter<AuthorizeCheckOperationFilter>();
 
                     var securityScheme = new OpenApiSecurityScheme()
                     {
                         Name = "Authorization",
-                        Description = "Enter the Bearer Authorization string as following: `Bearer Generated-JWT-Token`",
+                        Description = "Enter a Bearer Token into the `Value` field to have it automatically prefixed with `Bearer ` and used as an `Authorization` header value for requests.",
                         In = ParameterLocation.Header,
                         Type = SecuritySchemeType.Http,
                         Scheme = "bearer",
@@ -55,12 +75,9 @@ namespace PetClinic.Api.Configuration
             return services;
         }
 
-        public static void UseSwashbuckle(this IApplicationBuilder app)
+        public static void UseSwashbuckle(this IApplicationBuilder app, IConfiguration configuration)
         {
-            app.UseSwagger(
-                options =>
-                {
-                });
+            app.UseSwagger();
             app.UseSwaggerUI(
                 options =>
                 {
@@ -69,7 +86,6 @@ namespace PetClinic.Api.Configuration
                     options.OAuthAppName("Pet Clinic CQRS Rest (.NET) API");
                     options.EnableDeepLinking();
                     options.DisplayOperationId();
-                    options.DefaultModelsExpandDepth(-1);
                     options.DefaultModelsExpandDepth(2);
                     options.DefaultModelRendering(ModelRendering.Model);
                     options.DocExpansion(DocExpansion.List);
@@ -77,6 +93,21 @@ namespace PetClinic.Api.Configuration
                     options.EnableFilter(string.Empty);
                     options.OAuthScopeSeparator(" ");
                 });
+        }
+    }
+
+    internal class RequireNonNullablePropertiesSchemaFilter : ISchemaFilter
+    {
+        public void Apply(OpenApiSchema model, SchemaFilterContext context)
+        {
+            var additionalRequiredProps = model.Properties
+                .Where(x => !x.Value.Nullable && !model.Required.Contains(x.Key))
+                .Select(x => x.Key);
+
+            foreach (var propKey in additionalRequiredProps)
+            {
+                model.Required.Add(propKey);
+            }
         }
     }
 }

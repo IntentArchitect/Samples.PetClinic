@@ -36,7 +36,7 @@ public class PetRestController {
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     @Operation(summary = "addPet")
     @ApiResponses(value = {
@@ -46,7 +46,7 @@ public class PetRestController {
         petRestService.addPet(dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping(path = "/{petId}")
     @Operation(summary = "updatePet")
     @ApiResponses(value = {
@@ -56,11 +56,11 @@ public class PetRestController {
         petRestService.updatePet(petId, dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "/{petId}")
     @Operation(summary = "deletePet")
     @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Successfully deleted."),
+        @ApiResponse(responseCode = "204", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public void deletePet(@Parameter(required = true) @PathVariable(value = "petId") int petId) {
         petRestService.deletePet(petId);

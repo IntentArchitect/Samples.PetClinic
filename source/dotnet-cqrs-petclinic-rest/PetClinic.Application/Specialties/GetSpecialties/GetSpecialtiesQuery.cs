@@ -11,5 +11,8 @@ namespace PetClinic.Application.Specialties.GetSpecialties
 {
     public class GetSpecialtiesQuery : IRequest<List<SpecialtyDto>>, IQuery
     {
+        public GetSpecialtiesQuery()
+        {
+        }
     }
 }

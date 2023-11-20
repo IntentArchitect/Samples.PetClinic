@@ -15,6 +15,11 @@ namespace PetClinic.Application.Pets
     {
         public PetDto()
         {
+            Name = null!;
+            PetTypeName = null!;
+            OwnerFirstName = null!;
+            OwnerLastName = null!;
+            Visits = null!;
         }
 
         public int Id { get; set; }

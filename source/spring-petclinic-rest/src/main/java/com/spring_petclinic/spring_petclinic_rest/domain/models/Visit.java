@@ -10,8 +10,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.CascadeType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-
-import lombok.NoArgsConstructor;
 import javax.persistence.FetchType;
 import java.io.Serializable;
 import javax.persistence.GeneratedValue;
@@ -19,13 +17,17 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
-
+import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "visits")
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Visit implements Serializable {
     private static final long serialVersionUID = 1L;

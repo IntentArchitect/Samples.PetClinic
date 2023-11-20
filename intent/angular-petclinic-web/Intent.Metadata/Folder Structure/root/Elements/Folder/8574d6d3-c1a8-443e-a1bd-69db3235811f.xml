@@ -11,5 +11,22 @@
   <packageName>root</packageName>
   <stereotypes />
   <metadata />
-  <childElements />
+  <childElements>
+    <childElement id="033095e3-cf78-46b4-a4cb-a66905f7fadb" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+      <name>Intent.Angular.ServiceProxies.Proxies.AngularDTO</name>
+      <display>Intent.Angular.ServiceProxies.Proxies.AngularDTO</display>
+      <externalReference>Intent.Angular.ServiceProxies</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>8574d6d3-c1a8-443e-a1bd-69db3235811f</parentFolderId>
+      <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+      <packageName>root</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
 </class>

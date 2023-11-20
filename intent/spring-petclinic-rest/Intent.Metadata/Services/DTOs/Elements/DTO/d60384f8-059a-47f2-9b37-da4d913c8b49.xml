@@ -131,7 +131,7 @@
       <mappedClass>
         <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
-          <target id="dc2f1650-53d0-4065-87aa-d1a830eb1a39" name="Specialties" type="association" specialization="Association" />
+          <target id="dc2f1650-53d0-4065-87aa-d1a830eb1a39" name="Specialties" type="association" specialization="Association Target End" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>d60384f8-059a-47f2-9b37-da4d913c8b49</parentFolderId>

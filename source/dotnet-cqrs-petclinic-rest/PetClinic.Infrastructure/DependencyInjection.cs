@@ -21,7 +21,7 @@ namespace PetClinic.Infrastructure
                 options.UseInMemoryDatabase("DefaultConnection");
                 options.UseLazyLoadingProxies();
             });
-            services.AddScoped<IUnitOfWork>(provider => provider.GetService<ApplicationDbContext>());
+            services.AddScoped<IUnitOfWork>(provider => provider.GetRequiredService<ApplicationDbContext>());
             services.AddTransient<IOwnerRepository, OwnerRepository>();
             services.AddTransient<IPetRepository, PetRepository>();
             services.AddTransient<IPetTypeRepository, PetTypeRepository>();

@@ -11,6 +11,10 @@ namespace PetClinic.Application.Owners.GetOwnerById
 {
     public class GetOwnerByIdQuery : IRequest<OwnerDto>, IQuery
     {
+        public GetOwnerByIdQuery(int id)
+        {
+            Id = id;
+        }
         public int Id { get; set; }
 
     }

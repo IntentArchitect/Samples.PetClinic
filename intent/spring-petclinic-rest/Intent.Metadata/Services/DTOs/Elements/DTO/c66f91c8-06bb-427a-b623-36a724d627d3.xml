@@ -131,7 +131,7 @@
       <mappedClass>
         <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="00e8fac6-eb44-4422-9289-b11e63a995c6" name="PetType" type="association" specialization="Association" />
+          <target id="00e8fac6-eb44-4422-9289-b11e63a995c6" name="PetType" type="association" specialization="Association Target End" />
           <target id="071d6c63-839b-4a7e-8e5b-7161350a729d" name="id" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
@@ -162,7 +162,7 @@
       <mappedClass>
         <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="00e8fac6-eb44-4422-9289-b11e63a995c6" name="PetType" type="association" specialization="Association" />
+          <target id="00e8fac6-eb44-4422-9289-b11e63a995c6" name="PetType" type="association" specialization="Association Target End" />
           <target id="ef506b2b-4075-4734-bbe1-a6b411523862" name="name" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
@@ -193,7 +193,7 @@
       <mappedClass>
         <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association Source End" />
           <target id="050f6826-01cb-4bc4-872e-77f7c19685f9" name="id" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
@@ -224,7 +224,7 @@
       <mappedClass>
         <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association Source End" />
           <target id="d2b20e32-5d42-497b-9062-d91742783e22" name="firstName" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
@@ -255,7 +255,7 @@
       <mappedClass>
         <autoSyncTypeReference>true</autoSyncTypeReference>
         <mappedPath>
-          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association" />
+          <target id="67c50926-0b77-4fbe-85f3-5e03ee918591" name="Owner" type="association" specialization="Association Source End" />
           <target id="a5f68250-2a8d-4826-a591-27ad720a561b" name="lastName" type="element" specialization="Attribute" />
         </mappedPath>
       </mappedClass>
@@ -286,7 +286,7 @@
       <mappedClass>
         <autoSyncTypeReference>false</autoSyncTypeReference>
         <mappedPath>
-          <target id="bf1c6193-3ac2-43bf-b02d-6e5f10920a50" name="Visits" type="association" specialization="Association" />
+          <target id="bf1c6193-3ac2-43bf-b02d-6e5f10920a50" name="Visits" type="association" specialization="Association Target End" />
         </mappedPath>
       </mappedClass>
       <parentFolderId>c66f91c8-06bb-427a-b623-36a724d627d3</parentFolderId>

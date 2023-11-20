@@ -39,10 +39,10 @@ namespace PetClinic.Api.Controllers
         [Produces(MediaTypeNames.Application.Json)]
         [ProducesResponseType(typeof(JsonResponse<int>), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<int>> CreatePet(
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<JsonResponse<int>>> CreatePet(
             [FromBody] CreatePetCommand command,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken = default)
         {
             var result = await _mediator.Send(command, cancellationToken);
             return CreatedAtAction(nameof(GetPetById), new { id = result }, new JsonResponse<int>(result));
@@ -52,13 +52,15 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="200">Successfully deleted.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">One or more entities could not be found with the provided parameters.</response>
         [HttpDelete("api/pets/{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> DeletePet([FromRoute] int id, CancellationToken cancellationToken)
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult> DeletePet([FromRoute] int id, CancellationToken cancellationToken = default)
         {
-            await _mediator.Send(new DeletePetCommand { Id = id }, cancellationToken);
+            await _mediator.Send(new DeletePetCommand(id: id), cancellationToken);
             return Ok();
         }
 
@@ -66,15 +68,22 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="204">Successfully updated.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
+        /// <response code="404">One or more entities could not be found with the provided parameters.</response>
         [HttpPut("api/pets/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult> UpdatePet(
             [FromRoute] int id,
             [FromBody] UpdatePetCommand command,
-            CancellationToken cancellationToken)
+            CancellationToken cancellationToken = default)
         {
+            if (command.Id == default)
+            {
+                command.Id = id;
+            }
+
             if (id != command.Id)
             {
                 return BadRequest();
@@ -88,16 +97,18 @@ namespace PetClinic.Api.Controllers
         /// </summary>
         /// <response code="200">Returns the specified PetDto.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
-        /// <response code="404">Can't find an PetDto with the parameters provided.</response>
+        /// <response code="404">No PetDto could be found with the provided parameters.</response>
         [HttpGet("api/pets/{id}")]
         [ProducesResponseType(typeof(PetDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<PetDto>> GetPetById([FromRoute] int id, CancellationToken cancellationToken)
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<PetDto>> GetPetById(
+            [FromRoute] int id,
+            CancellationToken cancellationToken = default)
         {
-            var result = await _mediator.Send(new GetPetByIdQuery { Id = id }, cancellationToken);
-            return result != null ? Ok(result) : NotFound();
+            var result = await _mediator.Send(new GetPetByIdQuery(id: id), cancellationToken);
+            return result == null ? NotFound() : Ok(result);
         }
     }
 }

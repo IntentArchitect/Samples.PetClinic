@@ -17,7 +17,6 @@
       <display>Intent.TypeScript.Weaving.Decorators.IntentDecorators</display>
       <externalReference>Intent.TypeScript.Weaving.Decorators</externalReference>
       <isAbstract>false</isAbstract>
-      <order>0</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>6567b01a-2b40-4424-84e0-dd13bf9839cb</parentFolderId>
@@ -31,7 +30,6 @@
       <name>Intent</name>
       <display>Intent</display>
       <isAbstract>false</isAbstract>
-      <order>1</order>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>6567b01a-2b40-4424-84e0-dd13bf9839cb</parentFolderId>

@@ -3,7 +3,7 @@
   <sourceEnd id="1727491e-bd2e-4e63-ae02-b4183d2ad36d" type="NavigationSourceEnd" typeId="97a3de8a-c9bf-4cf2-bc0a-b8692b02211b">
     <name>SpecialtyListComponent</name>
     <display>SpecialtyListComponent: SpecialtyListComponent</display>
-    <order>1</order>
+    <order>0</order>
     <typeReference id="fa207458-9a6d-4c44-8cb6-4ef94087259e">
       <typeId>6ae05437-0a1c-4a83-9957-ab08647dada5</typeId>
       <isNavigable>false</isNavigable>

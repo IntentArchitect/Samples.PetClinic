@@ -3,10 +3,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
+using PetClinic.Domain.Common.Exceptions;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
-[assembly: IntentTemplate("Intent.Application.MediatR.CommandHandler", Version = "1.0")]
+[assembly: IntentTemplate("Intent.Application.MediatR.CommandHandler", Version = "2.0")]
 
 namespace PetClinic.Application.Vets.DeleteVet
 {
@@ -22,11 +23,16 @@ namespace PetClinic.Application.Vets.DeleteVet
         }
 
         [IntentManaged(Mode.Fully, Body = Mode.Fully)]
-        public async Task<Unit> Handle(DeleteVetCommand request, CancellationToken cancellationToken)
+        public async Task Handle(DeleteVetCommand request, CancellationToken cancellationToken)
         {
             var existingVet = await _vetRepository.FindByIdAsync(request.Id, cancellationToken);
+            if (existingVet is null)
+            {
+                throw new NotFoundException($"Could not find Vet '{request.Id}'");
+            }
+
             _vetRepository.Remove(existingVet);
-            return Unit.Value;
+
         }
     }
 }

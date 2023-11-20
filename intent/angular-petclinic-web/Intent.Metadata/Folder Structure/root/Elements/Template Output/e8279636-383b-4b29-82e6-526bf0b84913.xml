@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="e8279636-383b-4b29-82e6-526bf0b84913" type="Template Output" typeId="09de2192-2507-41a2-8044-286c7ecadec2">
+  <name>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration</name>
+  <display>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration</display>
+  <externalReference>Intent.Angular</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</parentFolderId>
+  <packageId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</packageId>
+  <packageName>root</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="status" value="assigned" />
+  </metadata>
+  <childElements />
+</class>

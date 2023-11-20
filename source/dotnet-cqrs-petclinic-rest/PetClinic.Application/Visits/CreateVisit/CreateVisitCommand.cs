@@ -11,6 +11,12 @@ namespace PetClinic.Application.Visits.CreateVisit
 {
     public class CreateVisitCommand : IRequest<int>, ICommand
     {
+        public CreateVisitCommand(int? petId, DateTime visitDate, string description)
+        {
+            PetId = petId;
+            VisitDate = visitDate;
+            Description = description;
+        }
         public int? PetId { get; set; }
 
         public DateTime VisitDate { get; set; }

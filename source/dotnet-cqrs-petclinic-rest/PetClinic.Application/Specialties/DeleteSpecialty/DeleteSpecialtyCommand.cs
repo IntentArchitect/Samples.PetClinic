@@ -11,6 +11,10 @@ namespace PetClinic.Application.Specialties.DeleteSpecialty
 {
     public class DeleteSpecialtyCommand : IRequest, ICommand
     {
+        public DeleteSpecialtyCommand(int id)
+        {
+            Id = id;
+        }
         public int Id { get; set; }
 
     }

@@ -11,6 +11,10 @@ namespace PetClinic.Application.PetTypes.GetPetTypeById
 {
     public class GetPetTypeByIdQuery : IRequest<PetTypeDto>, IQuery
     {
+        public GetPetTypeByIdQuery(int id)
+        {
+            Id = id;
+        }
         public int Id { get; set; }
 
     }

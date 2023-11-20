@@ -13,13 +13,9 @@ namespace PetClinic.Application.PetTypes
     public static class PetTypeDtoMappingExtensions
     {
         public static PetTypeDto MapToPetTypeDto(this PetType projectFrom, IMapper mapper)
-        {
-            return mapper.Map<PetTypeDto>(projectFrom);
-        }
+            => mapper.Map<PetTypeDto>(projectFrom);
 
         public static List<PetTypeDto> MapToPetTypeDtoList(this IEnumerable<PetType> projectFrom, IMapper mapper)
-        {
-            return projectFrom.Select(x => x.MapToPetTypeDto(mapper)).ToList();
-        }
+            => projectFrom.Select(x => x.MapToPetTypeDto(mapper)).ToList();
     }
 }

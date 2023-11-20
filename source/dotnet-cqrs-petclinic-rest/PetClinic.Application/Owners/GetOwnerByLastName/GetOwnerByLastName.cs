@@ -11,6 +11,10 @@ namespace PetClinic.Application.Owners.GetOwnerByLastName
 {
     public class GetOwnerByLastName : IRequest<OwnerDto>, IQuery
     {
+        public GetOwnerByLastName(string lastName)
+        {
+            LastName = lastName;
+        }
         public string LastName { get; set; }
 
     }

@@ -11,6 +11,11 @@ namespace PetClinic.Application.Vets.CreateVet
 {
     public class CreateVetCommand : IRequest<int>, ICommand
     {
+        public CreateVetCommand(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
         public string FirstName { get; set; }
 
         public string LastName { get; set; }

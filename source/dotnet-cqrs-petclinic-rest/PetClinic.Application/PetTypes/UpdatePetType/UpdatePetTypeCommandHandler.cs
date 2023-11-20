@@ -4,10 +4,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
+using PetClinic.Domain.Common.Exceptions;
 using PetClinic.Domain.Repositories;
 
 [assembly: DefaultIntentManaged(Mode.Fully)]
-[assembly: IntentTemplate("Intent.Application.MediatR.CommandHandler", Version = "1.0")]
+[assembly: IntentTemplate("Intent.Application.MediatR.CommandHandler", Version = "2.0")]
 
 namespace PetClinic.Application.PetTypes.UpdatePetType
 {
@@ -23,11 +24,16 @@ namespace PetClinic.Application.PetTypes.UpdatePetType
         }
 
         [IntentManaged(Mode.Fully, Body = Mode.Fully)]
-        public async Task<Unit> Handle(UpdatePetTypeCommand request, CancellationToken cancellationToken)
+        public async Task Handle(UpdatePetTypeCommand request, CancellationToken cancellationToken)
         {
             var existingPetType = await _petTypeRepository.FindByIdAsync(request.Id, cancellationToken);
+            if (existingPetType is null)
+            {
+                throw new NotFoundException($"Could not find PetType '{request.Id}'");
+            }
+
             existingPetType.Name = request.Name;
-            return Unit.Value;
+
         }
     }
 }

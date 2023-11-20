@@ -11,6 +11,10 @@ namespace PetClinic.Application.Owners.DeleteOwner
 {
     public class DeleteOwnerCommand : IRequest, ICommand
     {
+        public DeleteOwnerCommand(int id)
+        {
+            Id = id;
+        }
         public int Id { get; set; }
 
     }

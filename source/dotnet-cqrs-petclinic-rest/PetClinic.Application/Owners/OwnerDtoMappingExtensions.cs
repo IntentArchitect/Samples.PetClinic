@@ -13,13 +13,9 @@ namespace PetClinic.Application.Owners
     public static class OwnerDtoMappingExtensions
     {
         public static OwnerDto MapToOwnerDto(this Owner projectFrom, IMapper mapper)
-        {
-            return mapper.Map<OwnerDto>(projectFrom);
-        }
+            => mapper.Map<OwnerDto>(projectFrom);
 
         public static List<OwnerDto> MapToOwnerDtoList(this IEnumerable<Owner> projectFrom, IMapper mapper)
-        {
-            return projectFrom.Select(x => x.MapToOwnerDto(mapper)).ToList();
-        }
+            => projectFrom.Select(x => x.MapToOwnerDto(mapper)).ToList();
     }
 }

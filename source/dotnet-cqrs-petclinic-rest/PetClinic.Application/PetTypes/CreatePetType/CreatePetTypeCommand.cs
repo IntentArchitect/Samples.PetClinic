@@ -11,6 +11,10 @@ namespace PetClinic.Application.PetTypes.CreatePetType
 {
     public class CreatePetTypeCommand : IRequest<int>, ICommand
     {
+        public CreatePetTypeCommand(string name)
+        {
+            Name = name;
+        }
         public string Name { get; set; }
 
     }

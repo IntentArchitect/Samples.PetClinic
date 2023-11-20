@@ -47,7 +47,7 @@ public class VetRestController {
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     @Operation(summary = "addVet")
     @ApiResponses(value = {
@@ -57,7 +57,7 @@ public class VetRestController {
         vetRestService.addVet(dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @PutMapping(path = "/{vetId}")
     @Operation(summary = "updateVet")
     @ApiResponses(value = {
@@ -67,11 +67,11 @@ public class VetRestController {
         vetRestService.updateVet(vetId, dto);
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping(path = "/{vetId}")
     @Operation(summary = "deleteVet")
     @ApiResponses(value = {
-        @ApiResponse(responseCode = "200", description = "Successfully deleted."),
+        @ApiResponse(responseCode = "204", description = "Successfully deleted."),
         @ApiResponse(responseCode = "400", description = "One or more validation errors have occurred.") })
     public void deleteVet(@Parameter(required = true) @PathVariable(value = "vetId") int vetId) {
         vetRestService.deleteVet(vetId);

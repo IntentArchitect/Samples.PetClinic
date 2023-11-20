@@ -11,5 +11,8 @@ namespace PetClinic.Application.Owners.GetOwners
 {
     public class GetOwnersQuery : IRequest<List<OwnerDto>>, IQuery
     {
+        public GetOwnersQuery()
+        {
+        }
     }
 }

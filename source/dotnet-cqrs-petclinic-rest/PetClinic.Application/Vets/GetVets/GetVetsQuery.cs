@@ -11,5 +11,8 @@ namespace PetClinic.Application.Vets.GetVets
 {
     public class GetVetsQuery : IRequest<List<VetDto>>, IQuery
     {
+        public GetVetsQuery()
+        {
+        }
     }
 }

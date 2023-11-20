@@ -29,7 +29,7 @@ From the Visual Studio Package Manager Console:
 Update-Database -StartupProject "PetClinic.Api" -Project "PetClinic.Infrastructure"
 
 CLI:
-dotnet ef database update --startup-project "PetClinic.Api" --project "PetClinic.Infrastructure" 
+dotnet ef database update --startup-project "PetClinic.Api" --project "PetClinic.Infrastructure"
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Upgrade/downgrade schema to specific version:

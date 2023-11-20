@@ -11,6 +11,10 @@ namespace PetClinic.Application.Specialties.GetSpecialtyById
 {
     public class GetSpecialtyByIdQuery : IRequest<SpecialtyDto>, IQuery
     {
+        public GetSpecialtyByIdQuery(int id)
+        {
+            Id = id;
+        }
         public int Id { get; set; }
 
     }

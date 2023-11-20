@@ -32,7 +32,7 @@
         <isNullable>false</isNullable>
         <isCollection>true</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>DTOs</typePackageName>
+        <typePackageName>Application.Dtos</typePackageName>
         <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
         <stereotypes />
         <genericTypeParameters />
@@ -63,7 +63,7 @@
         <isNullable>false</isNullable>
         <isCollection>false</isCollection>
         <isRequired>true</isRequired>
-        <typePackageName>DTOs</typePackageName>
+        <typePackageName>Application.Dtos</typePackageName>
         <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
         <stereotypes />
         <genericTypeParameters />
@@ -115,7 +115,7 @@
     </childElement>
     <childElement id="04a21066-cc9f-4e42-abca-2233a9afe285" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>addVet</name>
-      <display>addVet(dto: VetCreateDTO): void</display>
+      <display>addVet(dto: &lt;type not found&gt;): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -151,7 +151,7 @@
             <isNullable>false</isNullable>
             <isCollection>false</isCollection>
             <isRequired>true</isRequired>
-            <typePackageName>DTOs</typePackageName>
+            <typePackageName>Application.Dtos</typePackageName>
             <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
             <stereotypes />
             <genericTypeParameters />
@@ -174,7 +174,7 @@
     </childElement>
     <childElement id="4c3d0623-8fe9-4d85-b638-02439d7ea827" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>updateVet</name>
-      <display>updateVet(vetId: int, dto: VetUpdateDTO): void</display>
+      <display>updateVet(vetId: int, dto: &lt;type not found&gt;): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -240,7 +240,7 @@
             <isNullable>false</isNullable>
             <isCollection>false</isCollection>
             <isRequired>true</isRequired>
-            <typePackageName>DTOs</typePackageName>
+            <typePackageName>Application.Dtos</typePackageName>
             <typePackageId>25ac5fd1-350f-4e7c-ab9c-0197e47e1617</typePackageId>
             <stereotypes />
             <genericTypeParameters />

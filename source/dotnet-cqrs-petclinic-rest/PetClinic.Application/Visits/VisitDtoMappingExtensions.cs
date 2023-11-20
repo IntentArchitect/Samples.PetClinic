@@ -13,13 +13,9 @@ namespace PetClinic.Application.Visits
     public static class VisitDtoMappingExtensions
     {
         public static VisitDto MapToVisitDto(this Visit projectFrom, IMapper mapper)
-        {
-            return mapper.Map<VisitDto>(projectFrom);
-        }
+            => mapper.Map<VisitDto>(projectFrom);
 
         public static List<VisitDto> MapToVisitDtoList(this IEnumerable<Visit> projectFrom, IMapper mapper)
-        {
-            return projectFrom.Select(x => x.MapToVisitDto(mapper)).ToList();
-        }
+            => projectFrom.Select(x => x.MapToVisitDto(mapper)).ToList();
     }
 }

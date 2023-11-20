@@ -14,6 +14,7 @@ namespace PetClinic.Application.PetTypes
     {
         public PetTypeDto()
         {
+            Name = null!;
         }
 
         public int Id { get; set; }

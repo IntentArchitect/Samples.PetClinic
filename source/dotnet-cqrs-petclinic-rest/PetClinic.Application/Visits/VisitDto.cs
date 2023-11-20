@@ -14,6 +14,7 @@ namespace PetClinic.Application.Visits
     {
         public VisitDto()
         {
+            Description = null!;
         }
 
         public int Id { get; set; }

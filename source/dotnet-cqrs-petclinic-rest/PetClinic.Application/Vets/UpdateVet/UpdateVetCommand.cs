@@ -11,6 +11,12 @@ namespace PetClinic.Application.Vets.UpdateVet
 {
     public class UpdateVetCommand : IRequest, ICommand
     {
+        public UpdateVetCommand(int id, string firstName, string lastName)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+        }
         public int Id { get; set; }
 
         public string FirstName { get; set; }

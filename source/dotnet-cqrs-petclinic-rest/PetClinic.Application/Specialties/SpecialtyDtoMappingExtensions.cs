@@ -13,13 +13,9 @@ namespace PetClinic.Application.Specialties
     public static class SpecialtyDtoMappingExtensions
     {
         public static SpecialtyDto MapToSpecialtyDto(this Specialty projectFrom, IMapper mapper)
-        {
-            return mapper.Map<SpecialtyDto>(projectFrom);
-        }
+            => mapper.Map<SpecialtyDto>(projectFrom);
 
         public static List<SpecialtyDto> MapToSpecialtyDtoList(this IEnumerable<Specialty> projectFrom, IMapper mapper)
-        {
-            return projectFrom.Select(x => x.MapToSpecialtyDto(mapper)).ToList();
-        }
+            => projectFrom.Select(x => x.MapToSpecialtyDto(mapper)).ToList();
     }
 }

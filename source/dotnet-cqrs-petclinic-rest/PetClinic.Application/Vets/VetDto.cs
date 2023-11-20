@@ -15,6 +15,9 @@ namespace PetClinic.Application.Vets
     {
         public VetDto()
         {
+            FirstName = null!;
+            LastName = null!;
+            Specialties = null!;
         }
 
         public int Id { get; set; }

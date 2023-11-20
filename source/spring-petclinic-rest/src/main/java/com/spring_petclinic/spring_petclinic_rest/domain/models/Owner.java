@@ -18,14 +18,18 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 
 
 @Entity
 @Table(name = "owners")
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 @IntentManageClass(privateMethods = Mode.Ignore)
 public class Owner implements Serializable {
     private static final long serialVersionUID = 1L;
