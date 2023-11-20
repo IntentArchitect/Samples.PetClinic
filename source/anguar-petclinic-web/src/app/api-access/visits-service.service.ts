@@ -1,18 +1,15 @@
 import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
-import { VisitDTO } from './models/visit.dto';
-import { PetVisitDTO } from './models/pet-visit.dto';
-import { VisitCreateDTO } from './models/visit-create.dto';
-import { VisitUpdateDTO } from './models/visit-update.dto';
+import { map } from 'rxjs/operators';import { VisitDTO } from './../models/application/dtos/visit.dto';
+import { VisitCreateDTO } from './../models/application/dtos/visit-create.dto';
+import { VisitUpdateDTO } from './../models/application/dtos/visit-update.dto';
 import { ApiService } from './../core/api.service';
+
 
 @Injectable()
 export class VisitsService {
-  constructor(
-    private apiService: ApiService
-  ) {
+  constructor(private apiService: ApiService) {
   }
 
   public getVisit(visitId: number): Observable<VisitDTO> {
@@ -23,26 +20,29 @@ export class VisitsService {
       }));
   }
 
-  public addVisit(dto: VisitCreateDTO): Observable<boolean> {
+  public addVisit(dto: VisitCreateDTO): Observable<void> {
     let url = `/api/visits`;
-    return this.apiService.post(url, dto)
+    return this.apiService.post(url, dto, undefined, undefined, 'text')
       .pipe(map((response: any) => {
+        if (response && (response.startsWith("\"") || response.startsWith("'"))) { response = response.substring(1, response.length - 1); }
         return response;
       }));
   }
 
-  public updateVisit(visitId: number, dto: VisitUpdateDTO): Observable<boolean> {
+  public updateVisit(visitId: number, dto: VisitUpdateDTO): Observable<void> {
     let url = `/api/visits/${visitId}`;
-    return this.apiService.put(url, dto)
+    return this.apiService.put(url, dto, undefined, undefined, 'text')
       .pipe(map((response: any) => {
+        if (response && (response.startsWith("\"") || response.startsWith("'"))) { response = response.substring(1, response.length - 1); }
         return response;
       }));
   }
 
-  public deleteVisit(visitId: number): Observable<boolean> {
+  public deleteVisit(visitId: number): Observable<void> {
     let url = `/api/visits/${visitId}`;
-    return this.apiService.delete(url)
+    return this.apiService.delete(url, undefined, undefined, 'text')
       .pipe(map((response: any) => {
+        if (response && (response.startsWith("\"") || response.startsWith("'"))) { response = response.substring(1, response.length - 1); }
         return response;
       }));
   }

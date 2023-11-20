@@ -1,4 +1,5 @@
-import { FormGroup, FormControl, FormArray } from '@angular/forms';import { VetDTO } from './../../api-access/models/vet.dto';
+import { FormGroup, FormControl, FormArray } from '@angular/forms';
+import { VetDTO } from './../../models/application/dtos/vet.dto';
 
 export class VetFormModel extends FormGroup {
   public static createEmpty(): VetFormModel {

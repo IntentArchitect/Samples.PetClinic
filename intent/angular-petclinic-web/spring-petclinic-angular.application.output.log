@@ -3,6 +3,70 @@
   <ApplicationId>81d02285-f500-491b-bbc9-7c84dfe74a94</ApplicationId>
   <FileLogs>
     <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#.editorconfig</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/.editorconfig</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>.editorconfig</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#.gitignore</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/.gitignore</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>.gitignore</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#.vscode/extensions.json</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/.vscode/extensions.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>.vscode/extensions.json</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#.vscode/launch.json</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/.vscode/launch.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>.vscode/launch.json</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#.vscode/tasks.json</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/.vscode/tasks.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>.vscode/tasks.json</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Angular.Core.AngularDotJsonFile</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/angular.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>angular.json</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Npm.PackageJsonFile</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/package.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>package.json</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#README.md</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/README.md</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>README.md</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
       <CorrelationId>Intent.Angular.Module.AngularRoutingModule#3e5841f0-44fe-4f60-8e70-0c260920b33f</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
@@ -16,126 +80,6 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/api-access.module.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/api-access/api-access.module.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner-create.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/owner-create.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#b4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner-update.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/owner-update.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/owner.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/owner.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#aa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-create.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/pet-create.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#b567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-type.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/pet-type.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#c92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-update.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/pet-update.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet-visit.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/pet-visit.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#c66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/pet.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/pet.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/specialty.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/specialty.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet-create.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/vet-create.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet-update.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/vet-update.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#d60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/vet.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/vet.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#d7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit-create.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/visit-create.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#ef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit-update.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/visit-update.dto.ts</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
-      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/api-access/models/visit.dto.ts</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>app/api-access/models/visit.dto.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -200,7 +144,7 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/app.component.html</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>app/app.component.html</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
+      <IsIgnored>true</IsIgnored>
     </FileLog>
     <FileLog>
       <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
@@ -248,6 +192,126 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/intent/intent.decorators.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>intent.decorators.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#4cd165f5-996f-4f86-b65b-26c28000f4fc</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/owner-create.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/owner-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#b4c64cd0-62c8-46ab-a693-839d6ed7b113</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/owner-update.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/owner-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#0f5ea2e5-56e4-49c6-8652-6532dc79334c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/owner.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/owner.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#aa6aeeb1-be0f-405b-9e39-3bbfcb9be518</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/pet-create.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/pet-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#b567ee65-c344-492a-8cf0-678a444fde27</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/pet-type.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/pet-type.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#c92739b9-877f-4b56-8cd6-c9957a744059</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/pet-update.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/pet-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#bb138e4b-409a-4ea9-9bb4-a33dcfa8a682</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/pet-visit.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/pet-visit.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#c66f91c8-06bb-427a-b623-36a724d627d3</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/pet.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/pet.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#569f8450-0cbb-4f32-a376-018fdd1d7f5c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/specialty.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/specialty.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#8414e6b8-558e-4eaa-bd29-550989db6176</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/vet-create.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/vet-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#4fbd75ee-114e-4da7-a35c-bf5590888c68</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/vet-update.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/vet-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#d60384f8-059a-47f2-9b37-da4d913c8b49</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/vet.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/vet.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#d7e8deff-e0fa-4af2-8df7-adc47bc6de84</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/visit-create.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/visit-create.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#ef8cab3b-1ed9-4ff8-9227-fd68640edd0d</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/visit-update.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/visit-update.dto.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>8574d6d3-c1a8-443e-a1bd-69db3235811f</ProjectId>
+      <CorrelationId>Intent.Angular.ServiceProxies.Proxies.AngularDTO#49e21c4f-0032-4f1c-b8ef-9c6c1a2cd3cf</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/app/models/application/dtos/visit.dto.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>models/application/dtos/visit.dto.ts</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -923,6 +987,14 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#src/assets/.gitkeep</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/assets/.gitkeep</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>src/assets/.gitkeep</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>894065d4-989d-497f-b21f-4f1b2599ba1a</ProjectId>
       <CorrelationId>Intent.Angular.Environment.EnvironmentDotDevelopment</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
@@ -936,6 +1008,62 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/environments/environment.ts</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>environment.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#src/favicon.ico</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/favicon.ico</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>src/favicon.ico</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Core.Index</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/index.html</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>index.html</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#src/main.ts</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/main.ts</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>src/main.ts</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>523d4dd0-5926-4644-b7dd-f19824e2d419</ProjectId>
+      <CorrelationId>Intent.Angular.Core.StylesDotScssFile</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/src/styles.scss</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>styles.scss</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#tsconfig.app.json</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/tsconfig.app.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>tsconfig.app.json</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#tsconfig.json</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/tsconfig.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>tsconfig.json</ProjectRelativeFilePath>
+      <IsIgnored>true</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>f2f20da5-6e2a-4651-80fd-9c6e913493e6</ProjectId>
+      <CorrelationId>Intent.Modules.Angular.Templates.StaticContentTemplateRegistrations.InitialFilesStaticContentTemplateRegistration#tsconfig.spec.json</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../source/anguar-petclinic-web/tsconfig.spec.json</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>tsconfig.spec.json</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
   </FileLogs>

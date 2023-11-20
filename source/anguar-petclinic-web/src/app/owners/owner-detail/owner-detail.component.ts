@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IntentIgnore, IntentManage, IntentMerge } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
-import { OwnerDTO } from './../../api-access/models/owner.dto';
+import { OwnerDTO } from './../../models/application/dtos/owner.dto';
 import { OwnersService } from 'src/app/api-access/owners-service.service';
 
 @Component({
@@ -20,7 +20,7 @@ export class OwnerDetailComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.ownerId = this.route.snapshot.params.id;
+    this.ownerId = this.route.snapshot.params['id'];
     this.ownersService.getOwner(this.ownerId)
       .subscribe(dto => {
         this.owner = dto

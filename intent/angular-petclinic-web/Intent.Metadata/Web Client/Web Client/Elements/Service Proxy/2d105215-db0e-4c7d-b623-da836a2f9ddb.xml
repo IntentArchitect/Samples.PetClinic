@@ -85,7 +85,7 @@
     </childElement>
     <childElement id="ea223eac-d768-4bb1-8770-1bf6aaabed8c" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>addPet</name>
-      <display>addPet(dto: &lt;type not found&gt;): void</display>
+      <display>addPet(dto: PetCreateDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -144,7 +144,7 @@
     </childElement>
     <childElement id="f7e82e46-0fe2-4672-b4fe-48b0a162ff52" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>updatePet</name>
-      <display>updatePet(petId: int, dto: &lt;type not found&gt;): void</display>
+      <display>updatePet(petId: int, dto: PetUpdateDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />

@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
-import { PetDTO } from './../../api-access/models/pet.dto';
+import { PetDTO } from './../../models/application/dtos/pet.dto';
 import { Router } from '@angular/router';
 
 @Component({

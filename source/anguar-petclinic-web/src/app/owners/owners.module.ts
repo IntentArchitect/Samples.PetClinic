@@ -25,6 +25,7 @@ import { ApiAccessModule } from '../api-access/api-access.module';
     FormsModule,
     OwnersRoutingModule,
     PetsModule
-  ]
+  ],
+  providers: []
 })
 export class OwnersModule { }

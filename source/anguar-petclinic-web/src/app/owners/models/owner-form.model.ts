@@ -1,5 +1,5 @@
 import { FormGroup, FormControl, FormArray } from '@angular/forms';
-import { OwnerDTO } from './../../api-access/models/owner.dto';
+import { OwnerDTO } from './../../models/application/dtos/owner.dto';
 
 export class OwnerForm extends FormGroup {
   public static createEmpty(): OwnerForm {

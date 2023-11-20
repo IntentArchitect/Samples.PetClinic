@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VisitForm } from './../models/visit-form.model';
-import { PetDTO } from './../../api-access/models/pet.dto';
+import { PetDTO } from './../../models/application/dtos/pet.dto';
 import { Router, ActivatedRoute } from '@angular/router';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { VisitsService } from 'src/app/api-access/visits-service.service';
@@ -21,7 +21,7 @@ export class VisitEditComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.visitId = this.route.snapshot.params.id;
+    this.visitId = this.route.snapshot.params['id'];
     this.visitsService.getVisit(this.visitId)
       .subscribe(dto => {
         this.visit = VisitForm.create(dto);

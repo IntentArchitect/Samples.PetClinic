@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { VetDTO } from './../../api-access/models/vet.dto';
+import { VetDTO } from './../../models/application/dtos/vet.dto';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { VetsService } from './../../api-access/vets-service.service';
 import { Router } from '@angular/router';

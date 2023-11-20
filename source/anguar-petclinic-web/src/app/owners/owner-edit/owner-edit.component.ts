@@ -21,7 +21,7 @@ export class OwnerEditComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.ownerId = this.route.snapshot.params.id;
+    this.ownerId = this.route.snapshot.params['id'];
     this.ownersService.getOwner(this.ownerId).subscribe(
       dto => this.owner = OwnerForm.create(dto),
       error => this.errorMessage = error as any);

@@ -177,7 +177,7 @@
     </childElement>
     <childElement id="d07ba375-46ac-46b3-a9a0-b05469094767" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>addOwner</name>
-      <display>addOwner(owner: &lt;type not found&gt;): void</display>
+      <display>addOwner(owner: OwnerCreateDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -236,7 +236,7 @@
     </childElement>
     <childElement id="f1c2d573-7a70-4f8e-b560-66b14743edcc" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>updateOwner</name>
-      <display>updateOwner(ownerId: int, owner: &lt;type not found&gt;): void</display>
+      <display>updateOwner(ownerId: int, owner: OwnerUpdateDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />

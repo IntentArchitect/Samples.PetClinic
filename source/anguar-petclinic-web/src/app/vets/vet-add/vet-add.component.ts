@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VetFormModel } from './../models/vet-form.model';
-import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
+import { SpecialtyDTO } from './../../models/application/dtos/specialty.dto';
 import { SpecialtiesService } from './../../api-access/specialties-service.service';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { Router } from '@angular/router';

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { PetVisitDTO } from './../../api-access/models/pet-visit.dto';
+import { PetVisitDTO } from './../../models/application/dtos/pet-visit.dto';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { Router } from '@angular/router';
 import { VisitsService } from 'src/app/api-access/visits-service.service';
@@ -11,7 +11,8 @@ import { VisitsService } from 'src/app/api-access/visits-service.service';
 })
 export class VisitListComponent implements OnInit {
   @IntentIgnore()
-  @Input() visits: PetVisitDTO[];
+  @Input() 
+  visits: PetVisitDTO[];
 
   //@IntentCanAdd()
   constructor(private router: Router, private visitService: VisitsService) { }

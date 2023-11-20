@@ -1,5 +1,5 @@
 import { FormGroup, FormControl, FormArray } from '@angular/forms';
-import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
+import { SpecialtyDTO } from './../../models/application/dtos/specialty.dto';
 
 export class SpecialtyFormModel extends FormGroup {
   public static createEmpty(): SpecialtyFormModel {

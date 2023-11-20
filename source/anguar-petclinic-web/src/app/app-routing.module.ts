@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 import { WelcomeComponent } from './parts/welcome/welcome.component';
 import { PageNotFoundComponent } from './parts/page-not-found/page-not-found.component';
 import { IntentIgnore } from './intent/intent.decorators';
@@ -20,9 +20,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    preloadingStrategy: PreloadAllModules
-  })],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

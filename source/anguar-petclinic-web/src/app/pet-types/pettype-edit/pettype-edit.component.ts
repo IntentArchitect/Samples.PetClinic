@@ -19,7 +19,7 @@ export class PettypeEditComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    const petTypeId = this.route.snapshot.params.id;
+    const petTypeId = this.route.snapshot.params['id'];
     this.petTypesService.getPetType(petTypeId)
     .subscribe((dto) => {
       this.model = PetTypeModel.create(dto);

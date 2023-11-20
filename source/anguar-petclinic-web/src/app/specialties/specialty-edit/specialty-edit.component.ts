@@ -1,7 +1,6 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { SpecialtyFormModel } from './../models/specialty-form.model';
 import { Router, ActivatedRoute } from '@angular/router';
-import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { SpecialtiesService } from 'src/app/api-access/specialties-service.service';
 
@@ -21,7 +20,7 @@ export class SpecialtyEditComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.specialtyId = this.route.snapshot.params.id;
+    this.specialtyId = this.route.snapshot.params['id'];
     this.specialtiesService.getSpecialty(this.specialtyId)
       .subscribe(result => this.specialty = SpecialtyFormModel.create(result));
   }

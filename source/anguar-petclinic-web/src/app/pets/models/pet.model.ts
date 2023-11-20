@@ -1,5 +1,5 @@
 import { FormGroup, FormControl, FormArray } from '@angular/forms';
-import { PetDTO } from './../../api-access/models/pet.dto';
+import { PetDTO } from './../../models/application/dtos/pet.dto';
 
 export class PetModel extends FormGroup {
   public static createEmpty(): PetModel {

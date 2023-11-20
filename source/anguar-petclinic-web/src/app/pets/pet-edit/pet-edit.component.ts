@@ -2,9 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PetModel } from './../models/pet.model';
 import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
-import { PetTypeDTO } from './../../api-access/models/pet-type.dto';
-import { OwnerDTO } from './../../api-access/models/owner.dto';
-import { PetTypeModel } from './../../pet-types/models/pet-type.model';
+import { PetTypeDTO } from './../../models/application/dtos/pet-type.dto';
 import { PetsService } from 'src/app/api-access/pets-service.service';
 import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 
@@ -27,7 +25,7 @@ export class PetEditComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.petId = this.route.snapshot.params.id;
+    this.petId = this.route.snapshot.params['id'];
     this.petTypesService.getAllPetTypes()
       .subscribe(types => this.petTypes = types);
     this.petsService.getPet(this.petId)

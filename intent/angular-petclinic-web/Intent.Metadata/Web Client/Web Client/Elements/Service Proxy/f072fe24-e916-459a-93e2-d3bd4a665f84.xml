@@ -115,7 +115,7 @@
     </childElement>
     <childElement id="179d972a-382c-484f-ad49-ad307b48aca8" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>addSpecialty</name>
-      <display>addSpecialty(dto: &lt;type not found&gt;): int</display>
+      <display>addSpecialty(dto: SpecialtyDTO): int</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -177,7 +177,7 @@
     </childElement>
     <childElement id="3365a1dd-327a-4fc4-95fc-160e78fce2a5" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>updateSpecialty</name>
-      <display>updateSpecialty(specialtyId: int, dto: &lt;type not found&gt;): void</display>
+      <display>updateSpecialty(specialtyId: int, dto: SpecialtyDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />

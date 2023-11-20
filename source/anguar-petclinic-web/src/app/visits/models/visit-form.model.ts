@@ -1,5 +1,5 @@
 import { FormGroup, FormControl, FormArray } from '@angular/forms';
-import { VisitDTO } from './../../api-access/models/visit.dto';
+import { VisitDTO } from './../../models/application/dtos/visit.dto';
 
 export class VisitForm extends FormGroup {
   public static createEmpty(): VisitForm {

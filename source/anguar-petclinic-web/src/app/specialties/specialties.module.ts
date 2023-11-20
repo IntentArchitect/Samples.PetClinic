@@ -20,6 +20,7 @@ import { CommonModule } from '@angular/common';
     ReactiveFormsModule,
     FormsModule,
     SpecialtiesRoutingModule
-  ]
+  ],
+  providers: []
 })
 export class SpecialtiesModule { }

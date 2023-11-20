@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VetFormModel } from './../models/vet-form.model';
-import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
+import { SpecialtyDTO } from './../../models/application/dtos/specialty.dto';
 import { Router, ActivatedRoute } from '@angular/router';
 import { SpecialtiesService } from './../../api-access/specialties-service.service';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
@@ -22,7 +22,7 @@ export class VetEditComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    var dto = this.route.snapshot.data.vet;
+    var dto = this.route.snapshot.data['vet'];
     this.vet = VetFormModel.create(dto);
     this.specialtiesService.getAllSpecialties()
       .subscribe(result => this.specialties = result);

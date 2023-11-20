@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IntentIgnore, IntentIgnoreBody, IntentManageClass } from './../../intent/intent.decorators';
-import { SpecialtyDTO } from './../../api-access/models/specialty.dto';
+import { SpecialtyDTO } from './../../models/application/dtos/specialty.dto';
 import { Router } from '@angular/router';
 import { SpecialtiesService } from 'src/app/api-access/specialties-service.service';
 

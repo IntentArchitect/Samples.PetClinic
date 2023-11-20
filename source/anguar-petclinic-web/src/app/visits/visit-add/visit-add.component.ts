@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VisitForm } from './../models/visit-form.model';
-import { PetDTO } from './../../api-access/models/pet.dto';
+import { PetDTO } from './../../models/application/dtos/pet.dto';
 import { Router, ActivatedRoute, ActivationEnd } from '@angular/router';
 import { IntentIgnore, IntentIgnoreBody } from './../../intent/intent.decorators';
 import { PetsService } from 'src/app/api-access/pets-service.service';
@@ -24,7 +24,7 @@ export class VisitAddComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.petId = this.route.snapshot.params.id;
+    this.petId = this.route.snapshot.params['id'];
     this.petsService.getPet(this.petId)
       .subscribe(dto => {
         this.pet = dto;

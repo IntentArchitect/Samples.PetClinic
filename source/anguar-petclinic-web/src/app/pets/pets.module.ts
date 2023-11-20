@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations"
 import { MatSelectModule } from '@angular/material/select';
 import { PetAddComponent } from './pet-add/pet-add.component';
 import { PetEditComponent } from './pet-edit/pet-edit.component';
@@ -35,6 +36,7 @@ import { VisitsModule } from '../visits/visits.module';
     ReactiveFormsModule,
     FormsModule,
     BsDatepickerModule.forRoot(),
+    BrowserAnimationsModule,
     MatSelectModule,
     PetsRoutingModule
   ]

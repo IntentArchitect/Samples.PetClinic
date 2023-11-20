@@ -29,6 +29,7 @@ import { ApiAccessModule } from '../api-access/api-access.module';
     FormsModule,
     BsDatepickerModule.forRoot(),
     VisitsRoutingModule
-  ]
+  ],
+  providers: []
 })
 export class VisitsModule { }

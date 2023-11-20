@@ -6,7 +6,7 @@
   <iconType>UrlImagePath</iconType>
   <metadataRelativePath>Intent.Metadata</metadataRelativePath>
   <modulesCacheRelativePath>.intent/modules</modulesCacheRelativePath>
-  <lastUsedApplicationTemplate id="Intent.ApplicationTemplate.AspNetCore6.0.CleanArchitecture" version="4.1.3" />
+  <lastUsedApplicationTemplate id="Intent.ApplicationTemplate.WebClient.Angular" version="3.3.10" />
   <applications>
     <application id="c0565004-77fc-40e6-9a3f-7a484ce53709" name="spring-petclinic-rest" relativePath="spring-petclinic-rest/spring-petclinic-rest.application.config" />
     <application id="3b9a6d6e-1cf0-4aea-b0bc-adac6ace7c4b" name="dotnet-petclinic-rest" relativePath="dotnet-petclinic-rest/dotnet-petclinic-rest.application.config" />

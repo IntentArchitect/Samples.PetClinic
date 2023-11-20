@@ -16,8 +16,7 @@ import { ApiAccessModule } from '../api-access/api-access.module';
     PettypeEditComponent,
     PettypeListComponent
   ],
-  providers: [
-  ],
+  providers: [],
   imports: [
     CommonModule,
     ApiAccessModule,

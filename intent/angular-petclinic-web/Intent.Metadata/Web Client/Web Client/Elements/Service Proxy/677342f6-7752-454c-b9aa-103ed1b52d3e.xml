@@ -85,7 +85,7 @@
     </childElement>
     <childElement id="053f6f77-1fff-4269-adba-0687982bb713" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>addVisit</name>
-      <display>addVisit(dto: &lt;type not found&gt;): void</display>
+      <display>addVisit(dto: VisitCreateDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -144,7 +144,7 @@
     </childElement>
     <childElement id="5832aeaa-cac0-497c-a777-927643463e58" type="Operation" typeId="aee6811e-b2f6-4562-a8eb-502029f63bc8">
       <name>updateVisit</name>
-      <display>updateVisit(visitId: int, dto: &lt;type not found&gt;): void</display>
+      <display>updateVisit(visitId: int, dto: VisitUpdateDTO): void</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />

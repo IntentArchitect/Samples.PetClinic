@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PetModel } from './../models/pet.model';
 import { IntentIgnore, IntentIgnoreBody, IntentManage } from './../../intent/intent.decorators';
 import { Router, ActivatedRoute } from '@angular/router';
-import { PetTypeDTO } from './../../api-access/models/pet-type.dto';
+import { PetTypeDTO } from './../../models/application/dtos/pet-type.dto';
 import { PetTypesService } from 'src/app/api-access/pet-types-service.service';
 import { PetsService } from 'src/app/api-access/pets-service.service';
 
@@ -23,7 +23,7 @@ export class PetAddComponent implements OnInit {
 
   @IntentIgnore()
   ngOnInit() {
-    this.ownerId = this.route.snapshot.params.id;
+    this.ownerId = this.route.snapshot.params['id'];
     this.petTypesService.getAllPetTypes()
       .subscribe(types => this.petTypes = types)
   }

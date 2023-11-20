@@ -1,7 +1,7 @@
 import {ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} from '@angular/router';
 import {Observable} from 'rxjs';
 import {Injectable} from '@angular/core';
-import { VetDTO } from './../api-access/models/vet.dto';
+import { VetDTO } from './../models/application/dtos/vet.dto';
 import { IntentIgnore, IntentIgnoreBody } from './../intent/intent.decorators';
 import { VetsService } from '../api-access/vets-service.service';
 
